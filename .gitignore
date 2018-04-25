@@ -1,5 +1,8 @@
 #The large data set
 mpd.v1/data
+#challenge data set
+challenge.v1/challenge_set.json
+challenge.v1/sample_submission.csv
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
