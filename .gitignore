@@ -1,3 +1,5 @@
+#The large data set
+mpd.v1/data
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
