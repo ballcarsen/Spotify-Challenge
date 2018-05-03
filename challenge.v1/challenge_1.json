@@ -1,0 +1,8002 @@
+[
+  {
+    "name": "spanish playlist", 
+    "num_holdouts": 11, 
+    "pid": 1000002, 
+    "num_tracks": 11, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Groovin", 
+    "num_holdouts": 48, 
+    "pid": 1000003, 
+    "num_tracks": 48, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "uplift", 
+    "num_holdouts": 40, 
+    "pid": 1000004, 
+    "num_tracks": 40, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "WUBZ", 
+    "num_holdouts": 27, 
+    "pid": 1000006, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "new", 
+    "num_holdouts": 41, 
+    "pid": 1000007, 
+    "num_tracks": 41, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Calm", 
+    "num_holdouts": 21, 
+    "pid": 1000010, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Favorite!", 
+    "num_holdouts": 38, 
+    "pid": 1000011, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "August", 
+    "num_holdouts": 26, 
+    "pid": 1000013, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "work", 
+    "num_holdouts": 17, 
+    "pid": 1000014, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Lit", 
+    "num_holdouts": 38, 
+    "pid": 1000015, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "dance playlist", 
+    "num_holdouts": 18, 
+    "pid": 1000017, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "\ud83e\udd19\ud83c\udffb", 
+    "num_holdouts": 13, 
+    "pid": 1000019, 
+    "num_tracks": 13, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "life", 
+    "num_holdouts": 27, 
+    "pid": 1000021, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Rock", 
+    "num_holdouts": 22, 
+    "pid": 1000022, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "anthony", 
+    "num_holdouts": 19, 
+    "pid": 1000028, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "September '16", 
+    "num_holdouts": 21, 
+    "pid": 1000030, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Best ^.^", 
+    "num_holdouts": 50, 
+    "pid": 1000031, 
+    "num_tracks": 50, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Upbeat", 
+    "num_holdouts": 26, 
+    "pid": 1000035, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Adventure", 
+    "num_holdouts": 47, 
+    "pid": 1000037, 
+    "num_tracks": 47, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "car 2 ", 
+    "num_holdouts": 27, 
+    "pid": 1000039, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "dreams", 
+    "num_holdouts": 10, 
+    "pid": 1000042, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "idk", 
+    "num_holdouts": 50, 
+    "pid": 1000044, 
+    "num_tracks": 50, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "My High-Intensity Workout", 
+    "num_holdouts": 16, 
+    "pid": 1000047, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Freestyle", 
+    "num_holdouts": 29, 
+    "pid": 1000050, 
+    "num_tracks": 29, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "HAPPY", 
+    "num_holdouts": 20, 
+    "pid": 1000053, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "sj ", 
+    "num_holdouts": 20, 
+    "pid": 1000056, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Zoom ", 
+    "num_holdouts": 21, 
+    "pid": 1000057, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "beachin!!", 
+    "num_holdouts": 33, 
+    "pid": 1000060, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Party Mix", 
+    "num_holdouts": 24, 
+    "pid": 1000061, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "All Day", 
+    "num_holdouts": 46, 
+    "pid": 1000063, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Reception Music", 
+    "num_holdouts": 48, 
+    "pid": 1000064, 
+    "num_tracks": 48, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "rap", 
+    "num_holdouts": 42, 
+    "pid": 1000066, 
+    "num_tracks": 42, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "jammin", 
+    "num_holdouts": 38, 
+    "pid": 1000069, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Banda", 
+    "num_holdouts": 26, 
+    "pid": 1000071, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "\ud83d\ude0d\ud83d\ude0d\ud83d\ude0d", 
+    "num_holdouts": 31, 
+    "pid": 1000073, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Molly!", 
+    "num_holdouts": 28, 
+    "pid": 1000076, 
+    "num_tracks": 28, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "car", 
+    "num_holdouts": 46, 
+    "pid": 1000078, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "strength", 
+    "num_holdouts": 25, 
+    "pid": 1000079, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Basketball", 
+    "num_holdouts": 12, 
+    "pid": 1000080, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "jammin", 
+    "num_holdouts": 34, 
+    "pid": 1000081, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Pump Up", 
+    "num_holdouts": 20, 
+    "pid": 1000087, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "New Workout", 
+    "num_holdouts": 22, 
+    "pid": 1000091, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Netflix and chill", 
+    "num_holdouts": 22, 
+    "pid": 1000093, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Allison", 
+    "num_holdouts": 14, 
+    "pid": 1000096, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "wo", 
+    "num_holdouts": 29, 
+    "pid": 1000101, 
+    "num_tracks": 29, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Iconic", 
+    "num_holdouts": 34, 
+    "pid": 1000102, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "june ", 
+    "num_holdouts": 40, 
+    "pid": 1000109, 
+    "num_tracks": 40, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Piano Covers", 
+    "num_holdouts": 50, 
+    "pid": 1000112, 
+    "num_tracks": 50, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "good vibrations", 
+    "num_holdouts": 32, 
+    "pid": 1000114, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "grad party", 
+    "num_holdouts": 31, 
+    "pid": 1000117, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Awesome Mix Vol. 1", 
+    "num_holdouts": 12, 
+    "pid": 1000118, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Casual", 
+    "num_holdouts": 30, 
+    "pid": 1000119, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "not country", 
+    "num_holdouts": 43, 
+    "pid": 1000123, 
+    "num_tracks": 43, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "warm up", 
+    "num_holdouts": 19, 
+    "pid": 1000126, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Mix", 
+    "num_holdouts": 42, 
+    "pid": 1000127, 
+    "num_tracks": 42, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "juliette!", 
+    "num_holdouts": 18, 
+    "pid": 1000129, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "ADVENT", 
+    "num_holdouts": 19, 
+    "pid": 1000132, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Flight", 
+    "num_holdouts": 34, 
+    "pid": 1000136, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Kick back", 
+    "num_holdouts": 24, 
+    "pid": 1000139, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "edm chill", 
+    "num_holdouts": 26, 
+    "pid": 1000142, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "happy.", 
+    "num_holdouts": 44, 
+    "pid": 1000147, 
+    "num_tracks": 44, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "My music", 
+    "num_holdouts": 40, 
+    "pid": 1000150, 
+    "num_tracks": 40, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Bonfire", 
+    "num_holdouts": 47, 
+    "pid": 1000151, 
+    "num_tracks": 47, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "mo", 
+    "num_holdouts": 10, 
+    "pid": 1000152, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "feels ", 
+    "num_holdouts": 14, 
+    "pid": 1000155, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "May", 
+    "num_holdouts": 21, 
+    "pid": 1000157, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "\ud83e\udd18\ud83c\udffc\ud83e\udd18\ud83c\udffc", 
+    "num_holdouts": 31, 
+    "pid": 1000158, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Back to the Past", 
+    "num_holdouts": 12, 
+    "pid": 1000161, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "MAY '15", 
+    "num_holdouts": 34, 
+    "pid": 1000165, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Bruh", 
+    "num_holdouts": 19, 
+    "pid": 1000167, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "/slow/", 
+    "num_holdouts": 18, 
+    "pid": 1000169, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Classics", 
+    "num_holdouts": 33, 
+    "pid": 1000171, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Workout", 
+    "num_holdouts": 35, 
+    "pid": 1000173, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "chilling", 
+    "num_holdouts": 34, 
+    "pid": 1000175, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Those days ", 
+    "num_holdouts": 34, 
+    "pid": 1000176, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "One", 
+    "num_holdouts": 37, 
+    "pid": 1000179, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "gains", 
+    "num_holdouts": 31, 
+    "pid": 1000180, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "CHRISTmas", 
+    "num_holdouts": 17, 
+    "pid": 1000182, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Music", 
+    "num_holdouts": 34, 
+    "pid": 1000183, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Good music", 
+    "num_holdouts": 14, 
+    "pid": 1000185, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Lord", 
+    "num_holdouts": 14, 
+    "pid": 1000186, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "rap", 
+    "num_holdouts": 31, 
+    "pid": 1000192, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "pch", 
+    "num_holdouts": 31, 
+    "pid": 1000195, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Emotion", 
+    "num_holdouts": 25, 
+    "pid": 1000203, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "ice", 
+    "num_holdouts": 50, 
+    "pid": 1000208, 
+    "num_tracks": 50, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Happy", 
+    "num_holdouts": 32, 
+    "pid": 1000212, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Old Rock", 
+    "num_holdouts": 29, 
+    "pid": 1000223, 
+    "num_tracks": 29, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Summer 2012", 
+    "num_holdouts": 43, 
+    "pid": 1000226, 
+    "num_tracks": 43, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "sad", 
+    "num_holdouts": 21, 
+    "pid": 1000232, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "bittersweet", 
+    "num_holdouts": 12, 
+    "pid": 1000233, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "7/11", 
+    "num_holdouts": 17, 
+    "pid": 1000235, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Summer 2016", 
+    "num_holdouts": 34, 
+    "pid": 1000238, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "hell yeah", 
+    "num_holdouts": 13, 
+    "pid": 1000242, 
+    "num_tracks": 13, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "My Jams", 
+    "num_holdouts": 26, 
+    "pid": 1000243, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "gentle ", 
+    "num_holdouts": 21, 
+    "pid": 1000247, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Ayo", 
+    "num_holdouts": 10, 
+    "pid": 1000254, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "rap", 
+    "num_holdouts": 29, 
+    "pid": 1000255, 
+    "num_tracks": 29, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "rap music", 
+    "num_holdouts": 37, 
+    "pid": 1000256, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "love", 
+    "num_holdouts": 49, 
+    "pid": 1000257, 
+    "num_tracks": 49, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "christmas jams!", 
+    "num_holdouts": 19, 
+    "pid": 1000260, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "ay", 
+    "num_holdouts": 46, 
+    "pid": 1000263, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "formal", 
+    "num_holdouts": 34, 
+    "pid": 1000267, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Alt", 
+    "num_holdouts": 16, 
+    "pid": 1000268, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "pregame", 
+    "num_holdouts": 15, 
+    "pid": 1000271, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Beach Music", 
+    "num_holdouts": 18, 
+    "pid": 1000272, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "liam", 
+    "num_holdouts": 47, 
+    "pid": 1000275, 
+    "num_tracks": 47, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "august 2016", 
+    "num_holdouts": 48, 
+    "pid": 1000278, 
+    "num_tracks": 48, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "spicy", 
+    "num_holdouts": 28, 
+    "pid": 1000279, 
+    "num_tracks": 28, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "December 2013 ", 
+    "num_holdouts": 28, 
+    "pid": 1000281, 
+    "num_tracks": 28, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "summer 2017", 
+    "num_holdouts": 32, 
+    "pid": 1000283, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "kaylee", 
+    "num_holdouts": 40, 
+    "pid": 1000285, 
+    "num_tracks": 40, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Fuego", 
+    "num_holdouts": 46, 
+    "pid": 1000288, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Motivation", 
+    "num_holdouts": 25, 
+    "pid": 1000289, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "april showers", 
+    "num_holdouts": 14, 
+    "pid": 1000290, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Lounge", 
+    "num_holdouts": 44, 
+    "pid": 1000293, 
+    "num_tracks": 44, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Summer", 
+    "num_holdouts": 41, 
+    "pid": 1000294, 
+    "num_tracks": 41, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Old Country", 
+    "num_holdouts": 31, 
+    "pid": 1000296, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "yo", 
+    "num_holdouts": 12, 
+    "pid": 1000299, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "dog days", 
+    "num_holdouts": 33, 
+    "pid": 1000301, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "the jams ", 
+    "num_holdouts": 39, 
+    "pid": 1000302, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "summer", 
+    "num_holdouts": 12, 
+    "pid": 1000303, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Rock ", 
+    "num_holdouts": 12, 
+    "pid": 1000311, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "summer hits", 
+    "num_holdouts": 45, 
+    "pid": 1000316, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Good Stuff", 
+    "num_holdouts": 43, 
+    "pid": 1000317, 
+    "num_tracks": 43, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "car", 
+    "num_holdouts": 35, 
+    "pid": 1000318, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "early 2000s", 
+    "num_holdouts": 40, 
+    "pid": 1000319, 
+    "num_tracks": 40, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "The Grind", 
+    "num_holdouts": 39, 
+    "pid": 1000324, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "good morning", 
+    "num_holdouts": 10, 
+    "pid": 1000329, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "luv ", 
+    "num_holdouts": 22, 
+    "pid": 1000330, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Camp", 
+    "num_holdouts": 42, 
+    "pid": 1000331, 
+    "num_tracks": 42, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Crooners", 
+    "num_holdouts": 18, 
+    "pid": 1000333, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Mornings", 
+    "num_holdouts": 23, 
+    "pid": 1000334, 
+    "num_tracks": 23, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Disney", 
+    "num_holdouts": 14, 
+    "pid": 1000340, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "CHRISTMAS MUSIC", 
+    "num_holdouts": 29, 
+    "pid": 1000346, 
+    "num_tracks": 29, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "october", 
+    "num_holdouts": 25, 
+    "pid": 1000351, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "WEDDING ", 
+    "num_holdouts": 14, 
+    "pid": 1000352, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Sleep", 
+    "num_holdouts": 18, 
+    "pid": 1000353, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Jesus Jams", 
+    "num_holdouts": 49, 
+    "pid": 1000354, 
+    "num_tracks": 49, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Fall 2016", 
+    "num_holdouts": 14, 
+    "pid": 1000358, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Love ", 
+    "num_holdouts": 49, 
+    "pid": 1000360, 
+    "num_tracks": 49, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Reggaeton", 
+    "num_holdouts": 29, 
+    "pid": 1000362, 
+    "num_tracks": 29, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "car ride", 
+    "num_holdouts": 18, 
+    "pid": 1000363, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Shine", 
+    "num_holdouts": 17, 
+    "pid": 1000364, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Drive", 
+    "num_holdouts": 32, 
+    "pid": 1000366, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Classics", 
+    "num_holdouts": 24, 
+    "pid": 1000370, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "workout", 
+    "num_holdouts": 47, 
+    "pid": 1000373, 
+    "num_tracks": 47, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "December", 
+    "num_holdouts": 14, 
+    "pid": 1000377, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "OCTOBER", 
+    "num_holdouts": 40, 
+    "pid": 1000378, 
+    "num_tracks": 40, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "2009", 
+    "num_holdouts": 47, 
+    "pid": 1000379, 
+    "num_tracks": 47, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "THROWBACKS", 
+    "num_holdouts": 34, 
+    "pid": 1000380, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "\ud83d\udc95\ud83d\udc95", 
+    "num_holdouts": 36, 
+    "pid": 1000382, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Spring Fling", 
+    "num_holdouts": 10, 
+    "pid": 1000383, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "golf", 
+    "num_holdouts": 15, 
+    "pid": 1000387, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Roadtrip", 
+    "num_holdouts": 36, 
+    "pid": 1000391, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Girl Power", 
+    "num_holdouts": 14, 
+    "pid": 1000396, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Running Playlist", 
+    "num_holdouts": 46, 
+    "pid": 1000397, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "new songs", 
+    "num_holdouts": 23, 
+    "pid": 1000399, 
+    "num_tracks": 23, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Mellow", 
+    "num_holdouts": 35, 
+    "pid": 1000401, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "SPANISH", 
+    "num_holdouts": 26, 
+    "pid": 1000402, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Life is Good", 
+    "num_holdouts": 25, 
+    "pid": 1000405, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "mmm", 
+    "num_holdouts": 25, 
+    "pid": 1000409, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Moana", 
+    "num_holdouts": 14, 
+    "pid": 1000411, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Instrumentals", 
+    "num_holdouts": 21, 
+    "pid": 1000412, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Ariel", 
+    "num_holdouts": 25, 
+    "pid": 1000416, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Drowning ", 
+    "num_holdouts": 12, 
+    "pid": 1000417, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "writing playlist", 
+    "num_holdouts": 22, 
+    "pid": 1000418, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "January 2017", 
+    "num_holdouts": 10, 
+    "pid": 1000420, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Spring 2017 ", 
+    "num_holdouts": 39, 
+    "pid": 1000426, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "old songs", 
+    "num_holdouts": 31, 
+    "pid": 1000427, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "\u2764\ufe0f", 
+    "num_holdouts": 44, 
+    "pid": 1000428, 
+    "num_tracks": 44, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "summa 16", 
+    "num_holdouts": 37, 
+    "pid": 1000429, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Slow Stuff", 
+    "num_holdouts": 21, 
+    "pid": 1000432, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "dinner", 
+    "num_holdouts": 31, 
+    "pid": 1000434, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "may", 
+    "num_holdouts": 24, 
+    "pid": 1000438, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "aux", 
+    "num_holdouts": 31, 
+    "pid": 1000441, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "mothers day", 
+    "num_holdouts": 22, 
+    "pid": 1000442, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "MAY.17", 
+    "num_holdouts": 14, 
+    "pid": 1000443, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Workout", 
+    "num_holdouts": 29, 
+    "pid": 1000449, 
+    "num_tracks": 29, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Hypebeast", 
+    "num_holdouts": 11, 
+    "pid": 1000457, 
+    "num_tracks": 11, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Wedding songs ", 
+    "num_holdouts": 18, 
+    "pid": 1000458, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "THE List", 
+    "num_holdouts": 15, 
+    "pid": 1000459, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "christmas", 
+    "num_holdouts": 36, 
+    "pid": 1000460, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "throwback", 
+    "num_holdouts": 45, 
+    "pid": 1000462, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Country Vibes ", 
+    "num_holdouts": 30, 
+    "pid": 1000470, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Rap 2016", 
+    "num_holdouts": 35, 
+    "pid": 1000471, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "February 16", 
+    "num_holdouts": 18, 
+    "pid": 1000474, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Covers", 
+    "num_holdouts": 16, 
+    "pid": 1000477, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "RUNNING", 
+    "num_holdouts": 26, 
+    "pid": 1000482, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Disco", 
+    "num_holdouts": 44, 
+    "pid": 1000483, 
+    "num_tracks": 44, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Jump", 
+    "num_holdouts": 15, 
+    "pid": 1000491, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Love", 
+    "num_holdouts": 41, 
+    "pid": 1000496, 
+    "num_tracks": 41, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "morning playlist", 
+    "num_holdouts": 34, 
+    "pid": 1000497, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "The Feel-Good Flavors Playlist", 
+    "num_holdouts": 40, 
+    "pid": 1000498, 
+    "num_tracks": 40, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Closer", 
+    "num_holdouts": 15, 
+    "pid": 1000502, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Disney", 
+    "num_holdouts": 16, 
+    "pid": 1000503, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "mix ", 
+    "num_holdouts": 18, 
+    "pid": 1000504, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "vibes", 
+    "num_holdouts": 42, 
+    "pid": 1000505, 
+    "num_tracks": 42, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Better Together", 
+    "num_holdouts": 32, 
+    "pid": 1000507, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "run run run", 
+    "num_holdouts": 28, 
+    "pid": 1000513, 
+    "num_tracks": 28, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "tomorrow ", 
+    "num_holdouts": 31, 
+    "pid": 1000515, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "workout", 
+    "num_holdouts": 22, 
+    "pid": 1000516, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Summer jams", 
+    "num_holdouts": 16, 
+    "pid": 1000520, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Shower", 
+    "num_holdouts": 35, 
+    "pid": 1000528, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "random faves ", 
+    "num_holdouts": 30, 
+    "pid": 1000529, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Best Songs Ever", 
+    "num_holdouts": 46, 
+    "pid": 1000530, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Prayer", 
+    "num_holdouts": 23, 
+    "pid": 1000531, 
+    "num_tracks": 23, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "car", 
+    "num_holdouts": 38, 
+    "pid": 1000534, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Christmas Jamz", 
+    "num_holdouts": 17, 
+    "pid": 1000537, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Morning ", 
+    "num_holdouts": 18, 
+    "pid": 1000541, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Disney", 
+    "num_holdouts": 30, 
+    "pid": 1000549, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "fireside", 
+    "num_holdouts": 20, 
+    "pid": 1000552, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Worship", 
+    "num_holdouts": 34, 
+    "pid": 1000555, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "January", 
+    "num_holdouts": 35, 
+    "pid": 1000559, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "wedding dinner music", 
+    "num_holdouts": 33, 
+    "pid": 1000562, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Twerkout", 
+    "num_holdouts": 42, 
+    "pid": 1000567, 
+    "num_tracks": 42, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "erin", 
+    "num_holdouts": 14, 
+    "pid": 1000569, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "r&b", 
+    "num_holdouts": 36, 
+    "pid": 1000570, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "house", 
+    "num_holdouts": 21, 
+    "pid": 1000572, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Christmas", 
+    "num_holdouts": 18, 
+    "pid": 1000573, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "funky", 
+    "num_holdouts": 24, 
+    "pid": 1000583, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "ALL IN!!!", 
+    "num_holdouts": 14, 
+    "pid": 1000584, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "christain", 
+    "num_holdouts": 36, 
+    "pid": 1000585, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "peace", 
+    "num_holdouts": 39, 
+    "pid": 1000589, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "throwbacks", 
+    "num_holdouts": 40, 
+    "pid": 1000591, 
+    "num_tracks": 40, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Gangsta", 
+    "num_holdouts": 21, 
+    "pid": 1000596, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Yoga", 
+    "num_holdouts": 11, 
+    "pid": 1000604, 
+    "num_tracks": 11, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "folk yeah", 
+    "num_holdouts": 19, 
+    "pid": 1000616, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Now", 
+    "num_holdouts": 34, 
+    "pid": 1000622, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "\ud83d\udd25\ud83d\udd25\ud83d\udd25", 
+    "num_holdouts": 42, 
+    "pid": 1000626, 
+    "num_tracks": 42, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "TRAP ", 
+    "num_holdouts": 16, 
+    "pid": 1000630, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "soundtracks", 
+    "num_holdouts": 19, 
+    "pid": 1000634, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Lista oficial Sense8", 
+    "num_holdouts": 20, 
+    "pid": 1000643, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Bid Day", 
+    "num_holdouts": 47, 
+    "pid": 1000645, 
+    "num_tracks": 47, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Newish", 
+    "num_holdouts": 21, 
+    "pid": 1000646, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Gym", 
+    "num_holdouts": 28, 
+    "pid": 1000651, 
+    "num_tracks": 28, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "je t'aime. ", 
+    "num_holdouts": 41, 
+    "pid": 1000656, 
+    "num_tracks": 41, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Sirens", 
+    "num_holdouts": 31, 
+    "pid": 1000659, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "latin", 
+    "num_holdouts": 38, 
+    "pid": 1000661, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Disney", 
+    "num_holdouts": 22, 
+    "pid": 1000662, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Boii!!", 
+    "num_holdouts": 39, 
+    "pid": 1000664, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Elect", 
+    "num_holdouts": 45, 
+    "pid": 1000665, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Soul", 
+    "num_holdouts": 11, 
+    "pid": 1000667, 
+    "num_tracks": 11, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "\u263a\ufe0f", 
+    "num_holdouts": 33, 
+    "pid": 1000669, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "samples ", 
+    "num_holdouts": 11, 
+    "pid": 1000670, 
+    "num_tracks": 11, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "feels", 
+    "num_holdouts": 39, 
+    "pid": 1000672, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Top songs", 
+    "num_holdouts": 39, 
+    "pid": 1000675, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "2013", 
+    "num_holdouts": 36, 
+    "pid": 1000684, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Party Bus", 
+    "num_holdouts": 41, 
+    "pid": 1000689, 
+    "num_tracks": 41, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Gospel ", 
+    "num_holdouts": 21, 
+    "pid": 1000690, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "sexy playlist", 
+    "num_holdouts": 37, 
+    "pid": 1000691, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "leg day", 
+    "num_holdouts": 18, 
+    "pid": 1000697, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Oldies", 
+    "num_holdouts": 29, 
+    "pid": 1000698, 
+    "num_tracks": 29, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Pregame", 
+    "num_holdouts": 45, 
+    "pid": 1000699, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Christmas", 
+    "num_holdouts": 42, 
+    "pid": 1000701, 
+    "num_tracks": 42, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Sorry Not Sorry", 
+    "num_holdouts": 15, 
+    "pid": 1000703, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "La Vie En Rose", 
+    "num_holdouts": 45, 
+    "pid": 1000705, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "shower tunes", 
+    "num_holdouts": 25, 
+    "pid": 1000710, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Hannah", 
+    "num_holdouts": 14, 
+    "pid": 1000714, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "people", 
+    "num_holdouts": 21, 
+    "pid": 1000715, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "aug. ", 
+    "num_holdouts": 23, 
+    "pid": 1000718, 
+    "num_tracks": 23, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "fall 2016", 
+    "num_holdouts": 12, 
+    "pid": 1000727, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "ESKETIT", 
+    "num_holdouts": 13, 
+    "pid": 1000729, 
+    "num_tracks": 13, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "warmup", 
+    "num_holdouts": 26, 
+    "pid": 1000731, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "august", 
+    "num_holdouts": 16, 
+    "pid": 1000735, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "fire", 
+    "num_holdouts": 10, 
+    "pid": 1000738, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Germany", 
+    "num_holdouts": 31, 
+    "pid": 1000739, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Fiesta", 
+    "num_holdouts": 16, 
+    "pid": 1000742, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "arizona", 
+    "num_holdouts": 19, 
+    "pid": 1000746, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "SUMMER 17", 
+    "num_holdouts": 43, 
+    "pid": 1000747, 
+    "num_tracks": 43, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "May playlist", 
+    "num_holdouts": 18, 
+    "pid": 1000753, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "JANUARY 2016", 
+    "num_holdouts": 25, 
+    "pid": 1000755, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Techno", 
+    "num_holdouts": 45, 
+    "pid": 1000758, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Summer 2016", 
+    "num_holdouts": 24, 
+    "pid": 1000759, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Running", 
+    "num_holdouts": 36, 
+    "pid": 1000760, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Hip to the Hop", 
+    "num_holdouts": 19, 
+    "pid": 1000763, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "old country", 
+    "num_holdouts": 16, 
+    "pid": 1000764, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Bangers", 
+    "num_holdouts": 24, 
+    "pid": 1000766, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "gracie", 
+    "num_holdouts": 29, 
+    "pid": 1000769, 
+    "num_tracks": 29, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Fire\ud83d\udd25", 
+    "num_holdouts": 25, 
+    "pid": 1000776, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": " cheer up ", 
+    "num_holdouts": 15, 
+    "pid": 1000781, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "EDM", 
+    "num_holdouts": 16, 
+    "pid": 1000782, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Grl Pwr ", 
+    "num_holdouts": 17, 
+    "pid": 1000783, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Summer 2017", 
+    "num_holdouts": 43, 
+    "pid": 1000784, 
+    "num_tracks": 43, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Road Trippin'", 
+    "num_holdouts": 29, 
+    "pid": 1000790, 
+    "num_tracks": 29, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "All Time Favorites", 
+    "num_holdouts": 20, 
+    "pid": 1000797, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "jams", 
+    "num_holdouts": 33, 
+    "pid": 1000804, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "you", 
+    "num_holdouts": 20, 
+    "pid": 1000805, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Love Yourself", 
+    "num_holdouts": 31, 
+    "pid": 1000806, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "DC", 
+    "num_holdouts": 35, 
+    "pid": 1000809, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "oldies", 
+    "num_holdouts": 42, 
+    "pid": 1000810, 
+    "num_tracks": 42, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "CAR 2", 
+    "num_holdouts": 22, 
+    "pid": 1000811, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "new ", 
+    "num_holdouts": 34, 
+    "pid": 1000813, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "feel good", 
+    "num_holdouts": 11, 
+    "pid": 1000815, 
+    "num_tracks": 11, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Football", 
+    "num_holdouts": 20, 
+    "pid": 1000817, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "pregame", 
+    "num_holdouts": 28, 
+    "pid": 1000818, 
+    "num_tracks": 28, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "groovy", 
+    "num_holdouts": 32, 
+    "pid": 1000819, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "shower", 
+    "num_holdouts": 26, 
+    "pid": 1000820, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Drive ", 
+    "num_holdouts": 30, 
+    "pid": 1000821, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Mellow Tunes", 
+    "num_holdouts": 44, 
+    "pid": 1000824, 
+    "num_tracks": 44, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "July 2014", 
+    "num_holdouts": 11, 
+    "pid": 1000825, 
+    "num_tracks": 11, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Workout!\ud83d\udcaa\ud83c\udffc", 
+    "num_holdouts": 43, 
+    "pid": 1000829, 
+    "num_tracks": 43, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "January", 
+    "num_holdouts": 13, 
+    "pid": 1000831, 
+    "num_tracks": 13, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "syd", 
+    "num_holdouts": 11, 
+    "pid": 1000832, 
+    "num_tracks": 11, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Dinner Party", 
+    "num_holdouts": 45, 
+    "pid": 1000833, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "LIT", 
+    "num_holdouts": 46, 
+    "pid": 1000836, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "BOUNCE", 
+    "num_holdouts": 16, 
+    "pid": 1000837, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Sunday Morning", 
+    "num_holdouts": 23, 
+    "pid": 1000838, 
+    "num_tracks": 23, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Yuh", 
+    "num_holdouts": 48, 
+    "pid": 1000839, 
+    "num_tracks": 48, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "college", 
+    "num_holdouts": 20, 
+    "pid": 1000842, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Wait", 
+    "num_holdouts": 23, 
+    "pid": 1000847, 
+    "num_tracks": 23, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "\ud83d\udc83\ud83c\udffd", 
+    "num_holdouts": 26, 
+    "pid": 1000848, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "new", 
+    "num_holdouts": 27, 
+    "pid": 1000853, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Happy Daze", 
+    "num_holdouts": 44, 
+    "pid": 1000855, 
+    "num_tracks": 44, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Rap", 
+    "num_holdouts": 30, 
+    "pid": 1000856, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "rap", 
+    "num_holdouts": 35, 
+    "pid": 1000858, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "good vibes", 
+    "num_holdouts": 14, 
+    "pid": 1000860, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Alt", 
+    "num_holdouts": 35, 
+    "pid": 1000861, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "pop", 
+    "num_holdouts": 15, 
+    "pid": 1000865, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "thursday", 
+    "num_holdouts": 37, 
+    "pid": 1000868, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Summer", 
+    "num_holdouts": 32, 
+    "pid": 1000869, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "spanish mix", 
+    "num_holdouts": 14, 
+    "pid": 1000871, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "tunessss", 
+    "num_holdouts": 38, 
+    "pid": 1000873, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "chill out ", 
+    "num_holdouts": 26, 
+    "pid": 1000880, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Disney", 
+    "num_holdouts": 44, 
+    "pid": 1000882, 
+    "num_tracks": 44, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "cali", 
+    "num_holdouts": 28, 
+    "pid": 1000885, 
+    "num_tracks": 28, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Summer Lovin'", 
+    "num_holdouts": 23, 
+    "pid": 1000888, 
+    "num_tracks": 23, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "love", 
+    "num_holdouts": 43, 
+    "pid": 1000892, 
+    "num_tracks": 43, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "April", 
+    "num_holdouts": 37, 
+    "pid": 1000893, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Rap", 
+    "num_holdouts": 40, 
+    "pid": 1000897, 
+    "num_tracks": 40, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "shower songs", 
+    "num_holdouts": 17, 
+    "pid": 1000898, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "winter break", 
+    "num_holdouts": 34, 
+    "pid": 1000899, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Rock 2.0", 
+    "num_holdouts": 26, 
+    "pid": 1000902, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Yoga 5", 
+    "num_holdouts": 12, 
+    "pid": 1000904, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Jesus", 
+    "num_holdouts": 37, 
+    "pid": 1000907, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Spain!", 
+    "num_holdouts": 16, 
+    "pid": 1000908, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Good", 
+    "num_holdouts": 39, 
+    "pid": 1000912, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "party playlist", 
+    "num_holdouts": 43, 
+    "pid": 1000914, 
+    "num_tracks": 43, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Regeton", 
+    "num_holdouts": 10, 
+    "pid": 1000919, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Study Vibes", 
+    "num_holdouts": 15, 
+    "pid": 1000920, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "folkish", 
+    "num_holdouts": 40, 
+    "pid": 1000928, 
+    "num_tracks": 40, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "P1", 
+    "num_holdouts": 32, 
+    "pid": 1000930, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "car rides", 
+    "num_holdouts": 27, 
+    "pid": 1000932, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "just drive ", 
+    "num_holdouts": 24, 
+    "pid": 1000933, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Feel Goods", 
+    "num_holdouts": 26, 
+    "pid": 1000935, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Feelz", 
+    "num_holdouts": 33, 
+    "pid": 1000943, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "old country", 
+    "num_holdouts": 33, 
+    "pid": 1000944, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "The Best", 
+    "num_holdouts": 47, 
+    "pid": 1000951, 
+    "num_tracks": 47, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Goodbye ", 
+    "num_holdouts": 19, 
+    "pid": 1000955, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "PARTY", 
+    "num_holdouts": 19, 
+    "pid": 1000965, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Car Jams", 
+    "num_holdouts": 26, 
+    "pid": 1000966, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "cc", 
+    "num_holdouts": 24, 
+    "pid": 1000970, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Punky", 
+    "num_holdouts": 18, 
+    "pid": 1000972, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Hamilton (Original Broadway Cast Recording)", 
+    "num_holdouts": 47, 
+    "pid": 1000973, 
+    "num_tracks": 47, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Weird", 
+    "num_holdouts": 39, 
+    "pid": 1000976, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "the goods", 
+    "num_holdouts": 18, 
+    "pid": 1000978, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "vibey", 
+    "num_holdouts": 49, 
+    "pid": 1000981, 
+    "num_tracks": 49, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Summer 2014", 
+    "num_holdouts": 16, 
+    "pid": 1000982, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Wo", 
+    "num_holdouts": 40, 
+    "pid": 1000984, 
+    "num_tracks": 40, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "<3", 
+    "num_holdouts": 43, 
+    "pid": 1000988, 
+    "num_tracks": 43, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "happiness", 
+    "num_holdouts": 20, 
+    "pid": 1000989, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "indie jams", 
+    "num_holdouts": 36, 
+    "pid": 1000990, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "rainy day", 
+    "num_holdouts": 50, 
+    "pid": 1000991, 
+    "num_tracks": 50, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "country favorites ", 
+    "num_holdouts": 48, 
+    "pid": 1000993, 
+    "num_tracks": 48, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "acustic", 
+    "num_holdouts": 17, 
+    "pid": 1000996, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "tunes", 
+    "num_holdouts": 25, 
+    "pid": 1000998, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Island Vibes", 
+    "num_holdouts": 23, 
+    "pid": 1001000, 
+    "num_tracks": 23, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Now Or Never", 
+    "num_holdouts": 35, 
+    "pid": 1001002, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "pch", 
+    "num_holdouts": 21, 
+    "pid": 1001003, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "rock. ", 
+    "num_holdouts": 25, 
+    "pid": 1001004, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Sick Jams", 
+    "num_holdouts": 48, 
+    "pid": 1001005, 
+    "num_tracks": 48, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "90's", 
+    "num_holdouts": 47, 
+    "pid": 1001007, 
+    "num_tracks": 47, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Jesus Jams", 
+    "num_holdouts": 20, 
+    "pid": 1001008, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "alt rock", 
+    "num_holdouts": 25, 
+    "pid": 1001009, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "saturday", 
+    "num_holdouts": 27, 
+    "pid": 1001011, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Anger", 
+    "num_holdouts": 43, 
+    "pid": 1001013, 
+    "num_tracks": 43, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "alt.", 
+    "num_holdouts": 41, 
+    "pid": 1001014, 
+    "num_tracks": 41, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Gym", 
+    "num_holdouts": 48, 
+    "pid": 1001015, 
+    "num_tracks": 48, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Top Country", 
+    "num_holdouts": 24, 
+    "pid": 1001018, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Van", 
+    "num_holdouts": 29, 
+    "pid": 1001022, 
+    "num_tracks": 29, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Imagine ", 
+    "num_holdouts": 21, 
+    "pid": 1001026, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "trip hop", 
+    "num_holdouts": 18, 
+    "pid": 1001028, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "420 ", 
+    "num_holdouts": 16, 
+    "pid": 1001030, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Narco Corridos", 
+    "num_holdouts": 40, 
+    "pid": 1001031, 
+    "num_tracks": 40, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Ohh", 
+    "num_holdouts": 21, 
+    "pid": 1001032, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "chill vibes", 
+    "num_holdouts": 40, 
+    "pid": 1001033, 
+    "num_tracks": 40, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Yes please", 
+    "num_holdouts": 38, 
+    "pid": 1001034, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Disney", 
+    "num_holdouts": 17, 
+    "pid": 1001035, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "chillin", 
+    "num_holdouts": 16, 
+    "pid": 1001040, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Summer Jamz", 
+    "num_holdouts": 23, 
+    "pid": 1001041, 
+    "num_tracks": 23, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Work Flow", 
+    "num_holdouts": 30, 
+    "pid": 1001048, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Why Not", 
+    "num_holdouts": 27, 
+    "pid": 1001051, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Feel Good Country", 
+    "num_holdouts": 38, 
+    "pid": 1001060, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "tunes ;)", 
+    "num_holdouts": 20, 
+    "pid": 1001061, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "May Flowers", 
+    "num_holdouts": 26, 
+    "pid": 1001062, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "#boostyourrun", 
+    "num_holdouts": 21, 
+    "pid": 1001063, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Rap Playlist", 
+    "num_holdouts": 43, 
+    "pid": 1001073, 
+    "num_tracks": 43, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "PARTY ", 
+    "num_holdouts": 49, 
+    "pid": 1001074, 
+    "num_tracks": 49, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Drake", 
+    "num_holdouts": 17, 
+    "pid": 1001075, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Aye", 
+    "num_holdouts": 36, 
+    "pid": 1001077, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Sean", 
+    "num_holdouts": 21, 
+    "pid": 1001081, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "lo mejor", 
+    "num_holdouts": 41, 
+    "pid": 1001082, 
+    "num_tracks": 41, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Seattle", 
+    "num_holdouts": 47, 
+    "pid": 1001083, 
+    "num_tracks": 47, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Dope", 
+    "num_holdouts": 31, 
+    "pid": 1001086, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "This", 
+    "num_holdouts": 31, 
+    "pid": 1001087, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "On the go", 
+    "num_holdouts": 33, 
+    "pid": 1001089, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Pop", 
+    "num_holdouts": 46, 
+    "pid": 1001090, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "punk goes _______", 
+    "num_holdouts": 25, 
+    "pid": 1001091, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Instrumental", 
+    "num_holdouts": 11, 
+    "pid": 1001092, 
+    "num_tracks": 11, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "MARCH", 
+    "num_holdouts": 25, 
+    "pid": 1001094, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "hype up", 
+    "num_holdouts": 31, 
+    "pid": 1001098, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Junior", 
+    "num_holdouts": 17, 
+    "pid": 1001103, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "work", 
+    "num_holdouts": 32, 
+    "pid": 1001104, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "\u2615\ufe0f", 
+    "num_holdouts": 17, 
+    "pid": 1001107, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Workout", 
+    "num_holdouts": 16, 
+    "pid": 1001108, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Pool Time", 
+    "num_holdouts": 30, 
+    "pid": 1001109, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "maddie", 
+    "num_holdouts": 34, 
+    "pid": 1001111, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "General ", 
+    "num_holdouts": 24, 
+    "pid": 1001112, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "lit", 
+    "num_holdouts": 31, 
+    "pid": 1001115, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Fall 2014", 
+    "num_holdouts": 36, 
+    "pid": 1001119, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Favorite Worship", 
+    "num_holdouts": 50, 
+    "pid": 1001121, 
+    "num_tracks": 50, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Body Party", 
+    "num_holdouts": 30, 
+    "pid": 1001123, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "right now", 
+    "num_holdouts": 19, 
+    "pid": 1001124, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "summer", 
+    "num_holdouts": 50, 
+    "pid": 1001130, 
+    "num_tracks": 50, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "vibess", 
+    "num_holdouts": 22, 
+    "pid": 1001134, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "happy vibes", 
+    "num_holdouts": 17, 
+    "pid": 1001135, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "JM;)", 
+    "num_holdouts": 45, 
+    "pid": 1001136, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "classic rock", 
+    "num_holdouts": 36, 
+    "pid": 1001137, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Road Trip", 
+    "num_holdouts": 34, 
+    "pid": 1001142, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "summer '17", 
+    "num_holdouts": 30, 
+    "pid": 1001146, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Feels.", 
+    "num_holdouts": 21, 
+    "pid": 1001147, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Rob", 
+    "num_holdouts": 14, 
+    "pid": 1001148, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "HOOPS", 
+    "num_holdouts": 11, 
+    "pid": 1001149, 
+    "num_tracks": 11, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "11.16", 
+    "num_holdouts": 19, 
+    "pid": 1001151, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "boating", 
+    "num_holdouts": 44, 
+    "pid": 1001154, 
+    "num_tracks": 44, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Boat Tunes", 
+    "num_holdouts": 43, 
+    "pid": 1001160, 
+    "num_tracks": 43, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Chillin", 
+    "num_holdouts": 20, 
+    "pid": 1001161, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "vbs", 
+    "num_holdouts": 25, 
+    "pid": 1001166, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": ":08 ", 
+    "num_holdouts": 20, 
+    "pid": 1001167, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "greatest hits", 
+    "num_holdouts": 13, 
+    "pid": 1001168, 
+    "num_tracks": 13, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Fire", 
+    "num_holdouts": 28, 
+    "pid": 1001176, 
+    "num_tracks": 28, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Christmas", 
+    "num_holdouts": 48, 
+    "pid": 1001177, 
+    "num_tracks": 48, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Chill 2", 
+    "num_holdouts": 28, 
+    "pid": 1001178, 
+    "num_tracks": 28, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "<3", 
+    "num_holdouts": 22, 
+    "pid": 1001180, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Gaming", 
+    "num_holdouts": 31, 
+    "pid": 1001181, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "new years ", 
+    "num_holdouts": 23, 
+    "pid": 1001183, 
+    "num_tracks": 23, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "work out ", 
+    "num_holdouts": 31, 
+    "pid": 1001185, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "u know", 
+    "num_holdouts": 28, 
+    "pid": 1001186, 
+    "num_tracks": 28, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Today's Hits", 
+    "num_holdouts": 27, 
+    "pid": 1001188, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Game Time", 
+    "num_holdouts": 13, 
+    "pid": 1001191, 
+    "num_tracks": 13, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Express Yourself", 
+    "num_holdouts": 47, 
+    "pid": 1001195, 
+    "num_tracks": 47, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "classic rock", 
+    "num_holdouts": 16, 
+    "pid": 1001196, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "\ud83d\udc9a\ud83d\udc9a\ud83d\udc9a", 
+    "num_holdouts": 17, 
+    "pid": 1001197, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "mine", 
+    "num_holdouts": 30, 
+    "pid": 1001198, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Young And Beautiful", 
+    "num_holdouts": 43, 
+    "pid": 1001199, 
+    "num_tracks": 43, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Worship", 
+    "num_holdouts": 36, 
+    "pid": 1001200, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Chillin", 
+    "num_holdouts": 45, 
+    "pid": 1001201, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "lov", 
+    "num_holdouts": 28, 
+    "pid": 1001205, 
+    "num_tracks": 28, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "April 2016", 
+    "num_holdouts": 30, 
+    "pid": 1001211, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Fall 2017", 
+    "num_holdouts": 35, 
+    "pid": 1001212, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Happy:)", 
+    "num_holdouts": 38, 
+    "pid": 1001226, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "dance music", 
+    "num_holdouts": 46, 
+    "pid": 1001228, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Alison", 
+    "num_holdouts": 37, 
+    "pid": 1001229, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "New Jams", 
+    "num_holdouts": 25, 
+    "pid": 1001230, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "jams", 
+    "num_holdouts": 30, 
+    "pid": 1001231, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "rap/hop", 
+    "num_holdouts": 12, 
+    "pid": 1001232, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Random", 
+    "num_holdouts": 21, 
+    "pid": 1001234, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "City", 
+    "num_holdouts": 31, 
+    "pid": 1001236, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "pc", 
+    "num_holdouts": 16, 
+    "pid": 1001241, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Christmas\ud83c\udf84", 
+    "num_holdouts": 27, 
+    "pid": 1001245, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Rap", 
+    "num_holdouts": 33, 
+    "pid": 1001247, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Beat", 
+    "num_holdouts": 47, 
+    "pid": 1001248, 
+    "num_tracks": 47, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Diamonds", 
+    "num_holdouts": 10, 
+    "pid": 1001252, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "throwback", 
+    "num_holdouts": 38, 
+    "pid": 1001256, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "SP", 
+    "num_holdouts": 45, 
+    "pid": 1001257, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Oh", 
+    "num_holdouts": 42, 
+    "pid": 1001269, 
+    "num_tracks": 42, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Bam", 
+    "num_holdouts": 37, 
+    "pid": 1001271, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "simp", 
+    "num_holdouts": 48, 
+    "pid": 1001272, 
+    "num_tracks": 48, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "GOTG", 
+    "num_holdouts": 12, 
+    "pid": 1001275, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Fall 2013", 
+    "num_holdouts": 23, 
+    "pid": 1001277, 
+    "num_tracks": 23, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "workout", 
+    "num_holdouts": 16, 
+    "pid": 1001281, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Wedding", 
+    "num_holdouts": 23, 
+    "pid": 1001283, 
+    "num_tracks": 23, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "throwback", 
+    "num_holdouts": 48, 
+    "pid": 1001285, 
+    "num_tracks": 48, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "party music", 
+    "num_holdouts": 44, 
+    "pid": 1001288, 
+    "num_tracks": 44, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "race", 
+    "num_holdouts": 31, 
+    "pid": 1001290, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Its_lit", 
+    "num_holdouts": 16, 
+    "pid": 1001295, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "dance", 
+    "num_holdouts": 46, 
+    "pid": 1001296, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Mood", 
+    "num_holdouts": 22, 
+    "pid": 1001298, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Rocket League", 
+    "num_holdouts": 35, 
+    "pid": 1001300, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "praise", 
+    "num_holdouts": 21, 
+    "pid": 1001304, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "music ", 
+    "num_holdouts": 23, 
+    "pid": 1001305, 
+    "num_tracks": 23, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "morning", 
+    "num_holdouts": 14, 
+    "pid": 1001308, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "February", 
+    "num_holdouts": 34, 
+    "pid": 1001310, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Play it Forward", 
+    "num_holdouts": 30, 
+    "pid": 1001311, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "ay", 
+    "num_holdouts": 15, 
+    "pid": 1001313, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "kh", 
+    "num_holdouts": 43, 
+    "pid": 1001318, 
+    "num_tracks": 43, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Crystal", 
+    "num_holdouts": 46, 
+    "pid": 1001319, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "skateboarding", 
+    "num_holdouts": 16, 
+    "pid": 1001322, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Christmas", 
+    "num_holdouts": 15, 
+    "pid": 1001332, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Summer 17", 
+    "num_holdouts": 31, 
+    "pid": 1001335, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "random", 
+    "num_holdouts": 24, 
+    "pid": 1001336, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Mellow", 
+    "num_holdouts": 24, 
+    "pid": 1001339, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Sleep", 
+    "num_holdouts": 27, 
+    "pid": 1001345, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "ho ho ho", 
+    "num_holdouts": 26, 
+    "pid": 1001349, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "sleep 2", 
+    "num_holdouts": 39, 
+    "pid": 1001350, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "LIT", 
+    "num_holdouts": 25, 
+    "pid": 1001352, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "joe", 
+    "num_holdouts": 32, 
+    "pid": 1001353, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "december ", 
+    "num_holdouts": 12, 
+    "pid": 1001355, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Packing", 
+    "num_holdouts": 34, 
+    "pid": 1001356, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "spicy ", 
+    "num_holdouts": 23, 
+    "pid": 1001357, 
+    "num_tracks": 23, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "so good", 
+    "num_holdouts": 14, 
+    "pid": 1001358, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "tropical", 
+    "num_holdouts": 37, 
+    "pid": 1001361, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "C H I L L", 
+    "num_holdouts": 43, 
+    "pid": 1001362, 
+    "num_tracks": 43, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Older Songs", 
+    "num_holdouts": 10, 
+    "pid": 1001365, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "#top songs", 
+    "num_holdouts": 40, 
+    "pid": 1001367, 
+    "num_tracks": 40, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "ss17", 
+    "num_holdouts": 22, 
+    "pid": 1001369, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "yoga", 
+    "num_holdouts": 27, 
+    "pid": 1001370, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Here", 
+    "num_holdouts": 38, 
+    "pid": 1001371, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Awesome", 
+    "num_holdouts": 23, 
+    "pid": 1001373, 
+    "num_tracks": 23, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "summer ", 
+    "num_holdouts": 42, 
+    "pid": 1001374, 
+    "num_tracks": 42, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "for jess", 
+    "num_holdouts": 15, 
+    "pid": 1001377, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "concentrate", 
+    "num_holdouts": 13, 
+    "pid": 1001378, 
+    "num_tracks": 13, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "idk", 
+    "num_holdouts": 11, 
+    "pid": 1001380, 
+    "num_tracks": 11, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Electric Love", 
+    "num_holdouts": 13, 
+    "pid": 1001382, 
+    "num_tracks": 13, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Rap", 
+    "num_holdouts": 19, 
+    "pid": 1001385, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "May 2017", 
+    "num_holdouts": 44, 
+    "pid": 1001386, 
+    "num_tracks": 44, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Christmas", 
+    "num_holdouts": 47, 
+    "pid": 1001395, 
+    "num_tracks": 47, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Sleep", 
+    "num_holdouts": 18, 
+    "pid": 1001402, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Castle", 
+    "num_holdouts": 30, 
+    "pid": 1001405, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "danny", 
+    "num_holdouts": 17, 
+    "pid": 1001406, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Girl Power", 
+    "num_holdouts": 41, 
+    "pid": 1001408, 
+    "num_tracks": 41, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "spring break. ", 
+    "num_holdouts": 50, 
+    "pid": 1001411, 
+    "num_tracks": 50, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "oldies", 
+    "num_holdouts": 28, 
+    "pid": 1001414, 
+    "num_tracks": 28, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Nostalgia", 
+    "num_holdouts": 13, 
+    "pid": 1001415, 
+    "num_tracks": 13, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "21", 
+    "num_holdouts": 26, 
+    "pid": 1001416, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "partyyy", 
+    "num_holdouts": 46, 
+    "pid": 1001420, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Spring 2017", 
+    "num_holdouts": 24, 
+    "pid": 1001421, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Wedding", 
+    "num_holdouts": 45, 
+    "pid": 1001422, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Good songs", 
+    "num_holdouts": 25, 
+    "pid": 1001423, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "getting ready", 
+    "num_holdouts": 34, 
+    "pid": 1001425, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "koala", 
+    "num_holdouts": 24, 
+    "pid": 1001427, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "vacation", 
+    "num_holdouts": 26, 
+    "pid": 1001428, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Stuff", 
+    "num_holdouts": 16, 
+    "pid": 1001429, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "April", 
+    "num_holdouts": 34, 
+    "pid": 1001430, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "contemp", 
+    "num_holdouts": 36, 
+    "pid": 1001434, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "jams", 
+    "num_holdouts": 25, 
+    "pid": 1001439, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Oldies", 
+    "num_holdouts": 24, 
+    "pid": 1001440, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "pool", 
+    "num_holdouts": 28, 
+    "pid": 1001444, 
+    "num_tracks": 28, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "summer 2014", 
+    "num_holdouts": 21, 
+    "pid": 1001447, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Morning Mix", 
+    "num_holdouts": 47, 
+    "pid": 1001451, 
+    "num_tracks": 47, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Content", 
+    "num_holdouts": 20, 
+    "pid": 1001453, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Bangers ", 
+    "num_holdouts": 32, 
+    "pid": 1001455, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "chillin", 
+    "num_holdouts": 29, 
+    "pid": 1001458, 
+    "num_tracks": 29, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Werkout", 
+    "num_holdouts": 39, 
+    "pid": 1001460, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Lounge", 
+    "num_holdouts": 18, 
+    "pid": 1001461, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Wedding Reception", 
+    "num_holdouts": 41, 
+    "pid": 1001463, 
+    "num_tracks": 41, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Bacon", 
+    "num_holdouts": 18, 
+    "pid": 1001464, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "march 15", 
+    "num_holdouts": 22, 
+    "pid": 1001465, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": " best country", 
+    "num_holdouts": 46, 
+    "pid": 1001467, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Spring 2013", 
+    "num_holdouts": 27, 
+    "pid": 1001468, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "\ud83d\udd25lit\ud83d\udd25", 
+    "num_holdouts": 21, 
+    "pid": 1001470, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "PartyBus", 
+    "num_holdouts": 31, 
+    "pid": 1001472, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Country Feels", 
+    "num_holdouts": 32, 
+    "pid": 1001475, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Road Trip!", 
+    "num_holdouts": 12, 
+    "pid": 1001477, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Too Cool For School", 
+    "num_holdouts": 15, 
+    "pid": 1001478, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "tbt", 
+    "num_holdouts": 31, 
+    "pid": 1001480, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "music", 
+    "num_holdouts": 14, 
+    "pid": 1001483, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "feminism", 
+    "num_holdouts": 17, 
+    "pid": 1001484, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "jam", 
+    "num_holdouts": 30, 
+    "pid": 1001485, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "feel good", 
+    "num_holdouts": 24, 
+    "pid": 1001488, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Fall Feels", 
+    "num_holdouts": 35, 
+    "pid": 1001489, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Kids", 
+    "num_holdouts": 31, 
+    "pid": 1001491, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Counrty ", 
+    "num_holdouts": 45, 
+    "pid": 1001492, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Summer 2013", 
+    "num_holdouts": 34, 
+    "pid": 1001493, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "vibes", 
+    "num_holdouts": 12, 
+    "pid": 1001494, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "New", 
+    "num_holdouts": 31, 
+    "pid": 1001499, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "new ", 
+    "num_holdouts": 12, 
+    "pid": 1001504, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "workout", 
+    "num_holdouts": 16, 
+    "pid": 1001505, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Faded", 
+    "num_holdouts": 26, 
+    "pid": 1001506, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Casper", 
+    "num_holdouts": 31, 
+    "pid": 1001510, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "head bangers", 
+    "num_holdouts": 42, 
+    "pid": 1001511, 
+    "num_tracks": 42, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "My 80's", 
+    "num_holdouts": 21, 
+    "pid": 1001513, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "SUMMER 2016", 
+    "num_holdouts": 50, 
+    "pid": 1001514, 
+    "num_tracks": 50, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "sad songs.", 
+    "num_holdouts": 46, 
+    "pid": 1001517, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Legends ", 
+    "num_holdouts": 29, 
+    "pid": 1001518, 
+    "num_tracks": 29, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Ella", 
+    "num_holdouts": 39, 
+    "pid": 1001520, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "music", 
+    "num_holdouts": 35, 
+    "pid": 1001522, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Workout Music", 
+    "num_holdouts": 46, 
+    "pid": 1001523, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "litty", 
+    "num_holdouts": 36, 
+    "pid": 1001525, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "love", 
+    "num_holdouts": 19, 
+    "pid": 1001526, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Rap", 
+    "num_holdouts": 47, 
+    "pid": 1001528, 
+    "num_tracks": 47, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Josh", 
+    "num_holdouts": 19, 
+    "pid": 1001531, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": " Reggae", 
+    "num_holdouts": 15, 
+    "pid": 1001536, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Dinner", 
+    "num_holdouts": 22, 
+    "pid": 1001538, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Hipster", 
+    "num_holdouts": 32, 
+    "pid": 1001540, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Music", 
+    "num_holdouts": 35, 
+    "pid": 1001544, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Classic rock", 
+    "num_holdouts": 12, 
+    "pid": 1001552, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "My Mix", 
+    "num_holdouts": 25, 
+    "pid": 1001555, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Spoon", 
+    "num_holdouts": 29, 
+    "pid": 1001559, 
+    "num_tracks": 29, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Kickin' It", 
+    "num_holdouts": 50, 
+    "pid": 1001561, 
+    "num_tracks": 50, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Classics ", 
+    "num_holdouts": 22, 
+    "pid": 1001564, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "pop", 
+    "num_holdouts": 10, 
+    "pid": 1001570, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Memories", 
+    "num_holdouts": 15, 
+    "pid": 1001574, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "feb", 
+    "num_holdouts": 37, 
+    "pid": 1001575, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Classic Rock", 
+    "num_holdouts": 25, 
+    "pid": 1001577, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Summer in the City!", 
+    "num_holdouts": 45, 
+    "pid": 1001581, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Alternative", 
+    "num_holdouts": 19, 
+    "pid": 1001582, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "80's Baby!", 
+    "num_holdouts": 46, 
+    "pid": 1001583, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "aye", 
+    "num_holdouts": 13, 
+    "pid": 1001584, 
+    "num_tracks": 13, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Spanish", 
+    "num_holdouts": 42, 
+    "pid": 1001585, 
+    "num_tracks": 42, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Mood Music", 
+    "num_holdouts": 36, 
+    "pid": 1001588, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "wedding songs", 
+    "num_holdouts": 16, 
+    "pid": 1001590, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "natalie", 
+    "num_holdouts": 19, 
+    "pid": 1001596, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "party", 
+    "num_holdouts": 15, 
+    "pid": 1001598, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "America ", 
+    "num_holdouts": 47, 
+    "pid": 1001599, 
+    "num_tracks": 47, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Corridos", 
+    "num_holdouts": 20, 
+    "pid": 1001600, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "2018", 
+    "num_holdouts": 20, 
+    "pid": 1001601, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "worship", 
+    "num_holdouts": 30, 
+    "pid": 1001609, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "homework", 
+    "num_holdouts": 46, 
+    "pid": 1001610, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Electric", 
+    "num_holdouts": 10, 
+    "pid": 1001614, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "fire", 
+    "num_holdouts": 38, 
+    "pid": 1001616, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "spring", 
+    "num_holdouts": 15, 
+    "pid": 1001622, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "dope", 
+    "num_holdouts": 16, 
+    "pid": 1001623, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Christian workout", 
+    "num_holdouts": 14, 
+    "pid": 1001626, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Wanderlust ", 
+    "num_holdouts": 42, 
+    "pid": 1001627, 
+    "num_tracks": 42, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "moms", 
+    "num_holdouts": 35, 
+    "pid": 1001630, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Throwbacks", 
+    "num_holdouts": 43, 
+    "pid": 1001632, 
+    "num_tracks": 43, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "IV", 
+    "num_holdouts": 39, 
+    "pid": 1001642, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "roadtrip", 
+    "num_holdouts": 38, 
+    "pid": 1001643, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "pump up", 
+    "num_holdouts": 21, 
+    "pid": 1001644, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "February 2016", 
+    "num_holdouts": 18, 
+    "pid": 1001648, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Electronica", 
+    "num_holdouts": 12, 
+    "pid": 1001649, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "feels", 
+    "num_holdouts": 44, 
+    "pid": 1001652, 
+    "num_tracks": 44, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "NUT", 
+    "num_holdouts": 23, 
+    "pid": 1001659, 
+    "num_tracks": 23, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Heartbreak", 
+    "num_holdouts": 48, 
+    "pid": 1001660, 
+    "num_tracks": 48, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "my list", 
+    "num_holdouts": 24, 
+    "pid": 1001664, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Wedding DINNER", 
+    "num_holdouts": 26, 
+    "pid": 1001665, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "pump it up ", 
+    "num_holdouts": 33, 
+    "pid": 1001672, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "sleeps", 
+    "num_holdouts": 20, 
+    "pid": 1001673, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Space Jam", 
+    "num_holdouts": 46, 
+    "pid": 1001674, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "worship ", 
+    "num_holdouts": 35, 
+    "pid": 1001678, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Music", 
+    "num_holdouts": 33, 
+    "pid": 1001683, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Universal stereo", 
+    "num_holdouts": 18, 
+    "pid": 1001686, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Family", 
+    "num_holdouts": 32, 
+    "pid": 1001687, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "old hip hop", 
+    "num_holdouts": 13, 
+    "pid": 1001689, 
+    "num_tracks": 13, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "top", 
+    "num_holdouts": 32, 
+    "pid": 1001690, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "For Ashley", 
+    "num_holdouts": 45, 
+    "pid": 1001691, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Summer Songs", 
+    "num_holdouts": 23, 
+    "pid": 1001696, 
+    "num_tracks": 23, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "The Story", 
+    "num_holdouts": 14, 
+    "pid": 1001699, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Chill Pill", 
+    "num_holdouts": 37, 
+    "pid": 1001704, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "soft", 
+    "num_holdouts": 26, 
+    "pid": 1001705, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Vibez", 
+    "num_holdouts": 36, 
+    "pid": 1001707, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Summer 2014", 
+    "num_holdouts": 33, 
+    "pid": 1001710, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "rock n roll", 
+    "num_holdouts": 21, 
+    "pid": 1001711, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "henry", 
+    "num_holdouts": 22, 
+    "pid": 1001712, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "January 2016", 
+    "num_holdouts": 40, 
+    "pid": 1001713, 
+    "num_tracks": 40, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "skrt", 
+    "num_holdouts": 14, 
+    "pid": 1001714, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "good oldies", 
+    "num_holdouts": 30, 
+    "pid": 1001715, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "christian", 
+    "num_holdouts": 21, 
+    "pid": 1001717, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "tbt", 
+    "num_holdouts": 48, 
+    "pid": 1001718, 
+    "num_tracks": 48, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "country jams", 
+    "num_holdouts": 36, 
+    "pid": 1001719, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "crossfit", 
+    "num_holdouts": 37, 
+    "pid": 1001720, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Tommy", 
+    "num_holdouts": 14, 
+    "pid": 1001725, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "partay", 
+    "num_holdouts": 42, 
+    "pid": 1001727, 
+    "num_tracks": 42, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "lit\ud83d\udd25", 
+    "num_holdouts": 27, 
+    "pid": 1001729, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "01/17", 
+    "num_holdouts": 46, 
+    "pid": 1001731, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "\ud83d\udca9\ud83d\udca9", 
+    "num_holdouts": 21, 
+    "pid": 1001732, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Alex", 
+    "num_holdouts": 45, 
+    "pid": 1001739, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Before", 
+    "num_holdouts": 13, 
+    "pid": 1001740, 
+    "num_tracks": 13, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "hype", 
+    "num_holdouts": 35, 
+    "pid": 1001742, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Gr8", 
+    "num_holdouts": 19, 
+    "pid": 1001743, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "songs to sing to", 
+    "num_holdouts": 27, 
+    "pid": 1001744, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Inside Out", 
+    "num_holdouts": 43, 
+    "pid": 1001749, 
+    "num_tracks": 43, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Party", 
+    "num_holdouts": 45, 
+    "pid": 1001750, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Summertime", 
+    "num_holdouts": 40, 
+    "pid": 1001754, 
+    "num_tracks": 40, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Tropical House", 
+    "num_holdouts": 28, 
+    "pid": 1001756, 
+    "num_tracks": 28, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Spring 2015", 
+    "num_holdouts": 15, 
+    "pid": 1001758, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "bangerz", 
+    "num_holdouts": 33, 
+    "pid": 1001760, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Basics", 
+    "num_holdouts": 31, 
+    "pid": 1001761, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "classic rock", 
+    "num_holdouts": 38, 
+    "pid": 1001762, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "New Worship", 
+    "num_holdouts": 15, 
+    "pid": 1001763, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Shower", 
+    "num_holdouts": 46, 
+    "pid": 1001764, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Kg", 
+    "num_holdouts": 46, 
+    "pid": 1001765, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "favesss", 
+    "num_holdouts": 20, 
+    "pid": 1001766, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "my heart", 
+    "num_holdouts": 15, 
+    "pid": 1001770, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Stream", 
+    "num_holdouts": 15, 
+    "pid": 1001772, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "New Wave", 
+    "num_holdouts": 10, 
+    "pid": 1001774, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "New Hip Hop", 
+    "num_holdouts": 32, 
+    "pid": 1001775, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "NOW", 
+    "num_holdouts": 10, 
+    "pid": 1001776, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Running", 
+    "num_holdouts": 37, 
+    "pid": 1001778, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "disney!!!", 
+    "num_holdouts": 35, 
+    "pid": 1001785, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Late Summer", 
+    "num_holdouts": 13, 
+    "pid": 1001787, 
+    "num_tracks": 13, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Old School", 
+    "num_holdouts": 26, 
+    "pid": 1001791, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Running", 
+    "num_holdouts": 19, 
+    "pid": 1001794, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "christmas", 
+    "num_holdouts": 49, 
+    "pid": 1001795, 
+    "num_tracks": 49, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "happy", 
+    "num_holdouts": 19, 
+    "pid": 1001797, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "V A P O R W A V E", 
+    "num_holdouts": 14, 
+    "pid": 1001799, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "1980s", 
+    "num_holdouts": 48, 
+    "pid": 1001800, 
+    "num_tracks": 48, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "upbeat", 
+    "num_holdouts": 34, 
+    "pid": 1001805, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Old Stuff", 
+    "num_holdouts": 31, 
+    "pid": 1001806, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "90s nostalgia", 
+    "num_holdouts": 37, 
+    "pid": 1001809, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Soul", 
+    "num_holdouts": 18, 
+    "pid": 1001810, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "1960's", 
+    "num_holdouts": 39, 
+    "pid": 1001811, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "tb", 
+    "num_holdouts": 36, 
+    "pid": 1001815, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Cool Down", 
+    "num_holdouts": 12, 
+    "pid": 1001816, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "rap", 
+    "num_holdouts": 38, 
+    "pid": 1001817, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "oldschool", 
+    "num_holdouts": 39, 
+    "pid": 1001821, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Current", 
+    "num_holdouts": 42, 
+    "pid": 1001824, 
+    "num_tracks": 42, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "New country", 
+    "num_holdouts": 35, 
+    "pid": 1001827, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "May Flowers", 
+    "num_holdouts": 18, 
+    "pid": 1001835, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Jams", 
+    "num_holdouts": 50, 
+    "pid": 1001836, 
+    "num_tracks": 50, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "idk", 
+    "num_holdouts": 45, 
+    "pid": 1001837, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Move", 
+    "num_holdouts": 12, 
+    "pid": 1001840, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Awesome Songs ", 
+    "num_holdouts": 48, 
+    "pid": 1001841, 
+    "num_tracks": 48, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "So High", 
+    "num_holdouts": 48, 
+    "pid": 1001842, 
+    "num_tracks": 48, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "April 2015", 
+    "num_holdouts": 47, 
+    "pid": 1001851, 
+    "num_tracks": 47, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "MEXICO", 
+    "num_holdouts": 39, 
+    "pid": 1001853, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "oldies", 
+    "num_holdouts": 19, 
+    "pid": 1001861, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Hip hop ", 
+    "num_holdouts": 35, 
+    "pid": 1001871, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Workout", 
+    "num_holdouts": 44, 
+    "pid": 1001872, 
+    "num_tracks": 44, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "best songs ever", 
+    "num_holdouts": 25, 
+    "pid": 1001875, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "cry", 
+    "num_holdouts": 33, 
+    "pid": 1001876, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Yoga 3", 
+    "num_holdouts": 12, 
+    "pid": 1001878, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "homework", 
+    "num_holdouts": 15, 
+    "pid": 1001880, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Summer Hits ", 
+    "num_holdouts": 22, 
+    "pid": 1001882, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "lit", 
+    "num_holdouts": 17, 
+    "pid": 1001885, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "chance the rapper ", 
+    "num_holdouts": 33, 
+    "pid": 1001888, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "cookout", 
+    "num_holdouts": 25, 
+    "pid": 1001889, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "NWA", 
+    "num_holdouts": 11, 
+    "pid": 1001896, 
+    "num_tracks": 11, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Summer '17", 
+    "num_holdouts": 32, 
+    "pid": 1001899, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "march 17", 
+    "num_holdouts": 14, 
+    "pid": 1001907, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Pentatonix ", 
+    "num_holdouts": 27, 
+    "pid": 1001908, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Ed Sheeran ", 
+    "num_holdouts": 49, 
+    "pid": 1001910, 
+    "num_tracks": 49, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "2000's", 
+    "num_holdouts": 50, 
+    "pid": 1001916, 
+    "num_tracks": 50, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Dig It", 
+    "num_holdouts": 36, 
+    "pid": 1001917, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Worship", 
+    "num_holdouts": 21, 
+    "pid": 1001919, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "mellow", 
+    "num_holdouts": 32, 
+    "pid": 1001920, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Gatsby", 
+    "num_holdouts": 20, 
+    "pid": 1001925, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Neo Soul", 
+    "num_holdouts": 35, 
+    "pid": 1001928, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "November 2015", 
+    "num_holdouts": 20, 
+    "pid": 1001929, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "\u2764\ufe0f\u2764\ufe0f\u2764\ufe0f\u2764\ufe0f\u2764\ufe0f", 
+    "num_holdouts": 16, 
+    "pid": 1001931, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "jasper", 
+    "num_holdouts": 10, 
+    "pid": 1001935, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Line", 
+    "num_holdouts": 14, 
+    "pid": 1001937, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Blah", 
+    "num_holdouts": 46, 
+    "pid": 1001941, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Eminem", 
+    "num_holdouts": 44, 
+    "pid": 1001942, 
+    "num_tracks": 44, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Happy Christmas", 
+    "num_holdouts": 29, 
+    "pid": 1001944, 
+    "num_tracks": 29, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Candlelight", 
+    "num_holdouts": 11, 
+    "pid": 1001946, 
+    "num_tracks": 11, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Lift", 
+    "num_holdouts": 50, 
+    "pid": 1001949, 
+    "num_tracks": 50, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "WINTER", 
+    "num_holdouts": 18, 
+    "pid": 1001950, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "madi", 
+    "num_holdouts": 31, 
+    "pid": 1001953, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Funky", 
+    "num_holdouts": 29, 
+    "pid": 1001957, 
+    "num_tracks": 29, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "chillin", 
+    "num_holdouts": 26, 
+    "pid": 1001962, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "stretching", 
+    "num_holdouts": 14, 
+    "pid": 1001963, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Disney", 
+    "num_holdouts": 34, 
+    "pid": 1001969, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Fun.", 
+    "num_holdouts": 36, 
+    "pid": 1001970, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Dance", 
+    "num_holdouts": 30, 
+    "pid": 1001976, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "August 2016", 
+    "num_holdouts": 37, 
+    "pid": 1001981, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "oldies", 
+    "num_holdouts": 17, 
+    "pid": 1001983, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "DIO", 
+    "num_holdouts": 31, 
+    "pid": 1001985, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "vibes", 
+    "num_holdouts": 19, 
+    "pid": 1001987, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Prog", 
+    "num_holdouts": 31, 
+    "pid": 1001988, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Persian", 
+    "num_holdouts": 18, 
+    "pid": 1001990, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "RAIN", 
+    "num_holdouts": 13, 
+    "pid": 1001991, 
+    "num_tracks": 13, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Randoms", 
+    "num_holdouts": 41, 
+    "pid": 1001992, 
+    "num_tracks": 41, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "HALLOWEEN", 
+    "num_holdouts": 20, 
+    "pid": 1001994, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "banks", 
+    "num_holdouts": 31, 
+    "pid": 1002004, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "best", 
+    "num_holdouts": 27, 
+    "pid": 1002007, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "skrt skrt", 
+    "num_holdouts": 20, 
+    "pid": 1002009, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Christmas", 
+    "num_holdouts": 28, 
+    "pid": 1002020, 
+    "num_tracks": 28, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "anytime", 
+    "num_holdouts": 10, 
+    "pid": 1002025, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Boat", 
+    "num_holdouts": 40, 
+    "pid": 1002026, 
+    "num_tracks": 40, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "\ud83d\ude97\ud83d\ude97", 
+    "num_holdouts": 23, 
+    "pid": 1002027, 
+    "num_tracks": 23, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Now", 
+    "num_holdouts": 30, 
+    "pid": 1002028, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Travel Tunes", 
+    "num_holdouts": 17, 
+    "pid": 1002031, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Ar", 
+    "num_holdouts": 34, 
+    "pid": 1002039, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "idek", 
+    "num_holdouts": 30, 
+    "pid": 1002040, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "<3", 
+    "num_holdouts": 34, 
+    "pid": 1002041, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "sleep ", 
+    "num_holdouts": 17, 
+    "pid": 1002042, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Disney", 
+    "num_holdouts": 33, 
+    "pid": 1002044, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "lol", 
+    "num_holdouts": 13, 
+    "pid": 1002047, 
+    "num_tracks": 13, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Spanish", 
+    "num_holdouts": 31, 
+    "pid": 1002048, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Stay Woke", 
+    "num_holdouts": 22, 
+    "pid": 1002056, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Oldies but Goodies", 
+    "num_holdouts": 46, 
+    "pid": 1002058, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Slow Jamz", 
+    "num_holdouts": 15, 
+    "pid": 1002059, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Beach Vibes", 
+    "num_holdouts": 37, 
+    "pid": 1002064, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Feel the Beat", 
+    "num_holdouts": 18, 
+    "pid": 1002065, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "bed time", 
+    "num_holdouts": 24, 
+    "pid": 1002068, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "EDM", 
+    "num_holdouts": 18, 
+    "pid": 1002069, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Run mix", 
+    "num_holdouts": 22, 
+    "pid": 1002071, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "hoco", 
+    "num_holdouts": 35, 
+    "pid": 1002076, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Meg", 
+    "num_holdouts": 24, 
+    "pid": 1002078, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "road trips", 
+    "num_holdouts": 42, 
+    "pid": 1002080, 
+    "num_tracks": 42, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "80's Playlist", 
+    "num_holdouts": 27, 
+    "pid": 1002081, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "This one.", 
+    "num_holdouts": 22, 
+    "pid": 1002082, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Work Out", 
+    "num_holdouts": 22, 
+    "pid": 1002083, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Allie", 
+    "num_holdouts": 36, 
+    "pid": 1002085, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Shower Songs", 
+    "num_holdouts": 22, 
+    "pid": 1002086, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "\u2620\ufe0f", 
+    "num_holdouts": 30, 
+    "pid": 1002087, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "NCS", 
+    "num_holdouts": 31, 
+    "pid": 1002089, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "oldies", 
+    "num_holdouts": 42, 
+    "pid": 1002091, 
+    "num_tracks": 42, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "HH", 
+    "num_holdouts": 38, 
+    "pid": 1002092, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Summer '14", 
+    "num_holdouts": 45, 
+    "pid": 1002096, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Hop Hip", 
+    "num_holdouts": 26, 
+    "pid": 1002102, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "C H R I S T M A S ", 
+    "num_holdouts": 33, 
+    "pid": 1002104, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Current Mood", 
+    "num_holdouts": 12, 
+    "pid": 1002108, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Butter", 
+    "num_holdouts": 18, 
+    "pid": 1002113, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Moms playlist", 
+    "num_holdouts": 39, 
+    "pid": 1002114, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Casa", 
+    "num_holdouts": 33, 
+    "pid": 1002115, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Bangers", 
+    "num_holdouts": 26, 
+    "pid": 1002118, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "road trip", 
+    "num_holdouts": 27, 
+    "pid": 1002119, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "america", 
+    "num_holdouts": 35, 
+    "pid": 1002121, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Get Low ", 
+    "num_holdouts": 19, 
+    "pid": 1002124, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "EDM", 
+    "num_holdouts": 42, 
+    "pid": 1002125, 
+    "num_tracks": 42, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Corridos", 
+    "num_holdouts": 10, 
+    "pid": 1002130, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "gym", 
+    "num_holdouts": 17, 
+    "pid": 1002131, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Carpool Karaoke", 
+    "num_holdouts": 11, 
+    "pid": 1002132, 
+    "num_tracks": 11, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "ovoxo", 
+    "num_holdouts": 12, 
+    "pid": 1002134, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "eminem", 
+    "num_holdouts": 14, 
+    "pid": 1002137, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Rap", 
+    "num_holdouts": 45, 
+    "pid": 1002139, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "bangers", 
+    "num_holdouts": 26, 
+    "pid": 1002140, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "party", 
+    "num_holdouts": 44, 
+    "pid": 1002143, 
+    "num_tracks": 44, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "summer 17", 
+    "num_holdouts": 37, 
+    "pid": 1002144, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "untitled ", 
+    "num_holdouts": 14, 
+    "pid": 1002145, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "driving", 
+    "num_holdouts": 32, 
+    "pid": 1002146, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Kids", 
+    "num_holdouts": 24, 
+    "pid": 1002147, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "My Music", 
+    "num_holdouts": 16, 
+    "pid": 1002152, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "CRY BABY", 
+    "num_holdouts": 38, 
+    "pid": 1002157, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "League", 
+    "num_holdouts": 10, 
+    "pid": 1002162, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Riding", 
+    "num_holdouts": 39, 
+    "pid": 1002163, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Workout mix ", 
+    "num_holdouts": 46, 
+    "pid": 1002171, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "chilled", 
+    "num_holdouts": 49, 
+    "pid": 1002174, 
+    "num_tracks": 49, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "X-Mas", 
+    "num_holdouts": 30, 
+    "pid": 1002178, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Happy", 
+    "num_holdouts": 22, 
+    "pid": 1002180, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "depressed", 
+    "num_holdouts": 36, 
+    "pid": 1002181, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "SHRED", 
+    "num_holdouts": 21, 
+    "pid": 1002182, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Disney", 
+    "num_holdouts": 46, 
+    "pid": 1002184, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Spooky", 
+    "num_holdouts": 45, 
+    "pid": 1002187, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "workout", 
+    "num_holdouts": 38, 
+    "pid": 1002189, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "\ud83d\udc4c\ud83c\udffc\ud83d\udc4c\ud83c\udffc", 
+    "num_holdouts": 33, 
+    "pid": 1002197, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "\u2022\u2022\u2022", 
+    "num_holdouts": 12, 
+    "pid": 1002199, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "epic.", 
+    "num_holdouts": 37, 
+    "pid": 1002204, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Sunshine", 
+    "num_holdouts": 19, 
+    "pid": 1002206, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Frat", 
+    "num_holdouts": 42, 
+    "pid": 1002216, 
+    "num_tracks": 42, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "weekend", 
+    "num_holdouts": 37, 
+    "pid": 1002217, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "NOW", 
+    "num_holdouts": 48, 
+    "pid": 1002218, 
+    "num_tracks": 48, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "chilling", 
+    "num_holdouts": 47, 
+    "pid": 1002219, 
+    "num_tracks": 47, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "BG", 
+    "num_holdouts": 37, 
+    "pid": 1002222, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "morning vibes ", 
+    "num_holdouts": 37, 
+    "pid": 1002226, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Pre-Ceremony", 
+    "num_holdouts": 10, 
+    "pid": 1002228, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Classy", 
+    "num_holdouts": 44, 
+    "pid": 1002229, 
+    "num_tracks": 44, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Everything ", 
+    "num_holdouts": 34, 
+    "pid": 1002230, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "party jams", 
+    "num_holdouts": 17, 
+    "pid": 1002231, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "My vibes", 
+    "num_holdouts": 17, 
+    "pid": 1002233, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Anna", 
+    "num_holdouts": 16, 
+    "pid": 1002234, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Old school", 
+    "num_holdouts": 41, 
+    "pid": 1002238, 
+    "num_tracks": 41, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Oldies", 
+    "num_holdouts": 45, 
+    "pid": 1002239, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Summer '17", 
+    "num_holdouts": 29, 
+    "pid": 1002244, 
+    "num_tracks": 29, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "work out", 
+    "num_holdouts": 35, 
+    "pid": 1002254, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "sleep", 
+    "num_holdouts": 13, 
+    "pid": 1002256, 
+    "num_tracks": 13, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Disney", 
+    "num_holdouts": 47, 
+    "pid": 1002258, 
+    "num_tracks": 47, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "party", 
+    "num_holdouts": 13, 
+    "pid": 1002259, 
+    "num_tracks": 13, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Winter 2017", 
+    "num_holdouts": 24, 
+    "pid": 1002263, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "litty titty", 
+    "num_holdouts": 46, 
+    "pid": 1002267, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "old but gold", 
+    "num_holdouts": 19, 
+    "pid": 1002269, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "pregame", 
+    "num_holdouts": 41, 
+    "pid": 1002270, 
+    "num_tracks": 41, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Erin!!", 
+    "num_holdouts": 17, 
+    "pid": 1002274, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "GLITTER", 
+    "num_holdouts": 12, 
+    "pid": 1002275, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "A$AP", 
+    "num_holdouts": 20, 
+    "pid": 1002276, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "My House", 
+    "num_holdouts": 12, 
+    "pid": 1002279, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Zumba", 
+    "num_holdouts": 43, 
+    "pid": 1002280, 
+    "num_tracks": 43, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "upbeat", 
+    "num_holdouts": 31, 
+    "pid": 1002282, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "WoRkIn OuT", 
+    "num_holdouts": 47, 
+    "pid": 1002283, 
+    "num_tracks": 47, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Splash!", 
+    "num_holdouts": 38, 
+    "pid": 1002284, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Rehearsal Dinner", 
+    "num_holdouts": 31, 
+    "pid": 1002285, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "beautiful", 
+    "num_holdouts": 17, 
+    "pid": 1002286, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "winter", 
+    "num_holdouts": 22, 
+    "pid": 1002291, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Luke", 
+    "num_holdouts": 11, 
+    "pid": 1002294, 
+    "num_tracks": 11, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "workout", 
+    "num_holdouts": 20, 
+    "pid": 1002299, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "New Beginnings", 
+    "num_holdouts": 10, 
+    "pid": 1002301, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "upbeat", 
+    "num_holdouts": 25, 
+    "pid": 1002302, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "pre game", 
+    "num_holdouts": 36, 
+    "pid": 1002304, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "chill vibes", 
+    "num_holdouts": 48, 
+    "pid": 1002305, 
+    "num_tracks": 48, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "RAGE", 
+    "num_holdouts": 29, 
+    "pid": 1002306, 
+    "num_tracks": 29, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "maggie", 
+    "num_holdouts": 12, 
+    "pid": 1002307, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Lax", 
+    "num_holdouts": 15, 
+    "pid": 1002311, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "GUARDIANS", 
+    "num_holdouts": 26, 
+    "pid": 1002314, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "uplifting ", 
+    "num_holdouts": 21, 
+    "pid": 1002315, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "The Worst", 
+    "num_holdouts": 28, 
+    "pid": 1002320, 
+    "num_tracks": 28, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Raindrops", 
+    "num_holdouts": 33, 
+    "pid": 1002321, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "feels", 
+    "num_holdouts": 37, 
+    "pid": 1002328, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "molly", 
+    "num_holdouts": 40, 
+    "pid": 1002340, 
+    "num_tracks": 40, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Almost", 
+    "num_holdouts": 22, 
+    "pid": 1002341, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "breathe", 
+    "num_holdouts": 32, 
+    "pid": 1002353, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "\ud83d\udd25\ud83d\udd25\ud83d\udd25", 
+    "num_holdouts": 38, 
+    "pid": 1002358, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Guilty Pleasures", 
+    "num_holdouts": 35, 
+    "pid": 1002361, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Work out", 
+    "num_holdouts": 38, 
+    "pid": 1002366, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "neww", 
+    "num_holdouts": 25, 
+    "pid": 1002369, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Yasssss", 
+    "num_holdouts": 45, 
+    "pid": 1002370, 
+    "num_tracks": 45, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "childhood", 
+    "num_holdouts": 19, 
+    "pid": 1002372, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "throwback", 
+    "num_holdouts": 17, 
+    "pid": 1002374, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "california ", 
+    "num_holdouts": 27, 
+    "pid": 1002380, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Top Hits", 
+    "num_holdouts": 14, 
+    "pid": 1002382, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "throwback", 
+    "num_holdouts": 48, 
+    "pid": 1002390, 
+    "num_tracks": 48, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Jesus Music", 
+    "num_holdouts": 48, 
+    "pid": 1002392, 
+    "num_tracks": 48, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Fun", 
+    "num_holdouts": 30, 
+    "pid": 1002397, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Myself", 
+    "num_holdouts": 27, 
+    "pid": 1002407, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Classic House", 
+    "num_holdouts": 20, 
+    "pid": 1002409, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "workout", 
+    "num_holdouts": 24, 
+    "pid": 1002410, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "reggeton", 
+    "num_holdouts": 37, 
+    "pid": 1002411, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "december", 
+    "num_holdouts": 28, 
+    "pid": 1002413, 
+    "num_tracks": 28, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Sunday morning ", 
+    "num_holdouts": 23, 
+    "pid": 1002414, 
+    "num_tracks": 23, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Dope Music", 
+    "num_holdouts": 43, 
+    "pid": 1002418, 
+    "num_tracks": 43, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "summer feels", 
+    "num_holdouts": 40, 
+    "pid": 1002421, 
+    "num_tracks": 40, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Good Ole Days", 
+    "num_holdouts": 46, 
+    "pid": 1002422, 
+    "num_tracks": 46, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "All Sons & Daughters", 
+    "num_holdouts": 50, 
+    "pid": 1002426, 
+    "num_tracks": 50, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "derp", 
+    "num_holdouts": 34, 
+    "pid": 1002427, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Dance", 
+    "num_holdouts": 19, 
+    "pid": 1002430, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "for megan", 
+    "num_holdouts": 13, 
+    "pid": 1002431, 
+    "num_tracks": 13, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Workout", 
+    "num_holdouts": 21, 
+    "pid": 1002433, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Glory", 
+    "num_holdouts": 44, 
+    "pid": 1002434, 
+    "num_tracks": 44, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "lowkey", 
+    "num_holdouts": 37, 
+    "pid": 1002438, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "retro", 
+    "num_holdouts": 15, 
+    "pid": 1002439, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "alexis", 
+    "num_holdouts": 31, 
+    "pid": 1002442, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "christmas 2015", 
+    "num_holdouts": 39, 
+    "pid": 1002444, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "groovy ", 
+    "num_holdouts": 17, 
+    "pid": 1002446, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Em", 
+    "num_holdouts": 28, 
+    "pid": 1002449, 
+    "num_tracks": 28, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Yup", 
+    "num_holdouts": 16, 
+    "pid": 1002451, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Love songs", 
+    "num_holdouts": 33, 
+    "pid": 1002453, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "8th grade", 
+    "num_holdouts": 28, 
+    "pid": 1002454, 
+    "num_tracks": 28, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "\ud83d\ude0b\ud83d\ude0b", 
+    "num_holdouts": 39, 
+    "pid": 1002455, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "SAD", 
+    "num_holdouts": 10, 
+    "pid": 1002456, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Party Jams", 
+    "num_holdouts": 18, 
+    "pid": 1002457, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "adoration", 
+    "num_holdouts": 31, 
+    "pid": 1002461, 
+    "num_tracks": 31, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "my favorites", 
+    "num_holdouts": 33, 
+    "pid": 1002464, 
+    "num_tracks": 33, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Workout", 
+    "num_holdouts": 17, 
+    "pid": 1002466, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Christmas\ud83c\udf84", 
+    "num_holdouts": 21, 
+    "pid": 1002472, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Work it", 
+    "num_holdouts": 15, 
+    "pid": 1002477, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "autumn.", 
+    "num_holdouts": 27, 
+    "pid": 1002479, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Flowers", 
+    "num_holdouts": 39, 
+    "pid": 1002482, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Writing", 
+    "num_holdouts": 26, 
+    "pid": 1002484, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "hood ", 
+    "num_holdouts": 43, 
+    "pid": 1002486, 
+    "num_tracks": 43, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Drinking Music", 
+    "num_holdouts": 50, 
+    "pid": 1002491, 
+    "num_tracks": 50, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "chill out", 
+    "num_holdouts": 34, 
+    "pid": 1002493, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "rap", 
+    "num_holdouts": 44, 
+    "pid": 1002495, 
+    "num_tracks": 44, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "remixes!!", 
+    "num_holdouts": 41, 
+    "pid": 1002497, 
+    "num_tracks": 41, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Guilty Pleasures", 
+    "num_holdouts": 47, 
+    "pid": 1002501, 
+    "num_tracks": 47, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "kelsey", 
+    "num_holdouts": 12, 
+    "pid": 1002502, 
+    "num_tracks": 12, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Mello", 
+    "num_holdouts": 42, 
+    "pid": 1002503, 
+    "num_tracks": 42, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "2000s rock", 
+    "num_holdouts": 26, 
+    "pid": 1002512, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "gym music", 
+    "num_holdouts": 18, 
+    "pid": 1002513, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Wanted", 
+    "num_holdouts": 18, 
+    "pid": 1002516, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Party", 
+    "num_holdouts": 28, 
+    "pid": 1002517, 
+    "num_tracks": 28, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "new favs", 
+    "num_holdouts": 19, 
+    "pid": 1002519, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "emo songs", 
+    "num_holdouts": 20, 
+    "pid": 1002522, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Hotline Miami", 
+    "num_holdouts": 17, 
+    "pid": 1002523, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Fall 2012", 
+    "num_holdouts": 37, 
+    "pid": 1002524, 
+    "num_tracks": 37, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "My Jam", 
+    "num_holdouts": 25, 
+    "pid": 1002525, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Descendants", 
+    "num_holdouts": 17, 
+    "pid": 1002528, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "dope", 
+    "num_holdouts": 29, 
+    "pid": 1002530, 
+    "num_tracks": 29, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Turn Up ", 
+    "num_holdouts": 25, 
+    "pid": 1002531, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Jams", 
+    "num_holdouts": 38, 
+    "pid": 1002537, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Hurricane", 
+    "num_holdouts": 27, 
+    "pid": 1002538, 
+    "num_tracks": 27, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "electric", 
+    "num_holdouts": 22, 
+    "pid": 1002539, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "music", 
+    "num_holdouts": 44, 
+    "pid": 1002544, 
+    "num_tracks": 44, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Boner jamz", 
+    "num_holdouts": 40, 
+    "pid": 1002547, 
+    "num_tracks": 40, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Your Perfect Running Mix", 
+    "num_holdouts": 20, 
+    "pid": 1002549, 
+    "num_tracks": 20, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "pregame ", 
+    "num_holdouts": 39, 
+    "pid": 1002550, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "pool", 
+    "num_holdouts": 22, 
+    "pid": 1002551, 
+    "num_tracks": 22, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Alright", 
+    "num_holdouts": 34, 
+    "pid": 1002553, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "September 2015", 
+    "num_holdouts": 30, 
+    "pid": 1002557, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Pumped", 
+    "num_holdouts": 13, 
+    "pid": 1002559, 
+    "num_tracks": 13, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "killin it", 
+    "num_holdouts": 40, 
+    "pid": 1002560, 
+    "num_tracks": 40, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Bounce", 
+    "num_holdouts": 30, 
+    "pid": 1002564, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Rnb", 
+    "num_holdouts": 35, 
+    "pid": 1002567, 
+    "num_tracks": 35, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "korea", 
+    "num_holdouts": 49, 
+    "pid": 1002568, 
+    "num_tracks": 49, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Relaxing", 
+    "num_holdouts": 30, 
+    "pid": 1002570, 
+    "num_tracks": 30, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Rap", 
+    "num_holdouts": 32, 
+    "pid": 1002574, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "dub", 
+    "num_holdouts": 19, 
+    "pid": 1002576, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "studious", 
+    "num_holdouts": 24, 
+    "pid": 1002578, 
+    "num_tracks": 24, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "HAPPY", 
+    "num_holdouts": 16, 
+    "pid": 1002579, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Chillin", 
+    "num_holdouts": 19, 
+    "pid": 1002581, 
+    "num_tracks": 19, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "old", 
+    "num_holdouts": 36, 
+    "pid": 1002582, 
+    "num_tracks": 36, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "JAMS.", 
+    "num_holdouts": 32, 
+    "pid": 1002585, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Selena Gomez", 
+    "num_holdouts": 14, 
+    "pid": 1002589, 
+    "num_tracks": 14, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "march 16", 
+    "num_holdouts": 18, 
+    "pid": 1002590, 
+    "num_tracks": 18, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "yellow", 
+    "num_holdouts": 38, 
+    "pid": 1002594, 
+    "num_tracks": 38, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Warped Tour", 
+    "num_holdouts": 29, 
+    "pid": 1002598, 
+    "num_tracks": 29, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "SEXY MUSIC", 
+    "num_holdouts": 10, 
+    "pid": 1002599, 
+    "num_tracks": 10, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Holidays", 
+    "num_holdouts": 17, 
+    "pid": 1002600, 
+    "num_tracks": 17, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "mixtape_3", 
+    "num_holdouts": 13, 
+    "pid": 1002601, 
+    "num_tracks": 13, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "It's a trap!", 
+    "num_holdouts": 23, 
+    "pid": 1002603, 
+    "num_tracks": 23, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "March ", 
+    "num_holdouts": 26, 
+    "pid": 1002604, 
+    "num_tracks": 26, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "worship", 
+    "num_holdouts": 16, 
+    "pid": 1002606, 
+    "num_tracks": 16, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "90's", 
+    "num_holdouts": 25, 
+    "pid": 1002607, 
+    "num_tracks": 25, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Movie", 
+    "num_holdouts": 34, 
+    "pid": 1002611, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "me", 
+    "num_holdouts": 21, 
+    "pid": 1002613, 
+    "num_tracks": 21, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "deep", 
+    "num_holdouts": 32, 
+    "pid": 1002616, 
+    "num_tracks": 32, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "transitions", 
+    "num_holdouts": 39, 
+    "pid": 1002617, 
+    "num_tracks": 39, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Good Stuff", 
+    "num_holdouts": 34, 
+    "pid": 1002626, 
+    "num_tracks": 34, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Turn up", 
+    "num_holdouts": 15, 
+    "pid": 1002627, 
+    "num_tracks": 15, 
+    "tracks": [], 
+    "num_samples": 0
+  }, 
+  {
+    "name": "Liked", 
+    "num_holdouts": 23, 
+    "pid": 1002628, 
+    "num_tracks": 23, 
+    "tracks": [], 
+    "num_samples": 0
+  }
+]
