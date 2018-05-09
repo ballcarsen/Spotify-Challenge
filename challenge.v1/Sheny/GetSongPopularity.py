@@ -2,7 +2,9 @@ import json
 import os
 from operator import itemgetter
 
-
+# Main function for computing the frequency of all songs in the data set.
+# It will create a json file containing the song information and its frequency.
+# The list of songs will be unsorted.
 def process_playlists(path):
     filenames = os.listdir(path)
     song_data={}
@@ -41,7 +43,7 @@ def process_playlists(path):
 
 
 
-#function for storing and incremeneting the song's frequency
+# Function for storing and incremeneting the song's frequency
 def analyze_playlist(playlist,song_data):
     for i, track in enumerate(playlist['tracks']):
         song_id = track['track_uri']
@@ -54,7 +56,8 @@ def analyze_playlist(playlist,song_data):
 
 
 
-# function for ordering songs by their frequency
+# Naive and simple function for ordering songs by their frequency.
+# It will create a new json file with the list of songs sorted by their frequency in descending order.
 def order_by_popularity():
     f_popular_songs= open("song_popularity.json","r")
     string_js = f_popular_songs.read()
