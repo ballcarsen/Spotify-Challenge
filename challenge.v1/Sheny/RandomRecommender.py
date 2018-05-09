@@ -10,7 +10,7 @@ def random_recommender(data, result, index, end):
          make_500_recommendations(data['playlists'][index]["pid"], data['playlists'][index]["tracks"], result)
          index= index +1
      result.close()
-     print ("******************** Finished ************************")
+     print ("***** Finished ******")
 
 
 def track_exists(playlist_tracks, track):
