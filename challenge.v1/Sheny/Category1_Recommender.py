@@ -11,6 +11,7 @@ from operator import itemgetter
 
 ''' First thoughts on how to make recommendations to empty playlists given title of playlist only.   '''
 
+# For this to work an instance of MongoDB should be installed locally and be running.
 def createMongoDB_songsCollection():
     client= MongoClient('localhost', 27017)
     db= client['spotify-challenge']
