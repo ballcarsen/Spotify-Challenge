@@ -106,9 +106,6 @@ def empty_playlist_recommender(data):
                             mpd_p["similarity"] = similarity
                             similar_playlists.append(mpd_p)
 
-         r_s=""
-         for p in similar_playlists:
-             r_s=r_s+ "\t" +str(p["name"])
          make_500_recommendations(challenge_p, similar_playlists, result)
 
     result.close()
