@@ -5,7 +5,7 @@ from operator import itemgetter
 # Main function for computing the frequency of all songs in the data set.
 # It will create a json file containing the song information and its frequency.
 # The list of songs will be unsorted.
-def process_playlists(path):
+def get_song_frequency(path):
     filenames = os.listdir(path)
     song_data={}
     for filename in sorted(filenames):
@@ -16,10 +16,8 @@ def process_playlists(path):
             js = f.read()
             f.close()
             mpd_slice = json.loads(js)
-
             for playlist in mpd_slice['playlists']:
-
-                analyze_playlist(playlist,song_data)
+                analyze_playlist_by_song(playlist, song_data)
 
     result = open("song_popularity.json","w")
     result.write('{\n \t "songs": [ \n')
@@ -39,10 +37,56 @@ def process_playlists(path):
     print("FINISHED");
     result.close()
 
+# Main function for computing the frequency of all songs in the data set.
+# It will create a json file containing the song information and its frequency.
+# The list of songs will be unsorted.
+def get_artist_info(path):
+    filenames = os.listdir(path)
+    artist_data={}
+    for filename in sorted(filenames):
+        if filename.startswith("mpd.slice.") and filename.endswith(".json"):
+            print("Playlist ",  filename)
+            fullpath = os.sep.join((path, filename))
+            f = open(fullpath)
+            js = f.read()
+            f.close()
+            mpd_slice = json.loads(js)
+            for playlist in mpd_slice['playlists']:
+                analyze_playlist_by_artist(playlist, artist_data)
+
+    result = open("artist_info.json","w")
+    result.write('{\n \t "artists": [ \n')
+    max_keyNum=len(artist_data.keys())
+    count=1
+    for key in artist_data.keys():
+        if count != max_keyNum:
+            line="\t\t"+json.dumps(artist_data[key])+","+'\n'
+        else:
+            line="\t\t"+json.dumps(artist_data[key])+'\n'
+        result.write(line)
+        count= count + 1
+
+    result.write('\t ] \n } \n')
+    print("FINISHED");
+    result.close()
+
+
+
+# Function for storing/updating the artist information (id, name, numberOfSongs, index)
+def analyze_playlist_by_artist(playlist, artist_data):
+    for i, track in enumerate(playlist['tracks']):
+        artist_id = track['artist_uri']
+        if(artist_id in artist_data): #increment frequency
+            temp=artist_data[artist_id]
+            temp['numberOfSongs']= temp['numberOfSongs'] + 1
+            artist_data[artist_id]= temp
+        else:
+            artist_data[artist_id]={"id": artist_id, "name": track['artist_name'], "numberOfSongs": 1, "index": len(artist_data.keys())}
+
 
 
 # Function for storing and incremeneting the song's frequency
-def analyze_playlist(playlist,song_data):
+def analyze_playlist_by_song(playlist, song_data):
     for i, track in enumerate(playlist['tracks']):
         song_id = track['track_uri']
         if(song_id in song_data): #increment frequency
@@ -89,6 +133,15 @@ def order_by_popularity():
 
 if __name__ == '__main__':
     path = "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data/all"; # modify the path to data
-    process_playlists(path)
-    order_by_popularity()
+    get_artist_info(path)
+    #get_song_frequency(path)
+    #order_by_popularity()
+
+
+    #dic={}
+    #print(len(dic.keys()))
+    #dic['a']="A smth" + str(len(dic.keys()))
+    #dic['b']="B smth" + str(len(dic.keys()))
+    #print(dic)
+
 
