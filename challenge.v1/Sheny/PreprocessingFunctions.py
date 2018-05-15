@@ -21,8 +21,6 @@ def process_playlists(path):
 
                 analyze_playlist(playlist,song_data)
 
-
-
     result = open("song_popularity.json","w")
     result.write('{\n \t "songs": [ \n')
     max_keyNum=len(song_data.keys())
