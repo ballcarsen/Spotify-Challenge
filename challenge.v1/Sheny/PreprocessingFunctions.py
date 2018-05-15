@@ -119,7 +119,7 @@ def get_index(artist_id):
     songs= db['artists-collection']
     result= songs.find_one({"id": str(artist_id)})
     if result is None: # no data could be found under this id
-        print "No artist found! "
+        print "No artist found!"
         result={}
     return result['index']
 
