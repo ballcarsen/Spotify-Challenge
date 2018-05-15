@@ -1,6 +1,7 @@
 import json
 import os
 from operator import itemgetter
+from pymongo import MongoClient
 
 # Main function for computing the frequency of all songs in the data set.
 # It will create a json file containing the song information and its frequency.
@@ -97,6 +98,33 @@ def analyze_playlist_by_song(playlist, song_data):
             song_data[song_id]={"id": song_id, "name": track['track_name'], "artist":track['artist_name'], "frequency": 1}
 
 
+# Function for creating artist collection
+def createMongoDB_artistCollection():
+    client= MongoClient('localhost', 27017)
+    db= client['spotify-challenge']
+    artists= db['artists-collection']
+    f = open("artist_info.json")
+    js = f.read()
+    f.close()
+    data = json.loads(js)
+    for artist in data["artists"]:
+        artists.insert_one(artist)
+    print(artists.count())
+    print("Done")
+
+# Function for returning the index of an artist given its id
+def get_index(artist_id):
+    client= MongoClient('localhost', 27017)
+    db= client['spotify-challenge']
+    songs= db['artists-collection']
+    result= songs.find_one({"id": str(artist_id)})
+    if result is None: # no data could be found under this id
+        print "No artist found! "
+        result={}
+    return result['index']
+
+
+
 
 # Naive and simple function for ordering songs by their frequency.
 # It will create a new json file with the list of songs sorted by their frequency in descending order.
@@ -132,16 +160,17 @@ def order_by_popularity():
 
 
 if __name__ == '__main__':
-    path = "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data/all"; # modify the path to data
-    get_artist_info(path)
-    #get_song_frequency(path)
-    #order_by_popularity()
+    #path = "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data/all"; # modify the path to data
+    #get_artist_info(path)
+
+    # 1. Start MongoDB server
+    # 2. Execute this function
+    #createMongoDB_artistCollection()
+
+    # 3. Check that collection was filled
+    print(get_index("spotify:artist:2ZDj97EXYJmMP9f6uce6zE")) # Result should be 243408
 
 
-    #dic={}
-    #print(len(dic.keys()))
-    #dic['a']="A smth" + str(len(dic.keys()))
-    #dic['b']="B smth" + str(len(dic.keys()))
-    #print(dic)
+
 
 
