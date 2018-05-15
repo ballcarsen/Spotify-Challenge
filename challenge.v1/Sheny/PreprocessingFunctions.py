@@ -38,9 +38,7 @@ def get_song_frequency(path):
     print("FINISHED");
     result.close()
 
-# Main function for computing the frequency of all songs in the data set.
-# It will create a json file containing the song information and its frequency.
-# The list of songs will be unsorted.
+# Main function for collecting artist information
 def get_artist_info(path):
     filenames = os.listdir(path)
     artist_data={}
@@ -68,7 +66,6 @@ def get_artist_info(path):
         count= count + 1
 
     result.write('\t ] \n } \n')
-    print("FINISHED");
     result.close()
 
 
@@ -152,12 +149,6 @@ def order_by_popularity():
     result.write('\t ] \n } \n')
     print("FINISHED");
     result.close()
-
-
-
-
-
-
 
 if __name__ == '__main__':
     #path = "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data/all"; # modify the path to data
