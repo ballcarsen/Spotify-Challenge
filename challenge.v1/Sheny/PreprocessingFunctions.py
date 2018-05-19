@@ -39,6 +39,33 @@ def get_song_frequency(path):
     print("FINISHED");
     result.close()
 
+# Naive and simple function for ordering songs by their frequency.
+# It will create a new json file with the list of songs sorted by their frequency in descending order.
+def order_by_popularity():
+    f_popular_songs= open("song_popularity.json","r")
+    string_js = f_popular_songs.read()
+    f_popular_songs.close()
+    popular_songs = json.loads(string_js)
+    array_songs=popular_songs["songs"]
+
+    new_list= sorted(array_songs, key=itemgetter('frequency'), reverse=True)
+    result = open("song_popularity_sorted.json","w")
+    result.write('{\n \t "songs": [ \n')
+    max_Num= len(new_list)
+    count=1
+    for song in new_list:
+        if(count != max_Num):
+            line="\t\t"+json.dumps(song)+","+'\n'
+        else:
+            line="\t\t"+json.dumps(song)+'\n'
+
+        result.write(line)
+        count= count + 1
+
+    result.write('\t ] \n } \n')
+    print("FINISHED");
+    result.close()
+
 # Main function for collecting artist information
 def get_artist_info(path):
     filenames = os.listdir(path)
@@ -153,40 +180,11 @@ def get_playlist_vector(pid):
         result={}
     return result
 
-
-
-# Naive and simple function for ordering songs by their frequency.
-# It will create a new json file with the list of songs sorted by their frequency in descending order.
-def order_by_popularity():
-    f_popular_songs= open("song_popularity.json","r")
-    string_js = f_popular_songs.read()
-    f_popular_songs.close()
-    popular_songs = json.loads(string_js)
-    array_songs=popular_songs["songs"]
-
-    new_list= sorted(array_songs, key=itemgetter('frequency'), reverse=True)
-    result = open("song_popularity_sorted.json","w")
-    result.write('{\n \t "songs": [ \n')
-    max_Num= len(new_list)
-    count=1
-    for song in new_list:
-        if(count != max_Num):
-            line="\t\t"+json.dumps(song)+","+'\n'
-        else:
-            line="\t\t"+json.dumps(song)+'\n'
-
-        result.write(line)
-        count= count + 1
-
-    result.write('\t ] \n } \n')
-    print("FINISHED");
-    result.close()
-
 # Main function for computing the  vector representation of the playlists.
 # This function stores the vector in the playlists-collection
 def convert_playlist_to_vector(path):
     filenames = os.listdir(path)
-    playlist_data={}
+    playlist_c= get_MongoDB_playlistCollection()
     for filename in sorted(filenames):
         if filename.startswith("mpd.slice.") and filename.endswith(".json"):
             print("Playlist ",  filename)
@@ -196,32 +194,10 @@ def convert_playlist_to_vector(path):
             f.close()
             mpd_slice = json.loads(js)
             for playlist in mpd_slice['playlists']:
-                artists= analyze_playlist(playlist)
-                playlist_data[playlist['pid']]={'pid':playlist['pid'], 'vector': artists}
-
-    playlist_c= get_MongoDB_playlistCollection()
-    keys= playlist_data.keys()
-    i=0
-    print('writing results to DB ')
-    while i < len(keys):
-        playlist= playlist_data[keys[i]]
-        playlist_c.insert_one({'pid': playlist['pid'] , 'vector': get_vector_of_playlist(playlist['vector'])})
-        i= i+1
+                print (playlist['pid'])
+                vector= analyze_playlist(playlist)
+                playlist_c.insert_one({'pid': playlist['pid'] , 'vector': get_vector_of_playlist(vector)})
     print("FINISHED")
-
-    '''
-    print('writing results to file ')
-    result = open("playlist_vectors.csv","w")
-    keys= playlist_data.keys()
-    i=0
-    while i < len(keys):
-        playlist= playlist_data[keys[i]]
-        line= str(playlist['pid'])+","+ get_vector_as_string(playlist['vector'])+'\n'
-        result.write(line)
-        i= i+1
-    result.write('\n')    
-    result.close()
-    '''
 
 # Function for analyzing a playlist in terms of artist occurrence.
 # It will return an array where every row contains the artistId and the number of songs of the artist in the playlist.
@@ -257,14 +233,13 @@ def get_vector_of_playlist(artists):
         index= get_index(artist['artist'])
         songNum= artist['numSongs']
         numberPlaylists=1000000
-        # compute tfidf of artist
+        # compute tf_idf of artist
         tfidf= (1 + math.log(songNum))* math.log(numberPlaylists/ get_number_songs(artist['artist']))
-        print (index, tfidf)
+        #print (index, tfidf)
         array[index]= tfidf
     return array
 
 if __name__ == '__main__':
     path = "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data/all"; # modify the path to data
+    #reset_MongoDB_playlistCollection()
     convert_playlist_to_vector(path)
-
-
