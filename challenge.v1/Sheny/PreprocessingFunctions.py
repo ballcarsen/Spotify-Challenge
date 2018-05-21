@@ -3,6 +3,7 @@ import os
 from operator import itemgetter
 from pymongo import MongoClient
 import math
+import numpy
 
 # Main function for computing the frequency of all songs in the data set.
 # It will create a json file containing the song information and its frequency.
@@ -184,7 +185,8 @@ def get_playlist_vector(pid):
 # This function stores the vector in the playlists-collection
 def convert_playlist_to_vector(path):
     filenames = os.listdir(path)
-    playlist_c= get_MongoDB_playlistCollection()
+    playlist_c = get_MongoDB_playlistCollection()
+    fileNum=0
     for filename in sorted(filenames):
         if filename.startswith("mpd.slice.") and filename.endswith(".json"):
             print("Playlist ",  filename)
@@ -197,20 +199,42 @@ def convert_playlist_to_vector(path):
                 print (playlist['pid'])
                 vector= analyze_playlist(playlist)
                 playlist_c.insert_one({'pid': playlist['pid'] , 'vector': get_vector_of_playlist(vector)})
+            fileNum = fileNum + 1
+            print fileNum
     print("FINISHED")
+
+def store_reduced_artists():
+    client= MongoClient('localhost', 27017)
+    db= client['spotify-challenge']
+    playlist_c= db['artists-collection']
+    result=playlist_c.find({'numberOfSongs' : {'$gte': 5}}) # consider artists with more than 5 songs
+    artist={}
+    print "working on it... please wait"
+    for p in result:
+        print p['id']
+        artist[p['id']]= {'numberOfSongs': p['numberOfSongs'], 'index': len(artist.keys())}
+    print "finished"
+    numpy.save('artist_dic.npy', artist)
+
+def get_reduced_artists():
+    artists = numpy.load('artist_dic.npy').item()
+    return artists
+
 
 # Function for analyzing a playlist in terms of artist occurrence.
 # It will return an array where every row contains the artistId and the number of songs of the artist in the playlist.
 def analyze_playlist(playlist):
-    artists={}
+    artists= {}
+    reduced_artist = get_reduced_artists()
     for i, track in enumerate(playlist['tracks']):
         artist_id = track['artist_uri']
-        if artist_id in artists: #increment number of songs
-            temp=artists[artist_id]
-            temp['numSongs']= temp['numSongs'] + 1
-            artists[artist_id]= temp
-        else:
-            artists[artist_id]={"artist":track['artist_uri'], "numSongs": 1}
+        if artist_id in reduced_artist: #artist exist in our reduced set
+            if artist_id in artists: #increment number of songs
+                temp=artists[artist_id]
+                temp['numSongs']= temp['numSongs'] + 1
+                artists[artist_id]= temp
+            else:
+                artists[artist_id]={"artist":track['artist_uri'], "numSongs": 1}
     array=[]
     for i in artists.keys():
         array.append(artists[i])
@@ -222,24 +246,32 @@ def analyze_playlist(playlist):
 def get_vector_of_playlist(artists):
     '''' Initializing array for storing vector values '''
     array=[None]
-    numberOfArtists=295860
+    numberOfArtists=120787 # EQUAL TO NUMBER OF ARTISTS WITH >=5 SONGS
     array = array * numberOfArtists # creating array of correct size
     i= 0
     while i < numberOfArtists:
-        array[i]= 0 #populating array with 0's
+        array[i] = 0# populating array with 0's
         i = i + 1
 
+    reduced_artist = get_reduced_artists()# get reduced artist set
+
     for artist in artists:
-        index= get_index(artist['artist'])
-        songNum= artist['numSongs']
-        numberPlaylists=1000000
+        index = reduced_artist[artist['artist']]['index']
+        totalSongNum = reduced_artist[artist['artist']]['numberOfSongs']
+        songNum = artist['numSongs']
+        numberPlaylists =1000000
         # compute tf_idf of artist
-        tfidf= (1 + math.log(songNum))* math.log(numberPlaylists/ get_number_songs(artist['artist']))
-        #print (index, tfidf)
-        array[index]= tfidf
+        tfidf = (1 + math.log(songNum))* math.log(numberPlaylists/ totalSongNum)
+        array[index] = tfidf
     return array
 
 if __name__ == '__main__':
-    path = "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data/all"; # modify the path to data
-    #reset_MongoDB_playlistCollection()
-    convert_playlist_to_vector(path)
+    # 1. Execute this function first
+    store_reduced_artists()
+
+    # 2. Then execute this
+    #path = "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data"; # modify the path to data
+    #convert_playlist_to_vector(path)
+
+
+
