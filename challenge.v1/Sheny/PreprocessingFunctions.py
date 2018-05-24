@@ -145,7 +145,7 @@ def reset_MongoDB_playlistCollection():
     client= MongoClient('localhost', 27017)
     db= client['spotify-challenge']
     playlist_c= db['playlists-collection']
-    playlist_c.remove({})
+    playlist_c.drop()
 
 # Function for returning the index of an artist given its id
 def get_index(artist_id):
@@ -196,10 +196,11 @@ def convert_playlist_to_vector(path):
             f.close()
             mpd_slice = json.loads(js)
             for playlist in mpd_slice['playlists']:
-                print (playlist['pid'])
-                vector= analyze_playlist(playlist)
-                playlist_c.insert_one({'pid': playlist['pid'] , 'vector': get_vector_of_playlist(vector)})
-            fileNum = fileNum + 1
+                if playlist['num_followers'] >= 10: # we will only analyze  playlists with more than 9 followers
+                    print (playlist['pid'])
+                    vector= analyze_playlist(playlist)
+                    playlist_c.insert_one({'pid': playlist['pid'] , 'vector': get_vector_of_playlist(vector)})
+                    fileNum = fileNum + 1
             print fileNum
     print("FINISHED")
 
@@ -207,11 +208,10 @@ def store_reduced_artists():
     client= MongoClient('localhost', 27017)
     db= client['spotify-challenge']
     playlist_c= db['artists-collection']
-    result=playlist_c.find({'numberOfSongs' : {'$gte': 5}}) # consider artists with more than 5 songs
+    result=playlist_c.find({'numberOfSongs' : {'$gte': 10}})
     artist={}
-    print "working on it... please wait"
+    print "working on it, please wait..."
     for p in result:
-        print p['id']
         artist[p['id']]= {'numberOfSongs': p['numberOfSongs'], 'index': len(artist.keys())}
     print "finished"
     numpy.save('artist_dic.npy', artist)
@@ -246,32 +246,33 @@ def analyze_playlist(playlist):
 def get_vector_of_playlist(artists):
     '''' Initializing array for storing vector values '''
     array=[None]
-    numberOfArtists=120787 # EQUAL TO NUMBER OF ARTISTS WITH >=5 SONGS
+    numberOfArtists=86069 # EQUAL TO NUMBER OF ARTISTS WITH >=10 SONGS
     array = array * numberOfArtists # creating array of correct size
     i= 0
     while i < numberOfArtists:
-        array[i] = 0# populating array with 0's
+        array[i]= 0 #populating array with 0's
         i = i + 1
 
-    reduced_artist = get_reduced_artists()# get reduced artist set
+    reduced_artist = get_reduced_artists()
 
     for artist in artists:
-        index = reduced_artist[artist['artist']]['index']
-        totalSongNum = reduced_artist[artist['artist']]['numberOfSongs']
-        songNum = artist['numSongs']
-        numberPlaylists =1000000
+        index = reduced_artist[artist['artist']]['index'] # get artist index from reduced set
+        totalSongNum = reduced_artist[artist['artist']]['numberOfSongs'] # get total number of songs of the artist
+        songNum = artist['numSongs'] # get the number of songs in current playlist of artist
+        numberPlaylists =1000000 # fix number of playlist in data set
         # compute tf_idf of artist
         tfidf = (1 + math.log(songNum))* math.log(numberPlaylists/ totalSongNum)
-        array[index] = tfidf
+        array[index] = tfidf # store weight of artist in vector
     return array
 
 if __name__ == '__main__':
-    # 1. Execute this function first
-    store_reduced_artists()
+    #reset_MongoDB_playlistCollection() # 1. Make sure playlist collection is empty
 
-    # 2. Then execute this
-    #path = "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data"; # modify the path to data
-    #convert_playlist_to_vector(path)
+    #store_reduced_artists() # 2. Execute this function first
+    path = "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data"; # modify the path to data
+    convert_playlist_to_vector(path) # 3. Then execute this
+
+
 
 
 
