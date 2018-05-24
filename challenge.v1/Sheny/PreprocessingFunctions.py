@@ -31,8 +31,6 @@ def get_song_frequency(path):
             line="\t\t"+json.dumps(song_data[key])+","+'\n'
         else:
             line="\t\t"+json.dumps(song_data[key])+'\n'
-
-
         result.write(line)
         count= count + 1
 
