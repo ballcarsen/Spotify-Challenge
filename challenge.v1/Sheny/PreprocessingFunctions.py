@@ -4,6 +4,7 @@ from operator import itemgetter
 from pymongo import MongoClient
 import math
 import numpy
+import csv
 
 # Main function for computing the frequency of all songs in the data set.
 # It will create a json file containing the song information and its frequency.
@@ -201,6 +202,27 @@ def convert_playlist_to_vector(path):
                     fileNum = fileNum + 1
             print fileNum
     print("FINISHED")
+def convert_challenge_playlist_to_vector(filename):
+    with open (filename, 'r') as challenge_file:
+        with open("challenge_10_vector.csv", "w") as out:
+            js = challenge_file.read()
+            challenge = json.loads(js)
+            count = 1
+
+            for playlist in challenge['songs']:
+                print (str(playlist['pid']) + ' ' + str(count))
+                count += 1
+                vector = analyze_playlist(playlist)
+                vector = get_vector_of_playlist(vector)
+                vector = numpy.array(vector)
+                out.write(str(playlist['pid']) + ", ")
+
+                for i in  range(len(vector)):
+                    if i == len(vector) - 1:
+                        out.write(str(vector[i]) + "\n")
+                    else:
+                        out.write(str(vector[i]) + ", ")
+    print("FINISHED")
 
 def store_reduced_artists():
     client= MongoClient('localhost', 27017)
@@ -268,7 +290,7 @@ if __name__ == '__main__':
 
     #store_reduced_artists() # 2. Execute this function first
     path = "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data"; # modify the path to data
-    convert_playlist_to_vector(path) # 3. Then execute this
+    convert_challenge_playlist_to_vector("challenge_10.json") # 3. Then execute this
 
 
 
