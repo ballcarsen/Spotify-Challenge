@@ -20,5 +20,6 @@ slice = challenge_set['playlists'][8000:9000]
 
 count = 1000
 with open('challenge_10.json', 'w') as f:
-
+    f.write("{ \"songs\": \n")
     json.dump(slice, f, indent=2)
+    f.write("}")
