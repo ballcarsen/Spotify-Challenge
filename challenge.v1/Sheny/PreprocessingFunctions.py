@@ -133,6 +133,7 @@ def analyze_playlist_by_song(playlist, song_data):
         else:
             song_data[song_id]={"id": song_id, "name": track['track_name'], "artist":track['artist_name'], "frequency": 1}
 
+''' FUNCTIONS FOR VECTOR TRANSFORMATION '''
 def get_MongoDB_playlistCollection():
     client= MongoClient('localhost', 27017)
     db= client['spotify-challenge']
