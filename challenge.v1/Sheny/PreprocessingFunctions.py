@@ -4,7 +4,14 @@ from operator import itemgetter
 from pymongo import MongoClient
 import math
 import numpy
-import csv
+
+import collections
+from langdetect import detect
+import nltk.corpus
+import nltk.tokenize.punkt
+import string
+from nltk.tokenize import WhitespaceTokenizer
+import nltk.stem.snowball
 
 # Main function for computing the frequency of all songs in the data set.
 # It will create a json file containing the song information and its frequency.
@@ -286,12 +293,153 @@ def get_vector_of_playlist(artists):
         array[index] = tfidf # store weight of artist in vector
     return array
 
-if __name__ == '__main__':
-    #reset_MongoDB_playlistCollection() # 1. Make sure playlist collection is empty
 
-    #store_reduced_artists() # 2. Execute this function first
-    path = "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data"; # modify the path to data
-    convert_challenge_playlist_to_vector("challenge_10.json") # 3. Then execute this
+
+def get_common_words(playlist, top=15):
+    title_string=""
+    stopwords = nltk.corpus.stopwords.words('english')
+    stopwords.extend(string.punctuation)
+    stopwords.append('')
+
+    # Create tokenizer and stemmer for English songs
+    tokenizer= WhitespaceTokenizer()
+    stemmer = nltk.stem.snowball.SnowballStemmer('english')
+
+    for track in playlist['tracks']:
+        lang= detect(track['track_name'])
+        if lang == 'en':
+            # process title of track
+            temp_title= tokenizer.tokenize(track['track_name'])
+            tokens_title=[]
+            for token in temp_title:
+                if token.lower().strip(string.punctuation) not in stopwords:
+                    tokens_title.append(token.lower().strip(string.punctuation))
+
+            stems_title= [stemmer.stem(token) for token in tokens_title]
+            title_string= title_string +' ' + (' '.join(stems_title))
+
+        else:
+            title_string= title_string + ' '+ track['track_name']
+
+    words = collections.Counter(title_string.split()) # how often each word appears
+    return dict(words.most_common(top))
+
+if __name__ == '__main__':
+    playlist= {
+            "name": "Fresh",
+            "collaborative": "false",
+            "pid": 334000,
+            "modified_at": 1483833600,
+            "num_tracks": 10,
+            "num_albums": 8,
+            "num_followers": 1,
+            "tracks": [
+                {
+                    "pos": 0,
+                    "artist_name": "Kstylis",
+                    "track_uri": "spotify:track:0aWia6YqI2s9r41bXwnqhX",
+                    "artist_uri": "spotify:artist:5o2jetVpyIsXvWDT27bN4k",
+                    "track_name": "Booty Me Down",
+                    "album_uri": "spotify:album:1NxzYCWWmlbipSTQa7hTRj",
+                    "duration_ms": 212920,
+                    "album_name": "Booty Me Down"
+                },
+                {
+                    "pos": 1,
+                    "artist_name": "Tyga",
+                    "track_uri": "spotify:track:3xJj1mU7B83yop2dA03Smk",
+                    "artist_uri": "spotify:artist:5LHRHt1k9lMyONurDHEdrp",
+                    "track_name": "Bouncin On My D*ck",
+                    "album_uri": "spotify:album:6xJC9AbMpm4ebrTWz6Fd5S",
+                    "duration_ms": 195056,
+                    "album_name": "#BitchImTheShit"
+                },
+                {
+                    "pos": 2,
+                    "artist_name": "Khia",
+                    "track_uri": "spotify:track:1tc6RFcNQk2mQ0c0ZdiEBW",
+                    "artist_uri": "spotify:artist:3q7isf09BuwXLyR2khBs60",
+                    "track_name": "My Neck, My Back (Lick It) - Street/Club Version",
+                    "album_uri": "spotify:album:2nIZvWCOoeVcjp5YV6XyLn",
+                    "duration_ms": 221573,
+                    "album_name": "My Neck, My Back (Lick It) - Remixes"
+                },
+                {
+                    "pos": 3,
+                    "artist_name": "The Pack",
+                    "track_uri": "spotify:track:1NpcguIbdLR25tlymnwVVC",
+                    "artist_uri": "spotify:artist:5M6GE2n46o0qBIyGXtzdQz",
+                    "track_name": "Vans",
+                    "album_uri": "spotify:album:4JbZYBoID3x3tLOEcrjD0G",
+                    "duration_ms": 263800,
+                    "album_name": "Skateboards 2 Scrapers EP"
+                },
+                {
+                    "pos": 4,
+                    "artist_name": "Beau Young Prince",
+                    "track_uri": "spotify:track:6Nn6zvmdlXNBO1VwqaiCSw",
+                    "artist_uri": "spotify:artist:5fxPQ2Mzi7apfCMPuKwmSd",
+                    "track_name": "Half & Half Tea",
+                    "album_uri": "spotify:album:6PuAwuUdBfPzYCPIKCn0Qv",
+                    "duration_ms": 187895,
+                    "album_name": "Until Then (feat. Yalamusiq)"
+                },
+                {
+                    "pos": 5,
+                    "artist_name": "Tommie Sunshine",
+                    "track_uri": "spotify:track:4j4OnDsmAnTC71Nx2HaRns",
+                    "artist_uri": "spotify:artist:42tlZWSz1V6Rsqds29GcRo",
+                    "track_name": "Alright - Jesse Slayter Remix",
+                    "album_uri": "spotify:album:4OfIb9WJ2PjajmPvIAhABG",
+                    "duration_ms": 216253,
+                    "album_name": "Alright"
+                },
+                {
+                    "pos": 6,
+                    "artist_name": "Kstylis",
+                    "track_uri": "spotify:track:5w9uHCQaWsXVFMFr4TWlPx",
+                    "artist_uri": "spotify:artist:5o2jetVpyIsXvWDT27bN4k",
+                    "track_name": "Pretty Girl Twerk (feat. Nelly & Tiffany Foxx)",
+                    "album_uri": "spotify:album:7355M9DGyWBqr3OH44e8PS",
+                    "duration_ms": 191947,
+                    "album_name": "Pretty Girl Twerk (feat. Nelly & Tiffany Foxx)"
+                },
+                {
+                    "pos": 7,
+                    "artist_name": "Big Sean",
+                    "track_uri": "spotify:track:0SGkqnVQo9KPytSri1H6cF",
+                    "artist_uri": "spotify:artist:0c173mlxpT3dSFRgMO8XPh",
+                    "track_name": "Bounce Back",
+                    "album_uri": "spotify:album:0XAIjjN5qxViVS0Y5fYkar",
+                    "duration_ms": 222360,
+                    "album_name": "I Decided."
+                },
+                {
+                    "pos": 8,
+                    "artist_name": "Tyga",
+                    "track_uri": "spotify:track:20EACYL40C3BrrRJQ1P8sT",
+                    "artist_uri": "spotify:artist:5LHRHt1k9lMyONurDHEdrp",
+                    "track_name": "Mack Down",
+                    "album_uri": "spotify:album:6xJC9AbMpm4ebrTWz6Fd5S",
+                    "duration_ms": 238550,
+                    "album_name": "#BitchImTheShit"
+                },
+                {
+                    "pos": 9,
+                    "artist_name": "Tyga",
+                    "track_uri": "spotify:track:6GBooRCiR337B2ZQVB1e8T",
+                    "artist_uri": "spotify:artist:5LHRHt1k9lMyONurDHEdrp",
+                    "track_name": "Heisman",
+                    "album_uri": "spotify:album:6xJC9AbMpm4ebrTWz6Fd5S",
+                    "duration_ms": 138135,
+                    "album_name": "#BitchImTheShit"
+                }
+            ],
+            "num_edits": 6,
+            "duration_ms": 2088489,
+            "num_artists": 7
+        }
+    print get_common_words(playlist)
 
 
 
