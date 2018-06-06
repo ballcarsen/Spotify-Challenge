@@ -377,7 +377,7 @@ def get_words_all_playlists(path):
             f.close()
             mpd_slice = json.loads(js)
             for playlist in mpd_slice['playlists']:
-                 if playlist['num_followers'] >= 0:
+                 if playlist['num_followers'] >= 10:
                      pid= playlist['pid']
                      print pid
                      words=get_common_words(playlist)
