@@ -210,6 +210,8 @@ def convert_playlist_to_vector(path):
                     fileNum = fileNum + 1
             print fileNum
     print("FINISHED")
+
+
 def convert_challenge_playlist_to_vector(filename):
     with open (filename, 'r') as challenge_file:
         with open("challenge_10_vector.csv", "w") as out:
@@ -296,152 +298,114 @@ def get_vector_of_playlist(artists):
 
 
 def get_common_words(playlist, top=15):
-    title_string=""
-    stopwords = nltk.corpus.stopwords.words('english')
-    stopwords.extend(string.punctuation)
-    stopwords.append('')
+    result_string=""
 
-    # Create tokenizer and stemmer for English songs
+    #English  NLP elements
+    stopwords_en = nltk.corpus.stopwords.words('english')
+    stopwords_en.extend(string.punctuation)
+    extra_en=['feat', 'remix', 'mix', 'spotify', 'song', 'track', 'bonus', 'vs', 'best', 'remastered', 'album', 'ft', 'best', 'my']
+    stopwords_en.append('')
+    stopwords_en = stopwords_en + extra_en
+    #Create stemmer for English songs
+    stemmer_en = nltk.stem.snowball.SnowballStemmer('english')
+
+    #Spanish NLP elements
+    extra_es= ['remix', 'mix', 'canci\u00F3n', 'cancion', 'mejor', 'album', 'spotify', 'feat', 'dueto']
+    stopwords_es= nltk.corpus.stopwords.words('spanish')
+    stopwords_es.extend(string.punctuation)
+    stopwords_es.append('')
+    stopwords_es= stopwords_es + extra_es
+    # Create stemmer for Spanish songs
+    stemmer_es = nltk.stem.snowball.SnowballStemmer('spanish')
+
+
+    # General tokenizer
     tokenizer= WhitespaceTokenizer()
-    stemmer = nltk.stem.snowball.SnowballStemmer('english')
 
     for track in playlist['tracks']:
-        lang= detect(track['track_name'])
+        try:
+            lang= detect(track['track_name'])
+        except:
+            lang='sth'
+            #print "Could not determine language of ", track['track_name']
+
+        if lang == 'es':
+
+           # process title of track and album
+            sequence = str(track['track_name']).lower() + ' ' + str(track['album_name']).lower()
+            temp_sq = tokenizer.tokenize(sequence)
+            print temp_sq
+            tokens_sq =[]
+            for token in temp_sq:
+                print token.strip(string.punctuation)
+                print token.strip(string.punctuation) in stopwords_es
+                if token.strip(string.punctuation) not in stopwords_es:
+                    tokens_sq.append(token.strip(string.punctuation))
+
+            stems_sq= [stemmer_es.stem(token) for token in tokens_sq]
+            result_string= result_string +' ' + (' '.join(stems_sq))
+
         if lang == 'en':
             # process title of track
-            temp_title= tokenizer.tokenize(track['track_name'])
-            tokens_title=[]
-            for token in temp_title:
-                if token.lower().strip(string.punctuation) not in stopwords:
-                    tokens_title.append(token.lower().strip(string.punctuation))
+            sequence = str(track['track_name']).lower() + ' ' + str(track['album_name']).lower()
+            temp_sq = tokenizer.tokenize(sequence)
+            #temp_sq= tokenizer.tokenize(track['track_name'])
+            tokens_sq=[]
+            for token in temp_sq:
+                if token.strip(string.punctuation) not in stopwords_en:
+                    tokens_sq.append(token.strip(string.punctuation))
 
-            stems_title= [stemmer.stem(token) for token in tokens_title]
-            title_string= title_string +' ' + (' '.join(stems_title))
+            stems_sq= [stemmer_en.stem(token) for token in tokens_sq]
+            result_string= result_string +' ' + (' '.join(stems_sq))
 
-        else:
-            title_string= title_string + ' '+ track['track_name']
+        # else: # All other languages will be ignored!
+        #
 
-    words = collections.Counter(title_string.split()) # how often each word appears
+    words = collections.Counter(result_string.split()) # how often each word appears
     return dict(words.most_common(top))
 
+def get_words_all_playlists(path):
+    filenames = os.listdir(path)
+    data={}
+    for filename in sorted(filenames):
+
+        if filename.startswith("mpd.slice.") and filename.endswith(".json"):
+            print("Playlist ",  filename)
+            fullpath = os.sep.join((path, filename))
+            f = open(fullpath)
+            js = f.read()
+            f.close()
+            mpd_slice = json.loads(js)
+            for playlist in mpd_slice['playlists']:
+                 if playlist['num_followers'] >= 0:
+                     pid= playlist['pid']
+                     print pid
+                     words=get_common_words(playlist)
+                     data[pid]=words
+
+
+    numpy.save('playlist_top_15_words.npy', data)
+    print("FINISHED");
+
+
+def get_playlist_top_15_words():
+    playlists = numpy.load('playlist_top_15_words.npy').item()
+    return playlists
+
+
 if __name__ == '__main__':
-    playlist= {
-            "name": "Fresh",
-            "collaborative": "false",
-            "pid": 334000,
-            "modified_at": 1483833600,
-            "num_tracks": 10,
-            "num_albums": 8,
-            "num_followers": 1,
-            "tracks": [
-                {
-                    "pos": 0,
-                    "artist_name": "Kstylis",
-                    "track_uri": "spotify:track:0aWia6YqI2s9r41bXwnqhX",
-                    "artist_uri": "spotify:artist:5o2jetVpyIsXvWDT27bN4k",
-                    "track_name": "Booty Me Down",
-                    "album_uri": "spotify:album:1NxzYCWWmlbipSTQa7hTRj",
-                    "duration_ms": 212920,
-                    "album_name": "Booty Me Down"
-                },
-                {
-                    "pos": 1,
-                    "artist_name": "Tyga",
-                    "track_uri": "spotify:track:3xJj1mU7B83yop2dA03Smk",
-                    "artist_uri": "spotify:artist:5LHRHt1k9lMyONurDHEdrp",
-                    "track_name": "Bouncin On My D*ck",
-                    "album_uri": "spotify:album:6xJC9AbMpm4ebrTWz6Fd5S",
-                    "duration_ms": 195056,
-                    "album_name": "#BitchImTheShit"
-                },
-                {
-                    "pos": 2,
-                    "artist_name": "Khia",
-                    "track_uri": "spotify:track:1tc6RFcNQk2mQ0c0ZdiEBW",
-                    "artist_uri": "spotify:artist:3q7isf09BuwXLyR2khBs60",
-                    "track_name": "My Neck, My Back (Lick It) - Street/Club Version",
-                    "album_uri": "spotify:album:2nIZvWCOoeVcjp5YV6XyLn",
-                    "duration_ms": 221573,
-                    "album_name": "My Neck, My Back (Lick It) - Remixes"
-                },
-                {
-                    "pos": 3,
-                    "artist_name": "The Pack",
-                    "track_uri": "spotify:track:1NpcguIbdLR25tlymnwVVC",
-                    "artist_uri": "spotify:artist:5M6GE2n46o0qBIyGXtzdQz",
-                    "track_name": "Vans",
-                    "album_uri": "spotify:album:4JbZYBoID3x3tLOEcrjD0G",
-                    "duration_ms": 263800,
-                    "album_name": "Skateboards 2 Scrapers EP"
-                },
-                {
-                    "pos": 4,
-                    "artist_name": "Beau Young Prince",
-                    "track_uri": "spotify:track:6Nn6zvmdlXNBO1VwqaiCSw",
-                    "artist_uri": "spotify:artist:5fxPQ2Mzi7apfCMPuKwmSd",
-                    "track_name": "Half & Half Tea",
-                    "album_uri": "spotify:album:6PuAwuUdBfPzYCPIKCn0Qv",
-                    "duration_ms": 187895,
-                    "album_name": "Until Then (feat. Yalamusiq)"
-                },
-                {
-                    "pos": 5,
-                    "artist_name": "Tommie Sunshine",
-                    "track_uri": "spotify:track:4j4OnDsmAnTC71Nx2HaRns",
-                    "artist_uri": "spotify:artist:42tlZWSz1V6Rsqds29GcRo",
-                    "track_name": "Alright - Jesse Slayter Remix",
-                    "album_uri": "spotify:album:4OfIb9WJ2PjajmPvIAhABG",
-                    "duration_ms": 216253,
-                    "album_name": "Alright"
-                },
-                {
-                    "pos": 6,
-                    "artist_name": "Kstylis",
-                    "track_uri": "spotify:track:5w9uHCQaWsXVFMFr4TWlPx",
-                    "artist_uri": "spotify:artist:5o2jetVpyIsXvWDT27bN4k",
-                    "track_name": "Pretty Girl Twerk (feat. Nelly & Tiffany Foxx)",
-                    "album_uri": "spotify:album:7355M9DGyWBqr3OH44e8PS",
-                    "duration_ms": 191947,
-                    "album_name": "Pretty Girl Twerk (feat. Nelly & Tiffany Foxx)"
-                },
-                {
-                    "pos": 7,
-                    "artist_name": "Big Sean",
-                    "track_uri": "spotify:track:0SGkqnVQo9KPytSri1H6cF",
-                    "artist_uri": "spotify:artist:0c173mlxpT3dSFRgMO8XPh",
-                    "track_name": "Bounce Back",
-                    "album_uri": "spotify:album:0XAIjjN5qxViVS0Y5fYkar",
-                    "duration_ms": 222360,
-                    "album_name": "I Decided."
-                },
-                {
-                    "pos": 8,
-                    "artist_name": "Tyga",
-                    "track_uri": "spotify:track:20EACYL40C3BrrRJQ1P8sT",
-                    "artist_uri": "spotify:artist:5LHRHt1k9lMyONurDHEdrp",
-                    "track_name": "Mack Down",
-                    "album_uri": "spotify:album:6xJC9AbMpm4ebrTWz6Fd5S",
-                    "duration_ms": 238550,
-                    "album_name": "#BitchImTheShit"
-                },
-                {
-                    "pos": 9,
-                    "artist_name": "Tyga",
-                    "track_uri": "spotify:track:6GBooRCiR337B2ZQVB1e8T",
-                    "artist_uri": "spotify:artist:5LHRHt1k9lMyONurDHEdrp",
-                    "track_name": "Heisman",
-                    "album_uri": "spotify:album:6xJC9AbMpm4ebrTWz6Fd5S",
-                    "duration_ms": 138135,
-                    "album_name": "#BitchImTheShit"
-                }
-            ],
-            "num_edits": 6,
-            "duration_ms": 2088489,
-            "num_artists": 7
-        }
-    print get_common_words(playlist)
 
+    path = "D:/LUD files/Project/mpd/data/all"; # modify the path to data
+    get_words_all_playlists(path)
 
+    '''
+    p = get_playlist_top_15_words()
+    count= 0
+    for i in p.keys():
+        if count < 100:
+            print p[i]
+        count = count +1
+    '''
 
 
 
