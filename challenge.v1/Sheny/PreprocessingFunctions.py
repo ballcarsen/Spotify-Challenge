@@ -284,6 +284,29 @@ def get_vector_of_playlist(artists):
         i = i + 1
 
     reduced_artist = get_reduced_artists()
+    max_frequency = 0
+    for artist in artists:
+        if max_frequency < artist['numSongs']:
+            max_frequency = artist['numSongs']
+
+    for artist in artists:
+        index = reduced_artist[artist['artist']]['index'] # get artist index from reduced set
+        songNum = artist['numSongs'] # get the number of songs in current playlist of artist
+        tf = songNum/ max_frequency
+        array[index] = tf # store tf of artist in vector
+    return array
+
+def get_vector_of_playlist2(artists):
+    '''' Initializing array for storing vector values '''
+    array=[None]
+    numberOfArtists=86069 # EQUAL TO NUMBER OF ARTISTS WITH >=10 SONGS
+    array = array * numberOfArtists # creating array of correct size
+    i= 0
+    while i < numberOfArtists:
+        array[i]= 0 #populating array with 0's
+        i = i + 1
+
+    reduced_artist = get_reduced_artists()
 
     for artist in artists:
         index = reduced_artist[artist['artist']]['index'] # get artist index from reduced set
@@ -297,20 +320,21 @@ def get_vector_of_playlist(artists):
 
 
 
+
 def get_common_words(playlist, top=15):
     result_string=""
 
     #English  NLP elements
     stopwords_en = nltk.corpus.stopwords.words('english')
     stopwords_en.extend(string.punctuation)
-    extra_en=['feat', 'remix', 'mix', 'spotify', 'song', 'track', 'bonus', 'vs', 'best', 'remastered', 'album', 'ft', 'best', 'my']
+    extra_en=['edit','feat', 'remix', 'mix', 'spotify', 'song', 'track', 'bonus', 'vs', 'best', 'remastered', 'album', 'ft', 'best', 'my', 'version']
     stopwords_en.append('')
     stopwords_en = stopwords_en + extra_en
     #Create stemmer for English songs
     stemmer_en = nltk.stem.snowball.SnowballStemmer('english')
 
     #Spanish NLP elements
-    extra_es= ['remix', 'mix', 'canci\u00F3n', 'cancion', 'mejor', 'album', 'spotify', 'feat', 'dueto']
+    extra_es= ['edit', 'editado','remix', 'mix', 'canci\u00F3n', 'cancion', 'mejor', 'album', 'spotify', 'feat', 'dueto', 'bonus', 'ft', 'version']
     stopwords_es= nltk.corpus.stopwords.words('spanish')
     stopwords_es.extend(string.punctuation)
     stopwords_es.append('')
@@ -332,13 +356,13 @@ def get_common_words(playlist, top=15):
         if lang == 'es':
 
            # process title of track and album
-            sequence = str(track['track_name']).lower() + ' ' + str(track['album_name']).lower()
+            sequence = track['track_name'].lower() + ' ' + track['album_name'].lower()
             temp_sq = tokenizer.tokenize(sequence)
-            print temp_sq
+            #print temp_sq
             tokens_sq =[]
             for token in temp_sq:
-                print token.strip(string.punctuation)
-                print token.strip(string.punctuation) in stopwords_es
+                #print token.strip(string.punctuation)
+                #print token.strip(string.punctuation) in stopwords_es
                 if token.strip(string.punctuation) not in stopwords_es:
                     tokens_sq.append(token.strip(string.punctuation))
 
@@ -347,7 +371,7 @@ def get_common_words(playlist, top=15):
 
         if lang == 'en':
             # process title of track
-            sequence = str(track['track_name']).lower() + ' ' + str(track['album_name']).lower()
+            sequence = track['track_name'].lower() + ' ' + track['album_name'].lower()
             temp_sq = tokenizer.tokenize(sequence)
             #temp_sq= tokenizer.tokenize(track['track_name'])
             tokens_sq=[]
@@ -362,6 +386,7 @@ def get_common_words(playlist, top=15):
         #
 
     words = collections.Counter(result_string.split()) # how often each word appears
+
     return dict(words.most_common(top))
 
 def get_words_all_playlists(path):
@@ -398,14 +423,16 @@ if __name__ == '__main__':
     path = "D:/LUD files/Project/mpd/data/all"; # modify the path to data
     get_words_all_playlists(path)
 
-    '''
+
     p = get_playlist_top_15_words()
-    count= 0
+    count = 0
     for i in p.keys():
-        if count < 100:
+        if len(p[i]) < 15:
+            count= count+ 1
+            print i, len(p[i])
             print p[i]
-        count = count +1
-    '''
 
 
+    print len(p)
+    print count
 
