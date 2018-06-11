@@ -35,8 +35,6 @@ def similarity_titles(t1, t2):
     stopwords.extend(string.punctuation)
     stopwords.append('')
 
-    #PENDING: FILTER OUT EMOJIS
-
     # Create tokenizer and stemmer
     tokenizer= WhitespaceTokenizer()
     stemmer = nltk.stem.snowball.SnowballStemmer('english')
@@ -50,7 +48,7 @@ def similarity_titles(t1, t2):
                 token.lower().strip(string.punctuation))
 
     stems_t1= [stemmer.stem(token) for token in tokens_t1]
-
+    print stems_t1
     # process title of second playlist
     temp_t2= tokenizer.tokenize(t2)
     tokens_t2=[]
@@ -60,6 +58,7 @@ def similarity_titles(t1, t2):
                 token.lower().strip(string.punctuation))
 
     stems_t2= [stemmer.stem(token) for token in tokens_t2]
+    print stems_t2
 
     # Calculate Jaro-Winkler distance
     distance = Levenshtein.jaro_winkler(''.join(stems_t1), ''.join(stems_t2))
@@ -167,12 +166,12 @@ def make_500_recommendations(playlist, similar_playlists, result_f):
 
 
 if __name__ == '__main__':
-    path = "C:/Users/sheny/Desktop/SS 2018/LUD/Project/challenge/c1_sample.json"; # modify the path to data
-    f = open(path)
-    js = f.read()
-    f.close()
-    data = json.loads(js)
+    #path = "C:/Users/sheny/Desktop/SS 2018/LUD/Project/challenge/c1_sample.json"; # modify the path to data
+    #f = open(path)
+    #js = f.read()
+    #f.close()
+    #data = json.loads(js)
 
-    empty_playlist_recommender(data)
+    #empty_playlist_recommender(data)
 
-
+    print similarity_titles("Great day :)", "very sad day")
