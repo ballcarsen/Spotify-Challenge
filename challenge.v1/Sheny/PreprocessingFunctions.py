@@ -501,6 +501,7 @@ def get_playlist_object(pid):
         low = 1000 * int(pid / 1000)
         high = low + 999
         offset = pid - low
+        # ADAPT PATH TO THE DATA
         path = "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data/all/mpd.slice." + str(low) + '-' + str(high) + ".json"
         if not path in cache:
             f = codecs.open(path, 'r', 'utf-8')
