@@ -418,21 +418,42 @@ def get_playlist_top_15_words():
     return playlists
 
 
+def get_BoW_clusters():
+    file = open("../cluster_results_2.json", "r")
+    data= file.read()
+    file.close()
+    clusters= json.loads(data)
+    playlist = get_playlist_top_15_words()
+    word_to_playlist={}
+    for c in clusters["Clusters"]:
+        words={}
+        print c["Cluster"], len(c["data set playlists"])
+        for pid in c["data set playlists"]:
+
+            for w in playlist[pid]:
+                if w not in words:
+                    words[w]= [{"pid": pid, "frequency" : playlist[pid][w]}]
+                else:
+                    words[w].append({"pid": pid, "frequency" : playlist[pid][w]})
+        # SORT AT THE END
+        for w in words:
+            temp_sorted= sorted(words[w], key=itemgetter('frequency'), reverse=True)
+            new_array=[]
+            for i in temp_sorted:
+                new_array.append(i['pid'])
+            words[w]= new_array
+
+        word_to_playlist[c["Cluster"]]=words
+
+
+    numpy.save('BoW_clusters.npy', word_to_playlist)
+    print "finished BoW of clusters"
+
 if __name__ == '__main__':
+    # BUILD DICTONARY OF PLAYLISTS {pid: {word1: frequency, word2: frequency}}
+    #path = "D:/LUD files/Project/mpd/data/all"; # modify the path to data
+    #get_words_all_playlists(path)
 
-    path = "D:/LUD files/Project/mpd/data/all"; # modify the path to data
-    get_words_all_playlists(path)
+    get_BoW_clusters()
 
-
-    p = get_playlist_top_15_words()
-    count = 0
-    for i in p.keys():
-        if len(p[i]) < 15:
-            count= count+ 1
-            print i, len(p[i])
-            print p[i]
-
-
-    print len(p)
-    print count
 
