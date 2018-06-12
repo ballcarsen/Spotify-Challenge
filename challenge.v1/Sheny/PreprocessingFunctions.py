@@ -12,6 +12,12 @@ import nltk.tokenize.punkt
 import string
 from nltk.tokenize import WhitespaceTokenizer
 import nltk.stem.snowball
+import codecs
+
+
+# for storing common playlists
+cache = {}
+
 
 # Main function for computing the frequency of all songs in the data set.
 # It will create a json file containing the song information and its frequency.
@@ -453,6 +459,61 @@ def get_BoW_clusters():
     bow = numpy.load('BoW_clusters.npy').item()
     return bow
 
+def track_exists(playlist_tracks, track):
+    if(len(playlist_tracks) == 0):
+        return -1
+    else:
+        for current in playlist_tracks:
+            if(current["track_uri"] == track):
+                return 1
+        return -1
+
+# Returns a string with the following format pid track1, track2,..., track500
+def baseline_make_500_recommendations(playlist_id, playlist_tracks):
+    f_popular_songs = open("song_popularity_sorted.json", "r")
+    string_js = f_popular_songs.read()
+    f_popular_songs.close()
+    popular_songs = json.loads(string_js)
+    number_of_rec=500
+    song_list={}
+    count = 0
+    while len(song_list) < number_of_rec:
+        if track_exists(playlist_tracks, popular_songs["songs"][count]['id']) == -1:
+            song_list[str(count)] = popular_songs["songs"][count]['id']
+            count+=1
+        else:
+            count += 1
+    keys=song_list.keys()
+    i=0
+    result_string=""
+    while i < len(keys):
+        if i == len(keys)-1:
+            result_string= result_string + song_list[keys[i]] + "\n"
+        else:
+            result_string= result_string + song_list[keys[i]] + ","
+        i= i +1
+
+    line= str(playlist_id)+ "," + result_string
+    return line
+
+def get_playlist_object(pid):
+    if pid >=0 and pid < 1000000:
+        low = 1000 * int(pid / 1000)
+        high = low + 999
+        offset = pid - low
+        path = "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data/all/mpd.slice." + str(low) + '-' + str(high) + ".json"
+        if not path in cache:
+            f = codecs.open(path, 'r', 'utf-8')
+            js = f.read()
+            f.close()
+            playlist = json.loads(js)
+            cache[path] = playlist
+
+        playlist = cache[path]['playlists'][offset]
+        return playlist
+
+
+
 if __name__ == '__main__':
     # BUILD DICTONARY OF PLAYLISTS {pid: {word1: frequency, word2: frequency}}
     #path = "D:/LUD files/Project/mpd/data/all"; # modify the path to data
@@ -460,7 +521,8 @@ if __name__ == '__main__':
 
     #compute_BoW_clusters()
 
-    bow= get_BoW_clusters()
-    for c in bow:
-        print c, len(bow[c])
+    #bow= get_BoW_clusters()
+    #for c in bow:
+    #    print c, len(bow[c])
 
+    print get_playlist_object(221)
