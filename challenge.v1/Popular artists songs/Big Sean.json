@@ -1,110 +1,110 @@
 { "songs": [
-		{"artist": "Big Sean", "frequency": 33699, "id": "spotify:track:0SGkqnVQo9KPytSri1H6cF", "name": "Bounce Back"};
-		{"artist": "Big Sean", "frequency": 25967, "id": "spotify:track:4w7yrP4RAeeyhfG9nJqQvS", "name": "I Don't Fuck With You"};
-		{"artist": "Big Sean", "frequency": 14805, "id": "spotify:track:0Fv5N0cHBsl4bzCbollCAS", "name": "Moves"};
-		{"artist": "Big Sean", "frequency": 11777, "id": "spotify:track:4E92bmgFiHxvy2SNjXjC3b", "name": "Blessings"};
-		{"artist": "Big Sean", "frequency": 8882, "id": "spotify:track:6KQEXfAdNQ85TabNo6mNIk", "name": "I Know"};
-		{"artist": "Big Sean", "frequency": 8288, "id": "spotify:track:3ZAMtgYJFoHwJjFkhkXqKr", "name": "Dance (A$$) Remix"};
-		{"artist": "Big Sean", "frequency": 8245, "id": "spotify:track:6bxUnsSGZCmoHHU5auwtps", "name": "Beware"};
-		{"artist": "Big Sean", "frequency": 6342, "id": "spotify:track:1jQsKN68yE94tMYml0wHMd", "name": "Jump Out The Window"};
-		{"artist": "Big Sean", "frequency": 5989, "id": "spotify:track:0osPUefhvYxoB2eZw6prBt", "name": "One Man Can Change The World"};
-		{"artist": "Big Sean", "frequency": 4866, "id": "spotify:track:1MksGqIztTT6M9R1ErKVs8", "name": "No Favors"};
-		{"artist": "Big Sean", "frequency": 4454, "id": "spotify:track:36xxq7VDZZsGwARsn6Clo7", "name": "Living Single"};
-		{"artist": "Big Sean", "frequency": 4357, "id": "spotify:track:7G0PgkkbavF7Rh4zNrUxH0", "name": "Guap"};
-		{"artist": "Big Sean", "frequency": 4006, "id": "spotify:track:2lKRa8BRR5bZkSoQBE3yh9", "name": "Paradise - Extended"};
-		{"artist": "Big Sean", "frequency": 3585, "id": "spotify:track:67W5fd1ld7dqHNCfaQu52I", "name": "Dance (A$$)"};
-		{"artist": "Big Sean", "frequency": 3526, "id": "spotify:track:1r0faljjM2b876iNoaDUh5", "name": "Sacrifices"};
-		{"artist": "Big Sean", "frequency": 3073, "id": "spotify:track:4UaWrzY75h1tAvlxa4NKP9", "name": "Blessings"};
-		{"artist": "Big Sean", "frequency": 3037, "id": "spotify:track:1LiC33bHDw8ZVNTKuT0ngr", "name": "Play No Games"};
-		{"artist": "Big Sean", "frequency": 3022, "id": "spotify:track:5xpmdbQcfIOsE1hACcC3UK", "name": "Marvin & Chardonnay"};
-		{"artist": "Big Sean", "frequency": 2320, "id": "spotify:track:7ogioiNh3fJy2M2AsHM6mZ", "name": "All Your Fault"};
-		{"artist": "Big Sean", "frequency": 2234, "id": "spotify:track:4atJ40xfasjdM9ZF3p07BV", "name": "Halfway Off The Balcony"};
-		{"artist": "Big Sean", "frequency": 2157, "id": "spotify:track:5se6K8sonaVJGu1mjj6ItC", "name": "Paradise"};
-		{"artist": "Big Sean", "frequency": 1973, "id": "spotify:track:70tFuqBcduJv15bEnOPRTh", "name": "My Last"};
-		{"artist": "Big Sean", "frequency": 1788, "id": "spotify:track:6zpXc7WJ3TqYWb02B6sKyF", "name": "Bigger Than Me"};
-		{"artist": "Big Sean", "frequency": 1674, "id": "spotify:track:1u0MOgWF1bbylVxpJG2ZjB", "name": "Owe Me"};
-		{"artist": "Big Sean", "frequency": 1452, "id": "spotify:track:5VKsvhjnjQ3IAspPjGiNPf", "name": "High"};
-		{"artist": "Big Sean", "frequency": 1420, "id": "spotify:track:2pzuU8vLaG8W1P31X65ZP9", "name": "Voices In My Head/Stick To The Plan"};
-		{"artist": "Big Sean", "frequency": 1362, "id": "spotify:track:34Dk0bzjsXFDluNOgCwBAM", "name": "Ashley"};
-		{"artist": "Big Sean", "frequency": 1345, "id": "spotify:track:2bCLwbMQHgvcDC6zGUzQZP", "name": "Research"};
-		{"artist": "Big Sean", "frequency": 1303, "id": "spotify:track:2U65pk38q1ylThzeAxLOYj", "name": "Deep"};
-		{"artist": "Big Sean", "frequency": 1031, "id": "spotify:track:01KdLUbWrTXdviMq7bDhip", "name": "Deserve It"};
-		{"artist": "Big Sean", "frequency": 993, "id": "spotify:track:7KtvphOkomIs0EJ7LC7IFM", "name": "I Do It"};
-		{"artist": "Big Sean", "frequency": 986, "id": "spotify:track:0URaKGzNTtzKRtsJN1RkA9", "name": "Light"};
-		{"artist": "Big Sean", "frequency": 915, "id": "spotify:track:5kzruPQIvdiTMKi4Rubb2H", "name": "MILF"};
-		{"artist": "Big Sean", "frequency": 635, "id": "spotify:track:5VlstKgCJPHDIMCQO4jHcQ", "name": "Sunday Morning Jetpack"};
-		{"artist": "Big Sean", "frequency": 621, "id": "spotify:track:6X9FNyzY92xxg6xyZiqCgH", "name": "Dark Sky (Skyscrapers)"};
-		{"artist": "Big Sean", "frequency": 610, "id": "spotify:track:7M62jxrvr7UJdo6DchAFf3", "name": "Inspire Me"};
-		{"artist": "Big Sean", "frequency": 590, "id": "spotify:track:0NBWNdTlcz0GAYY1lXRk1Y", "name": "Win Some, Lose Some"};
-		{"artist": "Big Sean", "frequency": 566, "id": "spotify:track:0OTDDaqkoMvKpYFLa0C0RH", "name": "Stay Down"};
-		{"artist": "Big Sean", "frequency": 557, "id": "spotify:track:4kItgvLSvgRPbRYofTRbXM", "name": "Outro"};
-		{"artist": "Big Sean", "frequency": 542, "id": "spotify:track:11fPH8NoSw15IG5hWk5zLL", "name": "Fire"};
-		{"artist": "Big Sean", "frequency": 481, "id": "spotify:track:4k1twluDPNSnrFd3Wxsibv", "name": "Mula Remix"};
-		{"artist": "Big Sean", "frequency": 479, "id": "spotify:track:7yoe9vbbzakNAXwb1UaWLS", "name": "Same Time Pt. 1"};
-		{"artist": "Big Sean", "frequency": 452, "id": "spotify:track:37QI1IlyU8UktPxyXv7Pms", "name": "Switch Up"};
-		{"artist": "Big Sean", "frequency": 428, "id": "spotify:track:1kTfThxeMMN01vZYhQc13Q", "name": "Memories (Part II)"};
-		{"artist": "Big Sean", "frequency": 417, "id": "spotify:track:3IRloeDfPgi7bH5OwXfwkN", "name": "No More Interviews"};
-		{"artist": "Big Sean", "frequency": 387, "id": "spotify:track:0VjkjJ1vNCrbdk0EhM6Phw", "name": "10 2 10"};
-		{"artist": "Big Sean", "frequency": 381, "id": "spotify:track:6FjcShHWPvel5QPNhWivJe", "name": "Mona Lisa"};
-		{"artist": "Big Sean", "frequency": 360, "id": "spotify:track:2YhBJbeXBz2VsthtV5O4bY", "name": "Nothing Is Stopping You"};
-		{"artist": "Big Sean", "frequency": 310, "id": "spotify:track:4Fut6CMkohDvLkMVeXp001", "name": "Wait For Me"};
-		{"artist": "Big Sean", "frequency": 305, "id": "spotify:track:0O29lIj6AZCrjCKyZjhdCE", "name": "Don't Tell Me You Love Me"};
-		{"artist": "Big Sean", "frequency": 251, "id": "spotify:track:6RGGi6UDemTjKwtAsIRBHv", "name": "First Chain"};
-		{"artist": "Big Sean", "frequency": 218, "id": "spotify:track:40XYVhxWCrpvwfTo2hZoER", "name": "You Don't Know"};
-		{"artist": "Big Sean", "frequency": 207, "id": "spotify:track:5Pd7oO5U5fP9lXUjeUFMxi", "name": "Toyota Music"};
-		{"artist": "Big Sean", "frequency": 204, "id": "spotify:track:3ZUcWb5XC0O1FCJccFIesu", "name": "Live This Life"};
-		{"artist": "Big Sean", "frequency": 203, "id": "spotify:track:2XUIev31a2hkT3OF3Gxyvn", "name": "Platinum And Wood"};
-		{"artist": "Big Sean", "frequency": 194, "id": "spotify:track:3h0PM63F2EJSQCeDzgFomq", "name": "10 2 10 - Remix"};
-		{"artist": "Big Sean", "frequency": 191, "id": "spotify:track:7hvHtzmKMkh4N6Kl7WHTVJ", "name": "What U Doin?"};
-		{"artist": "Big Sean", "frequency": 174, "id": "spotify:track:35k5ePiDMMdacA7jIF9RFY", "name": "Intro"};
-		{"artist": "Big Sean", "frequency": 160, "id": "spotify:track:083BwqY9ytOa7IxhuK7wee", "name": "World Ablaze"};
-		{"artist": "Big Sean", "frequency": 153, "id": "spotify:track:5IhzqrLFV9TXamqWJpKaND", "name": "It's Time"};
-		{"artist": "Big Sean", "frequency": 139, "id": "spotify:track:3tAz11FTj3uyc1ronoSbil", "name": "What Goes Around"};
-		{"artist": "Big Sean", "frequency": 137, "id": "spotify:track:08kRN04bnducQfDQWK0qRW", "name": "Sierra Leone"};
-		{"artist": "Big Sean", "frequency": 130, "id": "spotify:track:57L5jOSygoue8lpHmX10NP", "name": "24 Karats of Gold"};
-		{"artist": "Big Sean", "frequency": 117, "id": "spotify:track:3xWprflDaY2qsevE93TzFu", "name": "So Much More"};
-		{"artist": "Big Sean", "frequency": 113, "id": "spotify:track:4Ccczpsq59ci35Wrom40Pl", "name": "100 Keys"};
-		{"artist": "Big Sean", "frequency": 113, "id": "spotify:track:7APbjv93QFw0qzoI2MQyfA", "name": "All Figured Out"};
-		{"artist": "Big Sean", "frequency": 96, "id": "spotify:track:574B0LquiMjxa7LO5p9Ac1", "name": "Light It Up"};
-		{"artist": "Big Sean", "frequency": 92, "id": "spotify:track:2F2fPUeuYDjVTABUwb1ZVn", "name": "Celebrity"};
-		{"artist": "Big Sean", "frequency": 89, "id": "spotify:track:3mePeLKszLpXgHg3DmkfEd", "name": "Get It (DT)"};
-		{"artist": "Big Sean", "frequency": 84, "id": "spotify:track:0mvIIjHNSFBXIRXxdLvqyS", "name": "One Man Can Change The World - Rudimental Remix"};
-		{"artist": "Big Sean", "frequency": 70, "id": "spotify:track:4OkOBCE84hiSHXC5lKloet", "name": "K.O"};
-		{"artist": "Big Sean", "frequency": 50, "id": "spotify:track:0voD21I5OCmqorwxeJc6Fx", "name": "Freaky"};
-		{"artist": "Big Sean", "frequency": 49, "id": "spotify:track:2hUV9lOrC6ul4p4WbgLneh", "name": "My House"};
-		{"artist": "Big Sean", "frequency": 46, "id": "spotify:track:3Q8OcLCVLnlgOaUO3MelqM", "name": "Intro"};
-		{"artist": "Big Sean", "frequency": 35, "id": "spotify:track:0MEcvuqZScGOugwgG3zTvi", "name": "Higher"};
-		{"artist": "Big Sean", "frequency": 23, "id": "spotify:track:7z0B03Z1TY4rUJsM8qzVc9", "name": "Experimental"};
-		{"artist": "Big Sean", "frequency": 17, "id": "spotify:track:3GMM3Y5Azu1Xv6XGGcto3N", "name": "Too Fake"};
-		{"artist": "Big Sean", "frequency": 15, "id": "spotify:track:4BohSFyV8gdPNzpOT3nTtu", "name": "What U Doin? - Edited Version"};
-		{"artist": "Big Sean", "frequency": 13, "id": "spotify:track:4gjgpBC05fzkPEBXtPnT7L", "name": "Do What I Gotta Do"};
-		{"artist": "Big Sean", "frequency": 13, "id": "spotify:track:0Kx5ZVqj8qumgWBzDJbfzV", "name": "Woke Up"};
-		{"artist": "Big Sean", "frequency": 12, "id": "spotify:track:0xjx0kYUhDTUaDK9PHAItz", "name": "Let it Burn"};
-		{"artist": "Big Sean", "frequency": 9, "id": "spotify:track:36NqzlcNq3QDEU081dB2ww", "name": "I'm Gonna Be"};
-		{"artist": "Big Sean", "frequency": 9, "id": "spotify:track:7x0BjKmxdAIMq9VHsGrzhA", "name": "How It Feel"};
-		{"artist": "Big Sean", "frequency": 7, "id": "spotify:track:3DY6a3XmytWwradQhtyYbR", "name": "Fly High"};
-		{"artist": "Big Sean", "frequency": 5, "id": "spotify:track:3tmVZL6haDjsx90JccDPbw", "name": "Made"};
-		{"artist": "Big Sean", "frequency": 5, "id": "spotify:track:0fNM58H6Bj6UbmRoipsAdr", "name": "Sellin' Dreams"};
-		{"artist": "Big Sean", "frequency": 5, "id": "spotify:track:4dtddJxawwXzb0XU0BBN0N", "name": "100"};
-		{"artist": "Big Sean", "frequency": 3, "id": "spotify:track:0I1gCF6gz7VRBeqVPjWZWX", "name": "Mula"};
-		{"artist": "Big Sean", "frequency": 3, "id": "spotify:track:68VfRlAa5gTI6uCCHZ9nvC", "name": "Memories"};
-		{"artist": "Big Sean", "frequency": 3, "id": "spotify:track:2xf0ScYHEoY2jx7Mm7IGcc", "name": "Grown Man"};
-		{"artist": "Big Sean", "frequency": 2, "id": "spotify:track:74jIt7lFefmGuzZCB7vAng", "name": "Five Bucks (5 On It)"};
-		{"artist": "Big Sean", "frequency": 2, "id": "spotify:track:3P3DpqWM7GMwrb076rUlT7", "name": "Meant To Be"};
-		{"artist": "Big Sean", "frequency": 2, "id": "spotify:track:0FD3oh08wADDAZNYcHNOLr", "name": "Home Town"};
-		{"artist": "Big Sean", "frequency": 2, "id": "spotify:track:2qVdFrG6qlTDATqgviqS7g", "name": "Love Song"};
-		{"artist": "Big Sean", "frequency": 2, "id": "spotify:track:3P4g6Rm266ZgsQLTCvAKtQ", "name": "10-2-10"};
-		{"artist": "Big Sean", "frequency": 2, "id": "spotify:track:4D1dhOe4it13yvY4rPhlAU", "name": "Ambiguous"};
-		{"artist": "Big Sean", "frequency": 2, "id": "spotify:track:4OFZwgvOqkYCOTKziUawCf", "name": "Final Hour"};
-		{"artist": "Big Sean", "frequency": 2, "id": "spotify:track:02HW010FYRSVHKByxK4UaF", "name": "Supa Dupa Lemonade"};
-		{"artist": "Big Sean", "frequency": 2, "id": "spotify:track:6KFlSliaGAq6Z1u5XF0YsL", "name": "Bonus Track"};
-		{"artist": "Big Sean", "frequency": 2, "id": "spotify:track:70sahaLBJXa4OtrOAJrf8l", "name": "Mula (Remix)"};
-		{"artist": "Big Sean", "frequency": 1, "id": "spotify:track:37Gbwhvxz3GCs7vvyjKtq9", "name": "High Rise"};
-		{"artist": "Big Sean", "frequency": 1, "id": "spotify:track:14Wh1VWUzrO9U0OqKoLSB7", "name": "What U Doin (Bullshittin')"};
-		{"artist": "Big Sean", "frequency": 1, "id": "spotify:track:6eQz6s2ePlrlHyOIlwpK52", "name": "Crazy"};
-		{"artist": "Big Sean", "frequency": 1, "id": "spotify:track:256vNwBMpZTJkjLmEl4bw2", "name": "Fuck My Opponent"};
-		{"artist": "Big Sean", "frequency": 1, "id": "spotify:track:1oOa90SYSmVagMcmStK3Gx", "name": "My Closet"};
-		{"artist": "Big Sean", "frequency": 1, "id": "spotify:track:6H56xQ6v2o8ADUYeK1DUmi", "name": "Fat Raps Remix"};
-		{"artist": "Big Sean", "frequency": 1, "id": "spotify:track:6NMGSnUV74Ba4rnBbpimj4", "name": "Money And Sex"};
+		{"artist": "Big Sean", "frequency": 33699, "id": "spotify:track:0SGkqnVQo9KPytSri1H6cF", "name": "Bounce Back"},
+		{"artist": "Big Sean", "frequency": 25967, "id": "spotify:track:4w7yrP4RAeeyhfG9nJqQvS", "name": "I Don't Fuck With You"},
+		{"artist": "Big Sean", "frequency": 14805, "id": "spotify:track:0Fv5N0cHBsl4bzCbollCAS", "name": "Moves"},
+		{"artist": "Big Sean", "frequency": 11777, "id": "spotify:track:4E92bmgFiHxvy2SNjXjC3b", "name": "Blessings"},
+		{"artist": "Big Sean", "frequency": 8882, "id": "spotify:track:6KQEXfAdNQ85TabNo6mNIk", "name": "I Know"},
+		{"artist": "Big Sean", "frequency": 8288, "id": "spotify:track:3ZAMtgYJFoHwJjFkhkXqKr", "name": "Dance (A$$) Remix"},
+		{"artist": "Big Sean", "frequency": 8245, "id": "spotify:track:6bxUnsSGZCmoHHU5auwtps", "name": "Beware"},
+		{"artist": "Big Sean", "frequency": 6342, "id": "spotify:track:1jQsKN68yE94tMYml0wHMd", "name": "Jump Out The Window"},
+		{"artist": "Big Sean", "frequency": 5989, "id": "spotify:track:0osPUefhvYxoB2eZw6prBt", "name": "One Man Can Change The World"},
+		{"artist": "Big Sean", "frequency": 4866, "id": "spotify:track:1MksGqIztTT6M9R1ErKVs8", "name": "No Favors"},
+		{"artist": "Big Sean", "frequency": 4454, "id": "spotify:track:36xxq7VDZZsGwARsn6Clo7", "name": "Living Single"},
+		{"artist": "Big Sean", "frequency": 4357, "id": "spotify:track:7G0PgkkbavF7Rh4zNrUxH0", "name": "Guap"},
+		{"artist": "Big Sean", "frequency": 4006, "id": "spotify:track:2lKRa8BRR5bZkSoQBE3yh9", "name": "Paradise - Extended"},
+		{"artist": "Big Sean", "frequency": 3585, "id": "spotify:track:67W5fd1ld7dqHNCfaQu52I", "name": "Dance (A$$)"},
+		{"artist": "Big Sean", "frequency": 3526, "id": "spotify:track:1r0faljjM2b876iNoaDUh5", "name": "Sacrifices"},
+		{"artist": "Big Sean", "frequency": 3073, "id": "spotify:track:4UaWrzY75h1tAvlxa4NKP9", "name": "Blessings"},
+		{"artist": "Big Sean", "frequency": 3037, "id": "spotify:track:1LiC33bHDw8ZVNTKuT0ngr", "name": "Play No Games"},
+		{"artist": "Big Sean", "frequency": 3022, "id": "spotify:track:5xpmdbQcfIOsE1hACcC3UK", "name": "Marvin & Chardonnay"},
+		{"artist": "Big Sean", "frequency": 2320, "id": "spotify:track:7ogioiNh3fJy2M2AsHM6mZ", "name": "All Your Fault"},
+		{"artist": "Big Sean", "frequency": 2234, "id": "spotify:track:4atJ40xfasjdM9ZF3p07BV", "name": "Halfway Off The Balcony"},
+		{"artist": "Big Sean", "frequency": 2157, "id": "spotify:track:5se6K8sonaVJGu1mjj6ItC", "name": "Paradise"},
+		{"artist": "Big Sean", "frequency": 1973, "id": "spotify:track:70tFuqBcduJv15bEnOPRTh", "name": "My Last"},
+		{"artist": "Big Sean", "frequency": 1788, "id": "spotify:track:6zpXc7WJ3TqYWb02B6sKyF", "name": "Bigger Than Me"},
+		{"artist": "Big Sean", "frequency": 1674, "id": "spotify:track:1u0MOgWF1bbylVxpJG2ZjB", "name": "Owe Me"},
+		{"artist": "Big Sean", "frequency": 1452, "id": "spotify:track:5VKsvhjnjQ3IAspPjGiNPf", "name": "High"},
+		{"artist": "Big Sean", "frequency": 1420, "id": "spotify:track:2pzuU8vLaG8W1P31X65ZP9", "name": "Voices In My Head/Stick To The Plan"},
+		{"artist": "Big Sean", "frequency": 1362, "id": "spotify:track:34Dk0bzjsXFDluNOgCwBAM", "name": "Ashley"},
+		{"artist": "Big Sean", "frequency": 1345, "id": "spotify:track:2bCLwbMQHgvcDC6zGUzQZP", "name": "Research"},
+		{"artist": "Big Sean", "frequency": 1303, "id": "spotify:track:2U65pk38q1ylThzeAxLOYj", "name": "Deep"},
+		{"artist": "Big Sean", "frequency": 1031, "id": "spotify:track:01KdLUbWrTXdviMq7bDhip", "name": "Deserve It"},
+		{"artist": "Big Sean", "frequency": 993, "id": "spotify:track:7KtvphOkomIs0EJ7LC7IFM", "name": "I Do It"},
+		{"artist": "Big Sean", "frequency": 986, "id": "spotify:track:0URaKGzNTtzKRtsJN1RkA9", "name": "Light"},
+		{"artist": "Big Sean", "frequency": 915, "id": "spotify:track:5kzruPQIvdiTMKi4Rubb2H", "name": "MILF"},
+		{"artist": "Big Sean", "frequency": 635, "id": "spotify:track:5VlstKgCJPHDIMCQO4jHcQ", "name": "Sunday Morning Jetpack"},
+		{"artist": "Big Sean", "frequency": 621, "id": "spotify:track:6X9FNyzY92xxg6xyZiqCgH", "name": "Dark Sky (Skyscrapers)"},
+		{"artist": "Big Sean", "frequency": 610, "id": "spotify:track:7M62jxrvr7UJdo6DchAFf3", "name": "Inspire Me"},
+		{"artist": "Big Sean", "frequency": 590, "id": "spotify:track:0NBWNdTlcz0GAYY1lXRk1Y", "name": "Win Some, Lose Some"},
+		{"artist": "Big Sean", "frequency": 566, "id": "spotify:track:0OTDDaqkoMvKpYFLa0C0RH", "name": "Stay Down"},
+		{"artist": "Big Sean", "frequency": 557, "id": "spotify:track:4kItgvLSvgRPbRYofTRbXM", "name": "Outro"},
+		{"artist": "Big Sean", "frequency": 542, "id": "spotify:track:11fPH8NoSw15IG5hWk5zLL", "name": "Fire"},
+		{"artist": "Big Sean", "frequency": 481, "id": "spotify:track:4k1twluDPNSnrFd3Wxsibv", "name": "Mula Remix"},
+		{"artist": "Big Sean", "frequency": 479, "id": "spotify:track:7yoe9vbbzakNAXwb1UaWLS", "name": "Same Time Pt. 1"},
+		{"artist": "Big Sean", "frequency": 452, "id": "spotify:track:37QI1IlyU8UktPxyXv7Pms", "name": "Switch Up"},
+		{"artist": "Big Sean", "frequency": 428, "id": "spotify:track:1kTfThxeMMN01vZYhQc13Q", "name": "Memories (Part II)"},
+		{"artist": "Big Sean", "frequency": 417, "id": "spotify:track:3IRloeDfPgi7bH5OwXfwkN", "name": "No More Interviews"},
+		{"artist": "Big Sean", "frequency": 387, "id": "spotify:track:0VjkjJ1vNCrbdk0EhM6Phw", "name": "10 2 10"},
+		{"artist": "Big Sean", "frequency": 381, "id": "spotify:track:6FjcShHWPvel5QPNhWivJe", "name": "Mona Lisa"},
+		{"artist": "Big Sean", "frequency": 360, "id": "spotify:track:2YhBJbeXBz2VsthtV5O4bY", "name": "Nothing Is Stopping You"},
+		{"artist": "Big Sean", "frequency": 310, "id": "spotify:track:4Fut6CMkohDvLkMVeXp001", "name": "Wait For Me"},
+		{"artist": "Big Sean", "frequency": 305, "id": "spotify:track:0O29lIj6AZCrjCKyZjhdCE", "name": "Don't Tell Me You Love Me"},
+		{"artist": "Big Sean", "frequency": 251, "id": "spotify:track:6RGGi6UDemTjKwtAsIRBHv", "name": "First Chain"},
+		{"artist": "Big Sean", "frequency": 218, "id": "spotify:track:40XYVhxWCrpvwfTo2hZoER", "name": "You Don't Know"},
+		{"artist": "Big Sean", "frequency": 207, "id": "spotify:track:5Pd7oO5U5fP9lXUjeUFMxi", "name": "Toyota Music"},
+		{"artist": "Big Sean", "frequency": 204, "id": "spotify:track:3ZUcWb5XC0O1FCJccFIesu", "name": "Live This Life"},
+		{"artist": "Big Sean", "frequency": 203, "id": "spotify:track:2XUIev31a2hkT3OF3Gxyvn", "name": "Platinum And Wood"},
+		{"artist": "Big Sean", "frequency": 194, "id": "spotify:track:3h0PM63F2EJSQCeDzgFomq", "name": "10 2 10 - Remix"},
+		{"artist": "Big Sean", "frequency": 191, "id": "spotify:track:7hvHtzmKMkh4N6Kl7WHTVJ", "name": "What U Doin?"},
+		{"artist": "Big Sean", "frequency": 174, "id": "spotify:track:35k5ePiDMMdacA7jIF9RFY", "name": "Intro"},
+		{"artist": "Big Sean", "frequency": 160, "id": "spotify:track:083BwqY9ytOa7IxhuK7wee", "name": "World Ablaze"},
+		{"artist": "Big Sean", "frequency": 153, "id": "spotify:track:5IhzqrLFV9TXamqWJpKaND", "name": "It's Time"},
+		{"artist": "Big Sean", "frequency": 139, "id": "spotify:track:3tAz11FTj3uyc1ronoSbil", "name": "What Goes Around"},
+		{"artist": "Big Sean", "frequency": 137, "id": "spotify:track:08kRN04bnducQfDQWK0qRW", "name": "Sierra Leone"},
+		{"artist": "Big Sean", "frequency": 130, "id": "spotify:track:57L5jOSygoue8lpHmX10NP", "name": "24 Karats of Gold"},
+		{"artist": "Big Sean", "frequency": 117, "id": "spotify:track:3xWprflDaY2qsevE93TzFu", "name": "So Much More"},
+		{"artist": "Big Sean", "frequency": 113, "id": "spotify:track:4Ccczpsq59ci35Wrom40Pl", "name": "100 Keys"},
+		{"artist": "Big Sean", "frequency": 113, "id": "spotify:track:7APbjv93QFw0qzoI2MQyfA", "name": "All Figured Out"},
+		{"artist": "Big Sean", "frequency": 96, "id": "spotify:track:574B0LquiMjxa7LO5p9Ac1", "name": "Light It Up"},
+		{"artist": "Big Sean", "frequency": 92, "id": "spotify:track:2F2fPUeuYDjVTABUwb1ZVn", "name": "Celebrity"},
+		{"artist": "Big Sean", "frequency": 89, "id": "spotify:track:3mePeLKszLpXgHg3DmkfEd", "name": "Get It (DT)"},
+		{"artist": "Big Sean", "frequency": 84, "id": "spotify:track:0mvIIjHNSFBXIRXxdLvqyS", "name": "One Man Can Change The World - Rudimental Remix"},
+		{"artist": "Big Sean", "frequency": 70, "id": "spotify:track:4OkOBCE84hiSHXC5lKloet", "name": "K.O"},
+		{"artist": "Big Sean", "frequency": 50, "id": "spotify:track:0voD21I5OCmqorwxeJc6Fx", "name": "Freaky"},
+		{"artist": "Big Sean", "frequency": 49, "id": "spotify:track:2hUV9lOrC6ul4p4WbgLneh", "name": "My House"},
+		{"artist": "Big Sean", "frequency": 46, "id": "spotify:track:3Q8OcLCVLnlgOaUO3MelqM", "name": "Intro"},
+		{"artist": "Big Sean", "frequency": 35, "id": "spotify:track:0MEcvuqZScGOugwgG3zTvi", "name": "Higher"},
+		{"artist": "Big Sean", "frequency": 23, "id": "spotify:track:7z0B03Z1TY4rUJsM8qzVc9", "name": "Experimental"},
+		{"artist": "Big Sean", "frequency": 17, "id": "spotify:track:3GMM3Y5Azu1Xv6XGGcto3N", "name": "Too Fake"},
+		{"artist": "Big Sean", "frequency": 15, "id": "spotify:track:4BohSFyV8gdPNzpOT3nTtu", "name": "What U Doin? - Edited Version"},
+		{"artist": "Big Sean", "frequency": 13, "id": "spotify:track:4gjgpBC05fzkPEBXtPnT7L", "name": "Do What I Gotta Do"},
+		{"artist": "Big Sean", "frequency": 13, "id": "spotify:track:0Kx5ZVqj8qumgWBzDJbfzV", "name": "Woke Up"},
+		{"artist": "Big Sean", "frequency": 12, "id": "spotify:track:0xjx0kYUhDTUaDK9PHAItz", "name": "Let it Burn"},
+		{"artist": "Big Sean", "frequency": 9, "id": "spotify:track:36NqzlcNq3QDEU081dB2ww", "name": "I'm Gonna Be"},
+		{"artist": "Big Sean", "frequency": 9, "id": "spotify:track:7x0BjKmxdAIMq9VHsGrzhA", "name": "How It Feel"},
+		{"artist": "Big Sean", "frequency": 7, "id": "spotify:track:3DY6a3XmytWwradQhtyYbR", "name": "Fly High"},
+		{"artist": "Big Sean", "frequency": 5, "id": "spotify:track:3tmVZL6haDjsx90JccDPbw", "name": "Made"},
+		{"artist": "Big Sean", "frequency": 5, "id": "spotify:track:0fNM58H6Bj6UbmRoipsAdr", "name": "Sellin' Dreams"},
+		{"artist": "Big Sean", "frequency": 5, "id": "spotify:track:4dtddJxawwXzb0XU0BBN0N", "name": "100"},
+		{"artist": "Big Sean", "frequency": 3, "id": "spotify:track:0I1gCF6gz7VRBeqVPjWZWX", "name": "Mula"},
+		{"artist": "Big Sean", "frequency": 3, "id": "spotify:track:68VfRlAa5gTI6uCCHZ9nvC", "name": "Memories"},
+		{"artist": "Big Sean", "frequency": 3, "id": "spotify:track:2xf0ScYHEoY2jx7Mm7IGcc", "name": "Grown Man"},
+		{"artist": "Big Sean", "frequency": 2, "id": "spotify:track:74jIt7lFefmGuzZCB7vAng", "name": "Five Bucks (5 On It)"},
+		{"artist": "Big Sean", "frequency": 2, "id": "spotify:track:3P3DpqWM7GMwrb076rUlT7", "name": "Meant To Be"},
+		{"artist": "Big Sean", "frequency": 2, "id": "spotify:track:0FD3oh08wADDAZNYcHNOLr", "name": "Home Town"},
+		{"artist": "Big Sean", "frequency": 2, "id": "spotify:track:2qVdFrG6qlTDATqgviqS7g", "name": "Love Song"},
+		{"artist": "Big Sean", "frequency": 2, "id": "spotify:track:3P4g6Rm266ZgsQLTCvAKtQ", "name": "10-2-10"},
+		{"artist": "Big Sean", "frequency": 2, "id": "spotify:track:4D1dhOe4it13yvY4rPhlAU", "name": "Ambiguous"},
+		{"artist": "Big Sean", "frequency": 2, "id": "spotify:track:4OFZwgvOqkYCOTKziUawCf", "name": "Final Hour"},
+		{"artist": "Big Sean", "frequency": 2, "id": "spotify:track:02HW010FYRSVHKByxK4UaF", "name": "Supa Dupa Lemonade"},
+		{"artist": "Big Sean", "frequency": 2, "id": "spotify:track:6KFlSliaGAq6Z1u5XF0YsL", "name": "Bonus Track"},
+		{"artist": "Big Sean", "frequency": 2, "id": "spotify:track:70sahaLBJXa4OtrOAJrf8l", "name": "Mula (Remix)"},
+		{"artist": "Big Sean", "frequency": 1, "id": "spotify:track:37Gbwhvxz3GCs7vvyjKtq9", "name": "High Rise"},
+		{"artist": "Big Sean", "frequency": 1, "id": "spotify:track:14Wh1VWUzrO9U0OqKoLSB7", "name": "What U Doin (Bullshittin')"},
+		{"artist": "Big Sean", "frequency": 1, "id": "spotify:track:6eQz6s2ePlrlHyOIlwpK52", "name": "Crazy"},
+		{"artist": "Big Sean", "frequency": 1, "id": "spotify:track:256vNwBMpZTJkjLmEl4bw2", "name": "Fuck My Opponent"},
+		{"artist": "Big Sean", "frequency": 1, "id": "spotify:track:1oOa90SYSmVagMcmStK3Gx", "name": "My Closet"},
+		{"artist": "Big Sean", "frequency": 1, "id": "spotify:track:6H56xQ6v2o8ADUYeK1DUmi", "name": "Fat Raps Remix"},
+		{"artist": "Big Sean", "frequency": 1, "id": "spotify:track:6NMGSnUV74Ba4rnBbpimj4", "name": "Money And Sex"},
 ] 
  }

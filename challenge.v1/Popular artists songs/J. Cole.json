@@ -1,106 +1,106 @@
 { "songs": [
-		{"artist": "J. Cole", "frequency": 32336, "id": "spotify:track:62vpWI1CHwFy7tMIcSStl8", "name": "No Role Modelz"};
-		{"artist": "J. Cole", "frequency": 19901, "id": "spotify:track:6Ius4TC0L3cN74HT7ENE6e", "name": "Wet Dreamz"};
-		{"artist": "J. Cole", "frequency": 16785, "id": "spotify:track:16qYlQ6koFxYVbiJbGHblz", "name": "G.O.M.D."};
-		{"artist": "J. Cole", "frequency": 14007, "id": "spotify:track:6rbeWjEavBHvX2kr6lSogS", "name": "Work Out"};
-		{"artist": "J. Cole", "frequency": 13043, "id": "spotify:track:7FOJvA3PxiIU0DN3JjQ7jT", "name": "Power Trip"};
-		{"artist": "J. Cole", "frequency": 11486, "id": "spotify:track:6I6NX6tjGsxFAsIfGzY9lJ", "name": "Deja Vu"};
-		{"artist": "J. Cole", "frequency": 11285, "id": "spotify:track:0utlOiJy2weVl9WTkcEWHy", "name": "Neighbors"};
-		{"artist": "J. Cole", "frequency": 10334, "id": "spotify:track:7lL3MvFWFFSD25pBz72Agj", "name": "A Tale of 2 Citiez"};
-		{"artist": "J. Cole", "frequency": 8605, "id": "spotify:track:1HNs07uZxZniPNmniw2GTa", "name": "Apparently"};
-		{"artist": "J. Cole", "frequency": 7963, "id": "spotify:track:6JG0qhINKVwiHxqN85j7RG", "name": "Crooked Smile"};
-		{"artist": "J. Cole", "frequency": 6685, "id": "spotify:track:282L6SR4Y8Rs0VUgtEy1Zw", "name": "She Knows"};
-		{"artist": "J. Cole", "frequency": 6081, "id": "spotify:track:6AGON2BGdPmPMJGiiNuuwl", "name": "Immortal"};
-		{"artist": "J. Cole", "frequency": 5620, "id": "spotify:track:4gkl7QbQvBd3TM9PhlWFkI", "name": "Love Yourz"};
-		{"artist": "J. Cole", "frequency": 5500, "id": "spotify:track:4Tjh34RS4ACZ6f6srlDBg8", "name": "Fire Squad"};
-		{"artist": "J. Cole", "frequency": 3967, "id": "spotify:track:20wR5XQpaL1uvVY8gmc4uY", "name": "Can't Get Enough"};
-		{"artist": "J. Cole", "frequency": 3240, "id": "spotify:track:3pjUyVbFmM96tYhSaKJwTt", "name": "Change"};
-		{"artist": "J. Cole", "frequency": 3181, "id": "spotify:track:6FedhFiHb0KxTvOD1qEX8L", "name": "In the Morning"};
-		{"artist": "J. Cole", "frequency": 2922, "id": "spotify:track:1vvnYpYEMVB4aq9I6tHIEB", "name": "4 Your Eyez Only"};
-		{"artist": "J. Cole", "frequency": 2836, "id": "spotify:track:5kpnUpMNV9dPNCKY7JtW3Q", "name": "Forbidden Fruit"};
-		{"artist": "J. Cole", "frequency": 2742, "id": "spotify:track:07NI6CCv57IbIqzy10ddd7", "name": "Nobody's Perfect"};
-		{"artist": "J. Cole", "frequency": 2730, "id": "spotify:track:0HtOJj7Kl74s1Ngf3MWeif", "name": "She's Mine Pt. 1"};
-		{"artist": "J. Cole", "frequency": 2254, "id": "spotify:track:0QpYkajexWrB0P3TWvkHlm", "name": "Rich Niggaz"};
-		{"artist": "J. Cole", "frequency": 2183, "id": "spotify:track:2z3joGXrdGL2iEjIKQTiN1", "name": "Ville Mentality"};
-		{"artist": "J. Cole", "frequency": 2163, "id": "spotify:track:77IAeEz8LEchPN8UNjaTJ2", "name": "Foldin Clothes"};
-		{"artist": "J. Cole", "frequency": 2148, "id": "spotify:track:4txn9qnwK3ILQqv5oq2mO3", "name": "03' Adolescence"};
-		{"artist": "J. Cole", "frequency": 2091, "id": "spotify:track:5rmcjZTrE9JR1YrbNZDFNW", "name": "She's Mine Pt. 2"};
-		{"artist": "J. Cole", "frequency": 2076, "id": "spotify:track:6NyhBA9M6KK0fuVsojxL00", "name": "January 28th"};
-		{"artist": "J. Cole", "frequency": 2063, "id": "spotify:track:60ZMdbcC5wwmzbGr5XkDHd", "name": "Lights Please"};
-		{"artist": "J. Cole", "frequency": 2019, "id": "spotify:track:1wIQtB3UQ1TfjNMZZqO6eh", "name": "everybody dies"};
-		{"artist": "J. Cole", "frequency": 1983, "id": "spotify:track:3MWlVSkoLS1e66nlZ2tuWJ", "name": "For Whom The Bell Tolls"};
-		{"artist": "J. Cole", "frequency": 1925, "id": "spotify:track:30Chv2SmIry70YwtmtaKnj", "name": "Hello"};
-		{"artist": "J. Cole", "frequency": 1795, "id": "spotify:track:4WfjYOo0JxommRm1PyObJl", "name": "High For Hours"};
-		{"artist": "J. Cole", "frequency": 1790, "id": "spotify:track:0eneujAc4PxkdjP25Gsue1", "name": "False Prophets"};
-		{"artist": "J. Cole", "frequency": 1445, "id": "spotify:track:3FWR4iiUUPHIK7OpiEgh8J", "name": "Lost Ones"};
-		{"artist": "J. Cole", "frequency": 1440, "id": "spotify:track:4qRjfovbhI4EwP7VQNfxVW", "name": "St. Tropez"};
-		{"artist": "J. Cole", "frequency": 1439, "id": "spotify:track:2wQVmS0j4xcSbEK8CLEgwz", "name": "Born Sinner"};
-		{"artist": "J. Cole", "frequency": 1371, "id": "spotify:track:4cvUik0BhfRXJyEGtTYuut", "name": "Land of the Snakes"};
-		{"artist": "J. Cole", "frequency": 1149, "id": "spotify:track:4pqiLICe0uTHb9WfY02ek9", "name": "Trouble"};
-		{"artist": "J. Cole", "frequency": 1096, "id": "spotify:track:4fFZW98VLhdZSlyC07wt6v", "name": "Sparks Will Fly"};
-		{"artist": "J. Cole", "frequency": 1050, "id": "spotify:track:6qwGBEapykrbAHTYlYwONN", "name": "Cole World"};
-		{"artist": "J. Cole", "frequency": 993, "id": "spotify:track:26RcjBcThMrZ8KvsqApOvN", "name": "Let Nas Down"};
-		{"artist": "J. Cole", "frequency": 987, "id": "spotify:track:4YwNf1fLZt9IQhJeHNWfBi", "name": "Intro"};
-		{"artist": "J. Cole", "frequency": 929, "id": "spotify:track:3wklLgZSOSi1kEFmO13zph", "name": "Mr. Nice Watch"};
-		{"artist": "J. Cole", "frequency": 910, "id": "spotify:track:01VGA34ATxwp0Xo1ldduo2", "name": "Note to Self"};
-		{"artist": "J. Cole", "frequency": 901, "id": "spotify:track:0aKjN6mBKSMmP3TpfezOxM", "name": "Miss America"};
-		{"artist": "J. Cole", "frequency": 898, "id": "spotify:track:3YjQfsV7vIDj0eovuUlbK7", "name": "Villuminati"};
-		{"artist": "J. Cole", "frequency": 836, "id": "spotify:track:7ncDwhSTgCZuL3OZNkvZ97", "name": "Niggaz Know"};
-		{"artist": "J. Cole", "frequency": 789, "id": "spotify:track:1PQAocUDoT1Q90Sabu1MTu", "name": "Is She Gon Pop"};
-		{"artist": "J. Cole", "frequency": 788, "id": "spotify:track:6z1z7D2WcyVWkRAr2UVbt5", "name": "Rise and Shine"};
-		{"artist": "J. Cole", "frequency": 679, "id": "spotify:track:5A0NEY8GOCB3ErRSRPpY72", "name": "Chaining Day"};
-		{"artist": "J. Cole", "frequency": 658, "id": "spotify:track:5Je1fS7wNMhngKuU0fKUvw", "name": "Ain't That Some Shit (Interlude)"};
-		{"artist": "J. Cole", "frequency": 647, "id": "spotify:track:6eGOhP07wbi8A1vRRB6GcA", "name": "Sideline Story"};
-		{"artist": "J. Cole", "frequency": 639, "id": "spotify:track:6uslSzMm1xIuCf5p9ECEtz", "name": "Runaway"};
-		{"artist": "J. Cole", "frequency": 616, "id": "spotify:track:5u89YD9CJMFVfFqUoeGy2P", "name": "New York Times"};
-		{"artist": "J. Cole", "frequency": 543, "id": "spotify:track:2IPSdaPUUkbeP7F3HNRK56", "name": "Who Dat"};
-		{"artist": "J. Cole", "frequency": 525, "id": "spotify:track:7nWxZ1OWN4gtVH1mplNRxV", "name": "Dollar and a Dream III"};
-		{"artist": "J. Cole", "frequency": 498, "id": "spotify:track:7mgVenws8AB44VPNGY56NQ", "name": "Folgers Crystals"};
-		{"artist": "J. Cole", "frequency": 435, "id": "spotify:track:3Iz0A1nuTjiLvXQaBxjWzn", "name": "Mo Money (Interlude)"};
-		{"artist": "J. Cole", "frequency": 416, "id": "spotify:track:2GnE8rMDgfWBwGmwrUbCsQ", "name": "Caged Bird"};
-		{"artist": "J. Cole", "frequency": 377, "id": "spotify:track:7qZnrRGtCSDz4apCr4IGtD", "name": "God's Gift"};
-		{"artist": "J. Cole", "frequency": 347, "id": "spotify:track:4xjTj1GaKEdP7VJRLwcogJ", "name": "Never Told"};
-		{"artist": "J. Cole", "frequency": 344, "id": "spotify:track:5JfYyqgaXDFMVtWzzgN8Uq", "name": "Breakdown"};
-		{"artist": "J. Cole", "frequency": 206, "id": "spotify:track:7fn3jCTpdh4oUxOaAXyI40", "name": "Where's Jermaine? (Skit)"};
-		{"artist": "J. Cole", "frequency": 195, "id": "spotify:track:38k4PhKjLcPOiSdobEgXCW", "name": "Kerney Sermon (Skit)"};
-		{"artist": "J. Cole", "frequency": 161, "id": "spotify:track:6EaJ6rsAqrcfsEhKzrtK9i", "name": "Love Yourz - Live"};
-		{"artist": "J. Cole", "frequency": 161, "id": "spotify:track:0SFZAQnxM6KBBNi8Y7YflZ", "name": "No Role Modelz - Live"};
-		{"artist": "J. Cole", "frequency": 160, "id": "spotify:track:3cPAPsXdBbs9xck8a2rfTk", "name": "Interlude"};
-		{"artist": "J. Cole", "frequency": 152, "id": "spotify:track:7wARU4h85M0009ak3MiLOm", "name": "Intro"};
-		{"artist": "J. Cole", "frequency": 144, "id": "spotify:track:4VUpgvJxbriXHrMrsb60HB", "name": "Wet Dreamz - Live"};
-		{"artist": "J. Cole", "frequency": 132, "id": "spotify:track:1O02UzJKK7njDp3lQqLhUm", "name": "G.O.M.D. - Live"};
-		{"artist": "J. Cole", "frequency": 117, "id": "spotify:track:5EPp5oygWvFf08qCFBAZcV", "name": "A Tale of 2 Citiez - Live"};
-		{"artist": "J. Cole", "frequency": 94, "id": "spotify:track:0Doo3FFDXdBkUPQopiZrGa", "name": "Hello - Live"};
-		{"artist": "J. Cole", "frequency": 89, "id": "spotify:track:00X0ABCr4AZpT5GDfwjdcg", "name": "Apparently - Live"};
-		{"artist": "J. Cole", "frequency": 68, "id": "spotify:track:77aasEzxEXE13suFG6npRE", "name": "Fire Squad - Live"};
-		{"artist": "J. Cole", "frequency": 63, "id": "spotify:track:5rSH2YlI18D4mmgP0tQbs9", "name": "03' Adolescence - Live"};
-		{"artist": "J. Cole", "frequency": 62, "id": "spotify:track:5eosij7UzMFxOiR5NbWUYv", "name": "Intermission (includes \"Lights Please,\" \"In the Morning\" and \"Nobody's Perfect\") - Live"};
-		{"artist": "J. Cole", "frequency": 57, "id": "spotify:track:4hDVp91fU023kzpG2Pa50r", "name": "January 28th - Live"};
-		{"artist": "J. Cole", "frequency": 43, "id": "spotify:track:1TpwCt5UN4x4XFA5CLNLib", "name": "Intro - Live"};
-		{"artist": "J. Cole", "frequency": 40, "id": "spotify:track:0blFG9HMuSPedfdyFnN7m9", "name": "St. Tropez - Live"};
-		{"artist": "J. Cole", "frequency": 18, "id": "spotify:track:1pjtZJ6hnh2ATw3lv05RpE", "name": "Born Sinner"};
-		{"artist": "J. Cole", "frequency": 12, "id": "spotify:track:5afpZCnytEQbVHO1W9vO81", "name": "Heartz Of Men - Interview"};
-		{"artist": "J. Cole", "frequency": 9, "id": "spotify:track:7bYKuYvHh5pzWsUK4t1O4e", "name": "Creep - Interview"};
-		{"artist": "J. Cole", "frequency": 9, "id": "spotify:track:7dQx4ZQv5kD41NY42oFNXd", "name": "Vica Versa - Interview"};
-		{"artist": "J. Cole", "frequency": 9, "id": "spotify:track:7KnN004q7mpWnAnO4CrI91", "name": "Diamonds & Wood - Interview"};
-		{"artist": "J. Cole", "frequency": 9, "id": "spotify:track:0902QrRP9IZon8Duyvpuk5", "name": "Speed Racin' - Interview"};
-		{"artist": "J. Cole", "frequency": 8, "id": "spotify:track:6eCRcqQXjH2iRpXS0XKZiu", "name": "B.O.B. - Interview"};
-		{"artist": "J. Cole", "frequency": 7, "id": "spotify:track:1VN5HJi0pJ85oz91Z51GJ0", "name": "Stop This Train - Interview"};
-		{"artist": "J. Cole", "frequency": 7, "id": "spotify:track:7kXn0zQrxZ9ErSJWlSdGee", "name": "Friendly Skies - Interview"};
-		{"artist": "J. Cole", "frequency": 7, "id": "spotify:track:16ko88KNlaXvpdMNyJNLvY", "name": "Soon You'll Understand - Interview"};
-		{"artist": "J. Cole", "frequency": 7, "id": "spotify:track:3OrK5xKO3p5gZn25YHE8rM", "name": "Tonight, Tonight - Interview"};
-		{"artist": "J. Cole", "frequency": 6, "id": "spotify:track:0YJGV4k1XyGRtMJzMZsxUS", "name": "Work Out - Radio Edit"};
-		{"artist": "J. Cole", "frequency": 6, "id": "spotify:track:7qIlCi6YWBKZNeqjeVXfJI", "name": "Say You Love Me"};
-		{"artist": "J. Cole", "frequency": 4, "id": "spotify:track:7l2P1IQ3UFPJhcirxpkzbp", "name": "MatricSmash"};
-		{"artist": "J. Cole", "frequency": 3, "id": "spotify:track:3zESCVtoZqstqKwbgJPl0g", "name": "I Get Up"};
-		{"artist": "J. Cole", "frequency": 2, "id": "spotify:track:0m9rN1BbEuqv1n5OjLHFD1", "name": "We On"};
-		{"artist": "J. Cole", "frequency": 2, "id": "spotify:track:0rLNG4m2VQCONxX2hd5cW4", "name": "Shook Ones - Freestyle"};
-		{"artist": "J. Cole", "frequency": 1, "id": "spotify:track:3jUhKOTacQH19dXw6Gziln", "name": "Til Infinity"};
-		{"artist": "J. Cole", "frequency": 1, "id": "spotify:track:6pIzTjwOQqhO2MlKKCjNKN", "name": "Grown Simba"};
-		{"artist": "J. Cole", "frequency": 1, "id": "spotify:track:3EZsjVhjvIkQ5D151c8dxe", "name": "Im The shit"};
-		{"artist": "J. Cole", "frequency": 1, "id": "spotify:track:0Pao3gN2DNHQ8skQSTayRv", "name": "Pockets full of money"};
-		{"artist": "J. Cole", "frequency": 1, "id": "spotify:track:4Fj4t336chqjvsIvHEk1il", "name": "Strapped up"};
-		{"artist": "J. Cole", "frequency": 1, "id": "spotify:track:5dibrUBCvta6cLHcOaxOqD", "name": "Split You Up"};
-		{"artist": "J. Cole", "frequency": 1, "id": "spotify:track:5dZswBQtqgV2xlgxlKxKc1", "name": "Time"};
+		{"artist": "J. Cole", "frequency": 32336, "id": "spotify:track:62vpWI1CHwFy7tMIcSStl8", "name": "No Role Modelz"},
+		{"artist": "J. Cole", "frequency": 19901, "id": "spotify:track:6Ius4TC0L3cN74HT7ENE6e", "name": "Wet Dreamz"},
+		{"artist": "J. Cole", "frequency": 16785, "id": "spotify:track:16qYlQ6koFxYVbiJbGHblz", "name": "G.O.M.D."},
+		{"artist": "J. Cole", "frequency": 14007, "id": "spotify:track:6rbeWjEavBHvX2kr6lSogS", "name": "Work Out"},
+		{"artist": "J. Cole", "frequency": 13043, "id": "spotify:track:7FOJvA3PxiIU0DN3JjQ7jT", "name": "Power Trip"},
+		{"artist": "J. Cole", "frequency": 11486, "id": "spotify:track:6I6NX6tjGsxFAsIfGzY9lJ", "name": "Deja Vu"},
+		{"artist": "J. Cole", "frequency": 11285, "id": "spotify:track:0utlOiJy2weVl9WTkcEWHy", "name": "Neighbors"},
+		{"artist": "J. Cole", "frequency": 10334, "id": "spotify:track:7lL3MvFWFFSD25pBz72Agj", "name": "A Tale of 2 Citiez"},
+		{"artist": "J. Cole", "frequency": 8605, "id": "spotify:track:1HNs07uZxZniPNmniw2GTa", "name": "Apparently"},
+		{"artist": "J. Cole", "frequency": 7963, "id": "spotify:track:6JG0qhINKVwiHxqN85j7RG", "name": "Crooked Smile"},
+		{"artist": "J. Cole", "frequency": 6685, "id": "spotify:track:282L6SR4Y8Rs0VUgtEy1Zw", "name": "She Knows"},
+		{"artist": "J. Cole", "frequency": 6081, "id": "spotify:track:6AGON2BGdPmPMJGiiNuuwl", "name": "Immortal"},
+		{"artist": "J. Cole", "frequency": 5620, "id": "spotify:track:4gkl7QbQvBd3TM9PhlWFkI", "name": "Love Yourz"},
+		{"artist": "J. Cole", "frequency": 5500, "id": "spotify:track:4Tjh34RS4ACZ6f6srlDBg8", "name": "Fire Squad"},
+		{"artist": "J. Cole", "frequency": 3967, "id": "spotify:track:20wR5XQpaL1uvVY8gmc4uY", "name": "Can't Get Enough"},
+		{"artist": "J. Cole", "frequency": 3240, "id": "spotify:track:3pjUyVbFmM96tYhSaKJwTt", "name": "Change"},
+		{"artist": "J. Cole", "frequency": 3181, "id": "spotify:track:6FedhFiHb0KxTvOD1qEX8L", "name": "In the Morning"},
+		{"artist": "J. Cole", "frequency": 2922, "id": "spotify:track:1vvnYpYEMVB4aq9I6tHIEB", "name": "4 Your Eyez Only"},
+		{"artist": "J. Cole", "frequency": 2836, "id": "spotify:track:5kpnUpMNV9dPNCKY7JtW3Q", "name": "Forbidden Fruit"},
+		{"artist": "J. Cole", "frequency": 2742, "id": "spotify:track:07NI6CCv57IbIqzy10ddd7", "name": "Nobody's Perfect"},
+		{"artist": "J. Cole", "frequency": 2730, "id": "spotify:track:0HtOJj7Kl74s1Ngf3MWeif", "name": "She's Mine Pt. 1"},
+		{"artist": "J. Cole", "frequency": 2254, "id": "spotify:track:0QpYkajexWrB0P3TWvkHlm", "name": "Rich Niggaz"},
+		{"artist": "J. Cole", "frequency": 2183, "id": "spotify:track:2z3joGXrdGL2iEjIKQTiN1", "name": "Ville Mentality"},
+		{"artist": "J. Cole", "frequency": 2163, "id": "spotify:track:77IAeEz8LEchPN8UNjaTJ2", "name": "Foldin Clothes"},
+		{"artist": "J. Cole", "frequency": 2148, "id": "spotify:track:4txn9qnwK3ILQqv5oq2mO3", "name": "03' Adolescence"},
+		{"artist": "J. Cole", "frequency": 2091, "id": "spotify:track:5rmcjZTrE9JR1YrbNZDFNW", "name": "She's Mine Pt. 2"},
+		{"artist": "J. Cole", "frequency": 2076, "id": "spotify:track:6NyhBA9M6KK0fuVsojxL00", "name": "January 28th"},
+		{"artist": "J. Cole", "frequency": 2063, "id": "spotify:track:60ZMdbcC5wwmzbGr5XkDHd", "name": "Lights Please"},
+		{"artist": "J. Cole", "frequency": 2019, "id": "spotify:track:1wIQtB3UQ1TfjNMZZqO6eh", "name": "everybody dies"},
+		{"artist": "J. Cole", "frequency": 1983, "id": "spotify:track:3MWlVSkoLS1e66nlZ2tuWJ", "name": "For Whom The Bell Tolls"},
+		{"artist": "J. Cole", "frequency": 1925, "id": "spotify:track:30Chv2SmIry70YwtmtaKnj", "name": "Hello"},
+		{"artist": "J. Cole", "frequency": 1795, "id": "spotify:track:4WfjYOo0JxommRm1PyObJl", "name": "High For Hours"},
+		{"artist": "J. Cole", "frequency": 1790, "id": "spotify:track:0eneujAc4PxkdjP25Gsue1", "name": "False Prophets"},
+		{"artist": "J. Cole", "frequency": 1445, "id": "spotify:track:3FWR4iiUUPHIK7OpiEgh8J", "name": "Lost Ones"},
+		{"artist": "J. Cole", "frequency": 1440, "id": "spotify:track:4qRjfovbhI4EwP7VQNfxVW", "name": "St. Tropez"},
+		{"artist": "J. Cole", "frequency": 1439, "id": "spotify:track:2wQVmS0j4xcSbEK8CLEgwz", "name": "Born Sinner"},
+		{"artist": "J. Cole", "frequency": 1371, "id": "spotify:track:4cvUik0BhfRXJyEGtTYuut", "name": "Land of the Snakes"},
+		{"artist": "J. Cole", "frequency": 1149, "id": "spotify:track:4pqiLICe0uTHb9WfY02ek9", "name": "Trouble"},
+		{"artist": "J. Cole", "frequency": 1096, "id": "spotify:track:4fFZW98VLhdZSlyC07wt6v", "name": "Sparks Will Fly"},
+		{"artist": "J. Cole", "frequency": 1050, "id": "spotify:track:6qwGBEapykrbAHTYlYwONN", "name": "Cole World"},
+		{"artist": "J. Cole", "frequency": 993, "id": "spotify:track:26RcjBcThMrZ8KvsqApOvN", "name": "Let Nas Down"},
+		{"artist": "J. Cole", "frequency": 987, "id": "spotify:track:4YwNf1fLZt9IQhJeHNWfBi", "name": "Intro"},
+		{"artist": "J. Cole", "frequency": 929, "id": "spotify:track:3wklLgZSOSi1kEFmO13zph", "name": "Mr. Nice Watch"},
+		{"artist": "J. Cole", "frequency": 910, "id": "spotify:track:01VGA34ATxwp0Xo1ldduo2", "name": "Note to Self"},
+		{"artist": "J. Cole", "frequency": 901, "id": "spotify:track:0aKjN6mBKSMmP3TpfezOxM", "name": "Miss America"},
+		{"artist": "J. Cole", "frequency": 898, "id": "spotify:track:3YjQfsV7vIDj0eovuUlbK7", "name": "Villuminati"},
+		{"artist": "J. Cole", "frequency": 836, "id": "spotify:track:7ncDwhSTgCZuL3OZNkvZ97", "name": "Niggaz Know"},
+		{"artist": "J. Cole", "frequency": 789, "id": "spotify:track:1PQAocUDoT1Q90Sabu1MTu", "name": "Is She Gon Pop"},
+		{"artist": "J. Cole", "frequency": 788, "id": "spotify:track:6z1z7D2WcyVWkRAr2UVbt5", "name": "Rise and Shine"},
+		{"artist": "J. Cole", "frequency": 679, "id": "spotify:track:5A0NEY8GOCB3ErRSRPpY72", "name": "Chaining Day"},
+		{"artist": "J. Cole", "frequency": 658, "id": "spotify:track:5Je1fS7wNMhngKuU0fKUvw", "name": "Ain't That Some Shit (Interlude)"},
+		{"artist": "J. Cole", "frequency": 647, "id": "spotify:track:6eGOhP07wbi8A1vRRB6GcA", "name": "Sideline Story"},
+		{"artist": "J. Cole", "frequency": 639, "id": "spotify:track:6uslSzMm1xIuCf5p9ECEtz", "name": "Runaway"},
+		{"artist": "J. Cole", "frequency": 616, "id": "spotify:track:5u89YD9CJMFVfFqUoeGy2P", "name": "New York Times"},
+		{"artist": "J. Cole", "frequency": 543, "id": "spotify:track:2IPSdaPUUkbeP7F3HNRK56", "name": "Who Dat"},
+		{"artist": "J. Cole", "frequency": 525, "id": "spotify:track:7nWxZ1OWN4gtVH1mplNRxV", "name": "Dollar and a Dream III"},
+		{"artist": "J. Cole", "frequency": 498, "id": "spotify:track:7mgVenws8AB44VPNGY56NQ", "name": "Folgers Crystals"},
+		{"artist": "J. Cole", "frequency": 435, "id": "spotify:track:3Iz0A1nuTjiLvXQaBxjWzn", "name": "Mo Money (Interlude)"},
+		{"artist": "J. Cole", "frequency": 416, "id": "spotify:track:2GnE8rMDgfWBwGmwrUbCsQ", "name": "Caged Bird"},
+		{"artist": "J. Cole", "frequency": 377, "id": "spotify:track:7qZnrRGtCSDz4apCr4IGtD", "name": "God's Gift"},
+		{"artist": "J. Cole", "frequency": 347, "id": "spotify:track:4xjTj1GaKEdP7VJRLwcogJ", "name": "Never Told"},
+		{"artist": "J. Cole", "frequency": 344, "id": "spotify:track:5JfYyqgaXDFMVtWzzgN8Uq", "name": "Breakdown"},
+		{"artist": "J. Cole", "frequency": 206, "id": "spotify:track:7fn3jCTpdh4oUxOaAXyI40", "name": "Where's Jermaine? (Skit)"},
+		{"artist": "J. Cole", "frequency": 195, "id": "spotify:track:38k4PhKjLcPOiSdobEgXCW", "name": "Kerney Sermon (Skit)"},
+		{"artist": "J. Cole", "frequency": 161, "id": "spotify:track:6EaJ6rsAqrcfsEhKzrtK9i", "name": "Love Yourz - Live"},
+		{"artist": "J. Cole", "frequency": 161, "id": "spotify:track:0SFZAQnxM6KBBNi8Y7YflZ", "name": "No Role Modelz - Live"},
+		{"artist": "J. Cole", "frequency": 160, "id": "spotify:track:3cPAPsXdBbs9xck8a2rfTk", "name": "Interlude"},
+		{"artist": "J. Cole", "frequency": 152, "id": "spotify:track:7wARU4h85M0009ak3MiLOm", "name": "Intro"},
+		{"artist": "J. Cole", "frequency": 144, "id": "spotify:track:4VUpgvJxbriXHrMrsb60HB", "name": "Wet Dreamz - Live"},
+		{"artist": "J. Cole", "frequency": 132, "id": "spotify:track:1O02UzJKK7njDp3lQqLhUm", "name": "G.O.M.D. - Live"},
+		{"artist": "J. Cole", "frequency": 117, "id": "spotify:track:5EPp5oygWvFf08qCFBAZcV", "name": "A Tale of 2 Citiez - Live"},
+		{"artist": "J. Cole", "frequency": 94, "id": "spotify:track:0Doo3FFDXdBkUPQopiZrGa", "name": "Hello - Live"},
+		{"artist": "J. Cole", "frequency": 89, "id": "spotify:track:00X0ABCr4AZpT5GDfwjdcg", "name": "Apparently - Live"},
+		{"artist": "J. Cole", "frequency": 68, "id": "spotify:track:77aasEzxEXE13suFG6npRE", "name": "Fire Squad - Live"},
+		{"artist": "J. Cole", "frequency": 63, "id": "spotify:track:5rSH2YlI18D4mmgP0tQbs9", "name": "03' Adolescence - Live"},
+		{"artist": "J. Cole", "frequency": 62, "id": "spotify:track:5eosij7UzMFxOiR5NbWUYv", "name": "Intermission (includes \"Lights Please,\" \"In the Morning\" and \"Nobody's Perfect\") - Live"},
+		{"artist": "J. Cole", "frequency": 57, "id": "spotify:track:4hDVp91fU023kzpG2Pa50r", "name": "January 28th - Live"},
+		{"artist": "J. Cole", "frequency": 43, "id": "spotify:track:1TpwCt5UN4x4XFA5CLNLib", "name": "Intro - Live"},
+		{"artist": "J. Cole", "frequency": 40, "id": "spotify:track:0blFG9HMuSPedfdyFnN7m9", "name": "St. Tropez - Live"},
+		{"artist": "J. Cole", "frequency": 18, "id": "spotify:track:1pjtZJ6hnh2ATw3lv05RpE", "name": "Born Sinner"},
+		{"artist": "J. Cole", "frequency": 12, "id": "spotify:track:5afpZCnytEQbVHO1W9vO81", "name": "Heartz Of Men - Interview"},
+		{"artist": "J. Cole", "frequency": 9, "id": "spotify:track:7bYKuYvHh5pzWsUK4t1O4e", "name": "Creep - Interview"},
+		{"artist": "J. Cole", "frequency": 9, "id": "spotify:track:7dQx4ZQv5kD41NY42oFNXd", "name": "Vica Versa - Interview"},
+		{"artist": "J. Cole", "frequency": 9, "id": "spotify:track:7KnN004q7mpWnAnO4CrI91", "name": "Diamonds & Wood - Interview"},
+		{"artist": "J. Cole", "frequency": 9, "id": "spotify:track:0902QrRP9IZon8Duyvpuk5", "name": "Speed Racin' - Interview"},
+		{"artist": "J. Cole", "frequency": 8, "id": "spotify:track:6eCRcqQXjH2iRpXS0XKZiu", "name": "B.O.B. - Interview"},
+		{"artist": "J. Cole", "frequency": 7, "id": "spotify:track:1VN5HJi0pJ85oz91Z51GJ0", "name": "Stop This Train - Interview"},
+		{"artist": "J. Cole", "frequency": 7, "id": "spotify:track:7kXn0zQrxZ9ErSJWlSdGee", "name": "Friendly Skies - Interview"},
+		{"artist": "J. Cole", "frequency": 7, "id": "spotify:track:16ko88KNlaXvpdMNyJNLvY", "name": "Soon You'll Understand - Interview"},
+		{"artist": "J. Cole", "frequency": 7, "id": "spotify:track:3OrK5xKO3p5gZn25YHE8rM", "name": "Tonight, Tonight - Interview"},
+		{"artist": "J. Cole", "frequency": 6, "id": "spotify:track:0YJGV4k1XyGRtMJzMZsxUS", "name": "Work Out - Radio Edit"},
+		{"artist": "J. Cole", "frequency": 6, "id": "spotify:track:7qIlCi6YWBKZNeqjeVXfJI", "name": "Say You Love Me"},
+		{"artist": "J. Cole", "frequency": 4, "id": "spotify:track:7l2P1IQ3UFPJhcirxpkzbp", "name": "MatricSmash"},
+		{"artist": "J. Cole", "frequency": 3, "id": "spotify:track:3zESCVtoZqstqKwbgJPl0g", "name": "I Get Up"},
+		{"artist": "J. Cole", "frequency": 2, "id": "spotify:track:0m9rN1BbEuqv1n5OjLHFD1", "name": "We On"},
+		{"artist": "J. Cole", "frequency": 2, "id": "spotify:track:0rLNG4m2VQCONxX2hd5cW4", "name": "Shook Ones - Freestyle"},
+		{"artist": "J. Cole", "frequency": 1, "id": "spotify:track:3jUhKOTacQH19dXw6Gziln", "name": "Til Infinity"},
+		{"artist": "J. Cole", "frequency": 1, "id": "spotify:track:6pIzTjwOQqhO2MlKKCjNKN", "name": "Grown Simba"},
+		{"artist": "J. Cole", "frequency": 1, "id": "spotify:track:3EZsjVhjvIkQ5D151c8dxe", "name": "Im The shit"},
+		{"artist": "J. Cole", "frequency": 1, "id": "spotify:track:0Pao3gN2DNHQ8skQSTayRv", "name": "Pockets full of money"},
+		{"artist": "J. Cole", "frequency": 1, "id": "spotify:track:4Fj4t336chqjvsIvHEk1il", "name": "Strapped up"},
+		{"artist": "J. Cole", "frequency": 1, "id": "spotify:track:5dibrUBCvta6cLHcOaxOqD", "name": "Split You Up"},
+		{"artist": "J. Cole", "frequency": 1, "id": "spotify:track:5dZswBQtqgV2xlgxlKxKc1", "name": "Time"},
 ] 
  }
