@@ -1,396 +1,396 @@
 { "songs": [
-		{"artist": "Future", "frequency": 32059, "id": "spotify:track:0VgkVdmE4gld66l8iyGjgx", "name": "Mask Off"};
-		{"artist": "Future", "frequency": 24539, "id": "spotify:track:7EiZI6JVHllARrX9PUvAdX", "name": "Low Life"};
-		{"artist": "Future", "frequency": 15847, "id": "spotify:track:49zD0wr2S3d0lZPib0K4e1", "name": "F*ck Up Some Commas"};
-		{"artist": "Future", "frequency": 14127, "id": "spotify:track:5nN8BwAQDJDguq7Dpd3JQQ", "name": "Where Ya At"};
-		{"artist": "Future", "frequency": 10619, "id": "spotify:track:6yHkPtl6UQ7RjtJLBPzbJw", "name": "Selfish"};
-		{"artist": "Future", "frequency": 10437, "id": "spotify:track:6BbINUfGabVyiNFJpQXn3x", "name": "Wicked"};
-		{"artist": "Future", "frequency": 6285, "id": "spotify:track:78sr3ogs4UzITcCNbXM9cM", "name": "Used to This"};
-		{"artist": "Future", "frequency": 5908, "id": "spotify:track:20fAoPjfYltmd3K3bO7gbt", "name": "Stick Talk"};
-		{"artist": "Future", "frequency": 5604, "id": "spotify:track:1B87ZDrD3Pno9hS4stamWO", "name": "Comin Out Strong"};
-		{"artist": "Future", "frequency": 5176, "id": "spotify:track:5ihDGnhQgMA0F0tk9fNLlA", "name": "Thought It Was a Drought"};
-		{"artist": "Future", "frequency": 4396, "id": "spotify:track:6dVZCbi9CYtD9LjAHXRjIG", "name": "Mask Off - Remix"};
-		{"artist": "Future", "frequency": 4392, "id": "spotify:track:26oF6WjkOjDIRK9YsdZp2l", "name": "March Madness"};
-		{"artist": "Future", "frequency": 3963, "id": "spotify:track:6elNeXUhiuHPD9hH5rocQi", "name": "Trap Niggas"};
-		{"artist": "Future", "frequency": 3888, "id": "spotify:track:4GkkxswcdEt1tkSyiRzgnC", "name": "Draco"};
-		{"artist": "Future", "frequency": 3526, "id": "spotify:track:0BzDQgmeRdA4V71VhfBvXT", "name": "Xanny Family"};
-		{"artist": "Future", "frequency": 3494, "id": "spotify:track:2ACys0pX0SjmpQmQWzp7wt", "name": "Jersey"};
-		{"artist": "Future", "frequency": 3361, "id": "spotify:track:7GEidxhfGNteiW9n0kLyxH", "name": "Move That Dope"};
-		{"artist": "Future", "frequency": 3312, "id": "spotify:track:2Nfd2ITp4WkI1aoZlYpZwg", "name": "I'm so Groovy"};
-		{"artist": "Future", "frequency": 3191, "id": "spotify:track:5W9QCBJ6Em0XWX333YrNhc", "name": "Rent Money"};
-		{"artist": "Future", "frequency": 3022, "id": "spotify:track:6hVGw7yVUd2bpdHMPCWrtN", "name": "March Madness"};
-		{"artist": "Future", "frequency": 2349, "id": "spotify:track:6mavtNxMc35XwKg9POUemZ", "name": "Turn On The Lights"};
-		{"artist": "Future", "frequency": 2271, "id": "spotify:track:2qwn6whaZf7gax7SaqUZSC", "name": "Incredible"};
-		{"artist": "Future", "frequency": 2158, "id": "spotify:track:3AbNHUXVOL9fnddGANU7bY", "name": "Lay Up"};
-		{"artist": "Future", "frequency": 2045, "id": "spotify:track:2T4JE91t7Js1DJ4rSHltcQ", "name": "I Won"};
-		{"artist": "Future", "frequency": 1872, "id": "spotify:track:5FsJ8AUxW1KBypdhFvbdkd", "name": "PIE"};
-		{"artist": "Future", "frequency": 1871, "id": "spotify:track:7givkGZW1cwM8MJYzMd2Na", "name": "Ain't No Time"};
-		{"artist": "Future", "frequency": 1700, "id": "spotify:track:1ANYHWUz5NqPu2EBALGK9Z", "name": "Fly Shit Only"};
-		{"artist": "Future", "frequency": 1672, "id": "spotify:track:7r6LNJT2LqpLpEyZQJPygt", "name": "Patek Water"};
-		{"artist": "Future", "frequency": 1616, "id": "spotify:track:2onCHFrhTinyUc6OawwU4Z", "name": "Rich $ex"};
-		{"artist": "Future", "frequency": 1600, "id": "spotify:track:5GhJq5J9ZWIEDZdyw7EWzt", "name": "Real Sisters"};
-		{"artist": "Future", "frequency": 1533, "id": "spotify:track:1XWcdNQvGrX32fH09CwuWI", "name": "100it Racks"};
-		{"artist": "Future", "frequency": 1512, "id": "spotify:track:4Arjo1XR9qXsLstvU9fFV3", "name": "Last Breath"};
-		{"artist": "Future", "frequency": 1510, "id": "spotify:track:7unZ7zDyrTs2L7167dqm2Y", "name": "Freak Hoe"};
-		{"artist": "Future", "frequency": 1499, "id": "spotify:track:1tlBuoIRrtqFs9bE9dmli5", "name": "Extra Luv"};
-		{"artist": "Future", "frequency": 1472, "id": "spotify:track:1uUGn3Sk4qErHdDqL1OSVA", "name": "Who (feat. Young Thug)"};
-		{"artist": "Future", "frequency": 1462, "id": "spotify:track:6ycYqFnXnjMOwMvEMbEpUk", "name": "Blow a Bag"};
-		{"artist": "Future", "frequency": 1459, "id": "spotify:track:4AFgK4wP1iD5i8BYaLr9Vf", "name": "You Da Baddest"};
-		{"artist": "Future", "frequency": 1326, "id": "spotify:track:4CPsMAG28OgzzDk1DcOtBx", "name": "Sorry"};
-		{"artist": "Future", "frequency": 1323, "id": "spotify:track:4lH6nENd1y81jp7Yt9lTBX", "name": "Solo"};
-		{"artist": "Future", "frequency": 1304, "id": "spotify:track:2Ih0U9yUuY0oU2In3h21If", "name": "Karate Chop (Remix)"};
-		{"artist": "Future", "frequency": 1268, "id": "spotify:track:5ik5nMy8vdS2rXe7SAGt2K", "name": "Honest"};
-		{"artist": "Future", "frequency": 1238, "id": "spotify:track:4XaW4jIud5YxwV4QRJOb40", "name": "Super Trapper"};
-		{"artist": "Future", "frequency": 1137, "id": "spotify:track:0Due109sq8Ld9G5xkWRubf", "name": "Maybach"};
-		{"artist": "Future", "frequency": 1105, "id": "spotify:track:0knX1FaKl445Hej9Tjj07N", "name": "Fresh Air"};
-		{"artist": "Future", "frequency": 1098, "id": "spotify:track:4Fi7fihVNkHPfBZ7KeSXVH", "name": "Photo Copied"};
-		{"artist": "Future", "frequency": 1081, "id": "spotify:track:7KyEgCM3EdWPYi5WHuhc1y", "name": "Neva End"};
-		{"artist": "Future", "frequency": 1032, "id": "spotify:track:52SuMdAYS2jvKQhODi0ARY", "name": "POA"};
-		{"artist": "Future", "frequency": 976, "id": "spotify:track:1Rq4GtIucW9CAcF8B6PAbW", "name": "I Serve the Base"};
-		{"artist": "Future", "frequency": 967, "id": "spotify:track:2IG6Te7JyvrtqhFeOF7le4", "name": "Zoom"};
-		{"artist": "Future", "frequency": 933, "id": "spotify:track:1yCVsVH2hQ72SxNI8QTDaB", "name": "The Percocet & Stripper Joint"};
-		{"artist": "Future", "frequency": 931, "id": "spotify:track:2depzNvnAgMFKYnm3moXIc", "name": "Kno The Meaning"};
-		{"artist": "Future", "frequency": 891, "id": "spotify:track:3lyeSiAIdLoZUHhV8psOTI", "name": "Feed Me Dope"};
-		{"artist": "Future", "frequency": 891, "id": "spotify:track:6bB5iGatJHiqnoxMZDsySr", "name": "Might as Well"};
-		{"artist": "Future", "frequency": 874, "id": "spotify:track:3K0sVapHNSSeJ8o4DLHOJY", "name": "In Her Mouth"};
-		{"artist": "Future", "frequency": 836, "id": "spotify:track:7IeHIGriFrJaTeaC4W0a8W", "name": "Hallucinating"};
-		{"artist": "Future", "frequency": 826, "id": "spotify:track:0526DaOuV7mRlPKxhMSJKw", "name": "My Collection"};
-		{"artist": "Future", "frequency": 822, "id": "spotify:track:0pT1DW5RUHelpBMyEgWwaU", "name": "Sh!t"};
-		{"artist": "Future", "frequency": 816, "id": "spotify:track:6mxz6tKfJw2RvzdowwDELj", "name": "Use Me"};
-		{"artist": "Future", "frequency": 754, "id": "spotify:track:2O0PpdgMmzBj2ZY8cqjfpO", "name": "Seven Rings"};
-		{"artist": "Future", "frequency": 752, "id": "spotify:track:4hjloKONMQyJHOmSzAwuAq", "name": "Tony Montana"};
-		{"artist": "Future", "frequency": 711, "id": "spotify:track:2YXEUNdnNLtFuf5gi3LnWm", "name": "Good Dope"};
-		{"artist": "Future", "frequency": 694, "id": "spotify:track:06Gyf2pFDVmN5K8XAawG96", "name": "No Cap"};
-		{"artist": "Future", "frequency": 690, "id": "spotify:track:4Kup1kDTLoJaUMgpGFPqau", "name": "Married To The Game"};
-		{"artist": "Future", "frequency": 684, "id": "spotify:track:6vbafkvao6NErZDTjh2sYC", "name": "Poppin' Tags"};
-		{"artist": "Future", "frequency": 674, "id": "spotify:track:5rK0pyEObO4DBFLy682QvR", "name": "Mask Off - Marshmello Remix"};
-		{"artist": "Future", "frequency": 666, "id": "spotify:track:0FgrFRzcFLC5rbrbedPzRk", "name": "Magic - Remix"};
-		{"artist": "Future", "frequency": 655, "id": "spotify:track:6Mz7ULRwNSCOdut6M3tNs2", "name": "Lookin Exotic"};
-		{"artist": "Future", "frequency": 643, "id": "spotify:track:65FWIwYbpF4cSXLXykHUsV", "name": "Feds Did a Sweep"};
-		{"artist": "Future", "frequency": 643, "id": "spotify:track:7sGZDsOCYpvqkIv8eH4jOG", "name": "Slave Master"};
-		{"artist": "Future", "frequency": 641, "id": "spotify:track:1j703cUWGLGtl3n41HI3Hx", "name": "Keep Quiet"};
-		{"artist": "Future", "frequency": 632, "id": "spotify:track:3IMZ6j3mlRQYsatEuzt0Y3", "name": "Lil Haiti Baby"};
-		{"artist": "Future", "frequency": 606, "id": "spotify:track:5TxsupFF2Vc70TQdLyyOE3", "name": "Real and True"};
-		{"artist": "Future", "frequency": 597, "id": "spotify:track:2KBzUcKeNdsujWiK3djHvd", "name": "Blood On the Money"};
-		{"artist": "Future", "frequency": 585, "id": "spotify:track:0d9CyCAtOL3Txly9Jo02ra", "name": "Scrape"};
-		{"artist": "Future", "frequency": 581, "id": "spotify:track:4ibj6HRTdzkfvlDgxSXxCp", "name": "High Demand"};
-		{"artist": "Future", "frequency": 574, "id": "spotify:track:5lMmp06Yt5opZrKdszyh8Y", "name": "Program"};
-		{"artist": "Future", "frequency": 557, "id": "spotify:track:7Co6yOkvI0GvijiYcMuT84", "name": "When I Was Broke"};
-		{"artist": "Future", "frequency": 547, "id": "spotify:track:31suvgK8vvhfVXyEa2JpH8", "name": "Testify"};
-		{"artist": "Future", "frequency": 540, "id": "spotify:track:4O0qHBvIV8yHOcPkGJUUIZ", "name": "Lie to Me"};
-		{"artist": "Future", "frequency": 538, "id": "spotify:track:0evYh0thMGFGri2roKou3I", "name": "Same Damn Time"};
-		{"artist": "Future", "frequency": 536, "id": "spotify:track:0XarUcoGDMFuooo2tk70Yk", "name": "Damage"};
-		{"artist": "Future", "frequency": 531, "id": "spotify:track:0AkKwgg6rD4p7EpDlNpSz2", "name": "Outta Time"};
-		{"artist": "Future", "frequency": 525, "id": "spotify:track:0FA8Pw164j1qW4YEfpaVRy", "name": "Rotation"};
-		{"artist": "Future", "frequency": 510, "id": "spotify:track:4Bt9yX2Gq7Q1biRF45EN1C", "name": "Lil One"};
-		{"artist": "Future", "frequency": 494, "id": "spotify:track:6T2vocVm6BFUo4OipxEEmb", "name": "Groupies"};
-		{"artist": "Future", "frequency": 466, "id": "spotify:track:7BbbLiARcvEIhyMCcTRfJr", "name": "Same Damn Time (Remix)"};
-		{"artist": "Future", "frequency": 456, "id": "spotify:track:1RxR1IwTzgPlBcLn61LT1u", "name": "Colossal"};
-		{"artist": "Future", "frequency": 450, "id": "spotify:track:1baPNXuNvp5wRrmYU91OIt", "name": "Massage In My Room"};
-		{"artist": "Future", "frequency": 445, "id": "spotify:track:1wWRtPIKD7ZNvtsrzLyTev", "name": "All da Smoke"};
-		{"artist": "Future", "frequency": 429, "id": "spotify:track:4E7H6rqgxHdSoeGSS28CTY", "name": "Benz Friendz (Whatchutola)"};
-		{"artist": "Future", "frequency": 418, "id": "spotify:track:4j9G1hsYMHg3n6OBG8AQFS", "name": "Turn On Me"};
-		{"artist": "Future", "frequency": 396, "id": "spotify:track:5C8O7kz7g1wHILy0WwFj7f", "name": "Flip"};
-		{"artist": "Future", "frequency": 390, "id": "spotify:track:3IJ6BBFLD2I2CH3hHFQj3O", "name": "4 da Gang"};
-		{"artist": "Future", "frequency": 385, "id": "spotify:track:1G5XJTpRp9vckSIKlOf9ba", "name": "Party Pack"};
-		{"artist": "Future", "frequency": 371, "id": "spotify:track:11eVz92Nm7b2CTgA8OJVwp", "name": "Never Satisfied"};
-		{"artist": "Future", "frequency": 360, "id": "spotify:track:0gICfLC7d5HvNUy8q1GOHj", "name": "Real Sisters"};
-		{"artist": "Future", "frequency": 354, "id": "spotify:track:4W598w0KcHVG5Nwqk0qMpj", "name": "Three"};
-		{"artist": "Future", "frequency": 349, "id": "spotify:track:2ya9d4B06EQ8Fpj5SSqiTH", "name": "Drip on Me"};
-		{"artist": "Future", "frequency": 335, "id": "spotify:track:4Q40ZOINE8zsLJE3pWIqix", "name": "Neva Missa Lost"};
-		{"artist": "Future", "frequency": 334, "id": "spotify:track:2W10vndZ7uSOKVineVfjOa", "name": "Look Ahead"};
-		{"artist": "Future", "frequency": 325, "id": "spotify:track:1KF7iLK6wK3hjjtqxjRiym", "name": "Mink Flow"};
-		{"artist": "Future", "frequency": 315, "id": "spotify:track:3cq1t3pSjD7vt0n17g4mVm", "name": "I Thank U"};
-		{"artist": "Future", "frequency": 314, "id": "spotify:track:0QohT2QOr9MzABER7DCDN4", "name": "Check On Me"};
-		{"artist": "Future", "frequency": 289, "id": "spotify:track:1OwNWr75pNTyhifOTT0uIG", "name": "Real Love"};
-		{"artist": "Future", "frequency": 287, "id": "spotify:track:5f2mIVhUKJpFHYXNDIGv7I", "name": "Ooooh (feat. Young Scooter)"};
-		{"artist": "Future", "frequency": 273, "id": "spotify:track:0qH1jbTUbpCxZE7AMkjApD", "name": "New Illuminati"};
-		{"artist": "Future", "frequency": 265, "id": "spotify:track:5b06JZjts6dgyyuY1m7roq", "name": "200"};
-		{"artist": "Future", "frequency": 255, "id": "spotify:track:7mkSo4U9O3S9lBghYumFiu", "name": "Peacoat"};
-		{"artist": "Future", "frequency": 240, "id": "spotify:track:1d0OEkyy8Ph99V3qRHFOnK", "name": "My Blower (feat. Juicy J)"};
-		{"artist": "Future", "frequency": 234, "id": "spotify:track:5kayB3eHxipqrag3RC5u57", "name": "Just Like Bruddas"};
-		{"artist": "Future", "frequency": 234, "id": "spotify:track:25FVL8t40st88Hjqs4RCSO", "name": "You Deserve It"};
-		{"artist": "Future", "frequency": 219, "id": "spotify:track:0u8O2qRXLjoZWAuEUL6z6X", "name": "I'm Trippin"};
-		{"artist": "Future", "frequency": 184, "id": "spotify:track:4Ke7kgMwYp5rmzkEA6IHEk", "name": "Juice"};
-		{"artist": "Future", "frequency": 176, "id": "spotify:track:1H2KZ21IWEEhjoVyqS10S8", "name": "Like I Never Left"};
-		{"artist": "Future", "frequency": 169, "id": "spotify:track:73pbvYLtPlT6frmLHAmPV8", "name": "Covered N Money"};
-		{"artist": "Future", "frequency": 168, "id": "spotify:track:3kciYQvHGFkQYaZd0m1Pbc", "name": "Group Home"};
-		{"artist": "Future", "frequency": 166, "id": "spotify:track:065EaHZgvPiz934mznrj4P", "name": "Homicide"};
-		{"artist": "Future", "frequency": 164, "id": "spotify:track:7jut3DJ4sg1uyWZEwjZaJc", "name": "Thot Hoe"};
-		{"artist": "Future", "frequency": 164, "id": "spotify:track:3BJIAee0zxWjsmDyo1LuIr", "name": "Where I Came From"};
-		{"artist": "Future", "frequency": 160, "id": "spotify:track:4b4qUPlGJ0HELAcSabJhbx", "name": "Blow"};
-		{"artist": "Future", "frequency": 157, "id": "spotify:track:0ZZWXHDXn6zWDsnz6KSfGQ", "name": "My Momma"};
-		{"artist": "Future", "frequency": 155, "id": "spotify:track:6ZcXSrLEaubQcL5ypGBoGv", "name": "Right Now"};
-		{"artist": "Future", "frequency": 153, "id": "spotify:track:1BH4eZM6W2OCxFxsZZVvu8", "name": "Forever Eva"};
-		{"artist": "Future", "frequency": 151, "id": "spotify:track:4EpDZxSApKaod3PVqT5ben", "name": "Blood, Sweat, Tears"};
-		{"artist": "Future", "frequency": 145, "id": "spotify:track:3YPYfk3CYH9Z4NHp5BlNGH", "name": "Benjamins Burn"};
-		{"artist": "Future", "frequency": 145, "id": "spotify:track:4PjP1pyA9pDDByAheDumTH", "name": "I Be U"};
-		{"artist": "Future", "frequency": 144, "id": "spotify:track:53CUl8RvJqbBPm31SiSg7Q", "name": "(Bonus) Itchin"};
-		{"artist": "Future", "frequency": 142, "id": "spotify:track:6vKFAJatXnmsCdiOJclt2f", "name": "Champagne Shower"};
-		{"artist": "Future", "frequency": 141, "id": "spotify:track:7jQXN58DcQ1tWKhEYeUwT0", "name": "No Basic"};
-		{"artist": "Future", "frequency": 137, "id": "spotify:track:4mInDuvOBYr3LQvb3VnGc5", "name": "Straight Up"};
-		{"artist": "Future", "frequency": 134, "id": "spotify:track:7j4pQeavIrAmCX1HIt5PRJ", "name": "(Bonus) No Matter What"};
-		{"artist": "Future", "frequency": 128, "id": "spotify:track:1r1Y2hq7wMKe0CRYRkdWFw", "name": "Side Effects"};
-		{"artist": "Future", "frequency": 123, "id": "spotify:track:3RF0DfGlTWSf8qnayjWkkb", "name": "T-Shirt"};
-		{"artist": "Future", "frequency": 120, "id": "spotify:track:22sp7fvMxGvoD44IwhHkty", "name": "Stupidly Crazy"};
-		{"artist": "Future", "frequency": 111, "id": "spotify:track:4ksAW90Fw57RZO6b2gGOGr", "name": "Trap Niggas"};
-		{"artist": "Future", "frequency": 109, "id": "spotify:track:6cbaI9x2MveT4uJ5JY2DzL", "name": "Itchin"};
-		{"artist": "Future", "frequency": 102, "id": "spotify:track:2XjcBGdV3h5NJ1hq5NFCy0", "name": "Special"};
-		{"artist": "Future", "frequency": 92, "id": "spotify:track:0TksT7EHPipKAje94dhl1z", "name": "Aintchu (feat. Juvenile)"};
-		{"artist": "Future", "frequency": 92, "id": "spotify:track:16VNQF6gEq03h1ob0jjyuK", "name": "I'll Be Yours"};
-		{"artist": "Future", "frequency": 89, "id": "spotify:track:2eFmwHdZ90vkhux3MO7H7i", "name": "Long Live The Pimp"};
-		{"artist": "Future", "frequency": 85, "id": "spotify:track:0icJkVrHLqokNoOezYAWLT", "name": "Super Dumb"};
-		{"artist": "Future", "frequency": 83, "id": "spotify:track:6pKFT1bHaCEQlTy5uXLjHS", "name": "Astronaut Chick"};
-		{"artist": "Future", "frequency": 79, "id": "spotify:track:6XeDs0xdSla1oVYO8WKnV5", "name": "Parachute"};
-		{"artist": "Future", "frequency": 77, "id": "spotify:track:2ND1hP4ALBbeF60plp3zN1", "name": "Truth Gonna Hurt You"};
-		{"artist": "Future", "frequency": 71, "id": "spotify:track:5r5fXt3QT4iOUQb2AWCEtQ", "name": "Real Sisters"};
-		{"artist": "Future", "frequency": 71, "id": "spotify:track:3LRdrJky4qhRp8HiyY9mWL", "name": "How Can I Not"};
-		{"artist": "Future", "frequency": 70, "id": "spotify:track:7M2KyKzSHQwdckmvTP9hnW", "name": "Percocet & Stripper"};
-		{"artist": "Future", "frequency": 69, "id": "spotify:track:3J5cEq7VjUDau839mXpLBL", "name": "Jordan Diddy"};
-		{"artist": "Future", "frequency": 65, "id": "spotify:track:21ntVvdWPVNV5vkHDH507i", "name": "Deeper Than The Ocean"};
-		{"artist": "Future", "frequency": 61, "id": "spotify:track:0NrK4sqr5wcvgSIaYcxSID", "name": "Rider"};
-		{"artist": "Future", "frequency": 60, "id": "spotify:track:6B7fyK7uwXZE5lSjv4wjCR", "name": "My Ho 2"};
-		{"artist": "Future", "frequency": 57, "id": "spotify:track:7fNZyeaHvKtbj8WlJRm6ee", "name": "Magic"};
-		{"artist": "Future", "frequency": 56, "id": "spotify:track:5yHfxtXteKTs4jyD9xZikC", "name": "Shhh..."};
-		{"artist": "Future", "frequency": 56, "id": "spotify:track:1sHM7TXoGrbJec1lddB7L9", "name": "Permanent Scar"};
-		{"artist": "Future", "frequency": 54, "id": "spotify:track:7zT2JYK8S20SnR9DiJfh5g", "name": "First Class Flights"};
-		{"artist": "Future", "frequency": 47, "id": "spotify:track:6k8WuNh7wXXOoxkj47xEVb", "name": "My Savages"};
-		{"artist": "Future", "frequency": 42, "id": "spotify:track:7sNatosfFgOx1HUSAH1LAW", "name": "Jealous"};
-		{"artist": "Future", "frequency": 41, "id": "spotify:track:4LpCnTGKBjiCsGcJqYOl6E", "name": "Deal Wit It"};
-		{"artist": "Future", "frequency": 40, "id": "spotify:track:5tSysN2OcsbLNpCUGWvHS5", "name": "Space Cadets"};
-		{"artist": "Future", "frequency": 36, "id": "spotify:track:2ODUZ33XvLYGn2wMem2zEJ", "name": "Birds Take a Bath"};
-		{"artist": "Future", "frequency": 36, "id": "spotify:track:1oxa2qkIBhuLyEQjKsgsRu", "name": "The Future Is Now"};
-		{"artist": "Future", "frequency": 33, "id": "spotify:track:0cNATcPUKE80ilOfcKTn7T", "name": "Trap Niggas"};
-		{"artist": "Future", "frequency": 33, "id": "spotify:track:5Dgs8iwV2ENcuAkvfGQ2aH", "name": "My"};
-		{"artist": "Future", "frequency": 32, "id": "spotify:track:2d6qyeXtP6LkmGPT7cH3Dt", "name": "Fetti"};
-		{"artist": "Future", "frequency": 32, "id": "spotify:track:0KcyErMicSYFF00Wh4IbS7", "name": "Motion Picture"};
-		{"artist": "Future", "frequency": 31, "id": "spotify:track:5J6Izp85z7u2AobPxjqfEy", "name": "What You Mean"};
-		{"artist": "Future", "frequency": 31, "id": "spotify:track:3f0KBacw4EQjSlQItvDwvk", "name": "Racks (remix)"};
-		{"artist": "Future", "frequency": 31, "id": "spotify:track:7nTxaR2W61KnKoUc4z0X6I", "name": "Magic [Prod By KE On The Track] - Album Edit"};
-		{"artist": "Future", "frequency": 29, "id": "spotify:track:3lZLOKdlD1AqbEGQpWEKQE", "name": "Rent Money"};
-		{"artist": "Future", "frequency": 28, "id": "spotify:track:4rr4dGg2qkYgAmOpDUr3ne", "name": "Bitches Ain't Shit"};
-		{"artist": "Future", "frequency": 27, "id": "spotify:track:3UEWZdV4uLxT71BEh1bTHw", "name": "Intro"};
-		{"artist": "Future", "frequency": 25, "id": "spotify:track:5iEw9c2dQUvXhu9aYDcH9Y", "name": "Move That Dope"};
-		{"artist": "Future", "frequency": 22, "id": "spotify:track:61uEpaWnL1eVm4kWUby6VE", "name": "Lamborghini"};
-		{"artist": "Future", "frequency": 21, "id": "spotify:track:5WJTAoNgCywKQrpjYKERAF", "name": "Maison Margiela"};
-		{"artist": "Future", "frequency": 20, "id": "spotify:track:22RlmqSO2cFc5Zv7pcoMHa", "name": "Chozen 1 Long"};
-		{"artist": "Future", "frequency": 20, "id": "spotify:track:3e3W9kBiGUbPq3a7yJx9Dr", "name": "Big Rube Speaks"};
-		{"artist": "Future", "frequency": 20, "id": "spotify:track:5Z1uZlOMiipQVZk5xQJGgQ", "name": "Futureback"};
-		{"artist": "Future", "frequency": 18, "id": "spotify:track:7FbicPSBTfISV7O9Przn6G", "name": "Made Myself A Boss"};
-		{"artist": "Future", "frequency": 18, "id": "spotify:track:6CKsoebacPTE5PpyDBEfhv", "name": "Spaz On Yall"};
-		{"artist": "Future", "frequency": 17, "id": "spotify:track:1VO4JCOswhofpH27V8ZIUz", "name": "Nun Bout U"};
-		{"artist": "Future", "frequency": 16, "id": "spotify:track:2mclYJEpNOLeT077cOAuob", "name": "Transform"};
-		{"artist": "Future", "frequency": 16, "id": "spotify:track:4pqPrDZk9azt4avNnbyjPu", "name": "Swap It Out"};
-		{"artist": "Future", "frequency": 14, "id": "spotify:track:3OhYsiqwaR8COmR48vOCT8", "name": "Zoom"};
-		{"artist": "Future", "frequency": 14, "id": "spotify:track:2rVVShHTFI2ok0TK9C8U6U", "name": "Sh!T (Mmg Remix)"};
-		{"artist": "Future", "frequency": 13, "id": "spotify:track:1iQ8YCNsWYKAS2GizRsWiF", "name": "Free Bricks"};
-		{"artist": "Future", "frequency": 13, "id": "spotify:track:3YuZVhjSIegTU16BYBsUxr", "name": "YSL Cheetah"};
-		{"artist": "Future", "frequency": 13, "id": "spotify:track:5F8RINp1R9cWDjBMgk4ERE", "name": "Go Harder"};
-		{"artist": "Future", "frequency": 13, "id": "spotify:track:2rmun8ou3cuF99ry7r47Xu", "name": "Fuck Up Some Commas"};
-		{"artist": "Future", "frequency": 13, "id": "spotify:track:2ri2O2FUXsg3tijkhADsMv", "name": "Best 2 Shine"};
-		{"artist": "Future", "frequency": 13, "id": "spotify:track:1ECFZlx7O7ESrmenJ11tr2", "name": "Never Seen These"};
-		{"artist": "Future", "frequency": 13, "id": "spotify:track:5p6JYlxYUkr265C236XiFa", "name": "Shopping Spree"};
-		{"artist": "Future", "frequency": 12, "id": "spotify:track:6xyXkxNOPgSvPrXn3zhsZr", "name": "Too Excited"};
-		{"artist": "Future", "frequency": 12, "id": "spotify:track:4JGg0ZxhUmgDrhm5Pr6Vg3", "name": "Bag It Up"};
-		{"artist": "Future", "frequency": 12, "id": "spotify:track:4tiMHhlIXtJOAKPLRwPlYn", "name": "Everything That Glitters Ain't Gold"};
-		{"artist": "Future", "frequency": 11, "id": "spotify:track:1hl3mNYQ8I9jVAk0B82my2", "name": "S!Ht (Remix)"};
-		{"artist": "Future", "frequency": 11, "id": "spotify:track:0fO4nelkqDqynj9wnxblMI", "name": "Trendin' Topic"};
-		{"artist": "Future", "frequency": 10, "id": "spotify:track:3SWPYdbKShCTOd8cLArfGU", "name": "All The Time"};
-		{"artist": "Future", "frequency": 10, "id": "spotify:track:0OCMi7WYx0NwLGldpy1wzo", "name": "Grandma"};
-		{"artist": "Future", "frequency": 10, "id": "spotify:track:28ApZ68Kt56d3npQzo4eN9", "name": "Showed Up"};
-		{"artist": "Future", "frequency": 10, "id": "spotify:track:1nlTTZ59oDYeHx2b95MpdT", "name": "I Grind, F da World"};
-		{"artist": "Future", "frequency": 10, "id": "spotify:track:2M8fMS4ZNMMPrdK2yubmhI", "name": "Radical"};
-		{"artist": "Future", "frequency": 10, "id": "spotify:track:4U3GckLn3uL7mVFEV48lGk", "name": "One Helluva Night"};
-		{"artist": "Future", "frequency": 9, "id": "spotify:track:00h2z1zcrk3Jdv5uh1YJUT", "name": "Argentiny"};
-		{"artist": "Future", "frequency": 9, "id": "spotify:track:62KYAC4p5FJKmanRZAQF1f", "name": "Dub Cup & Molly"};
-		{"artist": "Future", "frequency": 9, "id": "spotify:track:3Pu3hI5hDuDIRLNqda9yq2", "name": "Mind Blowed"};
-		{"artist": "Future", "frequency": 9, "id": "spotify:track:5UhCVdA6bGNlbcSLYAzWSu", "name": "Tony Montana"};
-		{"artist": "Future", "frequency": 9, "id": "spotify:track:5cMeyIVzTXrPUWWreGnYtA", "name": "Mason Margela"};
-		{"artist": "Future", "frequency": 8, "id": "spotify:track:7xEMzWZo71RZbrBki6ZraY", "name": "I Been Drinking"};
-		{"artist": "Future", "frequency": 8, "id": "spotify:track:58D5agwsJoRKOPHTdP2jAZ", "name": "My Lamborghini"};
-		{"artist": "Future", "frequency": 8, "id": "spotify:track:63aR9LheuQhQp5ib9jlvUW", "name": "Same Damn Time"};
-		{"artist": "Future", "frequency": 8, "id": "spotify:track:3J9ZXa3Dq2GeCbdBKUkql7", "name": "4 Real (Feat. Hood Rich Clikk)"};
-		{"artist": "Future", "frequency": 7, "id": "spotify:track:3PStr6zUI7BaLhImIPQd2w", "name": "One Minute"};
-		{"artist": "Future", "frequency": 7, "id": "spotify:track:4YAdmgaMo6HLBXjMtqU987", "name": "Inside"};
-		{"artist": "Future", "frequency": 7, "id": "spotify:track:6d2vBCqZmDVO1JwSNOYoHq", "name": "Never Been This Hot"};
-		{"artist": "Future", "frequency": 7, "id": "spotify:track:7Dy2pUBX1rM6Unb4Zv7myt", "name": "Abu Intro Turn Up"};
-		{"artist": "Future", "frequency": 7, "id": "spotify:track:5xwKCgFyOK532GPCxT56J8", "name": "Lay Up (Instrumental)"};
-		{"artist": "Future", "frequency": 7, "id": "spotify:track:2FFSC6NBeG8GGMxykaTMiA", "name": "Monster"};
-		{"artist": "Future", "frequency": 7, "id": "spotify:track:6wXZgQBlRFMzUd3VShjjyz", "name": "Watch This Feat. Rocko"};
-		{"artist": "Future", "frequency": 7, "id": "spotify:track:1JySqSnZcSJxfpigkLxDsZ", "name": "2Pac"};
-		{"artist": "Future", "frequency": 6, "id": "spotify:track:55Cswb4qZ1OcsAlYTZZLyR", "name": "G Code"};
-		{"artist": "Future", "frequency": 6, "id": "spotify:track:2XlYgG80jKNQpJfyZCCAxI", "name": "Fast Lane"};
-		{"artist": "Future", "frequency": 6, "id": "spotify:track:1Eqq0E4jqHF9iZLbwh33qr", "name": "Jordan Diddy Interlude"};
-		{"artist": "Future", "frequency": 6, "id": "spotify:track:7n5hCuaDRgK5KUpnlLcVK3", "name": "You Eva Seen"};
-		{"artist": "Future", "frequency": 6, "id": "spotify:track:1tdSezQ6tXm4r8QZZYXl96", "name": "2 Pac"};
-		{"artist": "Future", "frequency": 5, "id": "spotify:track:3byLJz274VLaCaHvbe0h72", "name": "Out Stretched Hand"};
-		{"artist": "Future", "frequency": 5, "id": "spotify:track:506FqKE5KA6SwXLP7Ulcyk", "name": "Real Sisters (Instrumental)"};
-		{"artist": "Future", "frequency": 5, "id": "spotify:track:4UdVtxf7U7NS8YpIhVb4vF", "name": "Flip"};
-		{"artist": "Future", "frequency": 5, "id": "spotify:track:5cK5LHoSewaP1T8ts3rpga", "name": "Walk By Faith"};
-		{"artist": "Future", "frequency": 5, "id": "spotify:track:0rrX1uvUjEQdPAXogaEeNV", "name": "No Lies"};
-		{"artist": "Future", "frequency": 5, "id": "spotify:track:3aCEmI1oEyirNqGtVZOw2z", "name": "Lovin U"};
-		{"artist": "Future", "frequency": 5, "id": "spotify:track:5RJ4KK2SciYjVap9GY4rqL", "name": "Abu Outro Astronaut Status"};
-		{"artist": "Future", "frequency": 5, "id": "spotify:track:3m6JTLu0shaKbqzgIGB10J", "name": "Addicted"};
-		{"artist": "Future", "frequency": 5, "id": "spotify:track:5OpHaQvbLXPujTevGcBsJf", "name": "Broken Heart"};
-		{"artist": "Future", "frequency": 5, "id": "spotify:track:6pcuJfezV8UUOFtVMTS3qT", "name": "Oooooh (Instrumental)"};
-		{"artist": "Future", "frequency": 5, "id": "spotify:track:7hbjjikJ0jZcoKHaofy209", "name": "About Thought It Was a Drought - Commentary"};
-		{"artist": "Future", "frequency": 5, "id": "spotify:track:2xqGuvcTUKaKpHa0zXWMvD", "name": "Blow"};
-		{"artist": "Future", "frequency": 5, "id": "spotify:track:6facfzTpWESfHg9VfjezZg", "name": "Take You Home"};
-		{"artist": "Future", "frequency": 5, "id": "spotify:track:1xJxmczYZoRnjSpMkeIp8F", "name": "I Will Crush Him"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:3eBKL4XInkvH4OMdXNkBTY", "name": "Ride Warriors Anthem"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:1TQNayd50DHPqklKWycLCY", "name": "Reality Check"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:4pFmxaDiFw2NlD90blwP3U", "name": "Get It Right"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:0ZMl9CZ18Vjbkzotr46W2T", "name": "Second Chance"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:1g2a9FXDXOtEUQzp9P9nW7", "name": "I Survived"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:7ownHxDYVmUCdGWtdAUOGj", "name": "Shooter"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:0TnOS3byzrxfXWK6bP8ZIb", "name": "Truth Is"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:5nCRDqGB34oYeSyvKWu8DI", "name": "How To Murder An MC"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:7cA4fLTs4klu7c2pOcQN5a", "name": "Do Him - Feat. Flame"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:7arEWIkbOJaWtyTIQJ3pzT", "name": "His Way - Feat. Demond"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:21xmSWhKBK19f00pIfxyO5", "name": "Twilight Zone"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:6OP6uVNJ7EHEu3oyXXcpR9", "name": "About Where Ya At - Commentary"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:4RXN9TwH1WNwjwg6dqtOup", "name": "About Trap Niggas - Commentary"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:5IHNr2vwXXpo9F41u3rZdE", "name": "Never Seen Those Skit"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:6zhTEl1PupGf8se56MRd8A", "name": "Hey Lady"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:4JXY1t3vvpQZPzDMzLBRdP", "name": "No Love For You"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:0GiQaa072AFmsNhf3Q5c8y", "name": "Greatest Show on Earth"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:5nBykoDP382hCIqdpwyvzM", "name": "Just Last Week"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:0ZJD8rP108alatxlbIXEQL", "name": "Gone 2 Da Moon"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:1CXuuaMqbCeY6tXPexhzt1", "name": "Sellin YaYo"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:1TI315IQupP6wITHs9KCRb", "name": "Bitches Ain't Shit"};
-		{"artist": "Future", "frequency": 4, "id": "spotify:track:4HPiKBIgz9Yi4pR0hQGBTV", "name": "Rotation"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:2OmoTcQl7uhsTTjj4Cfqpc", "name": "Forever Ever (Instrumental)"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:7mJnb1y0pUvkcG2NbhrHqd", "name": "About Real Sisters - Commentary"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:5cIECD7GzdRWUfaBhDlKSQ", "name": "Intro - Commentary"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:7MRCDbkVy7OoAVMokYx1X3", "name": "Surgeon General"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:6i1YqKwn4Mtljkzqmm10mJ", "name": "Dance Poem"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:2W7p7vnIOWJc82iG8nB5Ga", "name": "If The Shoe Fits"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:2jS10RWBQYYkMSZ7uJNyel", "name": "Umbrellas"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:1cUu2dR6shtraqNT8nB3uE", "name": "My Observation"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:0ihT2p3u4rV68wCEA17A5I", "name": "Ode To Nas"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:1m2HECHlygnOKErHvLuoe7", "name": "Before My Time"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:4Aa3x3e4BxMEMauWtU1pw9", "name": "Roller Coasters"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:3airLxkJB7Xne1D515vs5f", "name": "Letter To My Wife Pt 3"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:2uHjTYmBbcRPk2XyDkTDcH", "name": "Arrogance (Righters Are For Ever)"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:1E3UEXfVe991rDTuRTqHSZ", "name": "Intro Interlude"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:37yhhJYPjwa0VLdQvw02Nn", "name": "Intro"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:1mC3aAHJuaNqT6cvDUWrWz", "name": "Can't Wait"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:19xtMbWcWWprSYO3sX0rfr", "name": "Hands Up"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:3FiZ910YyewWDPphw4tMMD", "name": "One God"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:67sv6eafEWckxmYg8IXYea", "name": "In Da Building"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:0Igs20h1QRrv8ZH6fz0A7p", "name": "Interlude"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:056OnuoGKnnoiaV41Q9xCX", "name": "Regret - Feat. Jai"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:4pVmW6bD0Z7G2nJIVT77TU", "name": "Fall Back - Feat. Titus & Json"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:77AHDyuR3r8FOHlbkuEQ8d", "name": "Father In You - Feat. J.R."};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:17BP47VdFK6gVcjkvBjxTA", "name": "Interlude"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:2ssBZCMlIBARSabOy513mc", "name": "Redeemed Rock - Feat. Demond"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:2vXUFSCMC7T9NwLjdd3fmb", "name": "Interlude - Feat. Valerie"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:3XmkyVjUqqn8pM1Voh3rrh", "name": "Bonus Track"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:6NJLQyk0KtshnS6nw9Aqri", "name": "Intro"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:3F1CBDUuTiUg6sRzMCdOx1", "name": "Johnny Storm"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:5xb6xaz8YMz662GoxHeZfy", "name": "Interlude - Falling In Love With Poetry"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:4tKkKXwfkZvR59CXZe8SdG", "name": "Sambo's Clothes"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:3xcgcyoAu7GUCg8foj7Qt5", "name": "Dead Man Living"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:1LEVfcicGCoiQHnmOtrl3h", "name": "Interlude - Poetry Inspiration"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:7DlNmQtCW4O3HbDAa0DnF1", "name": "My Ambition As A Writer"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:3OoqDdLPybvMf4ahQISH92", "name": "Monopoly"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:2CBD8qxj5QzXyDdolWbhB1", "name": "Letter To My Wife Too"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:3LCG54fimV93AZBZFwCFpp", "name": "Call To Duty"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:6Z9sWh08dgfAw1p1XE1Yu7", "name": "Interlude - Art Form"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:2jTsEU5DpdWhwuQtXihTV5", "name": "Broken Homes"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:4OTUWYuAqEyA0BFIsWdhbD", "name": "Listening For Children"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:0KbtrmEJaRz8td9quhl09z", "name": "Ode To Black Pacino"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:4kvTsvUqevhlP37FzQqeoJ", "name": "Mirror Mirror"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:0oFflBNVFvOKb2T4X0kh5Q", "name": "Interlude - Better Than My Father"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:1BPUx0aiKbX54FaGpPtMCP", "name": "Imagine feat. Abiodune of The Last Poets, Jon Blazini"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:1B3tRc3ulg1r23RjJ7lJYc", "name": "The Calling"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:4n63HS3INiM7VP8YwnH0nI", "name": "Outro - The State of Hip Hop"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:3tEkxrJGHstSI9hGQ8AQN7", "name": "(Intro) Am I Dreaming"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:5SN6VwWogGuMkSpzB2jsvA", "name": "Over You"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:1UCV5mzDXjYNEBtaAlXmks", "name": "Am I That Man"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:4vkTSsHBs48mdI5qbKH0ZL", "name": "Call Me"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:0wmU8zC0Td6DZ3kqw0IF8Y", "name": "Away"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:6TrIFmhcICkdYWdVL0bl6p", "name": "Look Into My Eyes"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:36i5Z0KHaM1QubmmAhTeb9", "name": "Eye for You"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:1rkCRXX1DQtUGeRVlTgjia", "name": "Dream"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:019dzn0IKdmiJVzCy7oChq", "name": "It's Worth the Wait"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:6pQsfNwZ9Zi7bzEcFtcQaj", "name": "Praise Him (Gospel)"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:3UY7ak1qr0vHU69lDhTnAy", "name": "Moving On"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:4JuEEBKjQ3XJkUWakyjyQJ", "name": "Away (Remix)"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:0H7fbv8wxxFDyN42l9Zky0", "name": "No Basic (Instrumental)"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:04fu89e0oCpBZ3XRfxh3G3", "name": "Where I Came From (Instrumental)"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:6ujWTzdZ5CP6vsKiMndi4q", "name": "What It Do"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:7EHwc3eWovyM2BxfmdAkdQ", "name": "Good Kush & Alcohol - Remix"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:3DtdAJJWgY5pQPNkQKxrCf", "name": "About Stick Talk - Commentary"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:6hcBxnLCwSePbZcUjd59WL", "name": "About Blood On the Money - Commentary"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:3eFFcBWVbWGwhpdRCJOWo7", "name": "About The Percocet & Stripper Joint - Commentary"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:4pAtnwMi2iUT0FYdstX8AG", "name": "Smoke and Mirrors"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:1NVAUkQex1Vq6bwAOYrjcM", "name": "Brick"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:3WkZZRIsoEpUcsF4jsMMPu", "name": "Watch This"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:2sb4tMXNFCvquqzjh65uDP", "name": "No Love"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:5ijC3UBaD7f5gRhn9VJfPQ", "name": "Karate Chop - PhatCap Remix"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:7iy4sbEKCfVe6PcGzpZCnA", "name": "Intro"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:6sT8ZnJYXLSRVveI8j444S", "name": "Purple Coming In"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:26K1ZvQIQj2IxRpZikJKLA", "name": "Same Damn Time"};
-		{"artist": "Future", "frequency": 3, "id": "spotify:track:7GxEfNQGIjwi7D3H3ZTp0x", "name": "Essay"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:4rB2NZtcO3Bm1lvDxBR56l", "name": "Come out Clean"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:0WvICoaGfZkvt2FW3IRl9J", "name": "Aintchu (Instrumental)"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:4atfjrvg30RyN75DwWFASR", "name": "Peacoat (Instrumental)"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:2Mj5aIrtUN9qiClmzE31lY", "name": "Just Like Bruddas (Instrumental)"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:4oyshQlzjm78SwADQAebVi", "name": "About I Serve the Base - Commentary"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:3BbLKZTadFU9AS1DeoXeBK", "name": "About Groupies - Commentary"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:0njm53obEEnrgdkqO30kR6", "name": "About Lil One - Commentary"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:3cTfekmC3u7oVlGOTVRt9M", "name": "About Freak Hoe - Commentary"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:3Zl78ddCLDk4Ly2qC1j1eB", "name": "About Slave Master - Commentary"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:7HXSpPrq9OxfXg9pRUhzWB", "name": "About Rich $ex - Commentary"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:5WCr4YNGik4lcYb7guZCMC", "name": "About Kno The Meaning - Commentary"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:0Qn6LsvCQNAAaDU1Z3vc1J", "name": "About F*ck Up Some Commas - Commentary"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:45OPrc9HpbjTD9OqZVKJpo", "name": "Big Picture"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:0AxaZTdRJgppZ549ZbYPXZ", "name": "Power"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:6oPxvSTejd1h2Kx4UQmEXp", "name": "Running 100 Miles"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:2EtMLfzRpbw9UaaKEgPDoR", "name": "Love Long Time"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:1TDOCXXxcQUmg5Pwn1t586", "name": "Hold Me Back"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:7hyReqoqnYSmTRGVaQNOkJ", "name": "No Cuffin"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:1HnIlk5TZwHVjrBBommcLt", "name": "Day 1"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:4yNi6b1q6Gjoxplvt05zDE", "name": "Been Told"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:51Os5s1Eh99j4IVcbsT2SQ", "name": "Made My Self A Boss"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:6vB4iAPffhnLGjv3IvWP3O", "name": "Sick and Tired"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:2A6W93nH49P7GkFztxY5y7", "name": "Break Me Down"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:4sPbePgjYFoo1Lt8TjzHTa", "name": "Play Bout My Paper"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:2AQ0gb8j30QkymCgohM3d7", "name": "Aint No Way Around It"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:7eEjm0tUKQzt6SKKhKe5CG", "name": "Luxurious"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:0tPrgPgDlqpuDQK4YiHkR4", "name": "Appetite"};
-		{"artist": "Future", "frequency": 2, "id": "spotify:track:5Q9qbmakreXIIojVphmNDm", "name": "Fell In Luv"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:40XFgc8AegzKjgsKEtZCum", "name": "Deez Bitches Ain't Shit"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:3z52XECA7CXLFrjhhe0fB2", "name": "About Rotation - Commentary"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:5UBmHQTn9okWgeTSWEhSgo", "name": "About Blow a Bag - Commentary"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:6L49hPsYCBjsk0rPNXeGvy", "name": "About Colossal - Commentary"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:5JWFoHUr8uITFVcn63QcAI", "name": "Regular Party"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:4hFq9fRt113kGWpTGYJ4LG", "name": "Came along way"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:7bFrJOIShdIi3IDoIzvzuz", "name": "Made Myself A Boss"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:1kcDEgIVjkkjt1oVTsDg1B", "name": "Blow 2.0"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:7M6JD4aP9ng0TCZsXFLbmD", "name": "I'm Lovin' It"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:1ZgEoTuTTH91pNJtUg1WNO", "name": "Overcome (Express Yourself)"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:7iWXCmPWL0P61UQ6q5Zmsu", "name": "Mirror"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:1n6cJcuDwN28iycudOQ579", "name": "Ha Chuu"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:7iNGGtdOt0EqejWcDa4L9E", "name": "Fresh out"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:184KgAOyQFTypPmLbrQj8R", "name": "We In Here"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:5GVwkfyLnaVeg1e2H1Ayl7", "name": "Faded"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:3cbLcz46vX6Hqu4YpzoBPW", "name": "Take a Stand"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:2SIsCEBQC4DwYEJC2zbZPn", "name": "Fo Real"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:2CbRGpHE8bPlid3fWe0X3X", "name": "On 2 Us"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:1bAroaE3Adeipso0Omm4ps", "name": "Groove"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:4ol4LleuYrLzmjnMOnd3rE", "name": "Poppin Tags"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:3i4HvtcgwGciftXblelzDl", "name": "Faded"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:7s1iOuzlA1qOFb92iIgUTU", "name": "Watch This"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:2WX2o1UUvFfg2pBAY1pxPe", "name": "Old hundids"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:6GUpO2o2PRLY82XpjykMVw", "name": "Championship Music"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:6uOCzWNKFhL9xIFOSPcawc", "name": "Show me the money"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:6ybuwtRsiwvcE6EB8NawlS", "name": "Hittinlicks (feat. Murdah baby, Platinump, Alley Boy)"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:0YiGzDDpaOGrWxqeFu078G", "name": "Jordan Diddy"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:0cP3cVfSFEKJHz7LCuyfBD", "name": "Dirty Sprite"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:2zOtXViphRLgNwbqKs0Mwi", "name": "Scarface"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:3qRY3HLzn1cHlK11dgM6ke", "name": "I've Had Warmer Welcomes (feat. Rosetta Stoned)"};
-		{"artist": "Future", "frequency": 1, "id": "spotify:track:3p1nZB7M5DcqQbWyhukCHS", "name": "Take a Charge"};
+		{"artist": "Future", "frequency": 32059, "id": "spotify:track:0VgkVdmE4gld66l8iyGjgx", "name": "Mask Off"},
+		{"artist": "Future", "frequency": 24539, "id": "spotify:track:7EiZI6JVHllARrX9PUvAdX", "name": "Low Life"},
+		{"artist": "Future", "frequency": 15847, "id": "spotify:track:49zD0wr2S3d0lZPib0K4e1", "name": "F*ck Up Some Commas"},
+		{"artist": "Future", "frequency": 14127, "id": "spotify:track:5nN8BwAQDJDguq7Dpd3JQQ", "name": "Where Ya At"},
+		{"artist": "Future", "frequency": 10619, "id": "spotify:track:6yHkPtl6UQ7RjtJLBPzbJw", "name": "Selfish"},
+		{"artist": "Future", "frequency": 10437, "id": "spotify:track:6BbINUfGabVyiNFJpQXn3x", "name": "Wicked"},
+		{"artist": "Future", "frequency": 6285, "id": "spotify:track:78sr3ogs4UzITcCNbXM9cM", "name": "Used to This"},
+		{"artist": "Future", "frequency": 5908, "id": "spotify:track:20fAoPjfYltmd3K3bO7gbt", "name": "Stick Talk"},
+		{"artist": "Future", "frequency": 5604, "id": "spotify:track:1B87ZDrD3Pno9hS4stamWO", "name": "Comin Out Strong"},
+		{"artist": "Future", "frequency": 5176, "id": "spotify:track:5ihDGnhQgMA0F0tk9fNLlA", "name": "Thought It Was a Drought"},
+		{"artist": "Future", "frequency": 4396, "id": "spotify:track:6dVZCbi9CYtD9LjAHXRjIG", "name": "Mask Off - Remix"},
+		{"artist": "Future", "frequency": 4392, "id": "spotify:track:26oF6WjkOjDIRK9YsdZp2l", "name": "March Madness"},
+		{"artist": "Future", "frequency": 3963, "id": "spotify:track:6elNeXUhiuHPD9hH5rocQi", "name": "Trap Niggas"},
+		{"artist": "Future", "frequency": 3888, "id": "spotify:track:4GkkxswcdEt1tkSyiRzgnC", "name": "Draco"},
+		{"artist": "Future", "frequency": 3526, "id": "spotify:track:0BzDQgmeRdA4V71VhfBvXT", "name": "Xanny Family"},
+		{"artist": "Future", "frequency": 3494, "id": "spotify:track:2ACys0pX0SjmpQmQWzp7wt", "name": "Jersey"},
+		{"artist": "Future", "frequency": 3361, "id": "spotify:track:7GEidxhfGNteiW9n0kLyxH", "name": "Move That Dope"},
+		{"artist": "Future", "frequency": 3312, "id": "spotify:track:2Nfd2ITp4WkI1aoZlYpZwg", "name": "I'm so Groovy"},
+		{"artist": "Future", "frequency": 3191, "id": "spotify:track:5W9QCBJ6Em0XWX333YrNhc", "name": "Rent Money"},
+		{"artist": "Future", "frequency": 3022, "id": "spotify:track:6hVGw7yVUd2bpdHMPCWrtN", "name": "March Madness"},
+		{"artist": "Future", "frequency": 2349, "id": "spotify:track:6mavtNxMc35XwKg9POUemZ", "name": "Turn On The Lights"},
+		{"artist": "Future", "frequency": 2271, "id": "spotify:track:2qwn6whaZf7gax7SaqUZSC", "name": "Incredible"},
+		{"artist": "Future", "frequency": 2158, "id": "spotify:track:3AbNHUXVOL9fnddGANU7bY", "name": "Lay Up"},
+		{"artist": "Future", "frequency": 2045, "id": "spotify:track:2T4JE91t7Js1DJ4rSHltcQ", "name": "I Won"},
+		{"artist": "Future", "frequency": 1872, "id": "spotify:track:5FsJ8AUxW1KBypdhFvbdkd", "name": "PIE"},
+		{"artist": "Future", "frequency": 1871, "id": "spotify:track:7givkGZW1cwM8MJYzMd2Na", "name": "Ain't No Time"},
+		{"artist": "Future", "frequency": 1700, "id": "spotify:track:1ANYHWUz5NqPu2EBALGK9Z", "name": "Fly Shit Only"},
+		{"artist": "Future", "frequency": 1672, "id": "spotify:track:7r6LNJT2LqpLpEyZQJPygt", "name": "Patek Water"},
+		{"artist": "Future", "frequency": 1616, "id": "spotify:track:2onCHFrhTinyUc6OawwU4Z", "name": "Rich $ex"},
+		{"artist": "Future", "frequency": 1600, "id": "spotify:track:5GhJq5J9ZWIEDZdyw7EWzt", "name": "Real Sisters"},
+		{"artist": "Future", "frequency": 1533, "id": "spotify:track:1XWcdNQvGrX32fH09CwuWI", "name": "100it Racks"},
+		{"artist": "Future", "frequency": 1512, "id": "spotify:track:4Arjo1XR9qXsLstvU9fFV3", "name": "Last Breath"},
+		{"artist": "Future", "frequency": 1510, "id": "spotify:track:7unZ7zDyrTs2L7167dqm2Y", "name": "Freak Hoe"},
+		{"artist": "Future", "frequency": 1499, "id": "spotify:track:1tlBuoIRrtqFs9bE9dmli5", "name": "Extra Luv"},
+		{"artist": "Future", "frequency": 1472, "id": "spotify:track:1uUGn3Sk4qErHdDqL1OSVA", "name": "Who (feat. Young Thug)"},
+		{"artist": "Future", "frequency": 1462, "id": "spotify:track:6ycYqFnXnjMOwMvEMbEpUk", "name": "Blow a Bag"},
+		{"artist": "Future", "frequency": 1459, "id": "spotify:track:4AFgK4wP1iD5i8BYaLr9Vf", "name": "You Da Baddest"},
+		{"artist": "Future", "frequency": 1326, "id": "spotify:track:4CPsMAG28OgzzDk1DcOtBx", "name": "Sorry"},
+		{"artist": "Future", "frequency": 1323, "id": "spotify:track:4lH6nENd1y81jp7Yt9lTBX", "name": "Solo"},
+		{"artist": "Future", "frequency": 1304, "id": "spotify:track:2Ih0U9yUuY0oU2In3h21If", "name": "Karate Chop (Remix)"},
+		{"artist": "Future", "frequency": 1268, "id": "spotify:track:5ik5nMy8vdS2rXe7SAGt2K", "name": "Honest"},
+		{"artist": "Future", "frequency": 1238, "id": "spotify:track:4XaW4jIud5YxwV4QRJOb40", "name": "Super Trapper"},
+		{"artist": "Future", "frequency": 1137, "id": "spotify:track:0Due109sq8Ld9G5xkWRubf", "name": "Maybach"},
+		{"artist": "Future", "frequency": 1105, "id": "spotify:track:0knX1FaKl445Hej9Tjj07N", "name": "Fresh Air"},
+		{"artist": "Future", "frequency": 1098, "id": "spotify:track:4Fi7fihVNkHPfBZ7KeSXVH", "name": "Photo Copied"},
+		{"artist": "Future", "frequency": 1081, "id": "spotify:track:7KyEgCM3EdWPYi5WHuhc1y", "name": "Neva End"},
+		{"artist": "Future", "frequency": 1032, "id": "spotify:track:52SuMdAYS2jvKQhODi0ARY", "name": "POA"},
+		{"artist": "Future", "frequency": 976, "id": "spotify:track:1Rq4GtIucW9CAcF8B6PAbW", "name": "I Serve the Base"},
+		{"artist": "Future", "frequency": 967, "id": "spotify:track:2IG6Te7JyvrtqhFeOF7le4", "name": "Zoom"},
+		{"artist": "Future", "frequency": 933, "id": "spotify:track:1yCVsVH2hQ72SxNI8QTDaB", "name": "The Percocet & Stripper Joint"},
+		{"artist": "Future", "frequency": 931, "id": "spotify:track:2depzNvnAgMFKYnm3moXIc", "name": "Kno The Meaning"},
+		{"artist": "Future", "frequency": 891, "id": "spotify:track:3lyeSiAIdLoZUHhV8psOTI", "name": "Feed Me Dope"},
+		{"artist": "Future", "frequency": 891, "id": "spotify:track:6bB5iGatJHiqnoxMZDsySr", "name": "Might as Well"},
+		{"artist": "Future", "frequency": 874, "id": "spotify:track:3K0sVapHNSSeJ8o4DLHOJY", "name": "In Her Mouth"},
+		{"artist": "Future", "frequency": 836, "id": "spotify:track:7IeHIGriFrJaTeaC4W0a8W", "name": "Hallucinating"},
+		{"artist": "Future", "frequency": 826, "id": "spotify:track:0526DaOuV7mRlPKxhMSJKw", "name": "My Collection"},
+		{"artist": "Future", "frequency": 822, "id": "spotify:track:0pT1DW5RUHelpBMyEgWwaU", "name": "Sh!t"},
+		{"artist": "Future", "frequency": 816, "id": "spotify:track:6mxz6tKfJw2RvzdowwDELj", "name": "Use Me"},
+		{"artist": "Future", "frequency": 754, "id": "spotify:track:2O0PpdgMmzBj2ZY8cqjfpO", "name": "Seven Rings"},
+		{"artist": "Future", "frequency": 752, "id": "spotify:track:4hjloKONMQyJHOmSzAwuAq", "name": "Tony Montana"},
+		{"artist": "Future", "frequency": 711, "id": "spotify:track:2YXEUNdnNLtFuf5gi3LnWm", "name": "Good Dope"},
+		{"artist": "Future", "frequency": 694, "id": "spotify:track:06Gyf2pFDVmN5K8XAawG96", "name": "No Cap"},
+		{"artist": "Future", "frequency": 690, "id": "spotify:track:4Kup1kDTLoJaUMgpGFPqau", "name": "Married To The Game"},
+		{"artist": "Future", "frequency": 684, "id": "spotify:track:6vbafkvao6NErZDTjh2sYC", "name": "Poppin' Tags"},
+		{"artist": "Future", "frequency": 674, "id": "spotify:track:5rK0pyEObO4DBFLy682QvR", "name": "Mask Off - Marshmello Remix"},
+		{"artist": "Future", "frequency": 666, "id": "spotify:track:0FgrFRzcFLC5rbrbedPzRk", "name": "Magic - Remix"},
+		{"artist": "Future", "frequency": 655, "id": "spotify:track:6Mz7ULRwNSCOdut6M3tNs2", "name": "Lookin Exotic"},
+		{"artist": "Future", "frequency": 643, "id": "spotify:track:65FWIwYbpF4cSXLXykHUsV", "name": "Feds Did a Sweep"},
+		{"artist": "Future", "frequency": 643, "id": "spotify:track:7sGZDsOCYpvqkIv8eH4jOG", "name": "Slave Master"},
+		{"artist": "Future", "frequency": 641, "id": "spotify:track:1j703cUWGLGtl3n41HI3Hx", "name": "Keep Quiet"},
+		{"artist": "Future", "frequency": 632, "id": "spotify:track:3IMZ6j3mlRQYsatEuzt0Y3", "name": "Lil Haiti Baby"},
+		{"artist": "Future", "frequency": 606, "id": "spotify:track:5TxsupFF2Vc70TQdLyyOE3", "name": "Real and True"},
+		{"artist": "Future", "frequency": 597, "id": "spotify:track:2KBzUcKeNdsujWiK3djHvd", "name": "Blood On the Money"},
+		{"artist": "Future", "frequency": 585, "id": "spotify:track:0d9CyCAtOL3Txly9Jo02ra", "name": "Scrape"},
+		{"artist": "Future", "frequency": 581, "id": "spotify:track:4ibj6HRTdzkfvlDgxSXxCp", "name": "High Demand"},
+		{"artist": "Future", "frequency": 574, "id": "spotify:track:5lMmp06Yt5opZrKdszyh8Y", "name": "Program"},
+		{"artist": "Future", "frequency": 557, "id": "spotify:track:7Co6yOkvI0GvijiYcMuT84", "name": "When I Was Broke"},
+		{"artist": "Future", "frequency": 547, "id": "spotify:track:31suvgK8vvhfVXyEa2JpH8", "name": "Testify"},
+		{"artist": "Future", "frequency": 540, "id": "spotify:track:4O0qHBvIV8yHOcPkGJUUIZ", "name": "Lie to Me"},
+		{"artist": "Future", "frequency": 538, "id": "spotify:track:0evYh0thMGFGri2roKou3I", "name": "Same Damn Time"},
+		{"artist": "Future", "frequency": 536, "id": "spotify:track:0XarUcoGDMFuooo2tk70Yk", "name": "Damage"},
+		{"artist": "Future", "frequency": 531, "id": "spotify:track:0AkKwgg6rD4p7EpDlNpSz2", "name": "Outta Time"},
+		{"artist": "Future", "frequency": 525, "id": "spotify:track:0FA8Pw164j1qW4YEfpaVRy", "name": "Rotation"},
+		{"artist": "Future", "frequency": 510, "id": "spotify:track:4Bt9yX2Gq7Q1biRF45EN1C", "name": "Lil One"},
+		{"artist": "Future", "frequency": 494, "id": "spotify:track:6T2vocVm6BFUo4OipxEEmb", "name": "Groupies"},
+		{"artist": "Future", "frequency": 466, "id": "spotify:track:7BbbLiARcvEIhyMCcTRfJr", "name": "Same Damn Time (Remix)"},
+		{"artist": "Future", "frequency": 456, "id": "spotify:track:1RxR1IwTzgPlBcLn61LT1u", "name": "Colossal"},
+		{"artist": "Future", "frequency": 450, "id": "spotify:track:1baPNXuNvp5wRrmYU91OIt", "name": "Massage In My Room"},
+		{"artist": "Future", "frequency": 445, "id": "spotify:track:1wWRtPIKD7ZNvtsrzLyTev", "name": "All da Smoke"},
+		{"artist": "Future", "frequency": 429, "id": "spotify:track:4E7H6rqgxHdSoeGSS28CTY", "name": "Benz Friendz (Whatchutola)"},
+		{"artist": "Future", "frequency": 418, "id": "spotify:track:4j9G1hsYMHg3n6OBG8AQFS", "name": "Turn On Me"},
+		{"artist": "Future", "frequency": 396, "id": "spotify:track:5C8O7kz7g1wHILy0WwFj7f", "name": "Flip"},
+		{"artist": "Future", "frequency": 390, "id": "spotify:track:3IJ6BBFLD2I2CH3hHFQj3O", "name": "4 da Gang"},
+		{"artist": "Future", "frequency": 385, "id": "spotify:track:1G5XJTpRp9vckSIKlOf9ba", "name": "Party Pack"},
+		{"artist": "Future", "frequency": 371, "id": "spotify:track:11eVz92Nm7b2CTgA8OJVwp", "name": "Never Satisfied"},
+		{"artist": "Future", "frequency": 360, "id": "spotify:track:0gICfLC7d5HvNUy8q1GOHj", "name": "Real Sisters"},
+		{"artist": "Future", "frequency": 354, "id": "spotify:track:4W598w0KcHVG5Nwqk0qMpj", "name": "Three"},
+		{"artist": "Future", "frequency": 349, "id": "spotify:track:2ya9d4B06EQ8Fpj5SSqiTH", "name": "Drip on Me"},
+		{"artist": "Future", "frequency": 335, "id": "spotify:track:4Q40ZOINE8zsLJE3pWIqix", "name": "Neva Missa Lost"},
+		{"artist": "Future", "frequency": 334, "id": "spotify:track:2W10vndZ7uSOKVineVfjOa", "name": "Look Ahead"},
+		{"artist": "Future", "frequency": 325, "id": "spotify:track:1KF7iLK6wK3hjjtqxjRiym", "name": "Mink Flow"},
+		{"artist": "Future", "frequency": 315, "id": "spotify:track:3cq1t3pSjD7vt0n17g4mVm", "name": "I Thank U"},
+		{"artist": "Future", "frequency": 314, "id": "spotify:track:0QohT2QOr9MzABER7DCDN4", "name": "Check On Me"},
+		{"artist": "Future", "frequency": 289, "id": "spotify:track:1OwNWr75pNTyhifOTT0uIG", "name": "Real Love"},
+		{"artist": "Future", "frequency": 287, "id": "spotify:track:5f2mIVhUKJpFHYXNDIGv7I", "name": "Ooooh (feat. Young Scooter)"},
+		{"artist": "Future", "frequency": 273, "id": "spotify:track:0qH1jbTUbpCxZE7AMkjApD", "name": "New Illuminati"},
+		{"artist": "Future", "frequency": 265, "id": "spotify:track:5b06JZjts6dgyyuY1m7roq", "name": "200"},
+		{"artist": "Future", "frequency": 255, "id": "spotify:track:7mkSo4U9O3S9lBghYumFiu", "name": "Peacoat"},
+		{"artist": "Future", "frequency": 240, "id": "spotify:track:1d0OEkyy8Ph99V3qRHFOnK", "name": "My Blower (feat. Juicy J)"},
+		{"artist": "Future", "frequency": 234, "id": "spotify:track:5kayB3eHxipqrag3RC5u57", "name": "Just Like Bruddas"},
+		{"artist": "Future", "frequency": 234, "id": "spotify:track:25FVL8t40st88Hjqs4RCSO", "name": "You Deserve It"},
+		{"artist": "Future", "frequency": 219, "id": "spotify:track:0u8O2qRXLjoZWAuEUL6z6X", "name": "I'm Trippin"},
+		{"artist": "Future", "frequency": 184, "id": "spotify:track:4Ke7kgMwYp5rmzkEA6IHEk", "name": "Juice"},
+		{"artist": "Future", "frequency": 176, "id": "spotify:track:1H2KZ21IWEEhjoVyqS10S8", "name": "Like I Never Left"},
+		{"artist": "Future", "frequency": 169, "id": "spotify:track:73pbvYLtPlT6frmLHAmPV8", "name": "Covered N Money"},
+		{"artist": "Future", "frequency": 168, "id": "spotify:track:3kciYQvHGFkQYaZd0m1Pbc", "name": "Group Home"},
+		{"artist": "Future", "frequency": 166, "id": "spotify:track:065EaHZgvPiz934mznrj4P", "name": "Homicide"},
+		{"artist": "Future", "frequency": 164, "id": "spotify:track:7jut3DJ4sg1uyWZEwjZaJc", "name": "Thot Hoe"},
+		{"artist": "Future", "frequency": 164, "id": "spotify:track:3BJIAee0zxWjsmDyo1LuIr", "name": "Where I Came From"},
+		{"artist": "Future", "frequency": 160, "id": "spotify:track:4b4qUPlGJ0HELAcSabJhbx", "name": "Blow"},
+		{"artist": "Future", "frequency": 157, "id": "spotify:track:0ZZWXHDXn6zWDsnz6KSfGQ", "name": "My Momma"},
+		{"artist": "Future", "frequency": 155, "id": "spotify:track:6ZcXSrLEaubQcL5ypGBoGv", "name": "Right Now"},
+		{"artist": "Future", "frequency": 153, "id": "spotify:track:1BH4eZM6W2OCxFxsZZVvu8", "name": "Forever Eva"},
+		{"artist": "Future", "frequency": 151, "id": "spotify:track:4EpDZxSApKaod3PVqT5ben", "name": "Blood, Sweat, Tears"},
+		{"artist": "Future", "frequency": 145, "id": "spotify:track:3YPYfk3CYH9Z4NHp5BlNGH", "name": "Benjamins Burn"},
+		{"artist": "Future", "frequency": 145, "id": "spotify:track:4PjP1pyA9pDDByAheDumTH", "name": "I Be U"},
+		{"artist": "Future", "frequency": 144, "id": "spotify:track:53CUl8RvJqbBPm31SiSg7Q", "name": "(Bonus) Itchin"},
+		{"artist": "Future", "frequency": 142, "id": "spotify:track:6vKFAJatXnmsCdiOJclt2f", "name": "Champagne Shower"},
+		{"artist": "Future", "frequency": 141, "id": "spotify:track:7jQXN58DcQ1tWKhEYeUwT0", "name": "No Basic"},
+		{"artist": "Future", "frequency": 137, "id": "spotify:track:4mInDuvOBYr3LQvb3VnGc5", "name": "Straight Up"},
+		{"artist": "Future", "frequency": 134, "id": "spotify:track:7j4pQeavIrAmCX1HIt5PRJ", "name": "(Bonus) No Matter What"},
+		{"artist": "Future", "frequency": 128, "id": "spotify:track:1r1Y2hq7wMKe0CRYRkdWFw", "name": "Side Effects"},
+		{"artist": "Future", "frequency": 123, "id": "spotify:track:3RF0DfGlTWSf8qnayjWkkb", "name": "T-Shirt"},
+		{"artist": "Future", "frequency": 120, "id": "spotify:track:22sp7fvMxGvoD44IwhHkty", "name": "Stupidly Crazy"},
+		{"artist": "Future", "frequency": 111, "id": "spotify:track:4ksAW90Fw57RZO6b2gGOGr", "name": "Trap Niggas"},
+		{"artist": "Future", "frequency": 109, "id": "spotify:track:6cbaI9x2MveT4uJ5JY2DzL", "name": "Itchin"},
+		{"artist": "Future", "frequency": 102, "id": "spotify:track:2XjcBGdV3h5NJ1hq5NFCy0", "name": "Special"},
+		{"artist": "Future", "frequency": 92, "id": "spotify:track:0TksT7EHPipKAje94dhl1z", "name": "Aintchu (feat. Juvenile)"},
+		{"artist": "Future", "frequency": 92, "id": "spotify:track:16VNQF6gEq03h1ob0jjyuK", "name": "I'll Be Yours"},
+		{"artist": "Future", "frequency": 89, "id": "spotify:track:2eFmwHdZ90vkhux3MO7H7i", "name": "Long Live The Pimp"},
+		{"artist": "Future", "frequency": 85, "id": "spotify:track:0icJkVrHLqokNoOezYAWLT", "name": "Super Dumb"},
+		{"artist": "Future", "frequency": 83, "id": "spotify:track:6pKFT1bHaCEQlTy5uXLjHS", "name": "Astronaut Chick"},
+		{"artist": "Future", "frequency": 79, "id": "spotify:track:6XeDs0xdSla1oVYO8WKnV5", "name": "Parachute"},
+		{"artist": "Future", "frequency": 77, "id": "spotify:track:2ND1hP4ALBbeF60plp3zN1", "name": "Truth Gonna Hurt You"},
+		{"artist": "Future", "frequency": 71, "id": "spotify:track:5r5fXt3QT4iOUQb2AWCEtQ", "name": "Real Sisters"},
+		{"artist": "Future", "frequency": 71, "id": "spotify:track:3LRdrJky4qhRp8HiyY9mWL", "name": "How Can I Not"},
+		{"artist": "Future", "frequency": 70, "id": "spotify:track:7M2KyKzSHQwdckmvTP9hnW", "name": "Percocet & Stripper"},
+		{"artist": "Future", "frequency": 69, "id": "spotify:track:3J5cEq7VjUDau839mXpLBL", "name": "Jordan Diddy"},
+		{"artist": "Future", "frequency": 65, "id": "spotify:track:21ntVvdWPVNV5vkHDH507i", "name": "Deeper Than The Ocean"},
+		{"artist": "Future", "frequency": 61, "id": "spotify:track:0NrK4sqr5wcvgSIaYcxSID", "name": "Rider"},
+		{"artist": "Future", "frequency": 60, "id": "spotify:track:6B7fyK7uwXZE5lSjv4wjCR", "name": "My Ho 2"},
+		{"artist": "Future", "frequency": 57, "id": "spotify:track:7fNZyeaHvKtbj8WlJRm6ee", "name": "Magic"},
+		{"artist": "Future", "frequency": 56, "id": "spotify:track:5yHfxtXteKTs4jyD9xZikC", "name": "Shhh..."},
+		{"artist": "Future", "frequency": 56, "id": "spotify:track:1sHM7TXoGrbJec1lddB7L9", "name": "Permanent Scar"},
+		{"artist": "Future", "frequency": 54, "id": "spotify:track:7zT2JYK8S20SnR9DiJfh5g", "name": "First Class Flights"},
+		{"artist": "Future", "frequency": 47, "id": "spotify:track:6k8WuNh7wXXOoxkj47xEVb", "name": "My Savages"},
+		{"artist": "Future", "frequency": 42, "id": "spotify:track:7sNatosfFgOx1HUSAH1LAW", "name": "Jealous"},
+		{"artist": "Future", "frequency": 41, "id": "spotify:track:4LpCnTGKBjiCsGcJqYOl6E", "name": "Deal Wit It"},
+		{"artist": "Future", "frequency": 40, "id": "spotify:track:5tSysN2OcsbLNpCUGWvHS5", "name": "Space Cadets"},
+		{"artist": "Future", "frequency": 36, "id": "spotify:track:2ODUZ33XvLYGn2wMem2zEJ", "name": "Birds Take a Bath"},
+		{"artist": "Future", "frequency": 36, "id": "spotify:track:1oxa2qkIBhuLyEQjKsgsRu", "name": "The Future Is Now"},
+		{"artist": "Future", "frequency": 33, "id": "spotify:track:0cNATcPUKE80ilOfcKTn7T", "name": "Trap Niggas"},
+		{"artist": "Future", "frequency": 33, "id": "spotify:track:5Dgs8iwV2ENcuAkvfGQ2aH", "name": "My"},
+		{"artist": "Future", "frequency": 32, "id": "spotify:track:2d6qyeXtP6LkmGPT7cH3Dt", "name": "Fetti"},
+		{"artist": "Future", "frequency": 32, "id": "spotify:track:0KcyErMicSYFF00Wh4IbS7", "name": "Motion Picture"},
+		{"artist": "Future", "frequency": 31, "id": "spotify:track:5J6Izp85z7u2AobPxjqfEy", "name": "What You Mean"},
+		{"artist": "Future", "frequency": 31, "id": "spotify:track:3f0KBacw4EQjSlQItvDwvk", "name": "Racks (remix)"},
+		{"artist": "Future", "frequency": 31, "id": "spotify:track:7nTxaR2W61KnKoUc4z0X6I", "name": "Magic [Prod By KE On The Track] - Album Edit"},
+		{"artist": "Future", "frequency": 29, "id": "spotify:track:3lZLOKdlD1AqbEGQpWEKQE", "name": "Rent Money"},
+		{"artist": "Future", "frequency": 28, "id": "spotify:track:4rr4dGg2qkYgAmOpDUr3ne", "name": "Bitches Ain't Shit"},
+		{"artist": "Future", "frequency": 27, "id": "spotify:track:3UEWZdV4uLxT71BEh1bTHw", "name": "Intro"},
+		{"artist": "Future", "frequency": 25, "id": "spotify:track:5iEw9c2dQUvXhu9aYDcH9Y", "name": "Move That Dope"},
+		{"artist": "Future", "frequency": 22, "id": "spotify:track:61uEpaWnL1eVm4kWUby6VE", "name": "Lamborghini"},
+		{"artist": "Future", "frequency": 21, "id": "spotify:track:5WJTAoNgCywKQrpjYKERAF", "name": "Maison Margiela"},
+		{"artist": "Future", "frequency": 20, "id": "spotify:track:22RlmqSO2cFc5Zv7pcoMHa", "name": "Chozen 1 Long"},
+		{"artist": "Future", "frequency": 20, "id": "spotify:track:3e3W9kBiGUbPq3a7yJx9Dr", "name": "Big Rube Speaks"},
+		{"artist": "Future", "frequency": 20, "id": "spotify:track:5Z1uZlOMiipQVZk5xQJGgQ", "name": "Futureback"},
+		{"artist": "Future", "frequency": 18, "id": "spotify:track:7FbicPSBTfISV7O9Przn6G", "name": "Made Myself A Boss"},
+		{"artist": "Future", "frequency": 18, "id": "spotify:track:6CKsoebacPTE5PpyDBEfhv", "name": "Spaz On Yall"},
+		{"artist": "Future", "frequency": 17, "id": "spotify:track:1VO4JCOswhofpH27V8ZIUz", "name": "Nun Bout U"},
+		{"artist": "Future", "frequency": 16, "id": "spotify:track:2mclYJEpNOLeT077cOAuob", "name": "Transform"},
+		{"artist": "Future", "frequency": 16, "id": "spotify:track:4pqPrDZk9azt4avNnbyjPu", "name": "Swap It Out"},
+		{"artist": "Future", "frequency": 14, "id": "spotify:track:3OhYsiqwaR8COmR48vOCT8", "name": "Zoom"},
+		{"artist": "Future", "frequency": 14, "id": "spotify:track:2rVVShHTFI2ok0TK9C8U6U", "name": "Sh!T (Mmg Remix)"},
+		{"artist": "Future", "frequency": 13, "id": "spotify:track:1iQ8YCNsWYKAS2GizRsWiF", "name": "Free Bricks"},
+		{"artist": "Future", "frequency": 13, "id": "spotify:track:3YuZVhjSIegTU16BYBsUxr", "name": "YSL Cheetah"},
+		{"artist": "Future", "frequency": 13, "id": "spotify:track:5F8RINp1R9cWDjBMgk4ERE", "name": "Go Harder"},
+		{"artist": "Future", "frequency": 13, "id": "spotify:track:2rmun8ou3cuF99ry7r47Xu", "name": "Fuck Up Some Commas"},
+		{"artist": "Future", "frequency": 13, "id": "spotify:track:2ri2O2FUXsg3tijkhADsMv", "name": "Best 2 Shine"},
+		{"artist": "Future", "frequency": 13, "id": "spotify:track:1ECFZlx7O7ESrmenJ11tr2", "name": "Never Seen These"},
+		{"artist": "Future", "frequency": 13, "id": "spotify:track:5p6JYlxYUkr265C236XiFa", "name": "Shopping Spree"},
+		{"artist": "Future", "frequency": 12, "id": "spotify:track:6xyXkxNOPgSvPrXn3zhsZr", "name": "Too Excited"},
+		{"artist": "Future", "frequency": 12, "id": "spotify:track:4JGg0ZxhUmgDrhm5Pr6Vg3", "name": "Bag It Up"},
+		{"artist": "Future", "frequency": 12, "id": "spotify:track:4tiMHhlIXtJOAKPLRwPlYn", "name": "Everything That Glitters Ain't Gold"},
+		{"artist": "Future", "frequency": 11, "id": "spotify:track:1hl3mNYQ8I9jVAk0B82my2", "name": "S!Ht (Remix)"},
+		{"artist": "Future", "frequency": 11, "id": "spotify:track:0fO4nelkqDqynj9wnxblMI", "name": "Trendin' Topic"},
+		{"artist": "Future", "frequency": 10, "id": "spotify:track:3SWPYdbKShCTOd8cLArfGU", "name": "All The Time"},
+		{"artist": "Future", "frequency": 10, "id": "spotify:track:0OCMi7WYx0NwLGldpy1wzo", "name": "Grandma"},
+		{"artist": "Future", "frequency": 10, "id": "spotify:track:28ApZ68Kt56d3npQzo4eN9", "name": "Showed Up"},
+		{"artist": "Future", "frequency": 10, "id": "spotify:track:1nlTTZ59oDYeHx2b95MpdT", "name": "I Grind, F da World"},
+		{"artist": "Future", "frequency": 10, "id": "spotify:track:2M8fMS4ZNMMPrdK2yubmhI", "name": "Radical"},
+		{"artist": "Future", "frequency": 10, "id": "spotify:track:4U3GckLn3uL7mVFEV48lGk", "name": "One Helluva Night"},
+		{"artist": "Future", "frequency": 9, "id": "spotify:track:00h2z1zcrk3Jdv5uh1YJUT", "name": "Argentiny"},
+		{"artist": "Future", "frequency": 9, "id": "spotify:track:62KYAC4p5FJKmanRZAQF1f", "name": "Dub Cup & Molly"},
+		{"artist": "Future", "frequency": 9, "id": "spotify:track:3Pu3hI5hDuDIRLNqda9yq2", "name": "Mind Blowed"},
+		{"artist": "Future", "frequency": 9, "id": "spotify:track:5UhCVdA6bGNlbcSLYAzWSu", "name": "Tony Montana"},
+		{"artist": "Future", "frequency": 9, "id": "spotify:track:5cMeyIVzTXrPUWWreGnYtA", "name": "Mason Margela"},
+		{"artist": "Future", "frequency": 8, "id": "spotify:track:7xEMzWZo71RZbrBki6ZraY", "name": "I Been Drinking"},
+		{"artist": "Future", "frequency": 8, "id": "spotify:track:58D5agwsJoRKOPHTdP2jAZ", "name": "My Lamborghini"},
+		{"artist": "Future", "frequency": 8, "id": "spotify:track:63aR9LheuQhQp5ib9jlvUW", "name": "Same Damn Time"},
+		{"artist": "Future", "frequency": 8, "id": "spotify:track:3J9ZXa3Dq2GeCbdBKUkql7", "name": "4 Real (Feat. Hood Rich Clikk)"},
+		{"artist": "Future", "frequency": 7, "id": "spotify:track:3PStr6zUI7BaLhImIPQd2w", "name": "One Minute"},
+		{"artist": "Future", "frequency": 7, "id": "spotify:track:4YAdmgaMo6HLBXjMtqU987", "name": "Inside"},
+		{"artist": "Future", "frequency": 7, "id": "spotify:track:6d2vBCqZmDVO1JwSNOYoHq", "name": "Never Been This Hot"},
+		{"artist": "Future", "frequency": 7, "id": "spotify:track:7Dy2pUBX1rM6Unb4Zv7myt", "name": "Abu Intro Turn Up"},
+		{"artist": "Future", "frequency": 7, "id": "spotify:track:5xwKCgFyOK532GPCxT56J8", "name": "Lay Up (Instrumental)"},
+		{"artist": "Future", "frequency": 7, "id": "spotify:track:2FFSC6NBeG8GGMxykaTMiA", "name": "Monster"},
+		{"artist": "Future", "frequency": 7, "id": "spotify:track:6wXZgQBlRFMzUd3VShjjyz", "name": "Watch This Feat. Rocko"},
+		{"artist": "Future", "frequency": 7, "id": "spotify:track:1JySqSnZcSJxfpigkLxDsZ", "name": "2Pac"},
+		{"artist": "Future", "frequency": 6, "id": "spotify:track:55Cswb4qZ1OcsAlYTZZLyR", "name": "G Code"},
+		{"artist": "Future", "frequency": 6, "id": "spotify:track:2XlYgG80jKNQpJfyZCCAxI", "name": "Fast Lane"},
+		{"artist": "Future", "frequency": 6, "id": "spotify:track:1Eqq0E4jqHF9iZLbwh33qr", "name": "Jordan Diddy Interlude"},
+		{"artist": "Future", "frequency": 6, "id": "spotify:track:7n5hCuaDRgK5KUpnlLcVK3", "name": "You Eva Seen"},
+		{"artist": "Future", "frequency": 6, "id": "spotify:track:1tdSezQ6tXm4r8QZZYXl96", "name": "2 Pac"},
+		{"artist": "Future", "frequency": 5, "id": "spotify:track:3byLJz274VLaCaHvbe0h72", "name": "Out Stretched Hand"},
+		{"artist": "Future", "frequency": 5, "id": "spotify:track:506FqKE5KA6SwXLP7Ulcyk", "name": "Real Sisters (Instrumental)"},
+		{"artist": "Future", "frequency": 5, "id": "spotify:track:4UdVtxf7U7NS8YpIhVb4vF", "name": "Flip"},
+		{"artist": "Future", "frequency": 5, "id": "spotify:track:5cK5LHoSewaP1T8ts3rpga", "name": "Walk By Faith"},
+		{"artist": "Future", "frequency": 5, "id": "spotify:track:0rrX1uvUjEQdPAXogaEeNV", "name": "No Lies"},
+		{"artist": "Future", "frequency": 5, "id": "spotify:track:3aCEmI1oEyirNqGtVZOw2z", "name": "Lovin U"},
+		{"artist": "Future", "frequency": 5, "id": "spotify:track:5RJ4KK2SciYjVap9GY4rqL", "name": "Abu Outro Astronaut Status"},
+		{"artist": "Future", "frequency": 5, "id": "spotify:track:3m6JTLu0shaKbqzgIGB10J", "name": "Addicted"},
+		{"artist": "Future", "frequency": 5, "id": "spotify:track:5OpHaQvbLXPujTevGcBsJf", "name": "Broken Heart"},
+		{"artist": "Future", "frequency": 5, "id": "spotify:track:6pcuJfezV8UUOFtVMTS3qT", "name": "Oooooh (Instrumental)"},
+		{"artist": "Future", "frequency": 5, "id": "spotify:track:7hbjjikJ0jZcoKHaofy209", "name": "About Thought It Was a Drought - Commentary"},
+		{"artist": "Future", "frequency": 5, "id": "spotify:track:2xqGuvcTUKaKpHa0zXWMvD", "name": "Blow"},
+		{"artist": "Future", "frequency": 5, "id": "spotify:track:6facfzTpWESfHg9VfjezZg", "name": "Take You Home"},
+		{"artist": "Future", "frequency": 5, "id": "spotify:track:1xJxmczYZoRnjSpMkeIp8F", "name": "I Will Crush Him"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:3eBKL4XInkvH4OMdXNkBTY", "name": "Ride Warriors Anthem"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:1TQNayd50DHPqklKWycLCY", "name": "Reality Check"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:4pFmxaDiFw2NlD90blwP3U", "name": "Get It Right"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:0ZMl9CZ18Vjbkzotr46W2T", "name": "Second Chance"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:1g2a9FXDXOtEUQzp9P9nW7", "name": "I Survived"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:7ownHxDYVmUCdGWtdAUOGj", "name": "Shooter"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:0TnOS3byzrxfXWK6bP8ZIb", "name": "Truth Is"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:5nCRDqGB34oYeSyvKWu8DI", "name": "How To Murder An MC"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:7cA4fLTs4klu7c2pOcQN5a", "name": "Do Him - Feat. Flame"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:7arEWIkbOJaWtyTIQJ3pzT", "name": "His Way - Feat. Demond"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:21xmSWhKBK19f00pIfxyO5", "name": "Twilight Zone"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:6OP6uVNJ7EHEu3oyXXcpR9", "name": "About Where Ya At - Commentary"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:4RXN9TwH1WNwjwg6dqtOup", "name": "About Trap Niggas - Commentary"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:5IHNr2vwXXpo9F41u3rZdE", "name": "Never Seen Those Skit"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:6zhTEl1PupGf8se56MRd8A", "name": "Hey Lady"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:4JXY1t3vvpQZPzDMzLBRdP", "name": "No Love For You"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:0GiQaa072AFmsNhf3Q5c8y", "name": "Greatest Show on Earth"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:5nBykoDP382hCIqdpwyvzM", "name": "Just Last Week"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:0ZJD8rP108alatxlbIXEQL", "name": "Gone 2 Da Moon"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:1CXuuaMqbCeY6tXPexhzt1", "name": "Sellin YaYo"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:1TI315IQupP6wITHs9KCRb", "name": "Bitches Ain't Shit"},
+		{"artist": "Future", "frequency": 4, "id": "spotify:track:4HPiKBIgz9Yi4pR0hQGBTV", "name": "Rotation"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:2OmoTcQl7uhsTTjj4Cfqpc", "name": "Forever Ever (Instrumental)"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:7mJnb1y0pUvkcG2NbhrHqd", "name": "About Real Sisters - Commentary"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:5cIECD7GzdRWUfaBhDlKSQ", "name": "Intro - Commentary"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:7MRCDbkVy7OoAVMokYx1X3", "name": "Surgeon General"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:6i1YqKwn4Mtljkzqmm10mJ", "name": "Dance Poem"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:2W7p7vnIOWJc82iG8nB5Ga", "name": "If The Shoe Fits"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:2jS10RWBQYYkMSZ7uJNyel", "name": "Umbrellas"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:1cUu2dR6shtraqNT8nB3uE", "name": "My Observation"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:0ihT2p3u4rV68wCEA17A5I", "name": "Ode To Nas"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:1m2HECHlygnOKErHvLuoe7", "name": "Before My Time"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:4Aa3x3e4BxMEMauWtU1pw9", "name": "Roller Coasters"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:3airLxkJB7Xne1D515vs5f", "name": "Letter To My Wife Pt 3"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:2uHjTYmBbcRPk2XyDkTDcH", "name": "Arrogance (Righters Are For Ever)"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:1E3UEXfVe991rDTuRTqHSZ", "name": "Intro Interlude"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:37yhhJYPjwa0VLdQvw02Nn", "name": "Intro"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:1mC3aAHJuaNqT6cvDUWrWz", "name": "Can't Wait"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:19xtMbWcWWprSYO3sX0rfr", "name": "Hands Up"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:3FiZ910YyewWDPphw4tMMD", "name": "One God"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:67sv6eafEWckxmYg8IXYea", "name": "In Da Building"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:0Igs20h1QRrv8ZH6fz0A7p", "name": "Interlude"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:056OnuoGKnnoiaV41Q9xCX", "name": "Regret - Feat. Jai"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:4pVmW6bD0Z7G2nJIVT77TU", "name": "Fall Back - Feat. Titus & Json"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:77AHDyuR3r8FOHlbkuEQ8d", "name": "Father In You - Feat. J.R."},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:17BP47VdFK6gVcjkvBjxTA", "name": "Interlude"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:2ssBZCMlIBARSabOy513mc", "name": "Redeemed Rock - Feat. Demond"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:2vXUFSCMC7T9NwLjdd3fmb", "name": "Interlude - Feat. Valerie"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:3XmkyVjUqqn8pM1Voh3rrh", "name": "Bonus Track"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:6NJLQyk0KtshnS6nw9Aqri", "name": "Intro"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:3F1CBDUuTiUg6sRzMCdOx1", "name": "Johnny Storm"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:5xb6xaz8YMz662GoxHeZfy", "name": "Interlude - Falling In Love With Poetry"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:4tKkKXwfkZvR59CXZe8SdG", "name": "Sambo's Clothes"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:3xcgcyoAu7GUCg8foj7Qt5", "name": "Dead Man Living"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:1LEVfcicGCoiQHnmOtrl3h", "name": "Interlude - Poetry Inspiration"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:7DlNmQtCW4O3HbDAa0DnF1", "name": "My Ambition As A Writer"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:3OoqDdLPybvMf4ahQISH92", "name": "Monopoly"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:2CBD8qxj5QzXyDdolWbhB1", "name": "Letter To My Wife Too"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:3LCG54fimV93AZBZFwCFpp", "name": "Call To Duty"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:6Z9sWh08dgfAw1p1XE1Yu7", "name": "Interlude - Art Form"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:2jTsEU5DpdWhwuQtXihTV5", "name": "Broken Homes"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:4OTUWYuAqEyA0BFIsWdhbD", "name": "Listening For Children"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:0KbtrmEJaRz8td9quhl09z", "name": "Ode To Black Pacino"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:4kvTsvUqevhlP37FzQqeoJ", "name": "Mirror Mirror"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:0oFflBNVFvOKb2T4X0kh5Q", "name": "Interlude - Better Than My Father"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:1BPUx0aiKbX54FaGpPtMCP", "name": "Imagine feat. Abiodune of The Last Poets, Jon Blazini"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:1B3tRc3ulg1r23RjJ7lJYc", "name": "The Calling"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:4n63HS3INiM7VP8YwnH0nI", "name": "Outro - The State of Hip Hop"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:3tEkxrJGHstSI9hGQ8AQN7", "name": "(Intro) Am I Dreaming"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:5SN6VwWogGuMkSpzB2jsvA", "name": "Over You"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:1UCV5mzDXjYNEBtaAlXmks", "name": "Am I That Man"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:4vkTSsHBs48mdI5qbKH0ZL", "name": "Call Me"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:0wmU8zC0Td6DZ3kqw0IF8Y", "name": "Away"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:6TrIFmhcICkdYWdVL0bl6p", "name": "Look Into My Eyes"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:36i5Z0KHaM1QubmmAhTeb9", "name": "Eye for You"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:1rkCRXX1DQtUGeRVlTgjia", "name": "Dream"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:019dzn0IKdmiJVzCy7oChq", "name": "It's Worth the Wait"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:6pQsfNwZ9Zi7bzEcFtcQaj", "name": "Praise Him (Gospel)"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:3UY7ak1qr0vHU69lDhTnAy", "name": "Moving On"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:4JuEEBKjQ3XJkUWakyjyQJ", "name": "Away (Remix)"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:0H7fbv8wxxFDyN42l9Zky0", "name": "No Basic (Instrumental)"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:04fu89e0oCpBZ3XRfxh3G3", "name": "Where I Came From (Instrumental)"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:6ujWTzdZ5CP6vsKiMndi4q", "name": "What It Do"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:7EHwc3eWovyM2BxfmdAkdQ", "name": "Good Kush & Alcohol - Remix"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:3DtdAJJWgY5pQPNkQKxrCf", "name": "About Stick Talk - Commentary"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:6hcBxnLCwSePbZcUjd59WL", "name": "About Blood On the Money - Commentary"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:3eFFcBWVbWGwhpdRCJOWo7", "name": "About The Percocet & Stripper Joint - Commentary"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:4pAtnwMi2iUT0FYdstX8AG", "name": "Smoke and Mirrors"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:1NVAUkQex1Vq6bwAOYrjcM", "name": "Brick"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:3WkZZRIsoEpUcsF4jsMMPu", "name": "Watch This"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:2sb4tMXNFCvquqzjh65uDP", "name": "No Love"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:5ijC3UBaD7f5gRhn9VJfPQ", "name": "Karate Chop - PhatCap Remix"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:7iy4sbEKCfVe6PcGzpZCnA", "name": "Intro"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:6sT8ZnJYXLSRVveI8j444S", "name": "Purple Coming In"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:26K1ZvQIQj2IxRpZikJKLA", "name": "Same Damn Time"},
+		{"artist": "Future", "frequency": 3, "id": "spotify:track:7GxEfNQGIjwi7D3H3ZTp0x", "name": "Essay"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:4rB2NZtcO3Bm1lvDxBR56l", "name": "Come out Clean"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:0WvICoaGfZkvt2FW3IRl9J", "name": "Aintchu (Instrumental)"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:4atfjrvg30RyN75DwWFASR", "name": "Peacoat (Instrumental)"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:2Mj5aIrtUN9qiClmzE31lY", "name": "Just Like Bruddas (Instrumental)"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:4oyshQlzjm78SwADQAebVi", "name": "About I Serve the Base - Commentary"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:3BbLKZTadFU9AS1DeoXeBK", "name": "About Groupies - Commentary"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:0njm53obEEnrgdkqO30kR6", "name": "About Lil One - Commentary"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:3cTfekmC3u7oVlGOTVRt9M", "name": "About Freak Hoe - Commentary"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:3Zl78ddCLDk4Ly2qC1j1eB", "name": "About Slave Master - Commentary"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:7HXSpPrq9OxfXg9pRUhzWB", "name": "About Rich $ex - Commentary"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:5WCr4YNGik4lcYb7guZCMC", "name": "About Kno The Meaning - Commentary"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:0Qn6LsvCQNAAaDU1Z3vc1J", "name": "About F*ck Up Some Commas - Commentary"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:45OPrc9HpbjTD9OqZVKJpo", "name": "Big Picture"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:0AxaZTdRJgppZ549ZbYPXZ", "name": "Power"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:6oPxvSTejd1h2Kx4UQmEXp", "name": "Running 100 Miles"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:2EtMLfzRpbw9UaaKEgPDoR", "name": "Love Long Time"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:1TDOCXXxcQUmg5Pwn1t586", "name": "Hold Me Back"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:7hyReqoqnYSmTRGVaQNOkJ", "name": "No Cuffin"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:1HnIlk5TZwHVjrBBommcLt", "name": "Day 1"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:4yNi6b1q6Gjoxplvt05zDE", "name": "Been Told"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:51Os5s1Eh99j4IVcbsT2SQ", "name": "Made My Self A Boss"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:6vB4iAPffhnLGjv3IvWP3O", "name": "Sick and Tired"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:2A6W93nH49P7GkFztxY5y7", "name": "Break Me Down"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:4sPbePgjYFoo1Lt8TjzHTa", "name": "Play Bout My Paper"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:2AQ0gb8j30QkymCgohM3d7", "name": "Aint No Way Around It"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:7eEjm0tUKQzt6SKKhKe5CG", "name": "Luxurious"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:0tPrgPgDlqpuDQK4YiHkR4", "name": "Appetite"},
+		{"artist": "Future", "frequency": 2, "id": "spotify:track:5Q9qbmakreXIIojVphmNDm", "name": "Fell In Luv"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:40XFgc8AegzKjgsKEtZCum", "name": "Deez Bitches Ain't Shit"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:3z52XECA7CXLFrjhhe0fB2", "name": "About Rotation - Commentary"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:5UBmHQTn9okWgeTSWEhSgo", "name": "About Blow a Bag - Commentary"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:6L49hPsYCBjsk0rPNXeGvy", "name": "About Colossal - Commentary"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:5JWFoHUr8uITFVcn63QcAI", "name": "Regular Party"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:4hFq9fRt113kGWpTGYJ4LG", "name": "Came along way"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:7bFrJOIShdIi3IDoIzvzuz", "name": "Made Myself A Boss"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:1kcDEgIVjkkjt1oVTsDg1B", "name": "Blow 2.0"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:7M6JD4aP9ng0TCZsXFLbmD", "name": "I'm Lovin' It"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:1ZgEoTuTTH91pNJtUg1WNO", "name": "Overcome (Express Yourself)"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:7iWXCmPWL0P61UQ6q5Zmsu", "name": "Mirror"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:1n6cJcuDwN28iycudOQ579", "name": "Ha Chuu"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:7iNGGtdOt0EqejWcDa4L9E", "name": "Fresh out"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:184KgAOyQFTypPmLbrQj8R", "name": "We In Here"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:5GVwkfyLnaVeg1e2H1Ayl7", "name": "Faded"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:3cbLcz46vX6Hqu4YpzoBPW", "name": "Take a Stand"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:2SIsCEBQC4DwYEJC2zbZPn", "name": "Fo Real"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:2CbRGpHE8bPlid3fWe0X3X", "name": "On 2 Us"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:1bAroaE3Adeipso0Omm4ps", "name": "Groove"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:4ol4LleuYrLzmjnMOnd3rE", "name": "Poppin Tags"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:3i4HvtcgwGciftXblelzDl", "name": "Faded"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:7s1iOuzlA1qOFb92iIgUTU", "name": "Watch This"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:2WX2o1UUvFfg2pBAY1pxPe", "name": "Old hundids"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:6GUpO2o2PRLY82XpjykMVw", "name": "Championship Music"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:6uOCzWNKFhL9xIFOSPcawc", "name": "Show me the money"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:6ybuwtRsiwvcE6EB8NawlS", "name": "Hittinlicks (feat. Murdah baby, Platinump, Alley Boy)"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:0YiGzDDpaOGrWxqeFu078G", "name": "Jordan Diddy"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:0cP3cVfSFEKJHz7LCuyfBD", "name": "Dirty Sprite"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:2zOtXViphRLgNwbqKs0Mwi", "name": "Scarface"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:3qRY3HLzn1cHlK11dgM6ke", "name": "I've Had Warmer Welcomes (feat. Rosetta Stoned)"},
+		{"artist": "Future", "frequency": 1, "id": "spotify:track:3p1nZB7M5DcqQbWyhukCHS", "name": "Take a Charge"},
 ] 
  }

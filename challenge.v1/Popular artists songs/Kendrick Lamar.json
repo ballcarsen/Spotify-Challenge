@@ -1,131 +1,131 @@
 { "songs": [
-		{"artist": "Kendrick Lamar", "frequency": 46574, "id": "spotify:track:7KXjTSCq5nL1LoYtL7XAwS", "name": "HUMBLE."};
-		{"artist": "Kendrick Lamar", "frequency": 26734, "id": "spotify:track:6HZILIRieu8S0iqY8kIKhj", "name": "DNA."};
-		{"artist": "Kendrick Lamar", "frequency": 20970, "id": "spotify:track:439TlnnznSiBbQbgXiBqAd", "name": "m.A.A.d city"};
-		{"artist": "Kendrick Lamar", "frequency": 18115, "id": "spotify:track:6PGoSes0D9eUDeeAafB2As", "name": "LOVE. FEAT. ZACARI."};
-		{"artist": "Kendrick Lamar", "frequency": 17226, "id": "spotify:track:6REbwUNlppTfcnV4d4ZoZi", "name": "Swimming Pools (Drank)"};
-		{"artist": "Kendrick Lamar", "frequency": 15281, "id": "spotify:track:4Pwjz3DfvfQWV0rO2V8jyh", "name": "Bitch, Don\u2019t Kill My Vibe"};
-		{"artist": "Kendrick Lamar", "frequency": 14200, "id": "spotify:track:0N3W5peJUQtI4eyR6GJT5O", "name": "King Kunta"};
-		{"artist": "Kendrick Lamar", "frequency": 14150, "id": "spotify:track:6SwRhMLwNqEi6alNPVG00n", "name": "LOYALTY. FEAT. RIHANNA."};
-		{"artist": "Kendrick Lamar", "frequency": 13323, "id": "spotify:track:6fAyRZ0GHuuvSOEIOwi58N", "name": "Backseat Freestyle"};
-		{"artist": "Kendrick Lamar", "frequency": 11879, "id": "spotify:track:3iVcZ5G6tvkXZkZKlMpIUs", "name": "Alright"};
-		{"artist": "Kendrick Lamar", "frequency": 11397, "id": "spotify:track:1zCi4cVFqe6ja16MeGZKRN", "name": "Poetic Justice"};
-		{"artist": "Kendrick Lamar", "frequency": 11091, "id": "spotify:track:2HbKqm4o0w5wEeEFXm2sD4", "name": "Money Trees"};
-		{"artist": "Kendrick Lamar", "frequency": 10293, "id": "spotify:track:1EaKU4dMbesXXd3BrLCtYG", "name": "ELEMENT."};
-		{"artist": "Kendrick Lamar", "frequency": 8750, "id": "spotify:track:2MYl0er3UZ1RlKwRb5LODh", "name": "A.D.H.D"};
-		{"artist": "Kendrick Lamar", "frequency": 8446, "id": "spotify:track:5ujh1I7NZH5agbwf7Hp8Hc", "name": "Swimming Pools (Drank) - Extended Version"};
-		{"artist": "Kendrick Lamar", "frequency": 6052, "id": "spotify:track:7wdzLe2Gsx1RGqbvYZHASz", "name": "i"};
-		{"artist": "Kendrick Lamar", "frequency": 4886, "id": "spotify:track:4iYRa2btalAzPZoSYfROqF", "name": "XXX. FEAT. U2."};
-		{"artist": "Kendrick Lamar", "frequency": 3904, "id": "spotify:track:1eRBW1HcyM1zPlxO26cScZ", "name": "The Recipe - Bonus Track"};
-		{"artist": "Kendrick Lamar", "frequency": 3751, "id": "spotify:track:3I0FBDc1c1BLNtXWKVjmFg", "name": "untitled 02 | 06.23.2014."};
-		{"artist": "Kendrick Lamar", "frequency": 3417, "id": "spotify:track:1zayuwd1YLZsYDArkruHdL", "name": "The Heart Part 4"};
-		{"artist": "Kendrick Lamar", "frequency": 3412, "id": "spotify:track:6QvxTX9zvo4u7XhP9vOP3n", "name": "untitled 07 | levitate"};
-		{"artist": "Kendrick Lamar", "frequency": 3289, "id": "spotify:track:5p3NP9mQblDsVJLdfNZJ3I", "name": "GOD."};
-		{"artist": "Kendrick Lamar", "frequency": 3210, "id": "spotify:track:6IZvVAP7VPPnsGX6bvgkqg", "name": "PRIDE."};
-		{"artist": "Kendrick Lamar", "frequency": 2896, "id": "spotify:track:4BHSjbYylfOH5WAGusDyni", "name": "YAH."};
-		{"artist": "Kendrick Lamar", "frequency": 2887, "id": "spotify:track:06FCvd7rrRcF3DdvWH5Isp", "name": "LUST."};
-		{"artist": "Kendrick Lamar", "frequency": 2815, "id": "spotify:track:5Mtt6tZSZA9cXTHGSGpyh0", "name": "The Blacker The Berry"};
-		{"artist": "Kendrick Lamar", "frequency": 2720, "id": "spotify:track:0y9uTzK9cNKSAEHnpeRG8C", "name": "DUCKWORTH."};
-		{"artist": "Kendrick Lamar", "frequency": 2514, "id": "spotify:track:40IQooNkPRVtn4zlE3ZFpA", "name": "untitled 07 | 2014 - 2016"};
-		{"artist": "Kendrick Lamar", "frequency": 2451, "id": "spotify:track:2b3KgzISdjZVNPJJ1945nw", "name": "Rigamortus"};
-		{"artist": "Kendrick Lamar", "frequency": 2348, "id": "spotify:track:2LTlO3NuNVN70lp2ZbVswF", "name": "FEEL."};
-		{"artist": "Kendrick Lamar", "frequency": 2281, "id": "spotify:track:7ALEBJ8LOQqXVJ2tqnXtoH", "name": "Bitch, Don\u2019t Kill My Vibe - Remix"};
-		{"artist": "Kendrick Lamar", "frequency": 2161, "id": "spotify:track:23luOrEVHMfoX0AhfbQuS6", "name": "FEAR."};
-		{"artist": "Kendrick Lamar", "frequency": 2064, "id": "spotify:track:3ODXRUPL44f04cCacwiCLC", "name": "i"};
-		{"artist": "Kendrick Lamar", "frequency": 2001, "id": "spotify:track:7uWVT3UkCAZyANvv0bdyQn", "name": "These Walls"};
-		{"artist": "Kendrick Lamar", "frequency": 1907, "id": "spotify:track:3q2v8QaTnHLveAQzR6gvYm", "name": "Sing About Me, I'm Dying Of Thirst"};
-		{"artist": "Kendrick Lamar", "frequency": 1880, "id": "spotify:track:4fVqQKbROkz8Z9FFJS7vls", "name": "HiiiPower"};
-		{"artist": "Kendrick Lamar", "frequency": 1797, "id": "spotify:track:5DO1SazQppcsKQ1c1JpyQz", "name": "Hol' Up"};
-		{"artist": "Kendrick Lamar", "frequency": 1704, "id": "spotify:track:6jl01C724Mk68qlOQLco5I", "name": "Blow My High (Members Only)"};
-		{"artist": "Kendrick Lamar", "frequency": 1621, "id": "spotify:track:1wf4LnpdAhLaoI2WwYDKAE", "name": "Compton"};
-		{"artist": "Kendrick Lamar", "frequency": 1480, "id": "spotify:track:0d0jsoba88SpOoFxCxA2rZ", "name": "The Art of Peer Pressure"};
-		{"artist": "Kendrick Lamar", "frequency": 1469, "id": "spotify:track:2UOYzhusMTypF7oAQwksCj", "name": "Hood Politics"};
-		{"artist": "Kendrick Lamar", "frequency": 1445, "id": "spotify:track:5bBUDJUfGcG7eFy3Bf4fXv", "name": "untitled 08 | 09.06.2014."};
-		{"artist": "Kendrick Lamar", "frequency": 1439, "id": "spotify:track:7Ks4VCY1wFebnOdJrM13t6", "name": "Wesley's Theory"};
-		{"artist": "Kendrick Lamar", "frequency": 1415, "id": "spotify:track:3gl1RenSXn1biKijZ1qvky", "name": "Ronald Reagan Era"};
-		{"artist": "Kendrick Lamar", "frequency": 1375, "id": "spotify:track:1n4jwRVXdkK2U34nBDUKKT", "name": "BLOOD."};
-		{"artist": "Kendrick Lamar", "frequency": 1334, "id": "spotify:track:12bCgkFnyyTI8B1OmmRhbx", "name": "The Spiteful Chant"};
-		{"artist": "Kendrick Lamar", "frequency": 1224, "id": "spotify:track:4tQcyj5488alHT1ZgFduzn", "name": "How Much A Dollar Cost"};
-		{"artist": "Kendrick Lamar", "frequency": 1219, "id": "spotify:track:2fgAJeky8Cpsr8Cfvn2NVp", "name": "untitled 03 | 05.28.2013."};
-		{"artist": "Kendrick Lamar", "frequency": 1126, "id": "spotify:track:5d8yMIlqJH78lwOUP7T3oF", "name": "Real"};
-		{"artist": "Kendrick Lamar", "frequency": 1116, "id": "spotify:track:5vuJuBqwzHJgCA1ysRfwxZ", "name": "good kid"};
-		{"artist": "Kendrick Lamar", "frequency": 1019, "id": "spotify:track:5UHjWOJA6MDl1g3x2HC68V", "name": "The Recipe (Black Hippy Remix) - Bonus Track"};
-		{"artist": "Kendrick Lamar", "frequency": 1016, "id": "spotify:track:4KjnaUNYPwGnJjoeTFlt91", "name": "Now Or Never - Bonus Track"};
-		{"artist": "Kendrick Lamar", "frequency": 980, "id": "spotify:track:4M2t7bP4Mq87mGMn0PObUX", "name": "untitled 06 | 06.30.2014."};
-		{"artist": "Kendrick Lamar", "frequency": 968, "id": "spotify:track:4oFtLSgHyZPNYDCcANhTnO", "name": "Institutionalized"};
-		{"artist": "Kendrick Lamar", "frequency": 955, "id": "spotify:track:7A3ETuOrieyx9KSF0sn0Zf", "name": "You Ain't Gotta Lie (Momma Said)"};
-		{"artist": "Kendrick Lamar", "frequency": 942, "id": "spotify:track:1bxEpNR75Hq3T2oF9AZjt8", "name": "u"};
-		{"artist": "Kendrick Lamar", "frequency": 905, "id": "spotify:track:72hFOhhhnOJZnnp6uVOgPn", "name": "Complexion (A Zulu Love)"};
-		{"artist": "Kendrick Lamar", "frequency": 836, "id": "spotify:track:0CjJqkWOpIUXdem5hUcxAk", "name": "Momma"};
-		{"artist": "Kendrick Lamar", "frequency": 798, "id": "spotify:track:0qGFnxDIqGBIq2D3zNbjk9", "name": "Sherane a.k.a Master Splinter\u2019s Daughter"};
-		{"artist": "Kendrick Lamar", "frequency": 772, "id": "spotify:track:0ECs7wpW9157Tk5yBUGbE0", "name": "Alright"};
-		{"artist": "Kendrick Lamar", "frequency": 756, "id": "spotify:track:3V8vWoCbKbfjNrPaQ4YtSg", "name": "untitled 05 | 09.21.2014."};
-		{"artist": "Kendrick Lamar", "frequency": 741, "id": "spotify:track:5v501hmUMvbHPKa7qm0MGD", "name": "F*ck Your Ethnicity"};
-		{"artist": "Kendrick Lamar", "frequency": 696, "id": "spotify:track:2NxIp9jbmsnaIiAExWOEo0", "name": "Poe Mans Dreams (His Vice)"};
-		{"artist": "Kendrick Lamar", "frequency": 663, "id": "spotify:track:53mCo1wDJ12iZNq9LgIeg2", "name": "Ignorance Is Bliss"};
-		{"artist": "Kendrick Lamar", "frequency": 610, "id": "spotify:track:1WT11QmhZutciEv1NsHt1R", "name": "Mortal Man"};
-		{"artist": "Kendrick Lamar", "frequency": 607, "id": "spotify:track:75izAeHlGuOgA865CFDyIv", "name": "For Free? - Interlude"};
-		{"artist": "Kendrick Lamar", "frequency": 595, "id": "spotify:track:1H7yy9jlDYS2EBF41J6Yf5", "name": "Black Boy Fly - Bonus Track"};
-		{"artist": "Kendrick Lamar", "frequency": 560, "id": "spotify:track:0bcCgRudYZ4kiOHZNZfqxU", "name": "Keisha's Song (Her Pain)"};
-		{"artist": "Kendrick Lamar", "frequency": 528, "id": "spotify:track:7unx2Rvsq8D0RfOLRXclTA", "name": "For Sale? - Interlude"};
-		{"artist": "Kendrick Lamar", "frequency": 486, "id": "spotify:track:7yQDLdub1VuUUwbpteUX7w", "name": "No Make-Up (Her Vice)"};
-		{"artist": "Kendrick Lamar", "frequency": 460, "id": "spotify:track:705u4LfXcTBuDOB8UCy0A7", "name": "Kush & Corinthians"};
-		{"artist": "Kendrick Lamar", "frequency": 446, "id": "spotify:track:1U13SSgDOxK98L1FTWYrjQ", "name": "untitled 04 | 08.14.2014."};
-		{"artist": "Kendrick Lamar", "frequency": 423, "id": "spotify:track:1oH44ACGSLbJGcbw2JLQOt", "name": "Michael Jordan"};
-		{"artist": "Kendrick Lamar", "frequency": 423, "id": "spotify:track:6OkOFxU6j0UufR97VgSnS7", "name": "untitled 01 | 08.19.2014."};
-		{"artist": "Kendrick Lamar", "frequency": 422, "id": "spotify:track:3RPK9VQuTsiTySY48ldeqx", "name": "Tammy's Song (Her Evils)"};
-		{"artist": "Kendrick Lamar", "frequency": 407, "id": "spotify:track:6TRVvpoVFwyYyIGTFh0Y7P", "name": "P&P 1.5"};
-		{"artist": "Kendrick Lamar", "frequency": 381, "id": "spotify:track:2AyFYSaJjz9XMc0kMr1R3a", "name": "Growing Apart (To Get Closer)"};
-		{"artist": "Kendrick Lamar", "frequency": 374, "id": "spotify:track:6D5GoogBIBMUBlQ1CYTkOH", "name": "She Needs Me (Remix)"};
-		{"artist": "Kendrick Lamar", "frequency": 373, "id": "spotify:track:3s3ZBjw8kKX5HXymkRIDVy", "name": "Chapter Six"};
-		{"artist": "Kendrick Lamar", "frequency": 369, "id": "spotify:track:3LkG1iJmtgmCsKof2QMme6", "name": "Cut You Off (To Grow Closer)"};
-		{"artist": "Kendrick Lamar", "frequency": 350, "id": "spotify:track:1S6NpdvFXqHZfPUUEOIjtG", "name": "Opposites Attract (Tomorrow W/O Her)"};
-		{"artist": "Kendrick Lamar", "frequency": 341, "id": "spotify:track:3r4S1J4YCkx2fuqH2eL9fz", "name": "Average Joe"};
-		{"artist": "Kendrick Lamar", "frequency": 302, "id": "spotify:track:0bP9mtOuBLMQ7L0DP2wPwj", "name": "H.O.C"};
-		{"artist": "Kendrick Lamar", "frequency": 289, "id": "spotify:track:6ff9CLXYk39PKFYoYCYeog", "name": "Alien Girl (Today W/ Her)"};
-		{"artist": "Kendrick Lamar", "frequency": 252, "id": "spotify:track:2FTGmG9PvlXEERkb1sYBE3", "name": "Ab-Souls Outro"};
-		{"artist": "Kendrick Lamar", "frequency": 232, "id": "spotify:track:7M2cKcvCnflzp9WcxGjlbm", "name": "Barbed Wire"};
-		{"artist": "Kendrick Lamar", "frequency": 207, "id": "spotify:track:31Yebmn7gDvxc0yjRV8M5t", "name": "Cartoon"};
-		{"artist": "Kendrick Lamar", "frequency": 187, "id": "spotify:track:1DCLOAT1E5NDZDupAE95ka", "name": "R.O.T.C (Interlude)"};
-		{"artist": "Kendrick Lamar", "frequency": 183, "id": "spotify:track:2C1C4QjjMmru4mYrPSQzWs", "name": "Chapter Ten"};
-		{"artist": "Kendrick Lamar", "frequency": 172, "id": "spotify:track:7a4hhCV3GlgA7a8wwJBy5B", "name": "These Walls"};
-		{"artist": "Kendrick Lamar", "frequency": 159, "id": "spotify:track:3zDlwMHUUjLWizguuXugoz", "name": "I Do This (Remix)"};
-		{"artist": "Kendrick Lamar", "frequency": 131, "id": "spotify:track:6AdLUPGOVpHT4LAiWYktH0", "name": "County Building Blues"};
-		{"artist": "Kendrick Lamar", "frequency": 81, "id": "spotify:track:6pyd5aclfM9Lb1uvoIIpXt", "name": "3 Minutes of Watts (feat. Jay Rock)"};
-		{"artist": "Kendrick Lamar", "frequency": 67, "id": "spotify:track:1fDtHlSfJMcFHp3BiDSdrY", "name": "My People (feat. Jay Rock)"};
-		{"artist": "Kendrick Lamar", "frequency": 33, "id": "spotify:track:1DW5f4GP10SSlvMcK52Yrz", "name": "War Is My Love"};
-		{"artist": "Kendrick Lamar", "frequency": 27, "id": "spotify:track:0C79sQhgGvnJn9oYxQHW4s", "name": "Flower Child"};
-		{"artist": "Kendrick Lamar", "frequency": 9, "id": "spotify:track:1ylD5Zf0hLc9su7OJOU6u5", "name": "She Needs Me [Remix] (Ringtone)"};
-		{"artist": "Kendrick Lamar", "frequency": 8, "id": "spotify:track:1E3aKOxdp5Qu5WtrdWaGbF", "name": "Up Against The Wall (feat. Roc Marci & Kendrick Lamar)"};
-		{"artist": "Kendrick Lamar", "frequency": 4, "id": "spotify:track:5VBTBgAnCO8S6LtP44SrDt", "name": "The Jig Is Up - Dump'n"};
-		{"artist": "Kendrick Lamar", "frequency": 3, "id": "spotify:track:1Gkanj0HSVwIC5sjcsgQYR", "name": "Look out for Detox"};
-		{"artist": "Kendrick Lamar", "frequency": 3, "id": "spotify:track:2uEx0203Ra4kYBynspjDbj", "name": "Compton's Finest"};
-		{"artist": "Kendrick Lamar", "frequency": 3, "id": "spotify:track:2wnqPmljUVcAoHaus5P8Wt", "name": "Lyrical G"};
-		{"artist": "Kendrick Lamar", "frequency": 2, "id": "spotify:track:5bqlB7v8s5W0HYNkiSUtdT", "name": "She Needs Me feat. Javonte"};
-		{"artist": "Kendrick Lamar", "frequency": 2, "id": "spotify:track:6KctKNiQyyGLdoxuu9UJey", "name": "Is It Love feat. Angela McCluskey"};
-		{"artist": "Kendrick Lamar", "frequency": 2, "id": "spotify:track:1KpyKz1srcp96YpA424z4u", "name": "Cartoon & Cereal"};
-		{"artist": "Kendrick Lamar", "frequency": 2, "id": "spotify:track:22l62RUwWjo6JuUi3YB0Vk", "name": "Thank You"};
-		{"artist": "Kendrick Lamar", "frequency": 2, "id": "spotify:track:7BSQY31r6fhZUtIwH6FE8B", "name": "Let Me Be Me"};
-		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:4kCFo5iV9AeNmi5oWCv4cB", "name": "Celebration"};
-		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:00ibm2mniJevaKFk9rllrX", "name": "Wanna Be Heard"};
-		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:0J9HHPH8mTnor4BFrdp0wn", "name": "I Do This"};
-		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:4Im5BAdQUlxJf6jerHxjMe", "name": "Kendrick Lamar"};
-		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:0F9QQwY2pUvqjqGdt2QNaU", "name": "Faith feat. Bj The Chicago Kid & Punch"};
-		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:7pBzYIXn1pAiRAiW1GwBmV", "name": "The Heart, Pt. 3"};
-		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:7Dygh6Nrptn7OJUNvuB8JV", "name": "Cut You Off"};
-		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:3T4HYG2VTnI2ZRgt6WQCxA", "name": "Don't Understand"};
-		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:74doJFYN7F2VuFqnc9X1hb", "name": "For the Homies"};
-		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:1BWY2ndlFF0M2zWRMgxE6L", "name": "L.M.A.O"};
-		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:6C8zcWBKgoly8wDsDV0hrV", "name": "Rapper Shit"};
-		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:2bUngu0zpE3wZQYVVS12Gv", "name": "Far From Here feat. Schoolboy Q"};
-		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:4hKUHwgH4Gh2hBg8jmvizA", "name": "Trip"};
-		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:31w4mvzJtqnneBiuLRbed2", "name": "Vanity Slaves"};
-		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:7MEdTejoQLWZUTH8M4hoUT", "name": "Thanksgiving feat. Big Pooh"};
-		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:02mUTIngFR1i4bxDNOJzQm", "name": "Fragile"};
-		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:2lNbKefusjdlZJ0hMYBvDO", "name": "We Up"};
-		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:3DMx957hDWne4rawZ11wPb", "name": "Next to Me - Remix"};
-		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:0Mi84mfXICMzzsF4aA48hz", "name": "Kurupted"};
-		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:78eHlNC508WlfVpe4Ojit9", "name": "Half Way Crooks"};
-		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:0F7asJfYR4Ab4yP2inPm1D", "name": "P&P"};
+		{"artist": "Kendrick Lamar", "frequency": 46574, "id": "spotify:track:7KXjTSCq5nL1LoYtL7XAwS", "name": "HUMBLE."},
+		{"artist": "Kendrick Lamar", "frequency": 26734, "id": "spotify:track:6HZILIRieu8S0iqY8kIKhj", "name": "DNA."},
+		{"artist": "Kendrick Lamar", "frequency": 20970, "id": "spotify:track:439TlnnznSiBbQbgXiBqAd", "name": "m.A.A.d city"},
+		{"artist": "Kendrick Lamar", "frequency": 18115, "id": "spotify:track:6PGoSes0D9eUDeeAafB2As", "name": "LOVE. FEAT. ZACARI."},
+		{"artist": "Kendrick Lamar", "frequency": 17226, "id": "spotify:track:6REbwUNlppTfcnV4d4ZoZi", "name": "Swimming Pools (Drank)"},
+		{"artist": "Kendrick Lamar", "frequency": 15281, "id": "spotify:track:4Pwjz3DfvfQWV0rO2V8jyh", "name": "Bitch, Don\u2019t Kill My Vibe"},
+		{"artist": "Kendrick Lamar", "frequency": 14200, "id": "spotify:track:0N3W5peJUQtI4eyR6GJT5O", "name": "King Kunta"},
+		{"artist": "Kendrick Lamar", "frequency": 14150, "id": "spotify:track:6SwRhMLwNqEi6alNPVG00n", "name": "LOYALTY. FEAT. RIHANNA."},
+		{"artist": "Kendrick Lamar", "frequency": 13323, "id": "spotify:track:6fAyRZ0GHuuvSOEIOwi58N", "name": "Backseat Freestyle"},
+		{"artist": "Kendrick Lamar", "frequency": 11879, "id": "spotify:track:3iVcZ5G6tvkXZkZKlMpIUs", "name": "Alright"},
+		{"artist": "Kendrick Lamar", "frequency": 11397, "id": "spotify:track:1zCi4cVFqe6ja16MeGZKRN", "name": "Poetic Justice"},
+		{"artist": "Kendrick Lamar", "frequency": 11091, "id": "spotify:track:2HbKqm4o0w5wEeEFXm2sD4", "name": "Money Trees"},
+		{"artist": "Kendrick Lamar", "frequency": 10293, "id": "spotify:track:1EaKU4dMbesXXd3BrLCtYG", "name": "ELEMENT."},
+		{"artist": "Kendrick Lamar", "frequency": 8750, "id": "spotify:track:2MYl0er3UZ1RlKwRb5LODh", "name": "A.D.H.D"},
+		{"artist": "Kendrick Lamar", "frequency": 8446, "id": "spotify:track:5ujh1I7NZH5agbwf7Hp8Hc", "name": "Swimming Pools (Drank) - Extended Version"},
+		{"artist": "Kendrick Lamar", "frequency": 6052, "id": "spotify:track:7wdzLe2Gsx1RGqbvYZHASz", "name": "i"},
+		{"artist": "Kendrick Lamar", "frequency": 4886, "id": "spotify:track:4iYRa2btalAzPZoSYfROqF", "name": "XXX. FEAT. U2."},
+		{"artist": "Kendrick Lamar", "frequency": 3904, "id": "spotify:track:1eRBW1HcyM1zPlxO26cScZ", "name": "The Recipe - Bonus Track"},
+		{"artist": "Kendrick Lamar", "frequency": 3751, "id": "spotify:track:3I0FBDc1c1BLNtXWKVjmFg", "name": "untitled 02 | 06.23.2014."},
+		{"artist": "Kendrick Lamar", "frequency": 3417, "id": "spotify:track:1zayuwd1YLZsYDArkruHdL", "name": "The Heart Part 4"},
+		{"artist": "Kendrick Lamar", "frequency": 3412, "id": "spotify:track:6QvxTX9zvo4u7XhP9vOP3n", "name": "untitled 07 | levitate"},
+		{"artist": "Kendrick Lamar", "frequency": 3289, "id": "spotify:track:5p3NP9mQblDsVJLdfNZJ3I", "name": "GOD."},
+		{"artist": "Kendrick Lamar", "frequency": 3210, "id": "spotify:track:6IZvVAP7VPPnsGX6bvgkqg", "name": "PRIDE."},
+		{"artist": "Kendrick Lamar", "frequency": 2896, "id": "spotify:track:4BHSjbYylfOH5WAGusDyni", "name": "YAH."},
+		{"artist": "Kendrick Lamar", "frequency": 2887, "id": "spotify:track:06FCvd7rrRcF3DdvWH5Isp", "name": "LUST."},
+		{"artist": "Kendrick Lamar", "frequency": 2815, "id": "spotify:track:5Mtt6tZSZA9cXTHGSGpyh0", "name": "The Blacker The Berry"},
+		{"artist": "Kendrick Lamar", "frequency": 2720, "id": "spotify:track:0y9uTzK9cNKSAEHnpeRG8C", "name": "DUCKWORTH."},
+		{"artist": "Kendrick Lamar", "frequency": 2514, "id": "spotify:track:40IQooNkPRVtn4zlE3ZFpA", "name": "untitled 07 | 2014 - 2016"},
+		{"artist": "Kendrick Lamar", "frequency": 2451, "id": "spotify:track:2b3KgzISdjZVNPJJ1945nw", "name": "Rigamortus"},
+		{"artist": "Kendrick Lamar", "frequency": 2348, "id": "spotify:track:2LTlO3NuNVN70lp2ZbVswF", "name": "FEEL."},
+		{"artist": "Kendrick Lamar", "frequency": 2281, "id": "spotify:track:7ALEBJ8LOQqXVJ2tqnXtoH", "name": "Bitch, Don\u2019t Kill My Vibe - Remix"},
+		{"artist": "Kendrick Lamar", "frequency": 2161, "id": "spotify:track:23luOrEVHMfoX0AhfbQuS6", "name": "FEAR."},
+		{"artist": "Kendrick Lamar", "frequency": 2064, "id": "spotify:track:3ODXRUPL44f04cCacwiCLC", "name": "i"},
+		{"artist": "Kendrick Lamar", "frequency": 2001, "id": "spotify:track:7uWVT3UkCAZyANvv0bdyQn", "name": "These Walls"},
+		{"artist": "Kendrick Lamar", "frequency": 1907, "id": "spotify:track:3q2v8QaTnHLveAQzR6gvYm", "name": "Sing About Me, I'm Dying Of Thirst"},
+		{"artist": "Kendrick Lamar", "frequency": 1880, "id": "spotify:track:4fVqQKbROkz8Z9FFJS7vls", "name": "HiiiPower"},
+		{"artist": "Kendrick Lamar", "frequency": 1797, "id": "spotify:track:5DO1SazQppcsKQ1c1JpyQz", "name": "Hol' Up"},
+		{"artist": "Kendrick Lamar", "frequency": 1704, "id": "spotify:track:6jl01C724Mk68qlOQLco5I", "name": "Blow My High (Members Only)"},
+		{"artist": "Kendrick Lamar", "frequency": 1621, "id": "spotify:track:1wf4LnpdAhLaoI2WwYDKAE", "name": "Compton"},
+		{"artist": "Kendrick Lamar", "frequency": 1480, "id": "spotify:track:0d0jsoba88SpOoFxCxA2rZ", "name": "The Art of Peer Pressure"},
+		{"artist": "Kendrick Lamar", "frequency": 1469, "id": "spotify:track:2UOYzhusMTypF7oAQwksCj", "name": "Hood Politics"},
+		{"artist": "Kendrick Lamar", "frequency": 1445, "id": "spotify:track:5bBUDJUfGcG7eFy3Bf4fXv", "name": "untitled 08 | 09.06.2014."},
+		{"artist": "Kendrick Lamar", "frequency": 1439, "id": "spotify:track:7Ks4VCY1wFebnOdJrM13t6", "name": "Wesley's Theory"},
+		{"artist": "Kendrick Lamar", "frequency": 1415, "id": "spotify:track:3gl1RenSXn1biKijZ1qvky", "name": "Ronald Reagan Era"},
+		{"artist": "Kendrick Lamar", "frequency": 1375, "id": "spotify:track:1n4jwRVXdkK2U34nBDUKKT", "name": "BLOOD."},
+		{"artist": "Kendrick Lamar", "frequency": 1334, "id": "spotify:track:12bCgkFnyyTI8B1OmmRhbx", "name": "The Spiteful Chant"},
+		{"artist": "Kendrick Lamar", "frequency": 1224, "id": "spotify:track:4tQcyj5488alHT1ZgFduzn", "name": "How Much A Dollar Cost"},
+		{"artist": "Kendrick Lamar", "frequency": 1219, "id": "spotify:track:2fgAJeky8Cpsr8Cfvn2NVp", "name": "untitled 03 | 05.28.2013."},
+		{"artist": "Kendrick Lamar", "frequency": 1126, "id": "spotify:track:5d8yMIlqJH78lwOUP7T3oF", "name": "Real"},
+		{"artist": "Kendrick Lamar", "frequency": 1116, "id": "spotify:track:5vuJuBqwzHJgCA1ysRfwxZ", "name": "good kid"},
+		{"artist": "Kendrick Lamar", "frequency": 1019, "id": "spotify:track:5UHjWOJA6MDl1g3x2HC68V", "name": "The Recipe (Black Hippy Remix) - Bonus Track"},
+		{"artist": "Kendrick Lamar", "frequency": 1016, "id": "spotify:track:4KjnaUNYPwGnJjoeTFlt91", "name": "Now Or Never - Bonus Track"},
+		{"artist": "Kendrick Lamar", "frequency": 980, "id": "spotify:track:4M2t7bP4Mq87mGMn0PObUX", "name": "untitled 06 | 06.30.2014."},
+		{"artist": "Kendrick Lamar", "frequency": 968, "id": "spotify:track:4oFtLSgHyZPNYDCcANhTnO", "name": "Institutionalized"},
+		{"artist": "Kendrick Lamar", "frequency": 955, "id": "spotify:track:7A3ETuOrieyx9KSF0sn0Zf", "name": "You Ain't Gotta Lie (Momma Said)"},
+		{"artist": "Kendrick Lamar", "frequency": 942, "id": "spotify:track:1bxEpNR75Hq3T2oF9AZjt8", "name": "u"},
+		{"artist": "Kendrick Lamar", "frequency": 905, "id": "spotify:track:72hFOhhhnOJZnnp6uVOgPn", "name": "Complexion (A Zulu Love)"},
+		{"artist": "Kendrick Lamar", "frequency": 836, "id": "spotify:track:0CjJqkWOpIUXdem5hUcxAk", "name": "Momma"},
+		{"artist": "Kendrick Lamar", "frequency": 798, "id": "spotify:track:0qGFnxDIqGBIq2D3zNbjk9", "name": "Sherane a.k.a Master Splinter\u2019s Daughter"},
+		{"artist": "Kendrick Lamar", "frequency": 772, "id": "spotify:track:0ECs7wpW9157Tk5yBUGbE0", "name": "Alright"},
+		{"artist": "Kendrick Lamar", "frequency": 756, "id": "spotify:track:3V8vWoCbKbfjNrPaQ4YtSg", "name": "untitled 05 | 09.21.2014."},
+		{"artist": "Kendrick Lamar", "frequency": 741, "id": "spotify:track:5v501hmUMvbHPKa7qm0MGD", "name": "F*ck Your Ethnicity"},
+		{"artist": "Kendrick Lamar", "frequency": 696, "id": "spotify:track:2NxIp9jbmsnaIiAExWOEo0", "name": "Poe Mans Dreams (His Vice)"},
+		{"artist": "Kendrick Lamar", "frequency": 663, "id": "spotify:track:53mCo1wDJ12iZNq9LgIeg2", "name": "Ignorance Is Bliss"},
+		{"artist": "Kendrick Lamar", "frequency": 610, "id": "spotify:track:1WT11QmhZutciEv1NsHt1R", "name": "Mortal Man"},
+		{"artist": "Kendrick Lamar", "frequency": 607, "id": "spotify:track:75izAeHlGuOgA865CFDyIv", "name": "For Free? - Interlude"},
+		{"artist": "Kendrick Lamar", "frequency": 595, "id": "spotify:track:1H7yy9jlDYS2EBF41J6Yf5", "name": "Black Boy Fly - Bonus Track"},
+		{"artist": "Kendrick Lamar", "frequency": 560, "id": "spotify:track:0bcCgRudYZ4kiOHZNZfqxU", "name": "Keisha's Song (Her Pain)"},
+		{"artist": "Kendrick Lamar", "frequency": 528, "id": "spotify:track:7unx2Rvsq8D0RfOLRXclTA", "name": "For Sale? - Interlude"},
+		{"artist": "Kendrick Lamar", "frequency": 486, "id": "spotify:track:7yQDLdub1VuUUwbpteUX7w", "name": "No Make-Up (Her Vice)"},
+		{"artist": "Kendrick Lamar", "frequency": 460, "id": "spotify:track:705u4LfXcTBuDOB8UCy0A7", "name": "Kush & Corinthians"},
+		{"artist": "Kendrick Lamar", "frequency": 446, "id": "spotify:track:1U13SSgDOxK98L1FTWYrjQ", "name": "untitled 04 | 08.14.2014."},
+		{"artist": "Kendrick Lamar", "frequency": 423, "id": "spotify:track:1oH44ACGSLbJGcbw2JLQOt", "name": "Michael Jordan"},
+		{"artist": "Kendrick Lamar", "frequency": 423, "id": "spotify:track:6OkOFxU6j0UufR97VgSnS7", "name": "untitled 01 | 08.19.2014."},
+		{"artist": "Kendrick Lamar", "frequency": 422, "id": "spotify:track:3RPK9VQuTsiTySY48ldeqx", "name": "Tammy's Song (Her Evils)"},
+		{"artist": "Kendrick Lamar", "frequency": 407, "id": "spotify:track:6TRVvpoVFwyYyIGTFh0Y7P", "name": "P&P 1.5"},
+		{"artist": "Kendrick Lamar", "frequency": 381, "id": "spotify:track:2AyFYSaJjz9XMc0kMr1R3a", "name": "Growing Apart (To Get Closer)"},
+		{"artist": "Kendrick Lamar", "frequency": 374, "id": "spotify:track:6D5GoogBIBMUBlQ1CYTkOH", "name": "She Needs Me (Remix)"},
+		{"artist": "Kendrick Lamar", "frequency": 373, "id": "spotify:track:3s3ZBjw8kKX5HXymkRIDVy", "name": "Chapter Six"},
+		{"artist": "Kendrick Lamar", "frequency": 369, "id": "spotify:track:3LkG1iJmtgmCsKof2QMme6", "name": "Cut You Off (To Grow Closer)"},
+		{"artist": "Kendrick Lamar", "frequency": 350, "id": "spotify:track:1S6NpdvFXqHZfPUUEOIjtG", "name": "Opposites Attract (Tomorrow W/O Her)"},
+		{"artist": "Kendrick Lamar", "frequency": 341, "id": "spotify:track:3r4S1J4YCkx2fuqH2eL9fz", "name": "Average Joe"},
+		{"artist": "Kendrick Lamar", "frequency": 302, "id": "spotify:track:0bP9mtOuBLMQ7L0DP2wPwj", "name": "H.O.C"},
+		{"artist": "Kendrick Lamar", "frequency": 289, "id": "spotify:track:6ff9CLXYk39PKFYoYCYeog", "name": "Alien Girl (Today W/ Her)"},
+		{"artist": "Kendrick Lamar", "frequency": 252, "id": "spotify:track:2FTGmG9PvlXEERkb1sYBE3", "name": "Ab-Souls Outro"},
+		{"artist": "Kendrick Lamar", "frequency": 232, "id": "spotify:track:7M2cKcvCnflzp9WcxGjlbm", "name": "Barbed Wire"},
+		{"artist": "Kendrick Lamar", "frequency": 207, "id": "spotify:track:31Yebmn7gDvxc0yjRV8M5t", "name": "Cartoon"},
+		{"artist": "Kendrick Lamar", "frequency": 187, "id": "spotify:track:1DCLOAT1E5NDZDupAE95ka", "name": "R.O.T.C (Interlude)"},
+		{"artist": "Kendrick Lamar", "frequency": 183, "id": "spotify:track:2C1C4QjjMmru4mYrPSQzWs", "name": "Chapter Ten"},
+		{"artist": "Kendrick Lamar", "frequency": 172, "id": "spotify:track:7a4hhCV3GlgA7a8wwJBy5B", "name": "These Walls"},
+		{"artist": "Kendrick Lamar", "frequency": 159, "id": "spotify:track:3zDlwMHUUjLWizguuXugoz", "name": "I Do This (Remix)"},
+		{"artist": "Kendrick Lamar", "frequency": 131, "id": "spotify:track:6AdLUPGOVpHT4LAiWYktH0", "name": "County Building Blues"},
+		{"artist": "Kendrick Lamar", "frequency": 81, "id": "spotify:track:6pyd5aclfM9Lb1uvoIIpXt", "name": "3 Minutes of Watts (feat. Jay Rock)"},
+		{"artist": "Kendrick Lamar", "frequency": 67, "id": "spotify:track:1fDtHlSfJMcFHp3BiDSdrY", "name": "My People (feat. Jay Rock)"},
+		{"artist": "Kendrick Lamar", "frequency": 33, "id": "spotify:track:1DW5f4GP10SSlvMcK52Yrz", "name": "War Is My Love"},
+		{"artist": "Kendrick Lamar", "frequency": 27, "id": "spotify:track:0C79sQhgGvnJn9oYxQHW4s", "name": "Flower Child"},
+		{"artist": "Kendrick Lamar", "frequency": 9, "id": "spotify:track:1ylD5Zf0hLc9su7OJOU6u5", "name": "She Needs Me [Remix] (Ringtone)"},
+		{"artist": "Kendrick Lamar", "frequency": 8, "id": "spotify:track:1E3aKOxdp5Qu5WtrdWaGbF", "name": "Up Against The Wall (feat. Roc Marci & Kendrick Lamar)"},
+		{"artist": "Kendrick Lamar", "frequency": 4, "id": "spotify:track:5VBTBgAnCO8S6LtP44SrDt", "name": "The Jig Is Up - Dump'n"},
+		{"artist": "Kendrick Lamar", "frequency": 3, "id": "spotify:track:1Gkanj0HSVwIC5sjcsgQYR", "name": "Look out for Detox"},
+		{"artist": "Kendrick Lamar", "frequency": 3, "id": "spotify:track:2uEx0203Ra4kYBynspjDbj", "name": "Compton's Finest"},
+		{"artist": "Kendrick Lamar", "frequency": 3, "id": "spotify:track:2wnqPmljUVcAoHaus5P8Wt", "name": "Lyrical G"},
+		{"artist": "Kendrick Lamar", "frequency": 2, "id": "spotify:track:5bqlB7v8s5W0HYNkiSUtdT", "name": "She Needs Me feat. Javonte"},
+		{"artist": "Kendrick Lamar", "frequency": 2, "id": "spotify:track:6KctKNiQyyGLdoxuu9UJey", "name": "Is It Love feat. Angela McCluskey"},
+		{"artist": "Kendrick Lamar", "frequency": 2, "id": "spotify:track:1KpyKz1srcp96YpA424z4u", "name": "Cartoon & Cereal"},
+		{"artist": "Kendrick Lamar", "frequency": 2, "id": "spotify:track:22l62RUwWjo6JuUi3YB0Vk", "name": "Thank You"},
+		{"artist": "Kendrick Lamar", "frequency": 2, "id": "spotify:track:7BSQY31r6fhZUtIwH6FE8B", "name": "Let Me Be Me"},
+		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:4kCFo5iV9AeNmi5oWCv4cB", "name": "Celebration"},
+		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:00ibm2mniJevaKFk9rllrX", "name": "Wanna Be Heard"},
+		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:0J9HHPH8mTnor4BFrdp0wn", "name": "I Do This"},
+		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:4Im5BAdQUlxJf6jerHxjMe", "name": "Kendrick Lamar"},
+		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:0F9QQwY2pUvqjqGdt2QNaU", "name": "Faith feat. Bj The Chicago Kid & Punch"},
+		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:7pBzYIXn1pAiRAiW1GwBmV", "name": "The Heart, Pt. 3"},
+		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:7Dygh6Nrptn7OJUNvuB8JV", "name": "Cut You Off"},
+		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:3T4HYG2VTnI2ZRgt6WQCxA", "name": "Don't Understand"},
+		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:74doJFYN7F2VuFqnc9X1hb", "name": "For the Homies"},
+		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:1BWY2ndlFF0M2zWRMgxE6L", "name": "L.M.A.O"},
+		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:6C8zcWBKgoly8wDsDV0hrV", "name": "Rapper Shit"},
+		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:2bUngu0zpE3wZQYVVS12Gv", "name": "Far From Here feat. Schoolboy Q"},
+		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:4hKUHwgH4Gh2hBg8jmvizA", "name": "Trip"},
+		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:31w4mvzJtqnneBiuLRbed2", "name": "Vanity Slaves"},
+		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:7MEdTejoQLWZUTH8M4hoUT", "name": "Thanksgiving feat. Big Pooh"},
+		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:02mUTIngFR1i4bxDNOJzQm", "name": "Fragile"},
+		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:2lNbKefusjdlZJ0hMYBvDO", "name": "We Up"},
+		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:3DMx957hDWne4rawZ11wPb", "name": "Next to Me - Remix"},
+		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:0Mi84mfXICMzzsF4aA48hz", "name": "Kurupted"},
+		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:78eHlNC508WlfVpe4Ojit9", "name": "Half Way Crooks"},
+		{"artist": "Kendrick Lamar", "frequency": 1, "id": "spotify:track:0F7asJfYR4Ab4yP2inPm1D", "name": "P&P"},
 ] 
  }
