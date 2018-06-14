@@ -9,7 +9,13 @@ import Levenshtein
 from pymongo import MongoClient
 from operator import itemgetter
 
+from langdetect import detect
+import codecs
+import numpy
+
 ''' First thoughts on how to make recommendations to empty playlists given title of playlist only.   '''
+cache={}
+
 
 # For this to work an instance of MongoDB should be installed locally and be running.
 def createMongoDB_songsCollection():
@@ -30,39 +36,33 @@ def createMongoDB_songsCollection():
 
 ''' Based on ideas presented in https://bommaritollc.com/2014/06/30/advanced-approximate-sentence-matching-python/  '''
 def similarity_titles(t1, t2):
-    # Get default English stopwords and extend with punctuation
-    stopwords = nltk.corpus.stopwords.words('english')
-    stopwords.extend(string.punctuation)
-    stopwords.append('')
+    # WE CANNOT DO NLP BECAUSE LANGUAGE DETECTION IS NOT ACCURATE FOR VERY SHORT TEXTS (< 3 words)
 
-    # Create tokenizer and stemmer
+    # General tokenizer
     tokenizer= WhitespaceTokenizer()
-    stemmer = nltk.stem.snowball.SnowballStemmer('english')
+    #English  NLP elements
+    stopwords = nltk.corpus.stopwords.words('english')
+    extra_en=['edit','feat', 'remix', 'mix', 'spotify', 'song', 'track', 'bonus', 'vs', 'best', 'remastered', 'album', 'ft', 'best', 'playlist', 'version']
+    extra_es= ['editado', 'canci\u00F3n', 'cancion', 'mejor','dueto']
+    stopwords.append('')
+    stopwords = stopwords + extra_en + extra_es
 
-    # process title of first playlist
     temp_t1= tokenizer.tokenize(t1)
     tokens_t1=[]
     for token in temp_t1:
         if token.lower().strip(string.punctuation) not in stopwords:
-            tokens_t1.append(
-                token.lower().strip(string.punctuation))
+            tokens_t1.append(token.lower().strip(string.punctuation))
 
-    stems_t1= [stemmer.stem(token) for token in tokens_t1]
-    print stems_t1
-    # process title of second playlist
     temp_t2= tokenizer.tokenize(t2)
     tokens_t2=[]
     for token in temp_t2:
         if token.lower().strip(string.punctuation) not in stopwords:
-            tokens_t2.append(
-                token.lower().strip(string.punctuation))
-
-    stems_t2= [stemmer.stem(token) for token in tokens_t2]
-    print stems_t2
-
-    # Calculate Jaro-Winkler distance
-    distance = Levenshtein.jaro_winkler(''.join(stems_t1), ''.join(stems_t2))
+            tokens_t2.append(token.lower().strip(string.punctuation))
+    distance=0;
+    if len(tokens_t1) != 0 and len(tokens_t2) != 0:
+        distance = Levenshtein.jaro_winkler(''.join(tokens_t1), ''.join(tokens_t2))
     return distance
+
 
 
 def get_song(song_id):
@@ -75,35 +75,35 @@ def get_song(song_id):
         result={}
     return result
 
-
-
 def get_popular_songs():
-    client= MongoClient('localhost', 27017)
-    db= client['spotify-challenge']
-    songs= db['songs-collection']
-    return songs.find().sort('frequency', -1).limit(1000) # sort songs based on frequency value
-
-
+    f = open("C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data/popular_songs.json")
+    js = f.read()
+    f.close()
+    data = json.loads(js)
+    return data
 
 def empty_playlist_recommender(data):
-    path = "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data/all"; # modify the path to mpd data
-    filenames = os.listdir(path)
     result= open("category_1_recommendations.csv", "w") #file for storing results
-    for challenge_p in data['playlist']:
+    p= get_playlist_data()
+    print "Loaded playlists into memory..."
+    count = 0
+    for challenge_p in data['songs']:
          similar_playlists=[]
-         for filename in sorted(filenames):
-                if filename.startswith("mpd.slice.") and filename.endswith(".json"):
-                    fullpath = os.sep.join((path, filename))
-                    f = open(fullpath)
-                    js = f.read()
-                    f.close()
-                    mpd_slice = json.loads(js)
-                    for mpd_p in mpd_slice['playlists']:
-                        similarity= similarity_titles(challenge_p["name"], mpd_p["name"])
-                        threshold=0.7
-                        if similarity > threshold:
-                            mpd_p["similarity"] = similarity
-                            similar_playlists.append(mpd_p)
+         temp={} # dictonary for storing playlist id and similarity rate
+         count += 1
+         print count
+         for pid in p:
+            playlist= p[pid]
+            similarity= similarity_titles(challenge_p["name"], playlist["name"])
+            threshold=0.7
+            if similarity > threshold:
+                temp[pid]= similarity
+
+         #sort playlists based on similarity
+         new_list= sorted(temp.items(), key=itemgetter(1), reverse=True)
+         for playlist in new_list:
+             pid= playlist[0]
+             similar_playlists.append(p[pid])
 
          make_500_recommendations(challenge_p, similar_playlists, result)
 
@@ -123,30 +123,31 @@ def track_exists(playlist_tracks, track):
 ''' Recommend songs of playlists with similar titles. If not enough songs are collected popular songs will be added to the result.  '''
 def make_500_recommendations(playlist, similar_playlists, result_f):
     playlist_id= playlist["pid"]
-    playlist_tracks= playlist["tracks"]
-    number_of_rec=50
+    #playlist_tracks= playlist["tracks"]
+    number_of_rec=500
     song_list={} # for storing the recommendations
 
     array_songs=[] # array for storing songs of similar playlists
+    total_songs=0
     for p in similar_playlists:
-        for song in p['tracks']:
-            song_info=get_song(song['track_uri'])
-            array_songs.append(song_info)
+        if len(song_list) < number_of_rec :
+            for song in p['tracks']:
+                if song["track_uri"] not in song_list and len(song_list) < number_of_rec: #  and track_exists(playlist_tracks,song["track_uri"])!= 1 not needed because playlists are empty!!
+                    song_list[song["track_uri"]]= song["track_uri"]
+        else:
+            break
 
     #sort recommendations by popularity
-    sorted_song_list= sorted(array_songs, key=itemgetter('frequency'), reverse=True)
-    for song in sorted_song_list:
-        song_list[str(song['id'])]= str(song['id'])
+    #sorted_song_list= sorted(array_songs, key=itemgetter('frequency'), reverse=True)
 
-    print(len(song_list))
-    print(song_list)
-
+    popular_songs= get_popular_songs()
     # if not enough songs were collected, recommend popular songs
     while len(song_list) < number_of_rec:
-        for song in get_popular_songs():
+        for song in popular_songs["songs"]:
             track= song['id']
-            if track not in song_list and track_exists(playlist_tracks,track)!= 1: # check condition **
+            if track not in song_list: # and track_exists(playlist_tracks,track)!= 1  not needed because playlists are empty!!
                 song_list[str(track)]= track
+
 
     # write recommendations to result file
     keys=song_list.keys()
@@ -162,16 +163,52 @@ def make_500_recommendations(playlist, similar_playlists, result_f):
     line= str(playlist_id)+ "," + result_string
     result_f.write(line.encode("utf8"))
 
+def get_playlist_object(pid):
+    if pid >=0 and pid < 1000000:
+        low = 1000 * int(pid / 1000)
+        high = low + 999
+        offset = pid - low
+        # ADAPT PATH TO THE DATA
+        path = "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data/all/mpd.slice." + str(low) + '-' + str(high) + ".json"
+        f = codecs.open(path, 'r', 'utf-8')
+        js = f.read()
+        f.close()
+        playlist = json.loads(js)
+        return playlist['playlists'][offset]
 
+
+
+def get_playlist_data():
+    p= numpy.load("playlist_data.npy").item()
+    return p
 
 
 if __name__ == '__main__':
-    #path = "C:/Users/sheny/Desktop/SS 2018/LUD/Project/challenge/c1_sample.json"; # modify the path to data
-    #f = open(path)
-    #js = f.read()
-    #f.close()
-    #data = json.loads(js)
+    f = open("../challenge_1.json")
+    js = f.read()
+    f.close()
+    data = json.loads(js)
 
-    #empty_playlist_recommender(data)
+    empty_playlist_recommender(data)
 
-    print similarity_titles("Great day :)", "very sad day")
+
+
+    '''
+    file = open("playlist_ids.csv")
+    line= file.readline()
+    pids=[] # Array containing reduced set of playlists ids
+    p_title={}
+    while line:
+        if line != '':
+            id= int(line)
+            pids.append(id)
+        line= file.readline()
+    count - 0    
+    for pid in pids:
+        print pid
+        playlist= get_playlist_object(pid)
+        p_title[pid]={"name" : playlist["name"], "tracks" : playlist["tracks"]}
+
+    numpy.save('playlist_data.npy', p_title)
+    print "FINISHED"
+    '''
