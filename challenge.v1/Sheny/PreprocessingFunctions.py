@@ -12,6 +12,12 @@ import nltk.tokenize.punkt
 import string
 from nltk.tokenize import WhitespaceTokenizer
 import nltk.stem.snowball
+import codecs
+
+
+# for storing common playlists
+cache = {}
+
 
 # Main function for computing the frequency of all songs in the data set.
 # It will create a json file containing the song information and its frequency.
@@ -284,6 +290,29 @@ def get_vector_of_playlist(artists):
         i = i + 1
 
     reduced_artist = get_reduced_artists()
+    max_frequency = 0
+    for artist in artists:
+        if max_frequency < artist['numSongs']:
+            max_frequency = artist['numSongs']
+
+    for artist in artists:
+        index = reduced_artist[artist['artist']]['index'] # get artist index from reduced set
+        songNum = artist['numSongs'] # get the number of songs in current playlist of artist
+        tf = songNum/ max_frequency
+        array[index] = tf # store tf of artist in vector
+    return array
+
+def get_vector_of_playlist2(artists):
+    '''' Initializing array for storing vector values '''
+    array=[None]
+    numberOfArtists=86069 # EQUAL TO NUMBER OF ARTISTS WITH >=10 SONGS
+    array = array * numberOfArtists # creating array of correct size
+    i= 0
+    while i < numberOfArtists:
+        array[i]= 0 #populating array with 0's
+        i = i + 1
+
+    reduced_artist = get_reduced_artists()
 
     for artist in artists:
         index = reduced_artist[artist['artist']]['index'] # get artist index from reduced set
@@ -297,20 +326,21 @@ def get_vector_of_playlist(artists):
 
 
 
+
 def get_common_words(playlist, top=15):
     result_string=""
 
     #English  NLP elements
     stopwords_en = nltk.corpus.stopwords.words('english')
     stopwords_en.extend(string.punctuation)
-    extra_en=['feat', 'remix', 'mix', 'spotify', 'song', 'track', 'bonus', 'vs', 'best', 'remastered', 'album', 'ft', 'best', 'my']
+    extra_en=['edit','feat', 'remix', 'mix', 'spotify', 'song', 'track', 'bonus', 'vs', 'best', 'remastered', 'album', 'ft', 'best', 'my', 'version']
     stopwords_en.append('')
     stopwords_en = stopwords_en + extra_en
     #Create stemmer for English songs
     stemmer_en = nltk.stem.snowball.SnowballStemmer('english')
 
     #Spanish NLP elements
-    extra_es= ['remix', 'mix', 'canci\u00F3n', 'cancion', 'mejor', 'album', 'spotify', 'feat', 'dueto']
+    extra_es= ['edit', 'editado','remix', 'mix', 'canci\u00F3n', 'cancion', 'mejor', 'album', 'spotify', 'feat', 'dueto', 'bonus', 'ft', 'version']
     stopwords_es= nltk.corpus.stopwords.words('spanish')
     stopwords_es.extend(string.punctuation)
     stopwords_es.append('')
@@ -332,13 +362,13 @@ def get_common_words(playlist, top=15):
         if lang == 'es':
 
            # process title of track and album
-            sequence = str(track['track_name']).lower() + ' ' + str(track['album_name']).lower()
+            sequence = track['track_name'].lower() + ' ' + track['album_name'].lower()
             temp_sq = tokenizer.tokenize(sequence)
-            print temp_sq
+            #print temp_sq
             tokens_sq =[]
             for token in temp_sq:
-                print token.strip(string.punctuation)
-                print token.strip(string.punctuation) in stopwords_es
+                #print token.strip(string.punctuation)
+                #print token.strip(string.punctuation) in stopwords_es
                 if token.strip(string.punctuation) not in stopwords_es:
                     tokens_sq.append(token.strip(string.punctuation))
 
@@ -347,7 +377,7 @@ def get_common_words(playlist, top=15):
 
         if lang == 'en':
             # process title of track
-            sequence = str(track['track_name']).lower() + ' ' + str(track['album_name']).lower()
+            sequence = track['track_name'].lower() + ' ' + track['album_name'].lower()
             temp_sq = tokenizer.tokenize(sequence)
             #temp_sq= tokenizer.tokenize(track['track_name'])
             tokens_sq=[]
@@ -362,6 +392,7 @@ def get_common_words(playlist, top=15):
         #
 
     words = collections.Counter(result_string.split()) # how often each word appears
+
     return dict(words.most_common(top))
 
 def get_words_all_playlists(path):
@@ -393,19 +424,106 @@ def get_playlist_top_15_words():
     return playlists
 
 
+def compute_BoW_clusters():
+    file = open("../cluster_results_2.json", "r")
+    data= file.read()
+    file.close()
+    clusters= json.loads(data)
+    playlist = get_playlist_top_15_words()
+    word_to_playlist={}
+    for c in clusters["Clusters"]:
+        words={}
+        print "Cluster: ",c["Cluster"], len(c["data set playlists"])
+        for pid in c["data set playlists"]:
+            for w in playlist[pid]:
+                if w not in words:
+                    words[w]= [{"pid": pid, "frequency" : playlist[pid][w]}]
+                else:
+                    words[w].append({"pid": pid, "frequency" : playlist[pid][w]})
+        # SORT AT THE END
+        print "Sorting word array "
+        for w in words:
+            temp_sorted= sorted(words[w], key=itemgetter('frequency'), reverse=True)
+            new_array=[]
+            for i in temp_sorted:
+                new_array.append(i['pid'])
+            words[w]= new_array
+
+        word_to_playlist[c["Cluster"]]=words
+
+
+    numpy.save('BoW_clusters.npy', word_to_playlist)
+    print "finished BoW of clusters"
+
+def get_BoW_clusters():
+    bow = numpy.load('BoW_clusters.npy').item()
+    return bow
+
+def track_exists(playlist_tracks, track):
+    if(len(playlist_tracks) == 0):
+        return -1
+    else:
+        for current in playlist_tracks:
+            if(current["track_uri"] == track):
+                return 1
+        return -1
+
+# Returns a string with the following format pid track1, track2,..., track500
+def baseline_make_500_recommendations(playlist_id, playlist_tracks):
+    f_popular_songs = open("song_popularity_sorted.json", "r")
+    string_js = f_popular_songs.read()
+    f_popular_songs.close()
+    popular_songs = json.loads(string_js)
+    number_of_rec=500
+    song_list={}
+    count = 0
+    while len(song_list) < number_of_rec:
+        if track_exists(playlist_tracks, popular_songs["songs"][count]['id']) == -1:
+            song_list[str(count)] = popular_songs["songs"][count]['id']
+            count+=1
+        else:
+            count += 1
+    keys=song_list.keys()
+    i=0
+    result_string=""
+    while i < len(keys):
+        if i == len(keys)-1:
+            result_string= result_string + song_list[keys[i]] + "\n"
+        else:
+            result_string= result_string + song_list[keys[i]] + ","
+        i= i +1
+
+    line= str(playlist_id)+ "," + result_string
+    return line
+
+def get_playlist_object(pid):
+    if pid >=0 and pid < 1000000:
+        low = 1000 * int(pid / 1000)
+        high = low + 999
+        offset = pid - low
+        # ADAPT PATH TO THE DATA
+        path = "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data/all/mpd.slice." + str(low) + '-' + str(high) + ".json"
+        if not path in cache:
+            f = codecs.open(path, 'r', 'utf-8')
+            js = f.read()
+            f.close()
+            playlist = json.loads(js)
+            cache[path] = playlist
+
+        playlist = cache[path]['playlists'][offset]
+        return playlist
+
+
+
 if __name__ == '__main__':
+    # BUILD DICTONARY OF PLAYLISTS {pid: {word1: frequency, word2: frequency}}
+    #path = "D:/LUD files/Project/mpd/data/all"; # modify the path to data
+    #get_words_all_playlists(path)
 
-    path = "D:/LUD files/Project/mpd/data/all"; # modify the path to data
-    get_words_all_playlists(path)
+    #compute_BoW_clusters()
 
-    '''
-    p = get_playlist_top_15_words()
-    count= 0
-    for i in p.keys():
-        if count < 100:
-            print p[i]
-        count = count +1
-    '''
+    #bow= get_BoW_clusters()
+    #for c in bow:
+    #    print c, len(bow[c])
 
-
-
+    print get_playlist_object(221)
