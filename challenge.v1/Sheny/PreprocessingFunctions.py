@@ -515,15 +515,30 @@ def get_playlist_object(pid):
 
 
 
+
 if __name__ == '__main__':
     # BUILD DICTONARY OF PLAYLISTS {pid: {word1: frequency, word2: frequency}}
     #path = "D:/LUD files/Project/mpd/data/all"; # modify the path to data
     #get_words_all_playlists(path)
 
+    '''file = open("../cluster_results_2.json", "r")
+    data= file.read()
+    file.close()
+    clusters= json.loads(data)
+    challenge=0
+    for c in clusters["Clusters"]:
+        challenge += len(c["challenge set playlists"])
+        print c["Cluster"], len(c["data set playlists"]), len(c["challenge set playlists"])
+
+    print "Total challenge playlists clustered ", challenge
+    
+    '''
     #compute_BoW_clusters()
 
     #bow= get_BoW_clusters()
     #for c in bow:
     #    print c, len(bow[c])
 
-    print get_playlist_object(221)
+    p= get_playlist_object(126024)
+    print p["name"]
+    print p["num_followers"]
