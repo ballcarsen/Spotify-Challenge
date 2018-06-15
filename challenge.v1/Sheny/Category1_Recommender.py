@@ -103,7 +103,7 @@ def empty_playlist_recommender(data):
          new_list= sorted(temp.items(), key=itemgetter(1), reverse=True)
          for playlist in new_list:
              pid= playlist[0]
-             similar_playlists.append(p[pid])
+             similar_playlists.append(p[pid])# append playlist object
 
          make_500_recommendations(challenge_p, similar_playlists, result)
 
@@ -128,15 +128,17 @@ def make_500_recommendations(playlist, similar_playlists, result_f):
     array_songs=[] # array for storing songs of similar playlists
     total_songs=0
     for p in similar_playlists:
-        if len(song_list) < number_of_rec :
-            for song in p['tracks']:
+        if len(song_list) < number_of_rec:
+            tracks= p['tracks']
+            if p["num_followers"] < 10:
+                #SORT SONGS BASED ON POPULARITY
+                tracks= sorted(p['tracks'], key=itemgetter('frequency'), reverse=True)
+            for song in tracks:
                 if song["track_uri"] not in song_list and len(song_list) < number_of_rec: #  and track_exists(playlist_tracks,song["track_uri"])!= 1 not needed because playlists are empty!!
-                    song_list[song["track_uri"]]= song["track_uri"]
+                        song_list[song["track_uri"]]= song["track_uri"]
         else:
             break
 
-    #sort recommendations by popularity
-    #sorted_song_list= sorted(array_songs, key=itemgetter('frequency'), reverse=True)
 
     popular_songs= get_popular_songs()
     # if not enough songs were collected, recommend popular songs
@@ -170,9 +172,10 @@ def get_playlist_data():
 
 if __name__ == '__main__':
     p = get_playlist_data()
-    for pid in p:
-        for track in p[pid]["tracks"]:
-            print track
+    #TESTING SORT
+    tracks= sorted(p[223]["tracks"], key=itemgetter('frequency'), reverse=True)
+    print tracks
+    print p[223]["tracks"]
 
     #empty_playlist_recommender(data)
 
