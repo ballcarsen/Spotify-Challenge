@@ -123,10 +123,8 @@ def track_exists(playlist_tracks, track):
 ''' Recommend songs of playlists with similar titles. If not enough songs are collected popular songs will be added to the result.  '''
 def make_500_recommendations(playlist, similar_playlists, result_f):
     playlist_id= playlist["pid"]
-    #playlist_tracks= playlist["tracks"]
     number_of_rec=500
     song_list={} # for storing the recommendations
-
     array_songs=[] # array for storing songs of similar playlists
     total_songs=0
     for p in similar_playlists:
@@ -163,19 +161,6 @@ def make_500_recommendations(playlist, similar_playlists, result_f):
     line= str(playlist_id)+ "," + result_string
     result_f.write(line.encode("utf8"))
 
-def get_playlist_object(pid):
-    if pid >=0 and pid < 1000000:
-        low = 1000 * int(pid / 1000)
-        high = low + 999
-        offset = pid - low
-        # ADAPT PATH TO THE DATA
-        path = "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data/all/mpd.slice." + str(low) + '-' + str(high) + ".json"
-        f = codecs.open(path, 'r', 'utf-8')
-        js = f.read()
-        f.close()
-        playlist = json.loads(js)
-        return playlist['playlists'][offset]
-
 
 
 def get_playlist_data():
@@ -184,31 +169,10 @@ def get_playlist_data():
 
 
 if __name__ == '__main__':
-    f = open("../challenge_1.json")
-    js = f.read()
-    f.close()
-    data = json.loads(js)
+    p = get_playlist_data()
+    for pid in p:
+        for track in p[pid]["tracks"]:
+            print track
 
-    empty_playlist_recommender(data)
+    #empty_playlist_recommender(data)
 
-
-
-    '''
-    file = open("playlist_ids.csv")
-    line= file.readline()
-    pids=[] # Array containing reduced set of playlists ids
-    p_title={}
-    while line:
-        if line != '':
-            id= int(line)
-            pids.append(id)
-        line= file.readline()
-    count - 0    
-    for pid in pids:
-        print pid
-        playlist= get_playlist_object(pid)
-        p_title[pid]={"name" : playlist["name"], "tracks" : playlist["tracks"]}
-
-    numpy.save('playlist_data.npy', p_title)
-    print "FINISHED"
-    '''
