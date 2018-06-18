@@ -15,10 +15,7 @@ import nltk.stem.snowball
 import codecs
 
 
-# for storing common playlists
-cache = {}
-
-
+cache={}
 # Main function for computing the frequency of all songs in the data set.
 # It will create a json file containing the song information and its frequency.
 # The list of songs will be unsorted.
@@ -198,7 +195,7 @@ def get_playlist_vector(pid):
 # This function stores the vector in the playlists-collection
 def convert_playlist_to_vector(path):
     filenames = os.listdir(path)
-    playlist_c = get_MongoDB_playlistCollection()
+    playlist_c = open("playlist_vectors_v2.csv", "w")
     fileNum=0
     for filename in sorted(filenames):
         if filename.startswith("mpd.slice.") and filename.endswith(".json"):
@@ -210,11 +207,15 @@ def convert_playlist_to_vector(path):
             mpd_slice = json.loads(js)
             for playlist in mpd_slice['playlists']:
                 if playlist['num_followers'] >= 10: # we will only analyze  playlists with more than 9 followers
-                    print (playlist['pid'])
-                    vector= analyze_playlist(playlist)
-                    playlist_c.insert_one({'pid': playlist['pid'] , 'vector': get_vector_of_playlist(vector)})
+                    #print (playlist['pid'])
+                    result= analyze_playlist(playlist)
+                    vector= get_vector_of_playlist2(result)
+                    vect_string= ','.join(str(x) for x in vector)
+                    playlist_c.write(str(playlist['pid']) +","+ vect_string +"\n" )
+                    #playlist_c.insert_one({'pid': playlist['pid'] , 'vector': get_vector_of_playlist2(vector)})
                     fileNum = fileNum + 1
             print fileNum
+    playlist_c.close()
     print("FINISHED")
 
 
@@ -278,7 +279,7 @@ def analyze_playlist(playlist):
 
 
 
-
+# NOT USED!!
 def get_vector_of_playlist(artists):
     '''' Initializing array for storing vector values '''
     array=[None]
@@ -316,11 +317,11 @@ def get_vector_of_playlist2(artists):
 
     for artist in artists:
         index = reduced_artist[artist['artist']]['index'] # get artist index from reduced set
-        totalSongNum = reduced_artist[artist['artist']]['numberOfSongs'] # get total number of songs of the artist
+        totalNumberOfPlaylists = reduced_artist[artist['artist']]['numberPlaylist'] # get total number of playlists containing this artist
         songNum = artist['numSongs'] # get the number of songs in current playlist of artist
         numberPlaylists =1000000 # fix number of playlist in data set
         # compute tf_idf of artist
-        tfidf = (1 + math.log(songNum))* math.log(numberPlaylists/ totalSongNum)
+        tfidf = (1 + math.log(songNum))* math.log(numberPlaylists/ totalNumberOfPlaylists)
         array[index] = tfidf # store weight of artist in vector
     return array
 
@@ -395,6 +396,7 @@ def get_common_words(playlist, top=15):
 
     return dict(words.most_common(top))
 
+# BUILD DICTONARY OF PLAYLISTS {pid: {word1: frequency, word2: frequency ...}}
 def get_words_all_playlists(path):
     filenames = os.listdir(path)
     data={}
@@ -425,7 +427,7 @@ def get_playlist_top_15_words():
 
 
 def compute_BoW_clusters():
-    file = open("../cluster_results_2.json", "r")
+    file = open("../Carsen/cluster_results_2.json", "r")
     data= file.read()
     file.close()
     clusters= json.loads(data)
@@ -496,6 +498,7 @@ def baseline_make_500_recommendations(playlist_id, playlist_tracks):
     line= str(playlist_id)+ "," + result_string
     return line
 
+# function for searching a playlist given its id
 def get_playlist_object(pid):
     if pid >=0 and pid < 1000000:
         low = 1000 * int(pid / 1000)
@@ -514,31 +517,93 @@ def get_playlist_object(pid):
         return playlist
 
 
+def create_song_collection():
+    client= MongoClient('localhost', 27017)
+    db= client['spotify-challenge']
+    songs= db['song-collection']
+    songs.create_index("song_id", unique=True)
+
+    path= "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data/song_popularity_sorted.json"
+    f= open(path)
+    js = f.read()
+    f.close()
+    data = json.loads(js)
+
+    for song in data["songs"]:
+        print song["id"]
+        print song["frequency"]
+        data= {"song_id" : song["id"], "frequency": song["frequency"]}
+        #STORE VALUES IN DB
+        songs.insert_one(data)
+
+
+    print songs.count()
+    print "Finished"
+
+
+def get_song_frequency(id):
+    client= MongoClient('localhost', 27017)
+    db= client['spotify-challenge']
+    songs= db['song-collection']
+    result=songs.find_one({"song_id": id})
+    if result is None:
+        return -1
+    return result["frequency"]
+
+
+
 
 
 if __name__ == '__main__':
-    # BUILD DICTONARY OF PLAYLISTS {pid: {word1: frequency, word2: frequency}}
-    #path = "D:/LUD files/Project/mpd/data/all"; # modify the path to data
-    #get_words_all_playlists(path)
 
-    '''file = open("../cluster_results_2.json", "r")
-    data= file.read()
-    file.close()
-    clusters= json.loads(data)
-    challenge=0
-    for c in clusters["Clusters"]:
-        challenge += len(c["challenge set playlists"])
-        print c["Cluster"], len(c["data set playlists"]), len(c["challenge set playlists"])
-
-    print "Total challenge playlists clustered ", challenge
-    
-    '''
     #compute_BoW_clusters()
 
     #bow= get_BoW_clusters()
     #for c in bow:
     #    print c, len(bow[c])
+    #    print bow[c].keys()
 
-    p= get_playlist_object(126024)
-    print p["name"]
-    print p["num_followers"]
+
+    #p= get_playlist_object(360509)
+    #print p['tracks']
+    #print p["num_followers"]
+    path= "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data/all"
+    convert_playlist_to_vector(path)
+
+    '''path= "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data/all"
+    
+    convert_playlist_to_vector(path)
+    filenames = os.listdir(path)
+
+    for filename in sorted(filenames):
+        if filename.startswith("mpd.slice.") and filename.endswith(".json"):
+            print("Playlist ",  filename)
+            fullpath = os.sep.join((path, filename))
+            f = open(fullpath)
+            js = f.read()
+            f.close()
+            mpd_slice = json.loads(js)
+
+            for playlist in mpd_slice['playlists']:
+                artists={}
+                for i, track in enumerate(playlist['tracks']):
+                    artist_id = track['artist_uri']
+                    if(artist_id not in artists):
+                        artists[artist_id]={"id": artist_id}
+
+                for a in artists:
+                    if a in reduced_artists:
+                        if bool(reduced_artists[a].get('numberPlaylist')):
+                            temp = reduced_artists[a]['numberPlaylist']
+                            reduced_artists[a]['numberPlaylist'] = temp + 1
+
+                        else:
+                            reduced_artists[a]['numberPlaylist'] = 1
+
+
+
+
+
+    print "finished"
+    numpy.save('artist_dic.npy', reduced_artists)
+    '''
