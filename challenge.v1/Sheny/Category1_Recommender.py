@@ -1,38 +1,18 @@
+# coding=utf-8
 import json
-import os
 import nltk.corpus
 import nltk.tokenize.punkt
 from nltk.tokenize import WhitespaceTokenizer
 import nltk.stem.snowball
 import string
 import Levenshtein
-from pymongo import MongoClient
 from operator import itemgetter
-
-from langdetect import detect
-import codecs
 import numpy
 
-''' First thoughts on how to make recommendations to empty playlists given title of playlist only.   '''
-cache={}
 
 
-# For this to work an instance of MongoDB should be installed locally and be running.
-def createMongoDB_songsCollection():
-    client= MongoClient('localhost', 27017)
-    db= client['spotify-challenge']
-    songs= db['songs-collection']
-    path = "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data/song_popularity_sorted.json"; # modify the path to data
-    f = open(path)
-    js = f.read()
-    f.close()
-    data = json.loads(js)
-    for song in data["songs"]:
-        songs.insert_one(song)
 
-    print(songs.count())
-    print("Done")
-
+''' Proposal on how to make recommendations to empty playlists given title of playlist only and palylists with 5 songs.   '''
 
 ''' Based on ideas presented in https://bommaritollc.com/2014/06/30/advanced-approximate-sentence-matching-python/  '''
 def similarity_titles(t1, t2):
@@ -63,18 +43,7 @@ def similarity_titles(t1, t2):
         distance = Levenshtein.jaro_winkler(''.join(tokens_t1), ''.join(tokens_t2))
     return distance
 
-
-
-def get_song(song_id):
-    client= MongoClient('localhost', 27017)
-    db= client['spotify-challenge']
-    songs= db['songs-collection']
-    result= songs.find_one({"id": str(song_id)})
-    if result is None: # no data could be found under this id
-        print "No song found! "
-        result={}
-    return result
-
+''' Opens a json file containing the first 600 popular songs. The songs are ordered by popularity in DESC order. '''
 def get_popular_songs():
     f = open("C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data/popular_songs.json")
     js = f.read()
@@ -82,8 +51,10 @@ def get_popular_songs():
     data = json.loads(js)
     return data
 
+''' Main method for making recommendations. The parameter passed has to be the json object of the challenge playlists. 
+    It will compute 500 songs for each of the challenge playlists based on title similarity to the reduced data set of playlists. '''
 def empty_playlist_recommender(data):
-    result= open("category_1_recommendations.csv", "w") #file for storing results
+    result= open("result_recommendations.csv", "w") #file for storing results
     p= get_playlist_data()
     print "Loaded playlists into memory..."
     count = 0
@@ -98,19 +69,19 @@ def empty_playlist_recommender(data):
             threshold=0.7
             if similarity > threshold:
                 temp[pid]= similarity
-
          #sort playlists based on similarity
          new_list= sorted(temp.items(), key=itemgetter(1), reverse=True)
          for playlist in new_list:
              pid= playlist[0]
              similar_playlists.append(p[pid])# append playlist object
 
+        # PROCEED TO MAKE RECOMMENDATIONS
          make_500_recommendations(challenge_p, similar_playlists, result)
 
     result.close()
-    print ("***** Finished ******")
 
-
+''' Simple method for checking if a given song is present in a playlist.
+    Returns 1 if the song exists on the playlist tracks, otherwise it returns -1. '''
 def track_exists(playlist_tracks, track):
     if(len(playlist_tracks) == 0):
         return -1
@@ -125,29 +96,23 @@ def make_500_recommendations(playlist, similar_playlists, result_f):
     playlist_id= playlist["pid"]
     number_of_rec=500
     song_list={} # for storing the recommendations
-    array_songs=[] # array for storing songs of similar playlists
-    total_songs=0
     for p in similar_playlists:
         if len(song_list) < number_of_rec:
-            tracks= p['tracks']
-            if p["num_followers"] < 10:
-                #SORT SONGS BASED ON POPULARITY
-                tracks= sorted(p['tracks'], key=itemgetter('frequency'), reverse=True)
+            #SORT SONGS BASED ON POPULARITY
+            tracks= sorted(p['tracks'], key=itemgetter('frequency'), reverse=True)
             for song in tracks:
-                if song["track_uri"] not in song_list and len(song_list) < number_of_rec: #  and track_exists(playlist_tracks,song["track_uri"])!= 1 not needed because playlists are empty!!
-                        song_list[song["track_uri"]]= song["track_uri"]
+                if song["track_uri"] not in song_list and len(song_list) < number_of_rec and track_exists(playlist['tracks'], song["track_uri"]) != 1:
+                        song_list[song["track_uri"]] = song["track_uri"]
         else:
             break
 
-
     popular_songs= get_popular_songs()
     # if not enough songs were collected, recommend popular songs
-    while len(song_list) < number_of_rec:
+    if len(song_list) < number_of_rec:
         for song in popular_songs["songs"]:
             track= song['id']
-            if track not in song_list: # and track_exists(playlist_tracks,track)!= 1  not needed because playlists are empty!!
-                song_list[str(track)]= track
-
+            if len(song_list) < number_of_rec and track not in song_list and track_exists(playlist['tracks'], track) != 1 :
+                song_list[str(track)] = track
 
     # write recommendations to result file
     keys=song_list.keys()
@@ -163,19 +128,20 @@ def make_500_recommendations(playlist, similar_playlists, result_f):
     line= str(playlist_id)+ "," + result_string
     result_f.write(line.encode("utf8"))
 
-
-
+''' Method for returning a dictonary containing the reduced playlist set. 
+    Every entry in the dictonary is identified by the playlist id.  
+    The value stored is an array of the id of the tracks of the playlist and the popularity of the song. '''
 def get_playlist_data():
     p= numpy.load("playlist_data.npy").item()
     return p
 
-
 if __name__ == '__main__':
-    p = get_playlist_data()
-    #TESTING SORT
-    tracks= sorted(p[223]["tracks"], key=itemgetter('frequency'), reverse=True)
-    print tracks
-    print p[223]["tracks"]
+    path= "../challenge_1_3.json"
+    f= open(path)
+    js = f.read()
+    f.close()
+    data = json.loads(js)
+    empty_playlist_recommender(data)
 
-    #empty_playlist_recommender(data)
+
 
