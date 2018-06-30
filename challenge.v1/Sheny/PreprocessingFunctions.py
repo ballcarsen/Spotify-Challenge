@@ -4,18 +4,12 @@ from operator import itemgetter
 from pymongo import MongoClient
 import math
 import numpy
-
-import collections
-from langdetect import detect
-import nltk.corpus
-import nltk.tokenize.punkt
-import string
-from nltk.tokenize import WhitespaceTokenizer
-import nltk.stem.snowball
 import codecs
 
 
 cache={}
+
+
 # Main function for computing the frequency of all songs in the data set.
 # It will create a json file containing the song information and its frequency.
 # The list of songs will be unsorted.
@@ -49,7 +43,7 @@ def get_song_frequency(path):
     print("FINISHED");
     result.close()
 
-# Naive and simple function for ordering songs by their frequency.
+# Simple function for ordering songs by their frequency.
 # It will create a new json file with the list of songs sorted by their frequency in descending order.
 def order_by_popularity():
     f_popular_songs= open("song_popularity.json","r")
@@ -145,18 +139,6 @@ def analyze_playlist_by_song(playlist, song_data):
             song_data[song_id]={"id": song_id, "name": track['track_name'], "artist":track['artist_name'], "frequency": 1}
 
 ''' FUNCTIONS FOR VECTOR TRANSFORMATION '''
-def get_MongoDB_playlistCollection():
-    client= MongoClient('localhost', 27017)
-    db= client['spotify-challenge']
-    playlist_c= db['playlists-collection']
-    return playlist_c
-
-def reset_MongoDB_playlistCollection():
-    client= MongoClient('localhost', 27017)
-    db= client['spotify-challenge']
-    playlist_c= db['playlists-collection']
-    playlist_c.drop()
-
 # Function for returning the index of an artist given its id
 def get_index(artist_id):
     client= MongoClient('localhost', 27017)
@@ -192,10 +174,9 @@ def get_playlist_vector(pid):
     return result
 
 # Main function for computing the  vector representation of the playlists.
-# This function stores the vector in the playlists-collection
 def convert_playlist_to_vector(path):
     filenames = os.listdir(path)
-    playlist_c = open("playlist_vectors_v2.csv", "w")
+    playlist_c = open("playlist_vectors.csv", "w")
     fileNum=0
     for filename in sorted(filenames):
         if filename.startswith("mpd.slice.") and filename.endswith(".json"):
@@ -207,12 +188,10 @@ def convert_playlist_to_vector(path):
             mpd_slice = json.loads(js)
             for playlist in mpd_slice['playlists']:
                 if playlist['num_followers'] >= 10: # we will only analyze  playlists with more than 9 followers
-                    #print (playlist['pid'])
                     result= analyze_playlist(playlist)
                     vector= get_vector_of_playlist2(result)
                     vect_string= ','.join(str(x) for x in vector)
                     playlist_c.write(str(playlist['pid']) +","+ vect_string +"\n" )
-                    #playlist_c.insert_one({'pid': playlist['pid'] , 'vector': get_vector_of_playlist2(vector)})
                     fileNum = fileNum + 1
             print fileNum
     playlist_c.close()
@@ -230,7 +209,7 @@ def convert_challenge_playlist_to_vector(filename):
                 print (str(playlist['pid']) + ' ' + str(count))
                 count += 1
                 vector = analyze_playlist(playlist)
-                vector = get_vector_of_playlist(vector)
+                vector = get_vector_of_playlist2(vector)
                 vector = numpy.array(vector)
                 out.write(str(playlist['pid']) + ", ")
 
@@ -253,6 +232,10 @@ def store_reduced_artists():
     print "finished"
     numpy.save('artist_dic.npy', artist)
 
+
+# Function that returns the reduced set of artist (i.e. artists with more than 10 songs in 1 million playlists.
+# Every entry in  the dictionary is identified by the artist id.
+# The value stored is the total number of playlist containing the artist and the predefined index of that artist (for the vector representation of the playlists).
 def get_reduced_artists():
     artists = numpy.load('artist_dic.npy').item()
     return artists
@@ -277,32 +260,6 @@ def analyze_playlist(playlist):
         array.append(artists[i])
     return array
 
-
-
-# NOT USED!!
-def get_vector_of_playlist(artists):
-    '''' Initializing array for storing vector values '''
-    array=[None]
-    numberOfArtists=86069 # EQUAL TO NUMBER OF ARTISTS WITH >=10 SONGS
-    array = array * numberOfArtists # creating array of correct size
-    i= 0
-    while i < numberOfArtists:
-        array[i]= 0 #populating array with 0's
-        i = i + 1
-
-    reduced_artist = get_reduced_artists()
-    max_frequency = 0
-    for artist in artists:
-        if max_frequency < artist['numSongs']:
-            max_frequency = artist['numSongs']
-
-    for artist in artists:
-        index = reduced_artist[artist['artist']]['index'] # get artist index from reduced set
-        songNum = artist['numSongs'] # get the number of songs in current playlist of artist
-        tf = songNum/ max_frequency
-        array[index] = tf # store tf of artist in vector
-    return array
-
 def get_vector_of_playlist2(artists):
     '''' Initializing array for storing vector values '''
     array=[None]
@@ -325,142 +282,6 @@ def get_vector_of_playlist2(artists):
         array[index] = tfidf # store weight of artist in vector
     return array
 
-
-
-
-def get_common_words(playlist, top=15):
-    result_string=""
-
-    #English  NLP elements
-    stopwords_en = nltk.corpus.stopwords.words('english')
-    stopwords_en.extend(string.punctuation)
-    extra_en=['edit','feat', 'remix', 'mix', 'spotify', 'song', 'track', 'bonus', 'vs', 'best', 'remastered', 'album', 'ft', 'best', 'my', 'version']
-    stopwords_en.append('')
-    stopwords_en = stopwords_en + extra_en
-    #Create stemmer for English songs
-    stemmer_en = nltk.stem.snowball.SnowballStemmer('english')
-
-    #Spanish NLP elements
-    extra_es= ['edit', 'editado','remix', 'mix', 'canci\u00F3n', 'cancion', 'mejor', 'album', 'spotify', 'feat', 'dueto', 'bonus', 'ft', 'version']
-    stopwords_es= nltk.corpus.stopwords.words('spanish')
-    stopwords_es.extend(string.punctuation)
-    stopwords_es.append('')
-    stopwords_es= stopwords_es + extra_es
-    # Create stemmer for Spanish songs
-    stemmer_es = nltk.stem.snowball.SnowballStemmer('spanish')
-
-
-    # General tokenizer
-    tokenizer= WhitespaceTokenizer()
-
-    for track in playlist['tracks']:
-        try:
-            lang= detect(track['track_name'])
-        except:
-            lang='sth'
-            #print "Could not determine language of ", track['track_name']
-
-        if lang == 'es':
-
-           # process title of track and album
-            sequence = track['track_name'].lower() + ' ' + track['album_name'].lower()
-            temp_sq = tokenizer.tokenize(sequence)
-            #print temp_sq
-            tokens_sq =[]
-            for token in temp_sq:
-                #print token.strip(string.punctuation)
-                #print token.strip(string.punctuation) in stopwords_es
-                if token.strip(string.punctuation) not in stopwords_es:
-                    tokens_sq.append(token.strip(string.punctuation))
-
-            stems_sq= [stemmer_es.stem(token) for token in tokens_sq]
-            result_string= result_string +' ' + (' '.join(stems_sq))
-
-        if lang == 'en':
-            # process title of track
-            sequence = track['track_name'].lower() + ' ' + track['album_name'].lower()
-            temp_sq = tokenizer.tokenize(sequence)
-            #temp_sq= tokenizer.tokenize(track['track_name'])
-            tokens_sq=[]
-            for token in temp_sq:
-                if token.strip(string.punctuation) not in stopwords_en:
-                    tokens_sq.append(token.strip(string.punctuation))
-
-            stems_sq= [stemmer_en.stem(token) for token in tokens_sq]
-            result_string= result_string +' ' + (' '.join(stems_sq))
-
-        # else: # All other languages will be ignored!
-        #
-
-    words = collections.Counter(result_string.split()) # how often each word appears
-
-    return dict(words.most_common(top))
-
-# BUILD DICTONARY OF PLAYLISTS {pid: {word1: frequency, word2: frequency ...}}
-def get_words_all_playlists(path):
-    filenames = os.listdir(path)
-    data={}
-    for filename in sorted(filenames):
-
-        if filename.startswith("mpd.slice.") and filename.endswith(".json"):
-            print("Playlist ",  filename)
-            fullpath = os.sep.join((path, filename))
-            f = open(fullpath)
-            js = f.read()
-            f.close()
-            mpd_slice = json.loads(js)
-            for playlist in mpd_slice['playlists']:
-                 if playlist['num_followers'] >= 10:
-                     pid= playlist['pid']
-                     print pid
-                     words=get_common_words(playlist)
-                     data[pid]=words
-
-
-    numpy.save('playlist_top_15_words.npy', data)
-    print("FINISHED");
-
-
-def get_playlist_top_15_words():
-    playlists = numpy.load('playlist_top_15_words.npy').item()
-    return playlists
-
-
-def compute_BoW_clusters():
-    file = open("../Carsen/cluster_results_2.json", "r")
-    data= file.read()
-    file.close()
-    clusters= json.loads(data)
-    playlist = get_playlist_top_15_words()
-    word_to_playlist={}
-    for c in clusters["Clusters"]:
-        words={}
-        print "Cluster: ",c["Cluster"], len(c["data set playlists"])
-        for pid in c["data set playlists"]:
-            for w in playlist[pid]:
-                if w not in words:
-                    words[w]= [{"pid": pid, "frequency" : playlist[pid][w]}]
-                else:
-                    words[w].append({"pid": pid, "frequency" : playlist[pid][w]})
-        # SORT AT THE END
-        print "Sorting word array "
-        for w in words:
-            temp_sorted= sorted(words[w], key=itemgetter('frequency'), reverse=True)
-            new_array=[]
-            for i in temp_sorted:
-                new_array.append(i['pid'])
-            words[w]= new_array
-
-        word_to_playlist[c["Cluster"]]=words
-
-
-    numpy.save('BoW_clusters.npy', word_to_playlist)
-    print "finished BoW of clusters"
-
-def get_BoW_clusters():
-    bow = numpy.load('BoW_clusters.npy').item()
-    return bow
-
 def track_exists(playlist_tracks, track):
     if(len(playlist_tracks) == 0):
         return -1
@@ -469,34 +290,6 @@ def track_exists(playlist_tracks, track):
             if(current["track_uri"] == track):
                 return 1
         return -1
-
-# Returns a string with the following format pid track1, track2,..., track500
-def baseline_make_500_recommendations(playlist_id, playlist_tracks):
-    f_popular_songs = open("song_popularity_sorted.json", "r")
-    string_js = f_popular_songs.read()
-    f_popular_songs.close()
-    popular_songs = json.loads(string_js)
-    number_of_rec=500
-    song_list={}
-    count = 0
-    while len(song_list) < number_of_rec:
-        if track_exists(playlist_tracks, popular_songs["songs"][count]['id']) == -1:
-            song_list[str(count)] = popular_songs["songs"][count]['id']
-            count+=1
-        else:
-            count += 1
-    keys=song_list.keys()
-    i=0
-    result_string=""
-    while i < len(keys):
-        if i == len(keys)-1:
-            result_string= result_string + song_list[keys[i]] + "\n"
-        else:
-            result_string= result_string + song_list[keys[i]] + ","
-        i= i +1
-
-    line= str(playlist_id)+ "," + result_string
-    return line
 
 # function for searching a playlist given its id
 def get_playlist_object(pid):
@@ -535,8 +328,6 @@ def create_song_collection():
         data= {"song_id" : song["id"], "frequency": song["frequency"]}
         #STORE VALUES IN DB
         songs.insert_one(data)
-
-
     print songs.count()
     print "Finished"
 
@@ -551,59 +342,8 @@ def get_song_frequency(id):
     return result["frequency"]
 
 
-
-
-
 if __name__ == '__main__':
 
-    #compute_BoW_clusters()
-
-    #bow= get_BoW_clusters()
-    #for c in bow:
-    #    print c, len(bow[c])
-    #    print bow[c].keys()
-
-
-    #p= get_playlist_object(360509)
-    #print p['tracks']
-    #print p["num_followers"]
     path= "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data/all"
     convert_playlist_to_vector(path)
 
-    '''path= "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data/all"
-    
-    convert_playlist_to_vector(path)
-    filenames = os.listdir(path)
-
-    for filename in sorted(filenames):
-        if filename.startswith("mpd.slice.") and filename.endswith(".json"):
-            print("Playlist ",  filename)
-            fullpath = os.sep.join((path, filename))
-            f = open(fullpath)
-            js = f.read()
-            f.close()
-            mpd_slice = json.loads(js)
-
-            for playlist in mpd_slice['playlists']:
-                artists={}
-                for i, track in enumerate(playlist['tracks']):
-                    artist_id = track['artist_uri']
-                    if(artist_id not in artists):
-                        artists[artist_id]={"id": artist_id}
-
-                for a in artists:
-                    if a in reduced_artists:
-                        if bool(reduced_artists[a].get('numberPlaylist')):
-                            temp = reduced_artists[a]['numberPlaylist']
-                            reduced_artists[a]['numberPlaylist'] = temp + 1
-
-                        else:
-                            reduced_artists[a]['numberPlaylist'] = 1
-
-
-
-
-
-    print "finished"
-    numpy.save('artist_dic.npy', reduced_artists)
-    '''
