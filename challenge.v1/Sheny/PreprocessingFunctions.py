@@ -162,17 +162,6 @@ def get_number_songs(artist_id):
     return result['numberOfSongs']
 
 
-# Function for returning the vector representation of a playlist given its id
-def get_playlist_vector(pid):
-    client= MongoClient('localhost', 27017)
-    db= client['spotify-challenge']
-    playlists= db['playlists-collection']
-    result= playlists.find_one({"pid": pid})
-    if result is None: # no data could be found under this id
-        print "No playlist found!"
-        result={}
-    return result
-
 # Main function for computing the  vector representation of the playlists.
 def convert_playlist_to_vector(path):
     filenames = os.listdir(path)
@@ -308,38 +297,6 @@ def get_playlist_object(pid):
 
         playlist = cache[path]['playlists'][offset]
         return playlist
-
-
-def create_song_collection():
-    client= MongoClient('localhost', 27017)
-    db= client['spotify-challenge']
-    songs= db['song-collection']
-    songs.create_index("song_id", unique=True)
-
-    path= "C:/Users/sheny/Desktop/SS 2018/LUD/Project/mpd/data/song_popularity_sorted.json"
-    f= open(path)
-    js = f.read()
-    f.close()
-    data = json.loads(js)
-
-    for song in data["songs"]:
-        print song["id"]
-        print song["frequency"]
-        data= {"song_id" : song["id"], "frequency": song["frequency"]}
-        #STORE VALUES IN DB
-        songs.insert_one(data)
-    print songs.count()
-    print "Finished"
-
-
-def get_song_frequency(id):
-    client= MongoClient('localhost', 27017)
-    db= client['spotify-challenge']
-    songs= db['song-collection']
-    result=songs.find_one({"song_id": id})
-    if result is None:
-        return -1
-    return result["frequency"]
 
 
 if __name__ == '__main__':
